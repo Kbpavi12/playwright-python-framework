@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Non_Quality_NoRisk_Type_Validation</fullName>
+    <active>true</active>
+    <description>Ensures &quot;Risk Type&quot; is blank when &quot;Potential Risk&quot; is &quot;No Risk&quot; for Latam-Non-Quality cases.</description>
+    <errorConditionFormula>AND(
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+    TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+    RecordType.DeveloperName = &quot;Latam_Non_Quality&quot;,
+
+    OR(ISPICKVAL(High_Potential_Risk__c, &quot;No Risk&quot;),
+    ISPICKVAL(High_Potential_Risk__c, &quot;&quot;),
+    ISPICKVAL(High_Potential_Risk__c, &quot;Low Risk&quot;)),
+
+    NOT(ISPICKVAL(Risk_Type__c, &quot;&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Risk_Type__c</errorDisplayField>
+    <errorMessage>If &apos;Potential Risk&apos; is &quot;No Risk&quot; / &quot;Low Risk&quot; / &quot;None&quot; then no values are allowed to be set in the &apos;Risk Type&apos;</errorMessage>
+</ValidationRule>

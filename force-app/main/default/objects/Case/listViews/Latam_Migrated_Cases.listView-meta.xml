@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Migrated_Cases</fullName>
+    <columns>Case_External_ID__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Country_Code__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Case_Owner_Name__c</field>
+        <operation>contains</operation>
+        <value>Nexus Data Loader</value>
+    </filters>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>contains</operation>
+        <value>Brazil</value>
+    </filters>
+    <label>Latam Brazil Migrated Cases</label>
+    <sharedTo>
+        <group>Latam_All_Users</group>
+    </sharedTo>
+</ListView>

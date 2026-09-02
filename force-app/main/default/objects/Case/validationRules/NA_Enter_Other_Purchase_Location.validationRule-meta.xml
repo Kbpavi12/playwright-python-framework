@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_Enter_Other_Purchase_Location</fullName>
+    <active>false</active>
+    <description>CIC Frontline Agent, Specialist,FOS,CIC Bottler user should be able to enter &quot;Other Purchase Location&quot; only if &quot;Point Of Purchase&quot; is filled as  &quot; Other&quot;.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c,&apos;US&apos;),
+OR( RecordType.DeveloperName == &quot;NA_Non_Quality&quot;, RecordType.DeveloperName == &quot;NA_Quality&quot;),
+Point_of_Purchase__r.Name  &lt;&gt; &quot;Other&quot;,
+Not(Other_Purchase_Location__c = &apos;&apos; )
+)</errorConditionFormula>
+    <errorDisplayField>Other_Purchase_Location__c</errorDisplayField>
+    <errorMessage>You are allowed to enter Other Purchase Location only if Purchase location is selected  as &quot;Other&quot;.</errorMessage>
+</ValidationRule>

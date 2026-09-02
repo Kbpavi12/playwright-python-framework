@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_Hokkaido_QA_Engineering_Department_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>[北海道]QA 技術部</label>
+    <queue>Japan_Hokkaido_QA_Engineering_Department</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

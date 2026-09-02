@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases_After_NA_Live</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Supplied_FirstName__c</columns>
+    <columns>Supplied_LastName__c</columns>
+    <columns>Country_Code__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>Source_Website__c</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>5/23/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>US</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>Web,Email</value>
+    </filters>
+    <label>All Cases After NA Live</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>System_Admin_Group</group>
+    </sharedTo>
+</ListView>

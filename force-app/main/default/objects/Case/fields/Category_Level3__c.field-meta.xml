@@ -1,0 +1,3048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Level3__c</fullName>
+    <label>Category Level3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active CokeON_VM</fullName>
+                <default>false</default>
+                <label>Active CokeON_VM</label>
+            </value>
+            <value>
+                <fullName>Money related</fullName>
+                <default>false</default>
+                <label>Money related</label>
+            </value>
+            <value>
+                <fullName>Installation related</fullName>
+                <default>false</default>
+                <label>Installation related</label>
+            </value>
+            <value>
+                <fullName>Equipment related</fullName>
+                <default>false</default>
+                <label>Equipment related</label>
+            </value>
+            <value>
+                <fullName>Other inquiries</fullName>
+                <default>false</default>
+                <label>Other inquiries</label>
+            </value>
+            <value>
+                <fullName>Change / money related</fullName>
+                <default>false</default>
+                <label>Change / money related</label>
+            </value>
+            <value>
+                <fullName>Sold out</fullName>
+                <default>false</default>
+                <label>Sold out</label>
+            </value>
+            <value>
+                <fullName>Sample mismatch</fullName>
+                <default>false</default>
+                <label>Sample mismatch</label>
+            </value>
+            <value>
+                <fullName>No product / many got out</fullName>
+                <default>false</default>
+                <label>No product / many got out</label>
+            </value>
+            <value>
+                <fullName>Dirty</fullName>
+                <default>false</default>
+                <label>Dirty</label>
+            </value>
+            <value>
+                <fullName>Incorrect contact display</fullName>
+                <default>false</default>
+                <label>Incorrect contact display</label>
+            </value>
+            <value>
+                <fullName>Inadequate temperature</fullName>
+                <default>false</default>
+                <label>Inadequate temperature</label>
+            </value>
+            <value>
+                <fullName>Environment issues</fullName>
+                <default>false</default>
+                <label>Environment issues</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola Industry / Sales Policy</fullName>
+                <default>false</default>
+                <label>Coca-Cola Industry / Sales Policy</label>
+            </value>
+            <value>
+                <fullName>Sports/Culture</fullName>
+                <default>false</default>
+                <label>Sports/Culture</label>
+            </value>
+            <value>
+                <fullName>Trademark / Goods etc.</fullName>
+                <default>false</default>
+                <label>Trademark / Goods etc.</label>
+            </value>
+            <value>
+                <fullName>Coke ON related</fullName>
+                <default>false</default>
+                <label>Coke ON related</label>
+            </value>
+            <value>
+                <fullName>Sales/Sales office</fullName>
+                <default>false</default>
+                <label>Sales/Sales office</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>A letter of thanks/Encouragement</fullName>
+                <default>false</default>
+                <label>A letter of thanks/Encouragement</label>
+            </value>
+            <value>
+                <fullName>Product recall</fullName>
+                <default>false</default>
+                <label>Product recall</label>
+            </value>
+            <value>
+                <fullName>TVCM</fullName>
+                <default>false</default>
+                <label>TVCM</label>
+            </value>
+            <value>
+                <fullName>Radio CM</fullName>
+                <default>false</default>
+                <label>Radio CM</label>
+            </value>
+            <value>
+                <fullName>Web advertisement</fullName>
+                <default>false</default>
+                <label>Web advertisement</label>
+            </value>
+            <value>
+                <fullName>Newspaper / magazine advertisement</fullName>
+                <default>false</default>
+                <label>Newspaper / magazine advertisement</label>
+            </value>
+            <value>
+                <fullName>Other advertisement inquiries</fullName>
+                <default>false</default>
+                <label>Other advertisement inquiries</label>
+            </value>
+            <value>
+                <fullName>Sticky</fullName>
+                <default>false</default>
+                <label>Sticky</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Lucky cap</fullName>
+                <default>false</default>
+                <label>Lucky cap</label>
+            </value>
+            <value>
+                <fullName>Nearpack</fullName>
+                <default>false</default>
+                <label>Nearpack</label>
+            </value>
+            <value>
+                <fullName>Website/SNS</fullName>
+                <default>false</default>
+                <label>Website/SNS</label>
+            </value>
+            <value>
+                <fullName>Sampling</fullName>
+                <default>false</default>
+                <label>Sampling</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other compliants</fullName>
+                <default>false</default>
+                <label>Other compliants</label>
+            </value>
+            <value>
+                <fullName>CONTAINER DAMAGE</fullName>
+                <default>false</default>
+                <label>CONTAINER DAMAGE</label>
+            </value>
+            <value>
+                <fullName>CONTAINER LEAKER</fullName>
+                <default>false</default>
+                <label>CONTAINER LEAKER</label>
+            </value>
+            <value>
+                <fullName>CLOSURE, POUR PANEL</fullName>
+                <default>false</default>
+                <label>CLOSURE, POUR PANEL</label>
+            </value>
+            <value>
+                <fullName>DIRTY CONTAINER</fullName>
+                <default>false</default>
+                <label>DIRTY CONTAINER</label>
+            </value>
+            <value>
+                <fullName>CONTAINER BULGE</fullName>
+                <default>false</default>
+                <label>CONTAINER BULGE</label>
+            </value>
+            <value>
+                <fullName>FILL CONTROL</fullName>
+                <default>false</default>
+                <label>FILL CONTROL</label>
+            </value>
+            <value>
+                <fullName>INCOMPLETE PACKAGING</fullName>
+                <default>false</default>
+                <label>INCOMPLETE PACKAGING</label>
+            </value>
+            <value>
+                <fullName>OTHER PACK FAULTS</fullName>
+                <default>false</default>
+                <label>OTHER PACK FAULTS</label>
+            </value>
+            <value>
+                <fullName>Container general</fullName>
+                <default>false</default>
+                <label>Container general</label>
+            </value>
+            <value>
+                <fullName>Shape design</fullName>
+                <default>false</default>
+                <label>Shape design</label>
+            </value>
+            <value>
+                <fullName>Print design</fullName>
+                <default>false</default>
+                <label>Print design</label>
+            </value>
+            <value>
+                <fullName>Request for container</fullName>
+                <default>false</default>
+                <label>Request for container</label>
+            </value>
+            <value>
+                <fullName>FOREIGN MATTER</fullName>
+                <default>false</default>
+                <label>FOREIGN MATTER</label>
+            </value>
+            <value>
+                <fullName>OFF TASTE / ODOUR</fullName>
+                <default>false</default>
+                <label>OFF TASTE / ODOUR</label>
+            </value>
+            <value>
+                <fullName>Curd / Precipitation</fullName>
+                <default>false</default>
+                <label>Curd / Precipitation</label>
+            </value>
+            <value>
+                <fullName>OFF COLOUR / APPEARANCE</fullName>
+                <default>false</default>
+                <label>OFF COLOUR / APPEARANCE</label>
+            </value>
+            <value>
+                <fullName>Out of Best Before Date</fullName>
+                <default>false</default>
+                <label>Out of Best Before Date</label>
+            </value>
+            <value>
+                <fullName>CARBONATION</fullName>
+                <default>false</default>
+                <label>CARBONATION</label>
+            </value>
+            <value>
+                <fullName>ILLNESS</fullName>
+                <default>false</default>
+                <label>ILLNESS</label>
+            </value>
+            <value>
+                <fullName>PERSONAL DAMAGE</fullName>
+                <default>false</default>
+                <label>PERSONAL DAMAGE</label>
+            </value>
+            <value>
+                <fullName>Blowing Up / Bubbling</fullName>
+                <default>false</default>
+                <label>Blowing Up / Bubbling</label>
+            </value>
+            <value>
+                <fullName>Other quality</fullName>
+                <default>false</default>
+                <label>Other quality</label>
+            </value>
+            <value>
+                <fullName>Raw materials</fullName>
+                <default>false</default>
+                <label>Raw materials</label>
+            </value>
+            <value>
+                <fullName>Component value</fullName>
+                <default>false</default>
+                <label>Component value</label>
+            </value>
+            <value>
+                <fullName>General product information</fullName>
+                <default>false</default>
+                <label>General product information</label>
+            </value>
+            <value>
+                <fullName>Best period</fullName>
+                <default>false</default>
+                <label>Best period</label>
+            </value>
+            <value>
+                <fullName>Health problems</fullName>
+                <default>false</default>
+                <label>Health problems</label>
+            </value>
+            <value>
+                <fullName>Product preferences</fullName>
+                <default>false</default>
+                <label>Product preferences</label>
+            </value>
+            <value>
+                <fullName>Request for product</fullName>
+                <default>false</default>
+                <label>Request for product</label>
+            </value>
+            <value>
+                <fullName>About bonus stamp</fullName>
+                <default>false</default>
+                <label>About bonus stamp</label>
+            </value>
+            <value>
+                <fullName>About business hours</fullName>
+                <default>false</default>
+                <label>About business hours</label>
+            </value>
+            <value>
+                <fullName>About Coca-Cola Members</fullName>
+                <default>false</default>
+                <label>About Coca-Cola Members</label>
+            </value>
+            <value>
+                <fullName>About Coke ON PAY</fullName>
+                <default>false</default>
+                <label>About Coke ON PAY</label>
+            </value>
+            <value>
+                <fullName>About Coke ON walk</fullName>
+                <default>false</default>
+                <label>About Coke ON walk</label>
+            </value>
+            <value>
+                <fullName>About friend introduction</fullName>
+                <default>false</default>
+                <label>About friend introduction</label>
+            </value>
+            <value>
+                <fullName>About Georgia cafe</fullName>
+                <default>false</default>
+                <label>About Georgia cafe</label>
+            </value>
+            <value>
+                <fullName>About LINE AI Chat</fullName>
+                <default>false</default>
+                <label>About LINE AI Chat</label>
+            </value>
+            <value>
+                <fullName>About operating environment</fullName>
+                <default>false</default>
+                <label>About operating environment</label>
+            </value>
+            <value>
+                <fullName>About Prize (Int)</fullName>
+                <default>false</default>
+                <label>About Prize (Int)</label>
+            </value>
+            <value>
+                <fullName>About Prize (SP)</fullName>
+                <default>false</default>
+                <label>About Prize (SP)</label>
+            </value>
+            <value>
+                <fullName>About prizes</fullName>
+                <default>false</default>
+                <label>About prizes</label>
+            </value>
+            <value>
+                <fullName>About reception</fullName>
+                <default>false</default>
+                <label>About reception</label>
+            </value>
+            <value>
+                <fullName>About stamp card (com)</fullName>
+                <default>false</default>
+                <label>About stamp card (com)</label>
+            </value>
+            <value>
+                <fullName>About stamp card (inq)</fullName>
+                <default>false</default>
+                <label>About stamp card (inq)</label>
+            </value>
+            <value>
+                <fullName>Application/Server origin (DK)</fullName>
+                <default>false</default>
+                <label>Application/Server origin (DK)</label>
+            </value>
+            <value>
+                <fullName>Application/Server origin (ST)</fullName>
+                <default>false</default>
+                <label>Application/Server origin (ST)</label>
+            </value>
+            <value>
+                <fullName>Application(Complaint)</fullName>
+                <default>false</default>
+                <label>Application(Complaint)</label>
+            </value>
+            <value>
+                <fullName>Application(Inquiry)</fullName>
+                <default>false</default>
+                <label>Application(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>Application Error</fullName>
+                <default>false</default>
+                <label>Application Error</label>
+            </value>
+            <value>
+                <fullName>Application method</fullName>
+                <default>false</default>
+                <label>Application method</label>
+            </value>
+            <value>
+                <fullName>Bottlers</fullName>
+                <default>false</default>
+                <label>Bottlers</label>
+            </value>
+            <value>
+                <fullName>Brand site</fullName>
+                <default>false</default>
+                <label>Brand site</label>
+            </value>
+            <value>
+                <fullName>Call back/Reply (com)</fullName>
+                <default>false</default>
+                <label>Call back/Reply (com)</label>
+            </value>
+            <value>
+                <fullName>Call back/Reply (inq)</fullName>
+                <default>false</default>
+                <label>Call back/Reply (inq)</label>
+            </value>
+            <value>
+                <fullName>Campaign site</fullName>
+                <default>false</default>
+                <label>Campaign site</label>
+            </value>
+            <value>
+                <fullName>Can not divide (DK)</fullName>
+                <default>false</default>
+                <label>Can not divide (DK)</label>
+            </value>
+            <value>
+                <fullName>Cannot divide (ST)</fullName>
+                <default>false</default>
+                <label>Cannot divide (ST)</label>
+            </value>
+            <value>
+                <fullName>Cannot input (App)</fullName>
+                <default>false</default>
+                <label>Cannot input (App)</label>
+            </value>
+            <value>
+                <fullName>Cannot input (User)</fullName>
+                <default>false</default>
+                <label>Cannot input (User)</label>
+            </value>
+            <value>
+                <fullName>Cannot use electronic money</fullName>
+                <default>false</default>
+                <label>Cannot use electronic money</label>
+            </value>
+            <value>
+                <fullName>Cards (SP)</fullName>
+                <default>false</default>
+                <label>Cards (SP)</label>
+            </value>
+            <value>
+                <fullName>Cause of device(Got No Stamps)</fullName>
+                <default>false</default>
+                <label>Cause of device(Got No Stamps)</label>
+            </value>
+            <value>
+                <fullName>Cause of device(Unavailable Coke ON Pay/Pass)</fullName>
+                <default>false</default>
+                <label>Cause of device(Unavailable Coke ON Pay/Pass/Wallet)</label>
+            </value>
+            <value>
+                <fullName>Cause of device(Unavailable Connect with bluetooth)</fullName>
+                <default>false</default>
+                <label>Cause of device(Unavailable Connect with bluetooth)</label>
+            </value>
+            <value>
+                <fullName>Cause of device(Unavailable Drink ticket)</fullName>
+                <default>false</default>
+                <label>Cause of device(Unavailable Drink ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of device(Unavailable Sampling ticket)</fullName>
+                <default>false</default>
+                <label>Cause of device(Unavailable Sampling ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of Server(Got No Stamps)</fullName>
+                <default>false</default>
+                <label>Cause of Server(Got No Stamps)</label>
+            </value>
+            <value>
+                <fullName>Cause of Server(Unavailable Coke ON Pay/Pass)</fullName>
+                <default>false</default>
+                <label>Cause of Server(Unavailable Coke ON Pay/Pass/Wallet)</label>
+            </value>
+            <value>
+                <fullName>Cause of Server(Unavailable Connect with bluetooth)</fullName>
+                <default>false</default>
+                <label>Cause of Server(Unavailable Connect with bluetooth)</label>
+            </value>
+            <value>
+                <fullName>Cause of Server(Unavailable Drink ticket)</fullName>
+                <default>false</default>
+                <label>Cause of Server(Unavailable Drink ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of Server(Unavailable Sampling ticket)</fullName>
+                <default>false</default>
+                <label>Cause of Server(Unavailable Sampling ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of Ticketsharing(Unavailable Drink ticket)</fullName>
+                <default>false</default>
+                <label>Cause of Ticketsharing(Unavailable Drink ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of Ticketsharing(Unavailable Sampling ticket)</fullName>
+                <default>false</default>
+                <label>Cause of Ticketsharing(Unavailable Sampling ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of VM(Got No Stamps)</fullName>
+                <default>false</default>
+                <label>Cause of VM(Got No Stamps)</label>
+            </value>
+            <value>
+                <fullName>Cause of VM(Unavailable Coke ON Pay/Pass)</fullName>
+                <default>false</default>
+                <label>Cause of VM(Unavailable Coke ON Pay/Pass/Wallet)</label>
+            </value>
+            <value>
+                <fullName>Cause of VM(Unavailable Connect with bluetooth)</fullName>
+                <default>false</default>
+                <label>Cause of VM(Unavailable Connect with bluetooth)</label>
+            </value>
+            <value>
+                <fullName>Cause of VM(Unavailable Drink ticket)</fullName>
+                <default>false</default>
+                <label>Cause of VM(Unavailable Drink ticket)</label>
+            </value>
+            <value>
+                <fullName>Cause of VM(Unavailable Sampling ticket)</fullName>
+                <default>false</default>
+                <label>Cause of VM(Unavailable Sampling ticket)</label>
+            </value>
+            <value>
+                <fullName>Chance of winning (Int)</fullName>
+                <default>false</default>
+                <label>Chance of winning (Int)</label>
+            </value>
+            <value>
+                <fullName>Chance of winning (SP)</fullName>
+                <default>false</default>
+                <label>Chance of winning (SP)</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Change/Money related</fullName>
+                <default>false</default>
+                <label>Change/Money related</label>
+            </value>
+            <value>
+                <fullName>Change Password</fullName>
+                <default>false</default>
+                <label>Change Password</label>
+            </value>
+            <value>
+                <fullName>check to-be-selected (SP)</fullName>
+                <default>false</default>
+                <label>check to-be-selected (SP)</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola Industry</fullName>
+                <default>false</default>
+                <label>Coca-Cola Industry</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola member site</fullName>
+                <default>false</default>
+                <label>Coca-Cola member site</label>
+            </value>
+            <value>
+                <fullName>Coke Friends</fullName>
+                <default>false</default>
+                <label>Coke Friends</label>
+            </value>
+            <value>
+                <fullName>CokeON_Apps</fullName>
+                <default>false</default>
+                <label>CokeON_Apps</label>
+            </value>
+            <value>
+                <fullName>CokeON_Service</fullName>
+                <default>false</default>
+                <label>CokeON_Service</label>
+            </value>
+            <value>
+                <fullName>CokeON_VM</fullName>
+                <default>false</default>
+                <label>CokeON_VM</label>
+            </value>
+            <value>
+                <fullName>Coke ON Camera</fullName>
+                <default>false</default>
+                <label>Coke ON Camera</label>
+            </value>
+            <value>
+                <fullName>Coke ON IC</fullName>
+                <default>false</default>
+                <label>Coke ON IC</label>
+            </value>
+            <value>
+                <fullName>CokeONPay/Pass</fullName>
+                <default>false</default>
+                <label>CokeONPay/Pass/Wallet</label>
+            </value>
+            <value>
+                <fullName>CokeONPay/Pass(Complaint)</fullName>
+                <default>false</default>
+                <label>CokeONPay/Pass/Wallet(Complaint)</label>
+            </value>
+            <value>
+                <fullName>CokeON Pay(Inquiry)</fullName>
+                <default>false</default>
+                <label>CokeON Pay(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>CokeON Walk</fullName>
+                <default>false</default>
+                <label>CokeON Walk</label>
+            </value>
+            <value>
+                <fullName>CokeON Walk(Complaint)</fullName>
+                <default>false</default>
+                <label>CokeON Walk(Complaint)</label>
+            </value>
+            <value>
+                <fullName>CokeON Walk(Inquiry)</fullName>
+                <default>false</default>
+                <label>CokeON Walk(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>Column jam</fullName>
+                <default>false</default>
+                <label>Column jam</label>
+            </value>
+            <value>
+                <fullName>Contact information</fullName>
+                <default>false</default>
+                <label>Contact information</label>
+            </value>
+            <value>
+                <fullName>Continuation</fullName>
+                <default>false</default>
+                <label>Continuation</label>
+            </value>
+            <value>
+                <fullName>Cooperation with wearable devices</fullName>
+                <default>false</default>
+                <label>Cooperation with wearable devices</label>
+            </value>
+            <value>
+                <fullName>Corporate site</fullName>
+                <default>false</default>
+                <label>Corporate site</label>
+            </value>
+            <value>
+                <fullName>Corresponding terminal</fullName>
+                <default>false</default>
+                <label>Corresponding terminal</label>
+            </value>
+            <value>
+                <fullName>Coverage / media posting</fullName>
+                <default>false</default>
+                <label>Coverage / media posting</label>
+            </value>
+            <value>
+                <fullName>CSC</fullName>
+                <default>false</default>
+                <label>CSC</label>
+            </value>
+            <value>
+                <fullName>Data taking out</fullName>
+                <default>false</default>
+                <label>Data taking out</label>
+            </value>
+            <value>
+                <fullName>Device(Complaint)</fullName>
+                <default>false</default>
+                <label>Device(Complaint)</label>
+            </value>
+            <value>
+                <fullName>device(Inquiry)</fullName>
+                <default>false</default>
+                <label>device(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>Drink Ticket</fullName>
+                <default>false</default>
+                <label>Drink Ticket</label>
+            </value>
+            <value>
+                <fullName>Error (Int)</fullName>
+                <default>false</default>
+                <label>Error (Int)</label>
+            </value>
+            <value>
+                <fullName>Error (SP)</fullName>
+                <default>false</default>
+                <label>Error (SP)</label>
+            </value>
+            <value>
+                <fullName>Expiration date</fullName>
+                <default>false</default>
+                <label>Expiration date</label>
+            </value>
+            <value>
+                <fullName>Failure</fullName>
+                <default>false</default>
+                <label>Failure</label>
+            </value>
+            <value>
+                <fullName>Friendship(Complaint)</fullName>
+                <default>false</default>
+                <label>Friendship(Complaint)</label>
+            </value>
+            <value>
+                <fullName>Friendship(Inquiry)</fullName>
+                <default>false</default>
+                <label>Friendship(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>GPS</fullName>
+                <default>false</default>
+                <label>GPS</label>
+            </value>
+            <value>
+                <fullName>Gratitude</fullName>
+                <default>false</default>
+                <label>Gratitude</label>
+            </value>
+            <value>
+                <fullName>High selling price / Price difference</fullName>
+                <default>false</default>
+                <label>High selling price / Price difference</label>
+            </value>
+            <value>
+                <fullName>How-to-apply</fullName>
+                <default>false</default>
+                <label>How-to-apply</label>
+            </value>
+            <value>
+                <fullName>How-to-apply (Int)</fullName>
+                <default>false</default>
+                <label>How-to-apply (Int)</label>
+            </value>
+            <value>
+                <fullName>About Campaign (SP)</fullName>
+                <default>false</default>
+                <label>About Campaign (SP）</label>
+            </value>
+            <value>
+                <fullName>How to identify a smartphone compatible vending machine</fullName>
+                <default>false</default>
+                <label>How to identify a smartphone compatible vending machine</label>
+            </value>
+            <value>
+                <fullName>How to register</fullName>
+                <default>false</default>
+                <label>How to register</label>
+            </value>
+            <value>
+                <fullName>How to store stamps</fullName>
+                <default>false</default>
+                <label>How to store stamps</label>
+            </value>
+            <value>
+                <fullName>How to use</fullName>
+                <default>false</default>
+                <label>How to use</label>
+            </value>
+            <value>
+                <fullName>How to use/Setting the target step count</fullName>
+                <default>false</default>
+                <label>How to use/Setting the target step count</label>
+            </value>
+            <value>
+                <fullName>How to use Coke ON application</fullName>
+                <default>false</default>
+                <label>How to use Coke ON application</label>
+            </value>
+            <value>
+                <fullName>How to use Drink Ticket</fullName>
+                <default>false</default>
+                <label>How to use Drink Ticket</label>
+            </value>
+            <value>
+                <fullName>IC</fullName>
+                <default>false</default>
+                <label>IC</label>
+            </value>
+            <value>
+                <fullName>Information</fullName>
+                <default>false</default>
+                <label>Information</label>
+            </value>
+            <value>
+                <fullName>Input method</fullName>
+                <default>false</default>
+                <label>Input method</label>
+            </value>
+            <value>
+                <fullName>Inquiry Form</fullName>
+                <default>false</default>
+                <label>Inquiry Form</label>
+            </value>
+            <value>
+                <fullName>Inquiry of smartphone compatible vending machine</fullName>
+                <default>false</default>
+                <label>Inquiry of smartphone compatible vending machine</label>
+            </value>
+            <value>
+                <fullName>Installation Bonus Requirement</fullName>
+                <default>false</default>
+                <label>Installation Bonus Requirement</label>
+            </value>
+            <value>
+                <fullName>Installation position gap</fullName>
+                <default>false</default>
+                <label>Installation position gap</label>
+            </value>
+            <value>
+                <fullName>Introduction bonus stamp condition</fullName>
+                <default>false</default>
+                <label>Introduction bonus stamp condition</label>
+            </value>
+            <value>
+                <fullName>I want to switch to a smartphone compatible vending machine (dealer)</fullName>
+                <default>false</default>
+                <label>I want to switch to a smartphone compatible vending machine (dealer)</label>
+            </value>
+            <value>
+                <fullName>I want you to make it easy to use</fullName>
+                <default>false</default>
+                <label>I want you to make it easy to use</label>
+            </value>
+            <value>
+                <fullName>I want you to stabilize the connection</fullName>
+                <default>false</default>
+                <label>I want you to stabilize the connection</label>
+            </value>
+            <value>
+                <fullName>I want you to switch to a smartphone compatible vending machine (inq)</fullName>
+                <default>false</default>
+                <label>I want you to switch to a smartphone compatible vending machine (inq)</label>
+            </value>
+            <value>
+                <fullName>I would like to have smartphone compatible vending machine (inq)</fullName>
+                <default>false</default>
+                <label>I would like to have smartphone compatible vending machine (inq)</label>
+            </value>
+            <value>
+                <fullName>I would like to set up a smart vending machine (dealer)</fullName>
+                <default>false</default>
+                <label>I would like to set up a smart vending machine (dealer)</label>
+            </value>
+            <value>
+                <fullName>Line</fullName>
+                <default>false</default>
+                <label>Line</label>
+            </value>
+            <value>
+                <fullName>Lineup</fullName>
+                <default>false</default>
+                <label>Lineup</label>
+            </value>
+            <value>
+                <fullName>Lineup2</fullName>
+                <default>false</default>
+                <label>Lineup2</label>
+            </value>
+            <value>
+                <fullName>Line Chatbot</fullName>
+                <default>false</default>
+                <label>Line Chatbot</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Login method</fullName>
+                <default>false</default>
+                <label>Login method</label>
+            </value>
+            <value>
+                <fullName>Login Operation</fullName>
+                <default>false</default>
+                <label>Login Operation</label>
+            </value>
+            <value>
+                <fullName>Login with LINE</fullName>
+                <default>false</default>
+                <label>Login with LINE</label>
+            </value>
+            <value>
+                <fullName>Logout</fullName>
+                <default>false</default>
+                <label>Logout</label>
+            </value>
+            <value>
+                <fullName>MA Enquete</fullName>
+                <default>false</default>
+                <label>MA Enquete</label>
+            </value>
+            <value>
+                <fullName>Mail Magazine</fullName>
+                <default>false</default>
+                <label>Mail Magazine</label>
+            </value>
+            <value>
+                <fullName>Mail magazine distribution</fullName>
+                <default>false</default>
+                <label>Mail magazine distribution</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Members(Complaint)</fullName>
+                <default>false</default>
+                <label>Members(Complaint)</label>
+            </value>
+            <value>
+                <fullName>Members(Inquiry)</fullName>
+                <default>false</default>
+                <label>Members(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>mischief</fullName>
+                <default>false</default>
+                <label>mischief</label>
+            </value>
+            <value>
+                <fullName>Mischief/Spam mail</fullName>
+                <default>false</default>
+                <label>Mischief/Spam mail</label>
+            </value>
+            <value>
+                <fullName>Mischief · Spam mail</fullName>
+                <default>false</default>
+                <label>Mischief · Spam mail</label>
+            </value>
+            <value>
+                <fullName>Misprint</fullName>
+                <default>false</default>
+                <label>Misprint</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>New transaction / Rental</fullName>
+                <default>false</default>
+                <label>New transaction / Rental</label>
+            </value>
+            <value>
+                <fullName>Non-smartphone compatible vending machine</fullName>
+                <default>false</default>
+                <label>Non-smartphone compatible vending machine</label>
+            </value>
+            <value>
+                <fullName>Not exchangeable</fullName>
+                <default>false</default>
+                <label>Not exchangeable</label>
+            </value>
+            <value>
+                <fullName>Not installed</fullName>
+                <default>false</default>
+                <label>Not installed</label>
+            </value>
+            <value>
+                <fullName>Obscure(Got No Stamps)</fullName>
+                <default>false</default>
+                <label>Obscure(Got No Stamps)</label>
+            </value>
+            <value>
+                <fullName>Obscure(Unavailable Coke ON Pay/Pass)</fullName>
+                <default>false</default>
+                <label>Obscure(Unavailable Coke ON Pay/Pass/Wallet)</label>
+            </value>
+            <value>
+                <fullName>Obscure(Unavailable Connect with bluetooth)</fullName>
+                <default>false</default>
+                <label>Obscure(Unavailable Connect with bluetooth)</label>
+            </value>
+            <value>
+                <fullName>Obscure(Unavailable Drink ticket)</fullName>
+                <default>false</default>
+                <label>Obscure(Unavailable Drink ticket)</label>
+            </value>
+            <value>
+                <fullName>Obscure(Unavailable Sampling ticket)</fullName>
+                <default>false</default>
+                <label>Obscure(Unavailable Sampling ticket)</label>
+            </value>
+            <value>
+                <fullName>Old Service</fullName>
+                <default>false</default>
+                <label>Old Service</label>
+            </value>
+            <value>
+                <fullName>Opinions and requests to the product lineup</fullName>
+                <default>false</default>
+                <label>Opinions and requests to the product lineup</label>
+            </value>
+            <value>
+                <fullName>Organization (Com)</fullName>
+                <default>false</default>
+                <label>Organization (Com)</label>
+            </value>
+            <value>
+                <fullName>Organization (Inq)</fullName>
+                <default>false</default>
+                <label>Organization (Inq)</label>
+            </value>
+            <value>
+                <fullName>Other (CC)</fullName>
+                <default>false</default>
+                <label>Other (CC)</label>
+            </value>
+            <value>
+                <fullName>Other (Coca-cola Member Com)</fullName>
+                <default>false</default>
+                <label>Other (Coca-cola Member Com)</label>
+            </value>
+            <value>
+                <fullName>Other (Coke ON application)</fullName>
+                <default>false</default>
+                <label>Other (Coke ON application)</label>
+            </value>
+            <value>
+                <fullName>Other (Com)</fullName>
+                <default>false</default>
+                <label>Other (Com)</label>
+            </value>
+            <value>
+                <fullName>Other (Inq)</fullName>
+                <default>false</default>
+                <label>Other (Inq)</label>
+            </value>
+            <value>
+                <fullName>Other (Int)</fullName>
+                <default>false</default>
+                <label>Other (Int)</label>
+            </value>
+            <value>
+                <fullName>Other (Products/Org Com)</fullName>
+                <default>false</default>
+                <label>Other (Products/Org Com)</label>
+            </value>
+            <value>
+                <fullName>Other (Products/Org Inq)</fullName>
+                <default>false</default>
+                <label>Other (Products/Org Inq)</label>
+            </value>
+            <value>
+                <fullName>Other(Service)</fullName>
+                <default>false</default>
+                <label>Other(Service)</label>
+            </value>
+            <value>
+                <fullName>Other (SP)</fullName>
+                <default>false</default>
+                <label>Other (SP)</label>
+            </value>
+            <value>
+                <fullName>Other (Vending Machine)</fullName>
+                <default>false</default>
+                <label>Other (Vending Machine)</label>
+            </value>
+            <value>
+                <fullName>Other Contact Support</fullName>
+                <default>false</default>
+                <label>Other Contact Support</label>
+            </value>
+            <value>
+                <fullName>Other irrelevant questions</fullName>
+                <default>false</default>
+                <label>Other irrelevant questions</label>
+            </value>
+            <value>
+                <fullName>Other Outline</fullName>
+                <default>false</default>
+                <label>Other Outline</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Others(COC)</fullName>
+                <default>false</default>
+                <label>Others(COC)</label>
+            </value>
+            <value>
+                <fullName>Others(CokeON_VM)</fullName>
+                <default>false</default>
+                <label>Others(CokeON_VM)</label>
+            </value>
+            <value>
+                <fullName>Others(Complaint)</fullName>
+                <default>false</default>
+                <label>Others(Complaint)</label>
+            </value>
+            <value>
+                <fullName>Others(CR)</fullName>
+                <default>false</default>
+                <label>Others(CR)</label>
+            </value>
+            <value>
+                <fullName>Others(CR4)(2)</fullName>
+                <default>false</default>
+                <label>Others(CR4)(2)</label>
+            </value>
+            <value>
+                <fullName>Others(Inquiry)</fullName>
+                <default>false</default>
+                <label>Others(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>Others (Int)</fullName>
+                <default>false</default>
+                <label>Others (Int)</label>
+            </value>
+            <value>
+                <fullName>Others (SP)</fullName>
+                <default>false</default>
+                <label>Others (SP)</label>
+            </value>
+            <value>
+                <fullName>Other Web site</fullName>
+                <default>false</default>
+                <label>Other Web site</label>
+            </value>
+            <value>
+                <fullName>Out of call/Suddenly call out/Silently</fullName>
+                <default>false</default>
+                <label>Out of call/Suddenly call out/Silently</label>
+            </value>
+            <value>
+                <fullName>Out of Service</fullName>
+                <default>false</default>
+                <label>Out of Service</label>
+            </value>
+            <value>
+                <fullName>Out of Service2</fullName>
+                <default>false</default>
+                <label>Out of Service2</label>
+            </value>
+            <value>
+                <fullName>Point Card</fullName>
+                <default>false</default>
+                <label>Point Card</label>
+            </value>
+            <value>
+                <fullName>POP</fullName>
+                <default>false</default>
+                <label>POP</label>
+            </value>
+            <value>
+                <fullName>Prize</fullName>
+                <default>false</default>
+                <label>Prize</label>
+            </value>
+            <value>
+                <fullName>Prize (Int)</fullName>
+                <default>false</default>
+                <label>Prize (Int)</label>
+            </value>
+            <value>
+                <fullName>Prize (SP)</fullName>
+                <default>false</default>
+                <label>Prize (SP)</label>
+            </value>
+            <value>
+                <fullName>Prizes shipping</fullName>
+                <default>false</default>
+                <label>Prizes shipping</label>
+            </value>
+            <value>
+                <fullName>probability</fullName>
+                <default>false</default>
+                <label>probability</label>
+            </value>
+            <value>
+                <fullName>Products (Com)</fullName>
+                <default>false</default>
+                <label>Products (Com)</label>
+            </value>
+            <value>
+                <fullName>Products (Drink Ticket)</fullName>
+                <default>false</default>
+                <label>Products (Drink Ticket)</label>
+            </value>
+            <value>
+                <fullName>Products (Inq)</fullName>
+                <default>false</default>
+                <label>Products (Inq)</label>
+            </value>
+            <value>
+                <fullName>Products (Web/Campaign)</fullName>
+                <default>false</default>
+                <label>Products (Web/Campaign)</label>
+            </value>
+            <value>
+                <fullName>Profile</fullName>
+                <default>false</default>
+                <label>Profile</label>
+            </value>
+            <value>
+                <fullName>Promotion(Service)</fullName>
+                <default>false</default>
+                <label>Promotion(Service)</label>
+            </value>
+            <value>
+                <fullName>Push Info</fullName>
+                <default>false</default>
+                <label>Push Info</label>
+            </value>
+            <value>
+                <fullName>QR Code</fullName>
+                <default>false</default>
+                <label>QR Code</label>
+            </value>
+            <value>
+                <fullName>Register (Com)</fullName>
+                <default>false</default>
+                <label>Register (Com)</label>
+            </value>
+            <value>
+                <fullName>Register (Inq)</fullName>
+                <default>false</default>
+                <label>Register (Inq)</label>
+            </value>
+            <value>
+                <fullName>Reset</fullName>
+                <default>false</default>
+                <label>Reset</label>
+            </value>
+            <value>
+                <fullName>Resign (Com)</fullName>
+                <default>false</default>
+                <label>Resign (Com)</label>
+            </value>
+            <value>
+                <fullName>Resign (Inq)</fullName>
+                <default>false</default>
+                <label>Resign (Inq)</label>
+            </value>
+            <value>
+                <fullName>Service of CokeON_VM</fullName>
+                <default>false</default>
+                <label>Service of CokeON_VM</label>
+            </value>
+            <value>
+                <fullName>Shipping / Winning Confirmation (Int)</fullName>
+                <default>false</default>
+                <label>Shipping / Winning Confirmation (Int)</label>
+            </value>
+            <value>
+                <fullName>Silence / straight cut / meaning unknown</fullName>
+                <default>false</default>
+                <label>Silence / straight cut / meaning unknown</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Stamps(Complaint)</fullName>
+                <default>false</default>
+                <label>Stamps(Complaint)</label>
+            </value>
+            <value>
+                <fullName>Stamps(Inquiry)</fullName>
+                <default>false</default>
+                <label>Stamps(Inquiry)</label>
+            </value>
+            <value>
+                <fullName>Step count</fullName>
+                <default>false</default>
+                <label>Step count</label>
+            </value>
+            <value>
+                <fullName>Suggestion</fullName>
+                <default>false</default>
+                <label>Suggestion</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Switch Login</fullName>
+                <default>false</default>
+                <label>Switch Login</label>
+            </value>
+            <value>
+                <fullName>Takeover</fullName>
+                <default>false</default>
+                <label>Takeover</label>
+            </value>
+            <value>
+                <fullName>Taking over from another terminal</fullName>
+                <default>false</default>
+                <label>Taking over from another terminal</label>
+            </value>
+            <value>
+                <fullName>Telephone is not connected</fullName>
+                <default>false</default>
+                <label>Telephone is not connected</label>
+            </value>
+            <value>
+                <fullName>Ticket</fullName>
+                <default>false</default>
+                <label>Ticket</label>
+            </value>
+            <value>
+                <fullName>Troubles</fullName>
+                <default>false</default>
+                <label>Troubles</label>
+            </value>
+            <value>
+                <fullName>Types of stamp</fullName>
+                <default>false</default>
+                <label>Types of stamp</label>
+            </value>
+            <value>
+                <fullName>UI</fullName>
+                <default>false</default>
+                <label>UI</label>
+            </value>
+            <value>
+                <fullName>UI Design</fullName>
+                <default>false</default>
+                <label>UI Design</label>
+            </value>
+            <value>
+                <fullName>Unidentified Promotion</fullName>
+                <default>false</default>
+                <label>Unidentified Promotion</label>
+            </value>
+            <value>
+                <fullName>Unrelated sales</fullName>
+                <default>false</default>
+                <label>Unrelated sales</label>
+            </value>
+            <value>
+                <fullName>Unsteady</fullName>
+                <default>false</default>
+                <label>Unsteady</label>
+            </value>
+            <value>
+                <fullName>User-induced (DK)</fullName>
+                <default>false</default>
+                <label>User-induced (DK)</label>
+            </value>
+            <value>
+                <fullName>User-induced (ST)</fullName>
+                <default>false</default>
+                <label>User-induced (ST)</label>
+            </value>
+            <value>
+                <fullName>Vending machine origin (DK)</fullName>
+                <default>false</default>
+                <label>Vending machine origin (DK)</label>
+            </value>
+            <value>
+                <fullName>Vending machine origin (ST)</fullName>
+                <default>false</default>
+                <label>Vending machine origin (ST)</label>
+            </value>
+            <value>
+                <fullName>VM</fullName>
+                <default>false</default>
+                <label>VM</label>
+            </value>
+            <value>
+                <fullName>VM Location</fullName>
+                <default>false</default>
+                <label>VM Location</label>
+            </value>
+            <value>
+                <fullName>VM Request</fullName>
+                <default>false</default>
+                <label>VM Request</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Coke ON IC(Application)</fullName>
+                <default>false</default>
+                <label>Coke ON IC(Application)</label>
+            </value>
+            <value>
+                <fullName>Coke ON Camera(Application)</fullName>
+                <default>false</default>
+                <label>Coke ON Camera(Application)</label>
+            </value>
+            <value>
+                <fullName>How-to-apply(SP)</fullName>
+                <default>false</default>
+                <label>How-to-apply(SP)</label>
+            </value>
+            <value>
+                <fullName>FOREIGN IMPORT</fullName>
+                <default>false</default>
+                <label>FOREIGN IMPORT</label>
+            </value>
+            <value>
+                <fullName>Date Coding</fullName>
+                <default>false</default>
+                <label>Date Coding</label>
+            </value>
+            <value>
+                <fullName>LABEL</fullName>
+                <default>false</default>
+                <label>LABEL</label>
+            </value>
+            <value>
+                <fullName>Blowing Up /  Bubbling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Blowing Up /  Bubbling</label>
+            </value>
+            <value>
+                <fullName>CLOSURE, POUR PANEL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CLOSURE, POUR PANEL</label>
+            </value>
+            <value>
+                <fullName>I want to know the contact address of the sales office / person in charge</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>I want to know the contact address of the sales office / person in charge</label>
+            </value>
+            <value>
+                <fullName>Injury by gift</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Injury by gift</label>
+            </value>
+            <value>
+                <fullName>Injury by gift / when opened</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Injury by gift / when opened</label>
+            </value>
+            <value>
+                <fullName>Inquiries after entry (winning contact etc)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inquiries after entry (winning contact etc)</label>
+            </value>
+            <value>
+                <fullName>Inquiries of other vending machines</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inquiries of other vending machines</label>
+            </value>
+            <value>
+                <fullName>Inquiry of smartphone vending machine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inquiry of smartphone vending machine</label>
+            </value>
+            <value>
+                <fullName>Insect</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Insect</label>
+            </value>
+            <value>
+                <fullName>Insecticide</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Insecticide</label>
+            </value>
+            <value>
+                <fullName>Install coke on vending machine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Install coke on vending machine</label>
+            </value>
+            <value>
+                <fullName>Install showcase</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Install showcase</label>
+            </value>
+            <value>
+                <fullName>Installation of can · PET vending machine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Installation of can · PET vending machine</label>
+            </value>
+            <value>
+                <fullName>Internal capacity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal capacity</label>
+            </value>
+            <value>
+                <fullName>It came out in large quantities</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>It came out in large quantities</label>
+            </value>
+            <value>
+                <fullName>It was a non-smart vending machine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>It was a non-smart vending machine</label>
+            </value>
+            <value>
+                <fullName>It was room temperature.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>It was room temperature.</label>
+            </value>
+            <value>
+                <fullName>JAN code</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>JAN code</label>
+            </value>
+            <value>
+                <fullName>Jelly like</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Jelly like</label>
+            </value>
+            <value>
+                <fullName>LABEL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LABEL</label>
+            </value>
+            <value>
+                <fullName>Labeled / unlabeled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Labeled / unlabeled</label>
+            </value>
+            <value>
+                <fullName>Lack of fishing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lack of fishing</label>
+            </value>
+            <value>
+                <fullName>Lipid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lipid</label>
+            </value>
+            <value>
+                <fullName>Made date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Made date</label>
+            </value>
+            <value>
+                <fullName>Main raw material</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Main raw material</label>
+            </value>
+            <value>
+                <fullName>Manufacturing method · process</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manufacturing method · process</label>
+            </value>
+            <value>
+                <fullName>Marketing strategy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing strategy</label>
+            </value>
+            <value>
+                <fullName>Material of container</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Material of container</label>
+            </value>
+            <value>
+                <fullName>Melt bone / teeth / Anxious</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Melt bone / teeth / Anxious</label>
+            </value>
+            <value>
+                <fullName>Metal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Metal</label>
+            </value>
+            <value>
+                <fullName>Mineral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mineral</label>
+            </value>
+            <value>
+                <fullName>Mischief · meaning unknown · mistake phone</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mischief · meaning unknown · mistake phone</label>
+            </value>
+            <value>
+                <fullName>Mold / fungus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mold / fungus</label>
+            </value>
+            <value>
+                <fullName>Moldy smell</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Moldy smell</label>
+            </value>
+            <value>
+                <fullName>Nausea / vomiting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nausea / vomiting</label>
+            </value>
+            <value>
+                <fullName>New product information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New product information</label>
+            </value>
+            <value>
+                <fullName>Not peelable / hard to peel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not peelable / hard to peel</label>
+            </value>
+            <value>
+                <fullName>Other Product Quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other Product Quality</label>
+            </value>
+            <value>
+                <fullName>Promotion(Obstacle/Maintainance)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Promotion(Obstacle/Maintainance)</label>
+            </value>
+            <value>
+                <fullName>Refrigerator / showcase installation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Refrigerator / showcase installation</label>
+            </value>
+            <value>
+                <fullName>Rust, metal odor / taste</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rust, metal odor / taste</label>
+            </value>
+            <value>
+                <fullName>Sales Method / Stock Storage Condition</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales Method / Stock Storage Condition</label>
+            </value>
+            <value>
+                <fullName>Sand / stone</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sand / stone</label>
+            </value>
+            <value>
+                <fullName>Santa Claus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Santa Claus</label>
+            </value>
+            <value>
+                <fullName>Shape / Material</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shape / Material</label>
+            </value>
+            <value>
+                <fullName>Shelf life / deadline</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shelf life / deadline</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Sweetener</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sweetener</label>
+            </value>
+            <value>
+                <fullName>Tab (liquid leak) / tightening</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tab (liquid leak) / tightening</label>
+            </value>
+            <value>
+                <fullName>Taste / smell</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Taste / smell</label>
+            </value>
+            <value>
+                <fullName>Temperature (product quality information)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Temperature (product quality information)</label>
+            </value>
+            <value>
+                <fullName>Tepid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tepid</label>
+            </value>
+            <value>
+                <fullName>The target product is not sold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The target product is not sold</label>
+            </value>
+            <value>
+                <fullName>The vending machine itself is dirty</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The vending machine itself is dirty</label>
+            </value>
+            <value>
+                <fullName>There is no carbonation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>There is no carbonation</label>
+            </value>
+            <value>
+                <fullName>There is no contact</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>There is no contact</label>
+            </value>
+            <value>
+                <fullName>There is no product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>There is no product</label>
+            </value>
+            <value>
+                <fullName>Thin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Thin</label>
+            </value>
+            <value>
+                <fullName>To hit an entry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>To hit an entry</label>
+            </value>
+            <value>
+                <fullName>Tobacco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tobacco</label>
+            </value>
+            <value>
+                <fullName>Tooth decay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tooth decay</label>
+            </value>
+            <value>
+                <fullName>Unevenness</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unevenness</label>
+            </value>
+            <value>
+                <fullName>User-induced(DK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>User-induced(DK)</label>
+            </value>
+            <value>
+                <fullName>Vending machine origin(DK)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vending machine origin(DK)</label>
+            </value>
+            <value>
+                <fullName>Vitamin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vitamin</label>
+            </value>
+            <value>
+                <fullName>WEB (Coca-Cola Industry)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WEB (Coca-Cola Industry)</label>
+            </value>
+            <value>
+                <fullName>Warning / notice indication</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Warning / notice indication</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>White Screen Of Death</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>White Screen Of Death</label>
+            </value>
+            <value>
+                <fullName>Within 6 months</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Within 6 months</label>
+            </value>
+            <value>
+                <fullName>Wood</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wood</label>
+            </value>
+            <value>
+                <fullName>Yellowing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yellowing</label>
+            </value>
+            <value>
+                <fullName>rupture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>rupture</label>
+            </value>
+            <value>
+                <fullName>too hot</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>too hot</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>About the WEB site</controllingFieldValue>
+            <valueName>Brand site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About the WEB site</controllingFieldValue>
+            <valueName>Campaign site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About the WEB site</controllingFieldValue>
+            <valueName>Coca-Cola member site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About the WEB site</controllingFieldValue>
+            <valueName>Corporate site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About the WEB site</controllingFieldValue>
+            <valueName>Other Web site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad</controllingFieldValue>
+            <valueName>TVCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad</controllingFieldValue>
+            <valueName>Radio CM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad</controllingFieldValue>
+            <valueName>Web advertisement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad</controllingFieldValue>
+            <valueName>Newspaper / magazine advertisement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ad</controllingFieldValue>
+            <valueName>Other advertisement inquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>About prizes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Application method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Other Outline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Prizes shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Products (Web/Campaign)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot use a drink ticket (com)</controllingFieldValue>
+            <valueName>Application/Server origin (DK)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot use a drink ticket (com)</controllingFieldValue>
+            <valueName>Can not divide (DK)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot use a drink ticket (com)</controllingFieldValue>
+            <valueName>User-induced (DK)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot use a drink ticket (com)</controllingFieldValue>
+            <valueName>Vending machine origin (DK)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON PAY</controllingFieldValue>
+            <valueName>About Coke ON PAY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON PAY</controllingFieldValue>
+            <valueName>How to register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON PAY</controllingFieldValue>
+            <controllingFieldValue>Friend introduction</controllingFieldValue>
+            <controllingFieldValue>LINE AI Chat</controllingFieldValue>
+            <valueName>Other (Coke ON application)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>About bonus stamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>About Coke ON walk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>Cooperation with wearable devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>Corresponding terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>How to use/Setting the target step count</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke ON walk</controllingFieldValue>
+            <valueName>Step count</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correspondence related (Com)</controllingFieldValue>
+            <valueName>Call back/Reply (com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correspondence relation (inq)</controllingFieldValue>
+            <valueName>Call back/Reply (inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coupon code</controllingFieldValue>
+            <valueName>Cannot input (App)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coupon code</controllingFieldValue>
+            <valueName>Cannot input (User)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coupon code</controllingFieldValue>
+            <valueName>Input method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data migration/Takeover</controllingFieldValue>
+            <valueName>Data taking out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data migration/Takeover</controllingFieldValue>
+            <valueName>Taking over from another terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coke ON application</controllingFieldValue>
+            <valueName>About operating environment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coke ON application</controllingFieldValue>
+            <valueName>Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coke ON application</controllingFieldValue>
+            <valueName>How to use Coke ON application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coke ON application</controllingFieldValue>
+            <controllingFieldValue>Obstacle/Maintenance</controllingFieldValue>
+            <valueName>Maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About drink tickets (inq)</controllingFieldValue>
+            <valueName>Expiration date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About drink tickets (inq)</controllingFieldValue>
+            <valueName>How to use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About drink tickets (inq)</controllingFieldValue>
+            <valueName>Products (Drink Ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About installation location/position</controllingFieldValue>
+            <valueName>How to identify a smartphone compatible vending machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About installation location/position</controllingFieldValue>
+            <valueName>Inquiry of smartphone compatible vending machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About installation location/position</controllingFieldValue>
+            <valueName>Installation position gap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About installation location/position</controllingFieldValue>
+            <valueName>Non-smartphone compatible vending machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About installation location/position</controllingFieldValue>
+            <valueName>Not installed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About stamp (inq)</controllingFieldValue>
+            <valueName>How to store stamps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About stamp (inq)</controllingFieldValue>
+            <valueName>Types of stamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About stamp (inq)</controllingFieldValue>
+            <valueName>UI Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friend introduction</controllingFieldValue>
+            <valueName>About friend introduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friend introduction</controllingFieldValue>
+            <valueName>Installation Bonus Requirement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Friend introduction</controllingFieldValue>
+            <valueName>Introduction bonus stamp condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Installation/Switching request</controllingFieldValue>
+            <valueName>I want to switch to a smartphone compatible vending machine (dealer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Installation/Switching request</controllingFieldValue>
+            <valueName>I want you to switch to a smartphone compatible vending machine (inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Installation/Switching request</controllingFieldValue>
+            <valueName>I would like to have smartphone compatible vending machine (inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Installation/Switching request</controllingFieldValue>
+            <valueName>I would like to set up a smart vending machine (dealer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINE AI Chat</controllingFieldValue>
+            <valueName>About LINE AI Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINE AI Chat</controllingFieldValue>
+            <controllingFieldValue>Obstacle/Maintenance</controllingFieldValue>
+            <controllingFieldValue>Others(CR)</controllingFieldValue>
+            <valueName>Others(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login</controllingFieldValue>
+            <valueName>Login method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login</controllingFieldValue>
+            <valueName>Login with LINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login</controllingFieldValue>
+            <valueName>Logout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login</controllingFieldValue>
+            <valueName>Members(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login</controllingFieldValue>
+            <valueName>Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief/Spam mail</controllingFieldValue>
+            <valueName>Mischief/Spam mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief/Spam mail</controllingFieldValue>
+            <valueName>Other irrelevant questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not supported</controllingFieldValue>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not supported</controllingFieldValue>
+            <valueName>Contact information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>About Georgia cafe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>High selling price / Price difference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>I want you to make it easy to use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>I want you to stabilize the connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Environment issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Coca-Cola Industry / Sales Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Sports/Culture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Trademark / Goods etc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Coke ON related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Sales/Sales office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Dealer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>A letter of thanks/Encouragement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Product recall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Unidentified Promotion (Com)</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Container general</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Shape design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Print design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Request for container</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER DAMAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER LEAKER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CLOSURE, POUR PANEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>DIRTY CONTAINER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER BULGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FILL CONTROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>INCOMPLETE PACKAGING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>OTHER PACK FAULTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FOREIGN IMPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>Date Coding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>LABEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Raw materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Component value</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>General product information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Best period</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Health problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Product preferences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Request for product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>New transaction / Rental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product lineup</controllingFieldValue>
+            <valueName>Opinions and requests to the product lineup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product lineup</controllingFieldValue>
+            <valueName>Other (Vending Machine)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>FOREIGN MATTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF TASTE / ODOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Curd / Precipitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF COLOUR / APPEARANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Out of Best Before Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>CARBONATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>ILLNESS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>PERSONAL DAMAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Blowing Up / Bubbling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Other quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Sticky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Closed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Lucky cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Nearpack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Website/SNS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion</controllingFieldValue>
+            <valueName>Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp card</controllingFieldValue>
+            <valueName>About stamp card (com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp card</controllingFieldValue>
+            <valueName>About stamp card (inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp does not attach (com)</controllingFieldValue>
+            <valueName>Application/Server origin (ST)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp does not attach (com)</controllingFieldValue>
+            <valueName>Cannot divide (ST)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp does not attach (com)</controllingFieldValue>
+            <valueName>User-induced (ST)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stamp does not attach (com)</controllingFieldValue>
+            <valueName>Vending machine origin (ST)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Installation related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Equipment related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Other inquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Change / money related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Sold out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <controllingFieldValue>Vending machine trouble</controllingFieldValue>
+            <valueName>Sample mismatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>No product / many got out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Dirty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Incorrect contact display</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Inadequate temperature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending Machine/Dispenser</controllingFieldValue>
+            <valueName>Other compliants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending machine trouble</controllingFieldValue>
+            <valueName>Cannot use electronic money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending machine trouble</controllingFieldValue>
+            <valueName>Change/Money related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vending machine trouble</controllingFieldValue>
+            <valueName>Column jam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact support</controllingFieldValue>
+            <valueName>About business hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact support</controllingFieldValue>
+            <valueName>About reception</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact support</controllingFieldValue>
+            <valueName>Other Contact Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact support</controllingFieldValue>
+            <valueName>Out of call/Suddenly call out/Silently</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact support</controllingFieldValue>
+            <valueName>Telephone is not connected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proposal · coverage</controllingFieldValue>
+            <valueName>Coverage / media posting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proposal · coverage</controllingFieldValue>
+            <valueName>Suggestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief / meaning unknown</controllingFieldValue>
+            <valueName>mischief</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief / meaning unknown</controllingFieldValue>
+            <valueName>Silence / straight cut / meaning unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief / meaning unknown</controllingFieldValue>
+            <controllingFieldValue>Others(CR)</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mischief / meaning unknown</controllingFieldValue>
+            <valueName>Unrelated sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>Application(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>CokeON Pay(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>CokeON Walk(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>How to use Drink Ticket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <valueName>VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Login Operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Members(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Switch Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Login/Profile</controllingFieldValue>
+            <valueName>Takeover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Got no stamps</controllingFieldValue>
+            <valueName>Cause of device(Got No Stamps)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Got no stamps</controllingFieldValue>
+            <valueName>Cause of Server(Got No Stamps)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Got no stamps</controllingFieldValue>
+            <valueName>Cause of VM(Got No Stamps)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Got no stamps</controllingFieldValue>
+            <valueName>Obscure(Got No Stamps)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Connect with bluetooth</controllingFieldValue>
+            <valueName>Cause of device(Unavailable Connect with bluetooth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Connect with bluetooth</controllingFieldValue>
+            <valueName>Cause of Server(Unavailable Connect with bluetooth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Connect with bluetooth</controllingFieldValue>
+            <valueName>Cause of VM(Unavailable Connect with bluetooth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Connect with bluetooth</controllingFieldValue>
+            <valueName>Obscure(Unavailable Connect with bluetooth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Connect with bluetooth</controllingFieldValue>
+            <valueName>Unsteady</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Coke ON Pay/Pass</controllingFieldValue>
+            <valueName>Cause of device(Unavailable Coke ON Pay/Pass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Coke ON Pay/Pass</controllingFieldValue>
+            <valueName>Cause of Server(Unavailable Coke ON Pay/Pass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Coke ON Pay/Pass</controllingFieldValue>
+            <valueName>Cause of VM(Unavailable Coke ON Pay/Pass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Coke ON Pay/Pass</controllingFieldValue>
+            <valueName>Obscure(Unavailable Coke ON Pay/Pass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Drink ticket</controllingFieldValue>
+            <valueName>Cause of device(Unavailable Drink ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Drink ticket</controllingFieldValue>
+            <valueName>Cause of Server(Unavailable Drink ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Drink ticket</controllingFieldValue>
+            <valueName>Cause of Ticketsharing(Unavailable Drink ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Drink ticket</controllingFieldValue>
+            <valueName>Cause of VM(Unavailable Drink ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Drink ticket</controllingFieldValue>
+            <valueName>Obscure(Unavailable Drink ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>Active CokeON_VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>Money related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>IC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>Lineup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>POP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>Troubles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>VM Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <valueName>VM Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Application(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Application Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>CokeONPay/Pass(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>CokeON Walk(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Device(Complaint)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>GPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Push Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>UI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Coke ON IC(Application)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Coke ON Camera(Application)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Bottlers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Coke Friends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>CokeON_Apps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>CokeON_Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>CokeON_VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Coke ON Camera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Coke ON IC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>CokeONPay/Pass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>CokeON Walk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>device(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Drink Ticket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Friendship(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Inquiry Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Line Chatbot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>MA Enquete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Other(Service)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Out of Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Promotion(Service)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Service of CokeON_VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Stamps(Inquiry)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Web</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Sampling ticket</controllingFieldValue>
+            <valueName>Cause of device(Unavailable Sampling ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Sampling ticket</controllingFieldValue>
+            <valueName>Cause of Server(Unavailable Sampling ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Sampling ticket</controllingFieldValue>
+            <valueName>Cause of Ticketsharing(Unavailable Sampling ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Sampling ticket</controllingFieldValue>
+            <valueName>Cause of VM(Unavailable Sampling ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailable Sampling ticket</controllingFieldValue>
+            <valueName>Obscure(Unavailable Sampling ticket)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others(CR)</controllingFieldValue>
+            <valueName>Continuation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others(CR)</controllingFieldValue>
+            <valueName>Gratitude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Com)</controllingFieldValue>
+            <valueName>Change Password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Com)</controllingFieldValue>
+            <valueName>Mail magazine distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Com)</controllingFieldValue>
+            <valueName>Other (Coca-cola Member Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Com)</controllingFieldValue>
+            <valueName>Register (Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Com)</controllingFieldValue>
+            <valueName>Resign (Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>About Coca-Cola Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>Registration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>Mail Magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>Other (CC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>Register (Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coca-Cola Members (Inq)</controllingFieldValue>
+            <valueName>Resign (Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>Chance of winning (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>Error (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>Misprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>Other (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>Prize (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Com)</controllingFieldValue>
+            <valueName>QR Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Inq)</controllingFieldValue>
+            <valueName>About Prize (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Inq)</controllingFieldValue>
+            <valueName>How-to-apply (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Inq)</controllingFieldValue>
+            <valueName>Others (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Interactive Promotion (Inq)</controllingFieldValue>
+            <valueName>Shipping / Winning Confirmation (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others (Com)</controllingFieldValue>
+            <valueName>Other (Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others (Inq)</controllingFieldValue>
+            <valueName>Other (Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Com)</controllingFieldValue>
+            <valueName>Organization (Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Com)</controllingFieldValue>
+            <valueName>Other (Products/Org Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Com)</controllingFieldValue>
+            <valueName>Products (Com)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Inq)</controllingFieldValue>
+            <valueName>Organization (Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Inq)</controllingFieldValue>
+            <valueName>Other (Products/Org Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products / Organization (Inq)</controllingFieldValue>
+            <valueName>Products (Inq)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Com)</controllingFieldValue>
+            <valueName>Chance of winning (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Com)</controllingFieldValue>
+            <valueName>Error (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Com)</controllingFieldValue>
+            <valueName>Not exchangeable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Com)</controllingFieldValue>
+            <valueName>Other (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Com)</controllingFieldValue>
+            <valueName>Prize (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>About Prize (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>Cards (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>check to-be-selected (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>About Campaign (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>Old Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>Others (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>Point Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales Promotion (Inq)</controllingFieldValue>
+            <valueName>How-to-apply(SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion (Com)</controllingFieldValue>
+            <valueName>How-to-apply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion (Com)</controllingFieldValue>
+            <valueName>Prize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion (Inq)</controllingFieldValue>
+            <valueName>Unidentified Promotion</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

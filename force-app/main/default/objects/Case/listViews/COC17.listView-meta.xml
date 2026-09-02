@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COC17</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_COC_Case</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>岩田 都</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>[COC]岩田</label>
+    <sharedTo>
+        <role>CCJC_COC_Communicator</role>
+        <role>CCJC_COC_Leader</role>
+        <role>CCJC_COC_Manager</role>
+        <role>CCJC_COC_Supervisor</role>
+        <role>Japan_CIC_BPO_Manager</role>
+        <role>Japan_CIC_Communicator</role>
+        <role>Japan_CIC_Leader</role>
+        <role>Japan_CIC_Supervisor</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Category_Level_2__c</fullName>
+    <description>Used for LATAM to determine the level 2 lab analysis category for the case. 
+BU :- LATAM</description>
+    <label>Lab Category Level 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lab_Category_Level_1__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Archived</fullName>
+                <default>false</default>
+                <label>Archived</label>
+            </value>
+            <value>
+                <fullName>Bag Alignment</fullName>
+                <default>false</default>
+                <label>Bag Alignment</label>
+            </value>
+            <value>
+                <fullName>Base Chime Puncture</fullName>
+                <default>false</default>
+                <label>Base Chime Puncture</label>
+            </value>
+            <value>
+                <fullName>Base Domed</fullName>
+                <default>false</default>
+                <label>Base Domed</label>
+            </value>
+            <value>
+                <fullName>Base Puncture</fullName>
+                <default>false</default>
+                <label>Base Puncture</label>
+            </value>
+            <value>
+                <fullName>Base Rim / Riding Edge</fullName>
+                <default>false</default>
+                <label>Base Rim / Riding Edge</label>
+            </value>
+            <value>
+                <fullName>Base Split</fullName>
+                <default>false</default>
+                <label>Base Split</label>
+            </value>
+            <value>
+                <fullName>Bird Swing</fullName>
+                <default>false</default>
+                <label>Bird Swing</label>
+            </value>
+            <value>
+                <fullName>Blisters</fullName>
+                <default>false</default>
+                <label>Blisters</label>
+            </value>
+            <value>
+                <fullName>Broken Neck</fullName>
+                <default>false</default>
+                <label>Broken Neck</label>
+            </value>
+            <value>
+                <fullName>Broken Neck Crizzle Finish</fullName>
+                <default>false</default>
+                <label>Broken Neck Crizzle Finish</label>
+            </value>
+            <value>
+                <fullName>Broken Neck Thin Glass</fullName>
+                <default>false</default>
+                <label>Broken Neck Thin Glass</label>
+            </value>
+            <value>
+                <fullName>Bulge</fullName>
+                <default>false</default>
+                <label>Bulge</label>
+            </value>
+            <value>
+                <fullName>Burst Fermented Product</fullName>
+                <default>false</default>
+                <label>Burst Fermented Product</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Base</fullName>
+                <default>false</default>
+                <label>Burst Impact Base</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Base (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Burst Impact Base (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Base (Glass)</fullName>
+                <default>false</default>
+                <label>Burst Impact Base (Glass)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Neck</fullName>
+                <default>false</default>
+                <label>Burst Impact Neck</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Neck (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Burst Impact Neck (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Neck (Glass)</fullName>
+                <default>false</default>
+                <label>Burst Impact Neck (Glass)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Rim</fullName>
+                <default>false</default>
+                <label>Burst Impact Rim</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Shoulder</fullName>
+                <default>false</default>
+                <label>Burst Impact Shoulder</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Shoulder (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Burst Impact Shoulder (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Shoulder (Glass)</fullName>
+                <default>false</default>
+                <label>Burst Impact Shoulder (Glass)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Sidewall</fullName>
+                <default>false</default>
+                <label>Burst Impact Sidewall</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Sidewall (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Burst Impact Sidewall (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Burst Impact Sidewall (Glass)</fullName>
+                <default>false</default>
+                <label>Burst Impact Sidewall (Glass)</label>
+            </value>
+            <value>
+                <fullName>Burst Temperature</fullName>
+                <default>false</default>
+                <label>Burst Temperature</label>
+            </value>
+            <value>
+                <fullName>Can End Rim Damage</fullName>
+                <default>false</default>
+                <label>Can End Rim Damage</label>
+            </value>
+            <value>
+                <fullName>Capsule</fullName>
+                <default>false</default>
+                <label>Capsule</label>
+            </value>
+            <value>
+                <fullName>Checks</fullName>
+                <default>false</default>
+                <label>Checks</label>
+            </value>
+            <value>
+                <fullName>Chipped / Broken Finish</fullName>
+                <default>false</default>
+                <label>Chipped / Broken Finish</label>
+            </value>
+            <value>
+                <fullName>Chocked Neck</fullName>
+                <default>false</default>
+                <label>Chocked Neck</label>
+            </value>
+            <value>
+                <fullName>Cloth / Fabric / Leather</fullName>
+                <default>false</default>
+                <label>Cloth / Fabric / Leather</label>
+            </value>
+            <value>
+                <fullName>Contamination Post Production</fullName>
+                <default>false</default>
+                <label>Contamination Post Production</label>
+            </value>
+            <value>
+                <fullName>Counterfeit Packaging</fullName>
+                <default>false</default>
+                <label>Counterfeit Packaging</label>
+            </value>
+            <value>
+                <fullName>Counterfeit Product</fullName>
+                <default>false</default>
+                <label>Counterfeit Product</label>
+            </value>
+            <value>
+                <fullName>Cracks</fullName>
+                <default>false</default>
+                <label>Cracks</label>
+            </value>
+            <value>
+                <fullName>Crizzle Finish</fullName>
+                <default>false</default>
+                <label>Crizzle Finish</label>
+            </value>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Damaged Flange</fullName>
+                <default>false</default>
+                <label>Damaged Flange</label>
+            </value>
+            <value>
+                <fullName>Damaged Rim / Impact</fullName>
+                <default>false</default>
+                <label>Damaged Rim / Impact</label>
+            </value>
+            <value>
+                <fullName>Damaged Straw</fullName>
+                <default>false</default>
+                <label>Damaged Straw</label>
+            </value>
+            <value>
+                <fullName>Defective</fullName>
+                <default>false</default>
+                <label>Defective</label>
+            </value>
+            <value>
+                <fullName>Dip Strip Defect</fullName>
+                <default>false</default>
+                <label>Dip Strip Defect</label>
+            </value>
+            <value>
+                <fullName>Dirt / Sand / Grit / Soil</fullName>
+                <default>false</default>
+                <label>Dirt / Sand / Grit / Soil</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated (Closure/Can end)</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated (Closure/Can end)</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated (Glass)</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated (Glass)</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated (Secondary)</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated (Secondary)</label>
+            </value>
+            <value>
+                <fullName>Dirty / Contaminated (Soft)</fullName>
+                <default>false</default>
+                <label>Dirty / Contaminated (Soft)</label>
+            </value>
+            <value>
+                <fullName>Dirty Body / Finish Moulds</fullName>
+                <default>false</default>
+                <label>Dirty Body / Finish Moulds</label>
+            </value>
+            <value>
+                <fullName>End Compound</fullName>
+                <default>false</default>
+                <label>End Compound</label>
+            </value>
+            <value>
+                <fullName>End Peaked</fullName>
+                <default>false</default>
+                <label>End Peaked</label>
+            </value>
+            <value>
+                <fullName>End Seam Sharp Edge</fullName>
+                <default>false</default>
+                <label>End Seam Sharp Edge</label>
+            </value>
+            <value>
+                <fullName>Excess End Compound</fullName>
+                <default>false</default>
+                <label>Excess End Compound</label>
+            </value>
+            <value>
+                <fullName>Excessive Blooming</fullName>
+                <default>false</default>
+                <label>Excessive Blooming</label>
+            </value>
+            <value>
+                <fullName>Excessive Weathering</fullName>
+                <default>false</default>
+                <label>Excessive Weathering</label>
+            </value>
+            <value>
+                <fullName>Fail</fullName>
+                <default>false</default>
+                <label>Fail</label>
+            </value>
+            <value>
+                <fullName>False Bottom</fullName>
+                <default>false</default>
+                <label>False Bottom</label>
+            </value>
+            <value>
+                <fullName>Foil Seal Hard To Remove</fullName>
+                <default>false</default>
+                <label>Foil Seal Hard To Remove</label>
+            </value>
+            <value>
+                <fullName>Foil Seal Leaking</fullName>
+                <default>false</default>
+                <label>Foil Seal Leaking</label>
+            </value>
+            <value>
+                <fullName>Foil Seal Missing</fullName>
+                <default>false</default>
+                <label>Foil Seal Missing</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Foreign Object</fullName>
+                <default>false</default>
+                <label>Foreign Object</label>
+            </value>
+            <value>
+                <fullName>GIP Glass Container</fullName>
+                <default>false</default>
+                <label>GIP Glass Container</label>
+            </value>
+            <value>
+                <fullName>GIP Non Glass Container</fullName>
+                <default>false</default>
+                <label>GIP Non Glass Container</label>
+            </value>
+            <value>
+                <fullName>Glass In Closure</fullName>
+                <default>false</default>
+                <label>Glass In Closure</label>
+            </value>
+            <value>
+                <fullName>Glass Spike</fullName>
+                <default>false</default>
+                <label>Glass Spike</label>
+            </value>
+            <value>
+                <fullName>Gluing Issue</fullName>
+                <default>false</default>
+                <label>Gluing Issue</label>
+            </value>
+            <value>
+                <fullName>Gluing issue (Primary Soft)</fullName>
+                <default>false</default>
+                <label>Gluing issue (Primary Soft)</label>
+            </value>
+            <value>
+                <fullName>Gluing Issue (Secondary)</fullName>
+                <default>false</default>
+                <label>Gluing Issue (Secondary)</label>
+            </value>
+            <value>
+                <fullName>Graphics / Label</fullName>
+                <default>false</default>
+                <label>Graphics / Label</label>
+            </value>
+            <value>
+                <fullName>Hard To Open</fullName>
+                <default>false</default>
+                <label>Hard To Open</label>
+            </value>
+            <value>
+                <fullName>Heel Tap</fullName>
+                <default>false</default>
+                <label>Heel Tap</label>
+            </value>
+            <value>
+                <fullName>Impact Damage</fullName>
+                <default>false</default>
+                <label>Impact Damage</label>
+            </value>
+            <value>
+                <fullName>Impact Damage (Primary Soft)</fullName>
+                <default>false</default>
+                <label>Impact Damage (Primary Soft)</label>
+            </value>
+            <value>
+                <fullName>Impact Damage (Secondary)</fullName>
+                <default>false</default>
+                <label>Impact Damage (Secondary)</label>
+            </value>
+            <value>
+                <fullName>Imported Stock</fullName>
+                <default>false</default>
+                <label>Imported Stock</label>
+            </value>
+            <value>
+                <fullName>Inclusion In Bottle Wall</fullName>
+                <default>false</default>
+                <label>Inclusion In Bottle Wall</label>
+            </value>
+            <value>
+                <fullName>Inclusions Or Stones</fullName>
+                <default>false</default>
+                <label>Inclusions Or Stones</label>
+            </value>
+            <value>
+                <fullName>Incompletely Formed Finish</fullName>
+                <default>false</default>
+                <label>Incompletely Formed Finish</label>
+            </value>
+            <value>
+                <fullName>Incorrect Packaging</fullName>
+                <default>false</default>
+                <label>Incorrect Packaging</label>
+            </value>
+            <value>
+                <fullName>Incorrect Primary Packaging</fullName>
+                <default>false</default>
+                <label>Incorrect Primary Packaging</label>
+            </value>
+            <value>
+                <fullName>Incorrect Primary Packaging (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Incorrect Primary Packaging (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Incorrect Primary Packaging (Glass)</fullName>
+                <default>false</default>
+                <label>Incorrect Primary Packaging (Glass)</label>
+            </value>
+            <value>
+                <fullName>Incorrect Primary Packaging (Soft)</fullName>
+                <default>false</default>
+                <label>Incorrect Primary Packaging (Soft)</label>
+            </value>
+            <value>
+                <fullName>Incorrect Secondary Packaging</fullName>
+                <default>false</default>
+                <label>Incorrect Secondary Packaging</label>
+            </value>
+            <value>
+                <fullName>Insect / Invertebrate Open</fullName>
+                <default>false</default>
+                <label>Insect / Invertebrate Open</label>
+            </value>
+            <value>
+                <fullName>Insect / Invertebrate Sealed</fullName>
+                <default>false</default>
+                <label>Insect / Invertebrate Sealed</label>
+            </value>
+            <value>
+                <fullName>In Spec</fullName>
+                <default>false</default>
+                <label>In Spec</label>
+            </value>
+            <value>
+                <fullName>In Spec, Open</fullName>
+                <default>false</default>
+                <label>In Spec, Open</label>
+            </value>
+            <value>
+                <fullName>In Spec, Open (Off Taste &amp; Odour)</fullName>
+                <default>false</default>
+                <label>In Spec, Open (Off Taste &amp; Odour)</label>
+            </value>
+            <value>
+                <fullName>In Spec, Open (Product Apperance)</fullName>
+                <default>false</default>
+                <label>In Spec, Open (Product Apperance)</label>
+            </value>
+            <value>
+                <fullName>In Spec, Sealed</fullName>
+                <default>false</default>
+                <label>In Spec, Sealed</label>
+            </value>
+            <value>
+                <fullName>In Spec, sealed (Carbonation)</fullName>
+                <default>false</default>
+                <label>In Spec, sealed (Carbonation)</label>
+            </value>
+            <value>
+                <fullName>In Spec, Sealed (Fill Control)</fullName>
+                <default>false</default>
+                <label>In Spec, Sealed (Fill Control)</label>
+            </value>
+            <value>
+                <fullName>In Spec, Sealed (Off Taste &amp; Odour)</fullName>
+                <default>false</default>
+                <label>In Spec, Sealed (Off Taste &amp; Odour)</label>
+            </value>
+            <value>
+                <fullName>In Spec, Sealed (Product Apperance)</fullName>
+                <default>false</default>
+                <label>In Spec, Sealed (Product Apperance)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Can/Pet)</fullName>
+                <default>false</default>
+                <label>In Spec (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Closure Can/End)</fullName>
+                <default>false</default>
+                <label>In Spec (Closure Can/End)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Code,Graphic,label)</fullName>
+                <default>false</default>
+                <label>In Spec (Code,Graphic,label)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Glass)</fullName>
+                <default>false</default>
+                <label>In Spec (Glass)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Promotion)</fullName>
+                <default>false</default>
+                <label>In Spec (Promotion)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Secondary)</fullName>
+                <default>false</default>
+                <label>In Spec (Secondary)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Soft)</fullName>
+                <default>false</default>
+                <label>In Spec (Soft)</label>
+            </value>
+            <value>
+                <fullName>In Spec (Temporary)</fullName>
+                <default>false</default>
+                <label>In Spec (Temporary)</label>
+            </value>
+            <value>
+                <fullName>Insufficient Wash</fullName>
+                <default>false</default>
+                <label>Insufficient Wash</label>
+            </value>
+            <value>
+                <fullName>Lacquer Application</fullName>
+                <default>false</default>
+                <label>Lacquer Application</label>
+            </value>
+            <value>
+                <fullName>Leaking Other</fullName>
+                <default>false</default>
+                <label>Leaking Other</label>
+            </value>
+            <value>
+                <fullName>Leaking Seam</fullName>
+                <default>false</default>
+                <label>Leaking Seam</label>
+            </value>
+            <value>
+                <fullName>Liner missing / defective / loose</fullName>
+                <default>false</default>
+                <label>Liner missing / defective / loose</label>
+            </value>
+            <value>
+                <fullName>Machine Parts</fullName>
+                <default>false</default>
+                <label>Machine Parts</label>
+            </value>
+            <value>
+                <fullName>Metal / Swarf</fullName>
+                <default>false</default>
+                <label>Metal / Swarf</label>
+            </value>
+            <value>
+                <fullName>Metal Cap Sharp</fullName>
+                <default>false</default>
+                <label>Metal Cap Sharp</label>
+            </value>
+            <value>
+                <fullName>Misapplied</fullName>
+                <default>false</default>
+                <label>Misapplied</label>
+            </value>
+            <value>
+                <fullName>Misc Marks</fullName>
+                <default>false</default>
+                <label>Misc Marks</label>
+            </value>
+            <value>
+                <fullName>Missile</fullName>
+                <default>false</default>
+                <label>Missile</label>
+            </value>
+            <value>
+                <fullName>Missing Pack From Multipack</fullName>
+                <default>false</default>
+                <label>Missing Pack From Multipack</label>
+            </value>
+            <value>
+                <fullName>Missing Pack From Multipack (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Missing Pack From Multipack (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Missing Pack from Multipack (Glass)</fullName>
+                <default>false</default>
+                <label>Missing Pack from Multipack (Glass)</label>
+            </value>
+            <value>
+                <fullName>Missing Pack From Multi Pack (Soft)</fullName>
+                <default>false</default>
+                <label>Missing Pack From Multi Pack (Soft)</label>
+            </value>
+            <value>
+                <fullName>Missing Straws</fullName>
+                <default>false</default>
+                <label>Missing Straws</label>
+            </value>
+            <value>
+                <fullName>Mould</fullName>
+                <default>false</default>
+                <label>Mould</label>
+            </value>
+            <value>
+                <fullName>Neck Rim Seam</fullName>
+                <default>false</default>
+                <label>Neck Rim Seam</label>
+            </value>
+            <value>
+                <fullName>Neck Ring Seam</fullName>
+                <default>false</default>
+                <label>Neck Ring Seam</label>
+            </value>
+            <value>
+                <fullName>Neck Thread Breaks</fullName>
+                <default>false</default>
+                <label>Neck Thread Breaks</label>
+            </value>
+            <value>
+                <fullName>None Found</fullName>
+                <default>false</default>
+                <label>None Found</label>
+            </value>
+            <value>
+                <fullName>No Sample Received</fullName>
+                <default>false</default>
+                <label>No Sample Received</label>
+            </value>
+            <value>
+                <fullName>Not Categorised</fullName>
+                <default>false</default>
+                <label>Not Categorised</label>
+            </value>
+            <value>
+                <fullName>Not Conclusive</fullName>
+                <default>false</default>
+                <label>Not Conclusive</label>
+            </value>
+            <value>
+                <fullName>Not Filled</fullName>
+                <default>false</default>
+                <label>Not Filled</label>
+            </value>
+            <value>
+                <fullName>Not Valid</fullName>
+                <default>false</default>
+                <label>Not Valid</label>
+            </value>
+            <value>
+                <fullName>Offset Finish</fullName>
+                <default>false</default>
+                <label>Offset Finish</label>
+            </value>
+            <value>
+                <fullName>Offset Mould Marks</fullName>
+                <default>false</default>
+                <label>Offset Mould Marks</label>
+            </value>
+            <value>
+                <fullName>Oil / Coloured Streaks</fullName>
+                <default>false</default>
+                <label>Oil / Coloured Streaks</label>
+            </value>
+            <value>
+                <fullName>Oil / Grease / Swarf</fullName>
+                <default>false</default>
+                <label>Oil / Grease / Swarf</label>
+            </value>
+            <value>
+                <fullName>Open / Empty</fullName>
+                <default>false</default>
+                <label>Open / Empty</label>
+            </value>
+            <value>
+                <fullName>Open / Empty (Carbonation)</fullName>
+                <default>false</default>
+                <label>Open / Empty (Carbonation)</label>
+            </value>
+            <value>
+                <fullName>Open / Empty (Fill Control)</fullName>
+                <default>false</default>
+                <label>Open / Empty (Fill Control)</label>
+            </value>
+            <value>
+                <fullName>Open / Empty (Off Taste &amp; Odour)</fullName>
+                <default>false</default>
+                <label>Open / Empty (Off Taste &amp; Odour)</label>
+            </value>
+            <value>
+                <fullName>Open / Empty (Product Apperance)</fullName>
+                <default>false</default>
+                <label>Open / Empty (Product Apperance)</label>
+            </value>
+            <value>
+                <fullName>Opened Post BBE</fullName>
+                <default>false</default>
+                <label>Opened Post BBE</label>
+            </value>
+            <value>
+                <fullName>Optical Shadows</fullName>
+                <default>false</default>
+                <label>Optical Shadows</label>
+            </value>
+            <value>
+                <fullName>Organic Material</fullName>
+                <default>false</default>
+                <label>Organic Material</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Out Of Spec, Open</fullName>
+                <default>false</default>
+                <label>Out Of Spec, Open</label>
+            </value>
+            <value>
+                <fullName>Out of Spec, Open (Fill Control)</fullName>
+                <default>false</default>
+                <label>Out of Spec, Open (Fill Control)</label>
+            </value>
+            <value>
+                <fullName>Out Of Spec, Open (Off Taste &amp; Odour)</fullName>
+                <default>false</default>
+                <label>Out Of Spec, Open (Off Taste &amp; Odour)</label>
+            </value>
+            <value>
+                <fullName>Out Of Spec, Sealed</fullName>
+                <default>false</default>
+                <label>Out Of Spec, Sealed</label>
+            </value>
+            <value>
+                <fullName>Out of Spec, Sealed (Fill Control)</fullName>
+                <default>false</default>
+                <label>Out of Spec, Sealed (Fill Control)</label>
+            </value>
+            <value>
+                <fullName>Out of Spec, Sealed (Off Taste &amp; Odour)</fullName>
+                <default>false</default>
+                <label>Out of Spec, Sealed (Off Taste &amp; Odour)</label>
+            </value>
+            <value>
+                <fullName>Out Of Spec, Sealed (Product Apperance)</fullName>
+                <default>false</default>
+                <label>Out Of Spec, Sealed (Product Apperance)</label>
+            </value>
+            <value>
+                <fullName>Out of Spec / Open</fullName>
+                <default>false</default>
+                <label>Out of Spec / Open</label>
+            </value>
+            <value>
+                <fullName>Out of Spec Open</fullName>
+                <default>false</default>
+                <label>Out of Spec Open</label>
+            </value>
+            <value>
+                <fullName>Out of Spec Sealed</fullName>
+                <default>false</default>
+                <label>Out of Spec Sealed</label>
+            </value>
+            <value>
+                <fullName>Out Of Spec Sealed (Carbonation)</fullName>
+                <default>false</default>
+                <label>Out Of Spec Sealed (Carbonation)</label>
+            </value>
+            <value>
+                <fullName>Over Pressed Finish Sharp Edge</fullName>
+                <default>false</default>
+                <label>Over Pressed Finish Sharp Edge</label>
+            </value>
+            <value>
+                <fullName>Pack Fail</fullName>
+                <default>false</default>
+                <label>Pack Fail</label>
+            </value>
+            <value>
+                <fullName>Paper / Straw</fullName>
+                <default>false</default>
+                <label>Paper / Straw</label>
+            </value>
+            <value>
+                <fullName>PET Wall Thickness</fullName>
+                <default>false</default>
+                <label>PET Wall Thickness</label>
+            </value>
+            <value>
+                <fullName>Pin / Needle</fullName>
+                <default>false</default>
+                <label>Pin / Needle</label>
+            </value>
+            <value>
+                <fullName>Pin Hole Leaker</fullName>
+                <default>false</default>
+                <label>Pin Hole Leaker</label>
+            </value>
+            <value>
+                <fullName>Plant Material</fullName>
+                <default>false</default>
+                <label>Plant Material</label>
+            </value>
+            <value>
+                <fullName>Plastic / Swarf / PET</fullName>
+                <default>false</default>
+                <label>Plastic / Swarf / PET</label>
+            </value>
+            <value>
+                <fullName>Post BBE</fullName>
+                <default>false</default>
+                <label>Post BBE</label>
+            </value>
+            <value>
+                <fullName>Pour Panel Missing / Off</fullName>
+                <default>false</default>
+                <label>Pour Panel Missing / Off</label>
+            </value>
+            <value>
+                <fullName>Primary Pack Faults</fullName>
+                <default>false</default>
+                <label>Primary Pack Faults</label>
+            </value>
+            <value>
+                <fullName>Primary Pack Faults (Can/Pet)</fullName>
+                <default>false</default>
+                <label>Primary Pack Faults (Can/Pet)</label>
+            </value>
+            <value>
+                <fullName>Primary Pack Faults (Glass)</fullName>
+                <default>false</default>
+                <label>Primary Pack Faults (Glass)</label>
+            </value>
+            <value>
+                <fullName>Primary Pack Faults (Soft)</fullName>
+                <default>false</default>
+                <label>Primary Pack Faults (Soft)</label>
+            </value>
+            <value>
+                <fullName>Primary Pack Faults (Temporary)</fullName>
+                <default>false</default>
+                <label>Primary Pack Faults (Temporary)</label>
+            </value>
+            <value>
+                <fullName>Production Codes</fullName>
+                <default>false</default>
+                <label>Production Codes</label>
+            </value>
+            <value>
+                <fullName>Promotion Invalid</fullName>
+                <default>false</default>
+                <label>Promotion Invalid</label>
+            </value>
+            <value>
+                <fullName>Promotion Misapplied</fullName>
+                <default>false</default>
+                <label>Promotion Misapplied</label>
+            </value>
+            <value>
+                <fullName>Promotion Missing</fullName>
+                <default>false</default>
+                <label>Promotion Missing</label>
+            </value>
+            <value>
+                <fullName>Purchased Post BBE</fullName>
+                <default>false</default>
+                <label>Purchased Post BBE</label>
+            </value>
+            <value>
+                <fullName>Push Panel Strength</fullName>
+                <default>false</default>
+                <label>Push Panel Strength</label>
+            </value>
+            <value>
+                <fullName>Rivet Leaker</fullName>
+                <default>false</default>
+                <label>Rivet Leaker</label>
+            </value>
+            <value>
+                <fullName>Rubber / Swarf</fullName>
+                <default>false</default>
+                <label>Rubber / Swarf</label>
+            </value>
+            <value>
+                <fullName>Rusty</fullName>
+                <default>false</default>
+                <label>Rusty</label>
+            </value>
+            <value>
+                <fullName>Scuffed Surface</fullName>
+                <default>false</default>
+                <label>Scuffed Surface</label>
+            </value>
+            <value>
+                <fullName>Secondary Corrosion</fullName>
+                <default>false</default>
+                <label>Secondary Corrosion</label>
+            </value>
+            <value>
+                <fullName>Secondary Pack Faults</fullName>
+                <default>false</default>
+                <label>Secondary Pack Faults</label>
+            </value>
+            <value>
+                <fullName>Seeds</fullName>
+                <default>false</default>
+                <label>Seeds</label>
+            </value>
+            <value>
+                <fullName>Shape Outage</fullName>
+                <default>false</default>
+                <label>Shape Outage</label>
+            </value>
+            <value>
+                <fullName>Sharp Edge</fullName>
+                <default>false</default>
+                <label>Sharp Edge</label>
+            </value>
+            <value>
+                <fullName>Sharp Edge (Secondary)</fullName>
+                <default>false</default>
+                <label>Sharp Edge (Secondary)</label>
+            </value>
+            <value>
+                <fullName>Sharp Edge (Soft)</fullName>
+                <default>false</default>
+                <label>Sharp Edge (Soft)</label>
+            </value>
+            <value>
+                <fullName>Sidewall Creases</fullName>
+                <default>false</default>
+                <label>Sidewall Creases</label>
+            </value>
+            <value>
+                <fullName>Sidewall Cut</fullName>
+                <default>false</default>
+                <label>Sidewall Cut</label>
+            </value>
+            <value>
+                <fullName>Sidewall Pin Hole Leaker / Puncture</fullName>
+                <default>false</default>
+                <label>Sidewall Pin Hole Leaker / Puncture</label>
+            </value>
+            <value>
+                <fullName>Sidewall Split / Burst</fullName>
+                <default>false</default>
+                <label>Sidewall Split / Burst</label>
+            </value>
+            <value>
+                <fullName>Small Animal</fullName>
+                <default>false</default>
+                <label>Small Animal</label>
+            </value>
+            <value>
+                <fullName>Soft Sided</fullName>
+                <default>false</default>
+                <label>Soft Sided</label>
+            </value>
+            <value>
+                <fullName>Split Finish</fullName>
+                <default>false</default>
+                <label>Split Finish</label>
+            </value>
+            <value>
+                <fullName>Stress Corrosion</fullName>
+                <default>false</default>
+                <label>Stress Corrosion</label>
+            </value>
+            <value>
+                <fullName>Stress Crack</fullName>
+                <default>false</default>
+                <label>Stress Crack</label>
+            </value>
+            <value>
+                <fullName>Tab Bands</fullName>
+                <default>false</default>
+                <label>Tab Bands</label>
+            </value>
+            <value>
+                <fullName>Tab Breaks</fullName>
+                <default>false</default>
+                <label>Tab Breaks</label>
+            </value>
+            <value>
+                <fullName>Tab Misaligned</fullName>
+                <default>false</default>
+                <label>Tab Misaligned</label>
+            </value>
+            <value>
+                <fullName>Tab Missing / Poor Rivet</fullName>
+                <default>false</default>
+                <label>Tab Missing / Poor Rivet</label>
+            </value>
+            <value>
+                <fullName>Tab Sharp Edge</fullName>
+                <default>false</default>
+                <label>Tab Sharp Edge</label>
+            </value>
+            <value>
+                <fullName>Tamper Band  Broken</fullName>
+                <default>false</default>
+                <label>Tamper Band  Broken</label>
+            </value>
+            <value>
+                <fullName>Tamper Band Did Not Detach</fullName>
+                <default>false</default>
+                <label>Tamper Band Did Not Detach</label>
+            </value>
+            <value>
+                <fullName>Tamper Band Sharp</fullName>
+                <default>false</default>
+                <label>Tamper Band Sharp</label>
+            </value>
+            <value>
+                <fullName>Thin Glass</fullName>
+                <default>false</default>
+                <label>Thin Glass</label>
+            </value>
+            <value>
+                <fullName>Tobacco / Ashes</fullName>
+                <default>false</default>
+                <label>Tobacco / Ashes</label>
+            </value>
+            <value>
+                <fullName>Top Seal Leaker</fullName>
+                <default>false</default>
+                <label>Top Seal Leaker</label>
+            </value>
+            <value>
+                <fullName>Trade Damage</fullName>
+                <default>false</default>
+                <label>Trade Damage</label>
+            </value>
+            <value>
+                <fullName>Triple Point Leaker</fullName>
+                <default>false</default>
+                <label>Triple Point Leaker</label>
+            </value>
+            <value>
+                <fullName>Unauthorised Stock</fullName>
+                <default>false</default>
+                <label>Unauthorised Stock</label>
+            </value>
+            <value>
+                <fullName>Underscore Corrosion</fullName>
+                <default>false</default>
+                <label>Underscore Corrosion</label>
+            </value>
+            <value>
+                <fullName>Unique Code Invalid</fullName>
+                <default>false</default>
+                <label>Unique Code Invalid</label>
+            </value>
+            <value>
+                <fullName>Unique Code Misapplied</fullName>
+                <default>false</default>
+                <label>Unique Code Misapplied</label>
+            </value>
+            <value>
+                <fullName>Unique Code Missing</fullName>
+                <default>false</default>
+                <label>Unique Code Missing</label>
+            </value>
+            <value>
+                <fullName>Vented</fullName>
+                <default>false</default>
+                <label>Vented</label>
+            </value>
+            <value>
+                <fullName>Vent Sharp Post Opening</fullName>
+                <default>false</default>
+                <label>Vent Sharp Post Opening</label>
+            </value>
+            <value>
+                <fullName>Washboard</fullName>
+                <default>false</default>
+                <label>Washboard</label>
+            </value>
+            <value>
+                <fullName>Within BBE Date</fullName>
+                <default>false</default>
+                <label>Within BBE Date</label>
+            </value>
+            <value>
+                <fullName>Wood</fullName>
+                <default>false</default>
+                <label>Wood</label>
+            </value>
+            <value>
+                <fullName>Yeast Formed On Connector</fullName>
+                <default>false</default>
+                <label>Yeast Formed On Connector</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Archived</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Counterfeit Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Counterfeit Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Imported Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Not Conclusive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Not Valid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Unauthorised Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Base Chime Puncture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Base Domed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Base Puncture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Base Rim / Riding Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Base Split</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Bulge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Burst Impact Base (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Neck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Burst Impact Neck (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Shoulder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Burst Impact Shoulder (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Sidewall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Burst Impact Sidewall (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Burst Temperature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Damaged Flange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Damaged Rim / Impact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Dirty / Contaminated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Dirty / Contaminated (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Inclusion In Bottle Wall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Incorrect Primary Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Incorrect Primary Packaging (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <controllingFieldValue>Temporary</controllingFieldValue>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <controllingFieldValue>Codes / Graphics / Labels</controllingFieldValue>
+            <valueName>In Spec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>In Spec (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Lacquer Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Missing Pack From Multipack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Missing Pack From Multipack (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Neck Thread Breaks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>PET Wall Thickness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Temporary</controllingFieldValue>
+            <valueName>Primary Pack Faults</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Primary Pack Faults (Can/Pet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Secondary Corrosion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Sidewall Creases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Sidewall Cut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Sidewall Pin Hole Leaker / Puncture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Sidewall Split / Burst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Soft Sided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Can / PET</controllingFieldValue>
+            <valueName>Stress Crack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Bird Swing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Blisters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Broken Neck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Broken Neck Crizzle Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Broken Neck Thin Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Fermented Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Base (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Neck (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Shoulder (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Burst Impact Sidewall (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Checks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Chipped / Broken Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Chocked Neck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Cracks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Crizzle Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Dirty / Contaminated (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Dirty Body / Finish Moulds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Excessive Blooming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Excessive Weathering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>False Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Glass Spike</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Heel Tap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Inclusions Or Stones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Incompletely Formed Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Incorrect Primary Packaging (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>In Spec (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Misc Marks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Missing Pack from Multipack (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Neck Rim Seam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Offset Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Offset Mould Marks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Oil / Coloured Streaks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Optical Shadows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Over Pressed Finish Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Primary Pack Faults (Glass)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Scuffed Surface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Seeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Shape Outage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Split Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Thin Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Glass</controllingFieldValue>
+            <valueName>Washboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Bag Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Damaged Straw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Dip Strip Defect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Gluing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Impact Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Insufficient Wash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Leaking Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Leaking Seam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Missing Straws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Pin Hole Leaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Push Panel Strength</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Top Seal Leaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Other</controllingFieldValue>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Triple Point Leaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Dirty / Contaminated (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Gluing issue (Primary Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Impact Damage (Primary Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Incorrect Primary Packaging (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>In Spec (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Missing Pack From Multi Pack (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Primary Pack Faults (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary Packaging Defect - Soft</controllingFieldValue>
+            <valueName>Sharp Edge (Soft)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>In Spec, Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <valueName>In Spec, Open (Product Apperance)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>In Spec, Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <valueName>In Spec, Sealed (Product Apperance)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Open / Empty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <valueName>Open / Empty (Product Apperance)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Out Of Spec, Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <valueName>Out Of Spec, Sealed (Product Apperance)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Appearance</controllingFieldValue>
+            <valueName>Out of Spec / Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>In Spec (Promotion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Promotion Invalid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Promotion Misapplied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Promotion Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Unique Code Invalid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Unique Code Misapplied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotions</controllingFieldValue>
+            <valueName>Unique Code Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Dirty / Contaminated (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Foreign Object</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Gluing Issue (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Impact Damage (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Incorrect Secondary Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>In Spec (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Pack Fail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Secondary Packaging Defect</controllingFieldValue>
+            <valueName>Sharp Edge (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Temporary</controllingFieldValue>
+            <valueName>In Spec (Temporary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Temporary</controllingFieldValue>
+            <valueName>Secondary Pack Faults</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>In Spec, sealed (Carbonation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>Open / Empty (Carbonation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>Out of Spec Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>Out of Spec Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>Out Of Spec Sealed (Carbonation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Can End Rim Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Defective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Dirty / Contaminated (Closure/Can end)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>End Compound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>End Peaked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>End Seam Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Fail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Foil Seal Hard To Remove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Foil Seal Leaking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Foil Seal Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Glass In Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Hard To Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Incorrect Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>In Spec (Closure Can/End)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Liner missing / defective / loose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Metal Cap Sharp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Misapplied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Missile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Pour Panel Missing / Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Rivet Leaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Rusty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Stress Corrosion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tab Bands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tab Breaks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tab Misaligned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tab Missing / Poor Rivet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tab Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tamper Band  Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tamper Band Did Not Detach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Tamper Band Sharp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Underscore Corrosion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Vented</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Vent Sharp Post Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closure / Can End</controllingFieldValue>
+            <valueName>Yeast Formed On Connector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Codes / Graphics / Labels</controllingFieldValue>
+            <valueName>Graphics / Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Codes / Graphics / Labels</controllingFieldValue>
+            <valueName>In Spec (Code,Graphic,label)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Codes / Graphics / Labels</controllingFieldValue>
+            <valueName>Production Codes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged in trade</controllingFieldValue>
+            <valueName>Trade Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <valueName>In Spec, Sealed (Fill Control)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <valueName>Not Filled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <valueName>Open / Empty (Fill Control)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Out Of Spec, Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <valueName>Out of Spec, Open (Fill Control)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fill Control</controllingFieldValue>
+            <valueName>Out of Spec, Sealed (Fill Control)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Capsule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Cloth / Fabric / Leather</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Contamination Post Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Dirt / Sand / Grit / Soil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>GIP Glass Container</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>GIP Non Glass Container</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Insect / Invertebrate Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Insect / Invertebrate Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Machine Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Metal / Swarf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Mould</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>None Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Oil / Grease / Swarf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Organic Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Paper / Straw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Pin / Needle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Plant Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Plastic / Swarf / PET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Rubber / Swarf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Small Animal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Tobacco / Ashes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <valueName>Wood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No sample received</controllingFieldValue>
+            <valueName>No Sample Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>In Spec, Open (Off Taste &amp; Odour)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>In Spec, Sealed (Off Taste &amp; Odour)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Open / Empty (Off Taste &amp; Odour)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Out Of Spec, Open (Off Taste &amp; Odour)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste / Odour</controllingFieldValue>
+            <valueName>Out of Spec, Sealed (Off Taste &amp; Odour)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Opened Post BBE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Post BBE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Purchased Post BBE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Within BBE Date</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

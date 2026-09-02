@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_Restrict_IMCR_Issue_for_Agents</fullName>
+    <active>true</active>
+    <description>Only Japan CIC Managers can confirm IMCR case.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Country_Code__c,&apos;JP&apos;),NOT(CONTAINS($UserRole.Name,&apos;CCJC CIC Manager&apos;)),ISPICKVAL(Is_IMCR_Issue__c, &apos;Confirmed&apos;),OR(ISCHANGED(Is_IMCR_Issue__c),ISNEW()))</errorConditionFormula>
+    <errorDisplayField>Is_IMCR_Issue__c</errorDisplayField>
+    <errorMessage>You are not allowed to mark the case as a confirmed IMCR. Only CIC Managers (Super users) can confirm IMCR case.</errorMessage>
+</ValidationRule>

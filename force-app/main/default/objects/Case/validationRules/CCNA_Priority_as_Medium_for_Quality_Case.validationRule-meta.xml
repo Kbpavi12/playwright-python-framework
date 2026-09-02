@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Priority_as_Medium_for_Quality_Case</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Country_Code__c , &apos;US&apos;),
+				$User.Id!=&apos;0055A00000Bn4ME&apos;,
+				RecordType.DeveloperName == &apos;NA_Quality&apos;, ISPICKVAL( Priority , &apos;Low&apos;)  )</errorConditionFormula>
+    <errorMessage>Invalid Priority – Quality complaints cannot have a low priority.</errorMessage>
+</ValidationRule>

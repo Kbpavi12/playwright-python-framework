@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_of_Answer__c</fullName>
+    <description>Used for LATAM to capture the channel through which the response was provided. 
+BU :- LATAM</description>
+    <label>Channel of Answer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Letter</fullName>
+                <default>false</default>
+                <label>Letter</label>
+            </value>
+            <value>
+                <fullName>No answer</fullName>
+                <default>false</default>
+                <label>No answer</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Forum</fullName>
+                <default>false</default>
+                <label>Forum</label>
+            </value>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+                <label>YouTube</label>
+            </value>
+            <value>
+                <fullName>Other Social Network</fullName>
+                <default>false</default>
+                <label>Other Social Network</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Fax</fullName>
+                <default>false</default>
+                <label>Fax</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Corporate Channels</fullName>
+                <default>false</default>
+                <label>Corporate Channels</label>
+            </value>
+            <value>
+                <fullName>Bottler Channels</fullName>
+                <default>false</default>
+                <label>Bottler Channels</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

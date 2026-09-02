@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sent_to_Agency_Promo</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Promotions_Name__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Sent to Agency Promo</value>
+    </filters>
+    <label>Sent to Agency Promo</label>
+    <sharedTo>
+        <group>LATAM_Bottlers</group>
+        <group>Latam_CIC_Role_Users</group>
+    </sharedTo>
+</ListView>

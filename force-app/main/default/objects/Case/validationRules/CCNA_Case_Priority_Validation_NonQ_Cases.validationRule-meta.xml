@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Case_Priority_Validation_NonQ_Cases</fullName>
+    <active>true</active>
+    <description>This rule will fire for except Quality Cases when Case has Medium,High or Very High priority and consumer is not linked or Phone or email is missing for that consumer.</description>
+    <errorConditionFormula>AND(	
+
+	RecordType.DeveloperName != &apos;NA_Quality&apos;,
+	OR(
+		ISPICKVAL( Priority , &apos;Medium&apos;) ,
+		ISPICKVAL( Priority , &apos;High&apos;),
+		ISPICKVAL( Priority , &apos;Very High&apos;)
+	),
+		ISPICKVAL(Country_Code__c,&apos;US&apos;),
+	AND(
+		Account.PersonEmail = null,
+		OR(
+			Account.Primary_Phone__c = null,
+			CONTAINS(&quot;na:NA:nA:Na&quot;, Account.Primary_Phone__c )
+		)
+	), NOT( AND(ISCHANGED(OwnerId),LEFT(PRIORVALUE(OwnerId),3) =&apos;00G&apos;) ),$User.FirstName !=&apos;System&apos;
+	
+)</errorConditionFormula>
+    <errorMessage>Priority should be kept as low if no consumer is linked or primary phone, email address and last name are missing in Consumer details.</errorMessage>
+</ValidationRule>

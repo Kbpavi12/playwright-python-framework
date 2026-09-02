@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_COC_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Category_Level_1__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Queue</filterScope>
+    <label>[COC] メールケース(未アサイン)</label>
+    <queue>Email_COC</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+        <group>Japan_Bottler_IMCR_Public_Group</group>
+        <group>Japan_Bottler_Plant_Public_Group</group>
+        <group>Japan_Bottler_QA_Public_Group</group>
+        <group>Japan_CCJC_CIC_General_User</group>
+    </sharedTo>
+</ListView>

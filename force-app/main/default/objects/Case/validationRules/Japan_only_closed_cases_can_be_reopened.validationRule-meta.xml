@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_only_closed_cases_can_be_reopened</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+NOT(OR(ISPICKVAL(PRIORVALUE(Status), &apos;Closed&apos;),ISPICKVAL(PRIORVALUE(Status), &apos;Reopened&apos;))), 
+ISPICKVAL(Status,&apos;Reopened&apos;),
+(
+OR
+(
+CONTAINS($UserRole.Name,&apos;Bottler HQ&apos;),
+CONTAINS($UserRole.Name,&apos;CCJC CIC Manager&apos;),
+CONTAINS($UserRole.Name,&apos;Plant&apos;),
+CONTAINS($UserRole.Name,&apos;Bottler QA&apos;),
+CONTAINS($UserRole.Name,&apos;Salesforce&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC CSC User&apos;), 
+CONTAINS($Profile.Name ,&apos;CCJC CIC Multi User&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC COC User&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC CPC User&apos;),
+CONTAINS($Profile.Name ,&apos;System Admin&apos;)
+)),
+ISPICKVAL(Country_Code__c,&apos;JP&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Only closed cases can be reopened</errorMessage>
+</ValidationRule>

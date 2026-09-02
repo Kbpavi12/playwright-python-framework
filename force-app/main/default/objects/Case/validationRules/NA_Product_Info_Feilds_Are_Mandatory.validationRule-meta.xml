@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_Product_Info_Feilds_Are_Mandatory</fullName>
+    <active>true</active>
+    <description>Consumption Frequency, Purchase Frequency and Beverage Storage cannot have default values when Production Process is Dairy.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Country_Code__c,&apos;US&apos;),
+				NOT(Contains($Profile.Name,&apos;CCNA Bottler&apos;)),
+				CreatedDate &gt; DATETIMEVALUE( &quot;2023-11-13 00:00:00&quot; ),
+				NOT(ISPICKVAL(Status,&apos;New&apos;)),
+    RecordType.DeveloperName = &apos;NA_Quality&apos;,
+				$Profile.Name != &apos;Nexus Data Loader&apos;,
+				Contains(Production_Process__c,&apos;Dairy&apos;), 
+	   OR(ISPICKVAL(Beverage_Storage__c ,&apos;None&apos;),
+						 ISPICKVAL(Purchase_Frequency__c ,&apos;None&apos;),
+							ISPICKVAL(Consumption_Frequency__c ,&apos;None&apos;),
+							ISPICKVAL(Temperature_Served__c ,&apos;None&apos;),
+							ISPICKVAL(Days_Opened_when_Consumed__c ,&apos;None&apos;),
+							ISPICKVAL(Beverage_Storage__c ,&apos;&apos;),
+						 ISPICKVAL(Purchase_Frequency__c ,&apos;&apos;),
+							ISPICKVAL(Consumption_Frequency__c ,&apos;&apos;),
+							ISPICKVAL(Temperature_Served__c ,&apos;&apos;),
+							ISPICKVAL(Days_Opened_when_Consumed__c ,&apos;&apos;)
+						 )
+			)</errorConditionFormula>
+    <errorDisplayField>Consumption_Frequency__c</errorDisplayField>
+    <errorMessage>When Production Process contains Dairy these fields cannot be &apos;None&apos; i.e. Consumption Frequency, Purchase Frequency, Temperature Served, Beverage Storage and Days Opened.</errorMessage>
+</ValidationRule>

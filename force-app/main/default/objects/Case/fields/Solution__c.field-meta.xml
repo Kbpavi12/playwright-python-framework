@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution__c</fullName>
+    <label>Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Explain and Customer acknowledged</fullName>
+                <default>false</default>
+                <label>Explain and Customer acknowledged</label>
+            </value>
+            <value>
+                <fullName>Offer Substitute</fullName>
+                <default>false</default>
+                <label>Offer Substitute</label>
+            </value>
+            <value>
+                <fullName>Treatment cost</fullName>
+                <default>false</default>
+                <label>Treatment cost</label>
+            </value>
+            <value>
+                <fullName>Compensation payment</fullName>
+                <default>false</default>
+                <label>Compensation payment</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Fail to reach agreement</fullName>
+                <default>false</default>
+                <label>Fail to reach agreement</label>
+            </value>
+            <value>
+                <fullName>Negotiation completed</fullName>
+                <default>false</default>
+                <label>Negotiation completed</label>
+            </value>
+            <value>
+                <fullName>Negotiation not completed</fullName>
+                <default>false</default>
+                <label>Negotiation not completed</label>
+            </value>
+            <value>
+                <fullName>In negotiation</fullName>
+                <default>false</default>
+                <label>In negotiation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Update SDK</fullName>
+                <default>false</default>
+                <label>Update SDK</label>
+            </value>
+            <value>
+                <fullName>Reset</fullName>
+                <default>false</default>
+                <label>Reset</label>
+            </value>
+            <value>
+                <fullName>Power OFF/ON</fullName>
+                <default>false</default>
+                <label>Power OFF/ON</label>
+            </value>
+            <value>
+                <fullName>Stuck</fullName>
+                <default>false</default>
+                <label>Stuck</label>
+            </value>
+            <value>
+                <fullName>Change parts</fullName>
+                <default>false</default>
+                <label>Change parts</label>
+            </value>
+            <value>
+                <fullName>Running smoothly</fullName>
+                <default>false</default>
+                <label>Running smoothly</label>
+            </value>
+            <value>
+                <fullName>Checked</fullName>
+                <default>false</default>
+                <label>Checked</label>
+            </value>
+            <value>
+                <fullName>Check address</fullName>
+                <default>false</default>
+                <label>Check address</label>
+            </value>
+            <value>
+                <fullName>Change address</fullName>
+                <default>false</default>
+                <label>Change address</label>
+            </value>
+            <value>
+                <fullName>Redelivered</fullName>
+                <default>false</default>
+                <label>Redelivered</label>
+            </value>
+            <value>
+                <fullName>Send back pops</fullName>
+                <default>false</default>
+                <label>Send back pops</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Operation check</fullName>
+                <default>false</default>
+                <label>Operation check</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Columns</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Columns</label>
+            </value>
+            <value>
+                <fullName>Negotiation conflict</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Negotiation conflict</label>
+            </value>
+            <value>
+                <fullName>No problems</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No problems</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not specified</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Update</label>
+            </value>
+            <value>
+                <fullName>Update(Need details)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Update(Need details)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

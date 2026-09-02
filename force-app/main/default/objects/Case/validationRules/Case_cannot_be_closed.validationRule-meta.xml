@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_cannot_be_closed</fullName>
+    <active>true</active>
+    <description>CSC/COC/CPC Communicatior/Supervisor/SuperUser/Leader/Manager/Bottler HQ should be allowed to close the case and other users should be restricted from doing the same.</description>
+    <errorConditionFormula>AND
+(NOT(OR(
+CONTAINS
+($UserRole.Name ,&apos;CCJC CIC Manager&apos;), CONTAINS( $UserRole.Name ,&apos;Bottler HQ&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC COC User&apos;),CONTAINS($Profile.Name ,&apos;CCJC CIC CSC User&apos;)
+,CONTAINS($Profile.Name ,&apos;CCJC CIC CPC User&apos;),CONTAINS($Profile.Name ,&apos;System Admin&apos;),CONTAINS($Profile.Name ,&apos;Nexus Data Loader&apos;),CONTAINS($Profile.Name, &apos;CCJC CIC Multi User&apos;)
+)),ISPICKVAL(Status ,&quot;Closed&quot;),ISPICKVAL(Country_Code__c,&apos;JP&apos;))</errorConditionFormula>
+    <errorDisplayField>X1st_task__c</errorDisplayField>
+    <errorMessage>You don&apos;t have permission to close the case.</errorMessage>
+</ValidationRule>

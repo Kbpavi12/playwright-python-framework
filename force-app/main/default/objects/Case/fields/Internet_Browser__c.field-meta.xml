@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internet_Browser__c</fullName>
+    <label>Internet Browser</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Apple Safari</fullName>
+                <default>false</default>
+                <label>Apple Safari</label>
+            </value>
+            <value>
+                <fullName>Google Chrome</fullName>
+                <default>false</default>
+                <label>Google Chrome</label>
+            </value>
+            <value>
+                <fullName>Mozilla Firefox</fullName>
+                <default>false</default>
+                <label>Mozilla Firefox</label>
+            </value>
+            <value>
+                <fullName>MS Edge</fullName>
+                <default>false</default>
+                <label>MS Edge</label>
+            </value>
+            <value>
+                <fullName>MS Internet Explorer</fullName>
+                <default>false</default>
+                <label>MS Internet Explorer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

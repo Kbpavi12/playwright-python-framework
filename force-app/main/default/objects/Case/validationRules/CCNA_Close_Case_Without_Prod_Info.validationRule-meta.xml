@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Close_Case_Without_Prod_Info</fullName>
+    <active>true</active>
+    <description>Agent should not be able to close a case without the information of the product in Quality complaint.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Country_Code__c,&apos;US&apos;),
+OR(
+AND(Product__c==null,DATEVALUE(CreatedDate) &gt;= DATE(2023,03,28)),
+AND(DATEVALUE(CreatedDate) &lt;= DATE(2023,03,27), Product__c==null, Other_Product_Information__c ==null)
+),
+ISPICKVAL(Status ,&apos;Closed&apos;),
+RecordType.DeveloperName == &quot;NA_Quality&quot;,
+OR(ISPICKVAL(Reason , &apos;Product&apos;), ISPICKVAL(Reason , &apos;Package&apos;),
+ISPICKVAL( NA1_Category_Level_3__c , &apos;Reaction&apos;))
+)</errorConditionFormula>
+    <errorDisplayField>Product__c</errorDisplayField>
+    <errorMessage>Product Name cannot be blank. Please select &quot;Dummy Product&quot; if product is unknown.</errorMessage>
+</ValidationRule>

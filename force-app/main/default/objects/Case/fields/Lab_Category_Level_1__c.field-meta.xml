@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Category_Level_1__c</fullName>
+    <description>Used for LATAM to determine the level 1 lab analysis category for the case. 
+BU :- LATAM</description>
+    <label>Lab Category Level 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Carbonation</fullName>
+                <default>false</default>
+                <label>Carbonation</label>
+            </value>
+            <value>
+                <fullName>Closure / Can End</fullName>
+                <default>false</default>
+                <label>Closure / Can End</label>
+            </value>
+            <value>
+                <fullName>Codes / Graphics / Labels</fullName>
+                <default>false</default>
+                <label>Codes / Graphics / Labels</label>
+            </value>
+            <value>
+                <fullName>Damaged in trade</fullName>
+                <default>false</default>
+                <label>Damaged in trade</label>
+            </value>
+            <value>
+                <fullName>Fill Control</fullName>
+                <default>false</default>
+                <label>Fill Control</label>
+            </value>
+            <value>
+                <fullName>Foreign Matter</fullName>
+                <default>false</default>
+                <label>Foreign Matter</label>
+            </value>
+            <value>
+                <fullName>No sample received</fullName>
+                <default>false</default>
+                <label>No sample received</label>
+            </value>
+            <value>
+                <fullName>Not Categorised</fullName>
+                <default>false</default>
+                <label>Not Categorised</label>
+            </value>
+            <value>
+                <fullName>Off Taste / Odour</fullName>
+                <default>false</default>
+                <label>Off Taste / Odour</label>
+            </value>
+            <value>
+                <fullName>Old Product</fullName>
+                <default>false</default>
+                <label>Old Product</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Primary Packaging Defect - Can / PET</fullName>
+                <default>false</default>
+                <label>Primary Packaging Defect - Can / PET</label>
+            </value>
+            <value>
+                <fullName>Primary Packaging Defect - Glass</fullName>
+                <default>false</default>
+                <label>Primary Packaging Defect - Glass</label>
+            </value>
+            <value>
+                <fullName>Primary Packaging Defect - Other</fullName>
+                <default>false</default>
+                <label>Primary Packaging Defect - Other</label>
+            </value>
+            <value>
+                <fullName>Primary Packaging Defect - Soft</fullName>
+                <default>false</default>
+                <label>Primary Packaging Defect - Soft</label>
+            </value>
+            <value>
+                <fullName>Product Appearance</fullName>
+                <default>false</default>
+                <label>Product Appearance</label>
+            </value>
+            <value>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+                <label>Promotions</label>
+            </value>
+            <value>
+                <fullName>Secondary Packaging Defect</fullName>
+                <default>false</default>
+                <label>Secondary Packaging Defect</label>
+            </value>
+            <value>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+                <label>Temporary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

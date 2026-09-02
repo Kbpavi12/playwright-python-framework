@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Create_Case_Without_Prod_Info</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Country_Code__c,&apos;US&apos;),
+$User.Id &lt;&gt;&apos;0055A00000Bn4MEQAZ&apos;, 
+$User.FirstName &lt;&gt;&apos;System&apos;,
+Product__c==null,
+ISNEW(),
+RecordType.DeveloperName == &quot;NA_Quality&quot;,
+OR(ISPICKVAL(Reason , &apos;Product&apos;), ISPICKVAL(Reason , &apos;Package&apos;),
+ISPICKVAL( NA1_Category_Level_3__c , &apos;Reaction&apos;))
+)</errorConditionFormula>
+    <errorDisplayField>Product__c</errorDisplayField>
+    <errorMessage>Product Name cannot be blank. Please select &quot;Dummy Product&quot; if you are saving this record for the first time.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Body_Injuries__c</fullName>
+    <description>Used for LATAM to determine body injuries during the initial risk evaluation.
+BU:- LATAM</description>
+    <label>Body Injuries</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Injuries</fullName>
+                <default>false</default>
+                <label>Injuries</label>
+            </value>
+            <value>
+                <fullName>Illness</fullName>
+                <default>false</default>
+                <label>Illness</label>
+            </value>
+            <value>
+                <fullName>Allergy</fullName>
+                <default>false</default>
+                <label>Allergy</label>
+            </value>
+            <value>
+                <fullName>Colic, stomach ache</fullName>
+                <default>false</default>
+                <label>Colic, stomach ache</label>
+            </value>
+            <value>
+                <fullName>Diarrhea</fullName>
+                <default>false</default>
+                <label>Diarrhea</label>
+            </value>
+            <value>
+                <fullName>Headache</fullName>
+                <default>false</default>
+                <label>Headache</label>
+            </value>
+            <value>
+                <fullName>Burning throat</fullName>
+                <default>false</default>
+                <label>Burning throat</label>
+            </value>
+            <value>
+                <fullName>Stinging mouth</fullName>
+                <default>false</default>
+                <label>Stinging mouth</label>
+            </value>
+            <value>
+                <fullName>Stained mouth</fullName>
+                <default>false</default>
+                <label>Stained mouth</label>
+            </value>
+            <value>
+                <fullName>Discomfort</fullName>
+                <default>false</default>
+                <label>Discomfort</label>
+            </value>
+            <value>
+                <fullName>Vomit</fullName>
+                <default>false</default>
+                <label>Vomit</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

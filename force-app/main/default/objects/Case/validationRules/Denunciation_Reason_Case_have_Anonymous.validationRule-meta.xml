@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Denunciation_Reason_Case_have_Anonymous</fullName>
+    <active>true</active>
+    <description>If case reason is &apos;Denunciation&apos;, the case must have an Anonymous Account</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+
+OR ( 
+  AND (
+    RecordType.DeveloperName = &quot;Latam_Non_Quality&quot;,
+    ISPICKVAL(Reason, &quot;Denunciation (NQC)&quot;),
+    ISBLANK( Account.Id )
+  ),
+  AND(
+    RecordType.DeveloperName = &quot;Latam_Non_Quality&quot;,
+    ISPICKVAL(Reason, &quot;Denunciation (NQC)&quot;),
+    NOT (Account.Anonymous_Consumer__c)
+  )
+))</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Please select Anonymous Account</errorMessage>
+</ValidationRule>

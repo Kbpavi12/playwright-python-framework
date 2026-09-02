@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Advertisement_Mandatory_NonQuality</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &apos;NA_Non_Quality&apos;,
+ISBLANK(  Advertisement__c ) ,
+ISPICKVAL( Country_Code__c ,&apos;US&apos;),
+OR(CONTAINS(Text(NA1_Category_Level_3__c),&quot;Marketing Advertising&quot; 
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Advertisement__c</errorDisplayField>
+    <errorMessage>Please select the related  Advertisement.</errorMessage>
+</ValidationRule>

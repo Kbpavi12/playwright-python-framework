@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Level_1__c</fullName>
+    <label>Category Level 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category_Level4__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Coke ON application</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coke ON application</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Drink Ticket</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Drink Ticket</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Non Quality</fullName>
+                <default>false</default>
+                <label>Non Quality</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Stamp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stamp</label>
+            </value>
+            <value>
+                <fullName>Vending machine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vending machine</label>
+            </value>
+            <value>
+                <fullName>Web/Campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Web/Campaign</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>About Drink Ticket</controllingFieldValue>
+            <controllingFieldValue>Acidulant</controllingFieldValue>
+            <controllingFieldValue>Unavailable IC</controllingFieldValue>
+            <controllingFieldValue>Use History</controllingFieldValue>
+            <controllingFieldValue>VersionUp</controllingFieldValue>
+            <controllingFieldValue>Vitamin</controllingFieldValue>
+            <controllingFieldValue>Warning / notice indication</controllingFieldValue>
+            <controllingFieldValue>Raw material / nutrition label</controllingFieldValue>
+            <controllingFieldValue>water</controllingFieldValue>
+            <controllingFieldValue>Recycle mark</controllingFieldValue>
+            <controllingFieldValue>Web/Mobile</controllingFieldValue>
+            <controllingFieldValue>Recycling/Deposit</controllingFieldValue>
+            <controllingFieldValue>Reissued App ID</controllingFieldValue>
+            <controllingFieldValue>Can · PET vending machine</controllingFieldValue>
+            <controllingFieldValue>Removal</controllingFieldValue>
+            <controllingFieldValue>Requests and proposals for new product release</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Requests and suggestions for improvement of existing products</controllingFieldValue>
+            <controllingFieldValue>Requests for cardboard and other containers</controllingFieldValue>
+            <controllingFieldValue>Resign</controllingFieldValue>
+            <controllingFieldValue>Resurrection / Resale of Finished Products</controllingFieldValue>
+            <controllingFieldValue>Gas volume · Strength of carbonic acid</controllingFieldValue>
+            <controllingFieldValue>Rin/Potassium</controllingFieldValue>
+            <controllingFieldValue>Cup vending machine / dispenser / drink server</controllingFieldValue>
+            <controllingFieldValue>Multi-money / multi-language compatible vending machine</controllingFieldValue>
+            <controllingFieldValue>Negative</controllingFieldValue>
+            <controllingFieldValue>Must-buy(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>New product information</controllingFieldValue>
+            <controllingFieldValue>New transaction (product)</controllingFieldValue>
+            <controllingFieldValue>Sampling Ticket</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Non-Target Product</controllingFieldValue>
+            <controllingFieldValue>hard-by</controllingFieldValue>
+            <controllingFieldValue>No Relation w/Coca-Cola</controllingFieldValue>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>Setting goals</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>Not eligible from double stamp</controllingFieldValue>
+            <controllingFieldValue>Shape / Material</controllingFieldValue>
+            <controllingFieldValue>Not found</controllingFieldValue>
+            <controllingFieldValue>Shelf life / deadline</controllingFieldValue>
+            <controllingFieldValue>How-to-check steps</controllingFieldValue>
+            <controllingFieldValue>Other (Vending Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Site confirmation / Other inquiries</controllingFieldValue>
+            <controllingFieldValue>How to drink / Effect effect</controllingFieldValue>
+            <controllingFieldValue>How-to-find</controllingFieldValue>
+            <controllingFieldValue>Registration Completed</controllingFieldValue>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <controllingFieldValue>How-to-get Drink Ticket</controllingFieldValue>
+            <controllingFieldValue>No words</controllingFieldValue>
+            <controllingFieldValue>VM Request</controllingFieldValue>
+            <controllingFieldValue>Obesity</controllingFieldValue>
+            <controllingFieldValue>Spam</controllingFieldValue>
+            <controllingFieldValue>How-to-purchase</controllingFieldValue>
+            <controllingFieldValue>How to read the expiration date</controllingFieldValue>
+            <controllingFieldValue>Sponsorship Request</controllingFieldValue>
+            <controllingFieldValue>How-to-takeover</controllingFieldValue>
+            <controllingFieldValue>Olympics/World Cup</controllingFieldValue>
+            <controllingFieldValue>Sports Events/Activities</controllingFieldValue>
+            <controllingFieldValue>How-to-use</controllingFieldValue>
+            <controllingFieldValue>How-to-use Apps</controllingFieldValue>
+            <controllingFieldValue>How-to-use Drink Ticket</controllingFieldValue>
+            <controllingFieldValue>Others(COC Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Stamp/Must-buy</controllingFieldValue>
+            <controllingFieldValue>Organization</controllingFieldValue>
+            <controllingFieldValue>Stamps</controllingFieldValue>
+            <controllingFieldValue>Registered Card</controllingFieldValue>
+            <controllingFieldValue>Hung Up</controllingFieldValue>
+            <controllingFieldValue>Origin of product name</controllingFieldValue>
+            <controllingFieldValue>Container safety</controllingFieldValue>
+            <controllingFieldValue>Mark scan / barcode input</controllingFieldValue>
+            <controllingFieldValue>Container standard</controllingFieldValue>
+            <controllingFieldValue>Contents display</controllingFieldValue>
+            <controllingFieldValue>Continuation</controllingFieldValue>
+            <controllingFieldValue>I hate it</controllingFieldValue>
+            <controllingFieldValue>Suggestion</controllingFieldValue>
+            <controllingFieldValue>Continue(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>increase</controllingFieldValue>
+            <controllingFieldValue>Coordination GoogleFit</controllingFieldValue>
+            <controllingFieldValue>sweetener</controllingFieldValue>
+            <controllingFieldValue>Count steps</controllingFieldValue>
+            <controllingFieldValue>Coupon Code</controllingFieldValue>
+            <controllingFieldValue>Switch</controllingFieldValue>
+            <controllingFieldValue>Inquiry of Shipment</controllingFieldValue>
+            <controllingFieldValue>Switch/Contract</controllingFieldValue>
+            <controllingFieldValue>CPC(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>System Requirements</controllingFieldValue>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <controllingFieldValue>Target</controllingFieldValue>
+            <controllingFieldValue>CSC(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>CSR Activites/Request for CSR Activities</controllingFieldValue>
+            <controllingFieldValue>CS Survey · SMS Survey</controllingFieldValue>
+            <controllingFieldValue>Admin Number</controllingFieldValue>
+            <controllingFieldValue>Internal capacity</controllingFieldValue>
+            <controllingFieldValue>Taste / smell / color</controllingFieldValue>
+            <controllingFieldValue>Temperature (during storage / warming / refrigeration / freezing / normal temperature etc)</controllingFieldValue>
+            <controllingFieldValue>Data coordination</controllingFieldValue>
+            <controllingFieldValue>Thanks/Encouragement</controllingFieldValue>
+            <controllingFieldValue>There&apos;s no CokeON_VM</controllingFieldValue>
+            <controllingFieldValue>Dealer introduction</controllingFieldValue>
+            <controllingFieldValue>JAN code</controllingFieldValue>
+            <controllingFieldValue>label</controllingFieldValue>
+            <controllingFieldValue>Anxiety about raw materials</controllingFieldValue>
+            <controllingFieldValue>Application method / Inquiry of campaign</controllingFieldValue>
+            <controllingFieldValue>Lending (dove attached / refrigerator etc)</controllingFieldValue>
+            <controllingFieldValue>device(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>License agreement</controllingFieldValue>
+            <controllingFieldValue>Lifestyle diseases</controllingFieldValue>
+            <controllingFieldValue>Perfume</controllingFieldValue>
+            <controllingFieldValue>Period / area limited design</controllingFieldValue>
+            <controllingFieldValue>Tooth decay</controllingFieldValue>
+            <controllingFieldValue>Like</controllingFieldValue>
+            <controllingFieldValue>Pet</controllingFieldValue>
+            <controllingFieldValue>Trademark</controllingFieldValue>
+            <controllingFieldValue>Liked / Tasty</controllingFieldValue>
+            <controllingFieldValue>Disaster support type / vending machine installation with AED installed</controllingFieldValue>
+            <controllingFieldValue>Plant Tour</controllingFieldValue>
+            <controllingFieldValue>Line up / flavor</controllingFieldValue>
+            <controllingFieldValue>Application method / Other inquiries</controllingFieldValue>
+            <controllingFieldValue>Before paying</controllingFieldValue>
+            <controllingFieldValue>Benefit</controllingFieldValue>
+            <controllingFieldValue>Location</controllingFieldValue>
+            <controllingFieldValue>Display method</controllingFieldValue>
+            <controllingFieldValue>Double stamp</controllingFieldValue>
+            <controllingFieldValue>Logo / Illustration</controllingFieldValue>
+            <controllingFieldValue>POP Material</controllingFieldValue>
+            <controllingFieldValue>Positive</controllingFieldValue>
+            <controllingFieldValue>Lottery</controllingFieldValue>
+            <controllingFieldValue>Prank</controllingFieldValue>
+            <controllingFieldValue>Made date</controllingFieldValue>
+            <controllingFieldValue>Bonus Challenge</controllingFieldValue>
+            <controllingFieldValue>Bonus of installation</controllingFieldValue>
+            <controllingFieldValue>Bonus stamps(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Main raw material</controllingFieldValue>
+            <controllingFieldValue>Emulsifier</controllingFieldValue>
+            <controllingFieldValue>Price</controllingFieldValue>
+            <controllingFieldValue>End of sale</controllingFieldValue>
+            <controllingFieldValue>energy</controllingFieldValue>
+            <controllingFieldValue>Manufacturing method · process</controllingFieldValue>
+            <controllingFieldValue>Product content</controllingFieldValue>
+            <controllingFieldValue>Profile</controllingFieldValue>
+            <controllingFieldValue>Marketing / Sales Strategy</controllingFieldValue>
+            <controllingFieldValue>Material of container</controllingFieldValue>
+            <controllingFieldValue>Melt bone / teeth / Anxious</controllingFieldValue>
+            <controllingFieldValue>Protein / Lipid / Other</controllingFieldValue>
+            <controllingFieldValue>bottle</controllingFieldValue>
+            <controllingFieldValue>Brochures</controllingFieldValue>
+            <controllingFieldValue>Business Proposal</controllingFieldValue>
+            <controllingFieldValue>caffeine</controllingFieldValue>
+            <controllingFieldValue>Calendar Request</controllingFieldValue>
+            <controllingFieldValue>Exchange / Move</controllingFieldValue>
+            <controllingFieldValue>Mineral (other than phosphorus and potassium)</controllingFieldValue>
+            <controllingFieldValue>Execution content / Other inquiries</controllingFieldValue>
+            <controllingFieldValue>Expiration</controllingFieldValue>
+            <controllingFieldValue>Expiration date</controllingFieldValue>
+            <controllingFieldValue>Call back</controllingFieldValue>
+            <controllingFieldValue>Can</controllingFieldValue>
+            <controllingFieldValue>Cap / Tab (Request for Container)</controllingFieldValue>
+            <controllingFieldValue>Cap / Tab (Shape Design)</controllingFieldValue>
+            <controllingFieldValue>carbohydrate</controllingFieldValue>
+            <controllingFieldValue>Factory sign</controllingFieldValue>
+            <controllingFieldValue>Foaming</controllingFieldValue>
+            <controllingFieldValue>Cards/Brands</controllingFieldValue>
+            <controllingFieldValue>Cards registeration / Change / Deletion</controllingFieldValue>
+            <controllingFieldValue>Change gender / birthday</controllingFieldValue>
+            <controllingFieldValue>Change of contract contents (account / contractor etc.)</controllingFieldValue>
+            <controllingFieldValue>Food additive</controllingFieldValue>
+            <controllingFieldValue>Friendship bonus</controllingFieldValue>
+            <controllingFieldValue>General Activity</controllingFieldValue>
+            <controllingFieldValue>Gift Coupon</controllingFieldValue>
+            <controllingFieldValue>Coca-Cola Education and Environment Foundation</controllingFieldValue>
+            <controllingFieldValue>CokeON_Apps</controllingFieldValue>
+            <controllingFieldValue>CokeON_VM</controllingFieldValue>
+            <controllingFieldValue>CokeON_VM available for CokeONPay</controllingFieldValue>
+            <controllingFieldValue>Goods Availability</controllingFieldValue>
+            <controllingFieldValue>Handicap</controllingFieldValue>
+            <controllingFieldValue>Handling situation</controllingFieldValue>
+            <controllingFieldValue>Coloring</controllingFieldValue>
+            <controllingFieldValue>Contact from bottlers</controllingFieldValue>
+            <controllingFieldValue>Container manufacturer / Other (container general)</controllingFieldValue>
+            <valueName>Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A contact is not written.</controllingFieldValue>
+            <controllingFieldValue>Recovery box is overflowing</controllingFieldValue>
+            <controllingFieldValue>Reminder (contact / response etc)</controllingFieldValue>
+            <controllingFieldValue>Response to Consumer</controllingFieldValue>
+            <controllingFieldValue>Route Car</controllingFieldValue>
+            <controllingFieldValue>Sample and temperature setting (HOT / COLD) are wrong</controllingFieldValue>
+            <controllingFieldValue>No coin / tag acceptance / no return</controllingFieldValue>
+            <controllingFieldValue>Notification shortage / Other compliants</controllingFieldValue>
+            <controllingFieldValue>Other (Money Related)</controllingFieldValue>
+            <controllingFieldValue>Sold out</controllingFieldValue>
+            <controllingFieldValue>Injury by gift</controllingFieldValue>
+            <controllingFieldValue>Injury by gift / when opened</controllingFieldValue>
+            <controllingFieldValue>Sales Method / Stock Storage Condition</controllingFieldValue>
+            <controllingFieldValue>Inappropriate application / others pointed out</controllingFieldValue>
+            <controllingFieldValue>Incomplete Contact</controllingFieldValue>
+            <controllingFieldValue>Injury by prize</controllingFieldValue>
+            <controllingFieldValue>Other Non-Quality</controllingFieldValue>
+            <controllingFieldValue>Tepid</controllingFieldValue>
+            <controllingFieldValue>It was room temperature.</controllingFieldValue>
+            <controllingFieldValue>It was frozen</controllingFieldValue>
+            <controllingFieldValue>There are no exchange products in stores / vending machines</controllingFieldValue>
+            <controllingFieldValue>Delayed prize</controllingFieldValue>
+            <controllingFieldValue>There are no exchange products in vending machines</controllingFieldValue>
+            <controllingFieldValue>There is no product</controllingFieldValue>
+            <controllingFieldValue>The target product is not in the store / vending machine</controllingFieldValue>
+            <controllingFieldValue>The vending machine itself is dirty</controllingFieldValue>
+            <controllingFieldValue>too hot</controllingFieldValue>
+            <controllingFieldValue>Dislike</controllingFieldValue>
+            <controllingFieldValue>A prize does not open</controllingFieldValue>
+            <controllingFieldValue>A product different from the sample came out</controllingFieldValue>
+            <controllingFieldValue>Pointed out of other vending machines</controllingFieldValue>
+            <controllingFieldValue>Poor prize, parts shortage / typo</controllingFieldValue>
+            <controllingFieldValue>Premiums · Part shortage / typo</controllingFieldValue>
+            <controllingFieldValue>Empty cans are scattered</controllingFieldValue>
+            <controllingFieldValue>Manner</controllingFieldValue>
+            <controllingFieldValue>Many products came out</controllingFieldValue>
+            <controllingFieldValue>Failure / repair / maintenance shortage</controllingFieldValue>
+            <controllingFieldValue>FD Compliant</controllingFieldValue>
+            <controllingFieldValue>Multi-money payment problem</controllingFieldValue>
+            <controllingFieldValue>Gift Coupon (Non Quality)</controllingFieldValue>
+            <controllingFieldValue>Clogged / excessive / deficient</controllingFieldValue>
+            <controllingFieldValue>Company Responsibility</controllingFieldValue>
+            <controllingFieldValue>Contacts are difficult to read</controllingFieldValue>
+            <valueName>Non Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring Products Info</controllingFieldValue>
+            <controllingFieldValue>Unable to login Coca-Cola Member</controllingFieldValue>
+            <controllingFieldValue>Unable to login LINE</controllingFieldValue>
+            <controllingFieldValue>Under</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <controllingFieldValue>Unregistered Card</controllingFieldValue>
+            <controllingFieldValue>Unspecified</controllingFieldValue>
+            <controllingFieldValue>Update(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Value Display</controllingFieldValue>
+            <controllingFieldValue>Purchased in maintenance</controllingFieldValue>
+            <controllingFieldValue>Webiew Error</controllingFieldValue>
+            <controllingFieldValue>Wrong one from display</controllingFieldValue>
+            <controllingFieldValue>Reissued Drink Ticket</controllingFieldValue>
+            <controllingFieldValue>Request for health aim</controllingFieldValue>
+            <controllingFieldValue>Request to support more devices</controllingFieldValue>
+            <controllingFieldValue>Network</controllingFieldValue>
+            <controllingFieldValue>Must-buy(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Network Reset</controllingFieldValue>
+            <controllingFieldValue>Non-supported</controllingFieldValue>
+            <controllingFieldValue>No promotion item</controllingFieldValue>
+            <controllingFieldValue>Not accepted money</controllingFieldValue>
+            <controllingFieldValue>Hot/Cold</controllingFieldValue>
+            <controllingFieldValue>Not found out</controllingFieldValue>
+            <controllingFieldValue>Not get reached</controllingFieldValue>
+            <controllingFieldValue>Not satisfied</controllingFieldValue>
+            <controllingFieldValue>Not setting codes</controllingFieldValue>
+            <controllingFieldValue>How-to-login</controllingFieldValue>
+            <controllingFieldValue>No Transaction Serial Number</controllingFieldValue>
+            <controllingFieldValue>Obstacle</controllingFieldValue>
+            <controllingFieldValue>There&apos;s no CokeON_VM(Com)</controllingFieldValue>
+            <controllingFieldValue>Stamp card</controllingFieldValue>
+            <controllingFieldValue>Others(COC Complaint)</controllingFieldValue>
+            <controllingFieldValue>Only Drink Ticket Consumed</controllingFieldValue>
+            <controllingFieldValue>Stamp card expired</controllingFieldValue>
+            <controllingFieldValue>IC(Complaint)</controllingFieldValue>
+            <controllingFieldValue>OS Update</controllingFieldValue>
+            <controllingFieldValue>Step Counter Google Fit</controllingFieldValue>
+            <controllingFieldValue>Stepcounter has not worked</controllingFieldValue>
+            <controllingFieldValue>stuck</controllingFieldValue>
+            <controllingFieldValue>Continu</controllingFieldValue>
+            <controllingFieldValue>Stucking on VM column</controllingFieldValue>
+            <controllingFieldValue>Stuck on VM Column</controllingFieldValue>
+            <controllingFieldValue>Supporting VM</controllingFieldValue>
+            <controllingFieldValue>Continue(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Registration Page</controllingFieldValue>
+            <controllingFieldValue>Got no stamps</controllingFieldValue>
+            <controllingFieldValue>Error camera</controllingFieldValue>
+            <controllingFieldValue>Not mark scan</controllingFieldValue>
+            <controllingFieldValue>Not barcode input</controllingFieldValue>
+            <controllingFieldValue>CPC(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Other Complaint</controllingFieldValue>
+            <controllingFieldValue>Error(Card Registration)</controllingFieldValue>
+            <controllingFieldValue>Inspection</controllingFieldValue>
+            <controllingFieldValue>T1 error</controllingFieldValue>
+            <controllingFieldValue>Insufficiate Change</controllingFieldValue>
+            <controllingFieldValue>Targeting(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Others/Unspecified</controllingFieldValue>
+            <controllingFieldValue>Others(Pay)</controllingFieldValue>
+            <controllingFieldValue>Data Saver</controllingFieldValue>
+            <controllingFieldValue>Out of criteria</controllingFieldValue>
+            <controllingFieldValue>Out of stamps condition</controllingFieldValue>
+            <controllingFieldValue>P1-6</controllingFieldValue>
+            <controllingFieldValue>Already got stamps</controllingFieldValue>
+            <controllingFieldValue>Amount Display Error</controllingFieldValue>
+            <controllingFieldValue>Another brand</controllingFieldValue>
+            <controllingFieldValue>API of compensation</controllingFieldValue>
+            <controllingFieldValue>Device Subject</controllingFieldValue>
+            <controllingFieldValue>UI/UX</controllingFieldValue>
+            <controllingFieldValue>LINE</controllingFieldValue>
+            <controllingFieldValue>UI(Pay)</controllingFieldValue>
+            <controllingFieldValue>Disconnected</controllingFieldValue>
+            <controllingFieldValue>App Quit Unexpectedly</controllingFieldValue>
+            <controllingFieldValue>Authority NG</controllingFieldValue>
+            <controllingFieldValue>Drink Ticket Page</controllingFieldValue>
+            <controllingFieldValue>Bluetooth</controllingFieldValue>
+            <controllingFieldValue>Bluetooth OFF</controllingFieldValue>
+            <controllingFieldValue>Probability</controllingFieldValue>
+            <controllingFieldValue>Error</controllingFieldValue>
+            <controllingFieldValue>Promotion Page</controllingFieldValue>
+            <controllingFieldValue>Error Application</controllingFieldValue>
+            <controllingFieldValue>Members(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Bottlers</controllingFieldValue>
+            <controllingFieldValue>buy in a row</controllingFieldValue>
+            <controllingFieldValue>Excluded</controllingFieldValue>
+            <controllingFieldValue>Misdisplay</controllingFieldValue>
+            <controllingFieldValue>Mishanging Sticker</controllingFieldValue>
+            <controllingFieldValue>Expired</controllingFieldValue>
+            <controllingFieldValue>Expired in maintenance</controllingFieldValue>
+            <controllingFieldValue>Mixed Machine</controllingFieldValue>
+            <controllingFieldValue>Mobile Data Communication</controllingFieldValue>
+            <controllingFieldValue>Cause of Network error</controllingFieldValue>
+            <controllingFieldValue>CokeON Pay</controllingFieldValue>
+            <controllingFieldValue>GPS</controllingFieldValue>
+            <controllingFieldValue>Compensation</controllingFieldValue>
+            <controllingFieldValue>Consumed</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nozzle defective or fell off</controllingFieldValue>
+            <controllingFieldValue>Opens spontaneously</controllingFieldValue>
+            <controllingFieldValue>Pilfer, tamper-evident band or ringpull broken or missing</controllingFieldValue>
+            <controllingFieldValue>Pilfer, tamper-evident band or ringpull didn&apos;t break</controllingFieldValue>
+            <controllingFieldValue>Rusty, dirty</controllingFieldValue>
+            <controllingFieldValue>Wrong Closure</controllingFieldValue>
+            <controllingFieldValue>Bottom or dome reversal</controllingFieldValue>
+            <controllingFieldValue>Deformed container</controllingFieldValue>
+            <controllingFieldValue>Neck support</controllingFieldValue>
+            <controllingFieldValue>Other container bulge</controllingFieldValue>
+            <controllingFieldValue>Soft sided</controllingFieldValue>
+            <controllingFieldValue>Rusty container</controllingFieldValue>
+            <controllingFieldValue>Scuffed, scratched</controllingFieldValue>
+            <controllingFieldValue>Sharp edge</controllingFieldValue>
+            <controllingFieldValue>Side</controllingFieldValue>
+            <controllingFieldValue>Top</controllingFieldValue>
+            <controllingFieldValue>Corrosion</controllingFieldValue>
+            <controllingFieldValue>Rivet leaker</controllingFieldValue>
+            <controllingFieldValue>Seam</controllingFieldValue>
+            <controllingFieldValue>Overfilled</controllingFieldValue>
+            <controllingFieldValue>Imported product</controllingFieldValue>
+            <controllingFieldValue>Incorrect product</controllingFieldValue>
+            <controllingFieldValue>Missing handle</controllingFieldValue>
+            <controllingFieldValue>Product missing in multipack</controllingFieldValue>
+            <controllingFieldValue>Straw missing</controllingFieldValue>
+            <controllingFieldValue>Misaligned or misapplied</controllingFieldValue>
+            <controllingFieldValue>Not legible</controllingFieldValue>
+            <controllingFieldValue>Promo issue</controllingFieldValue>
+            <controllingFieldValue>Torn</controllingFieldValue>
+            <controllingFieldValue>Upside down</controllingFieldValue>
+            <controllingFieldValue>Wrong label</controllingFieldValue>
+            <controllingFieldValue>Colour, paintwork</controllingFieldValue>
+            <controllingFieldValue>Defect Bottle Crate</controllingFieldValue>
+            <controllingFieldValue>Handle fail</controllingFieldValue>
+            <controllingFieldValue>Hard to open</controllingFieldValue>
+            <controllingFieldValue>Incorrect bar code</controllingFieldValue>
+            <controllingFieldValue>Incorrect product or tray</controllingFieldValue>
+            <controllingFieldValue>Incorrect shrink film</controllingFieldValue>
+            <controllingFieldValue>Merchandising unit issues</controllingFieldValue>
+            <controllingFieldValue>Multipack film misaligned</controllingFieldValue>
+            <controllingFieldValue>Other secondary packaging defect</controllingFieldValue>
+            <controllingFieldValue>Pack fail</controllingFieldValue>
+            <controllingFieldValue>Pallet issues</controllingFieldValue>
+            <controllingFieldValue>Pallet label issue</controllingFieldValue>
+            <controllingFieldValue>Stretch wrap issues</controllingFieldValue>
+            <controllingFieldValue>Product flat on reopening</controllingFieldValue>
+            <controllingFieldValue>Weak Taste</controllingFieldValue>
+            <controllingFieldValue>Capsule, drug, pills, tablet</controllingFieldValue>
+            <controllingFieldValue>Food like</controllingFieldValue>
+            <controllingFieldValue>Glass like sample unopened</controllingFieldValue>
+            <controllingFieldValue>Label like</controllingFieldValue>
+            <controllingFieldValue>Within 6 Months</controllingFieldValue>
+            <controllingFieldValue>Rubber like</controllingFieldValue>
+            <controllingFieldValue>Wood</controllingFieldValue>
+            <controllingFieldValue>Tamper Evident Band</controllingFieldValue>
+            <controllingFieldValue>Clear (when expected cloudy)</controllingFieldValue>
+            <controllingFieldValue>Cloudy (when expected clear)</controllingFieldValue>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <controllingFieldValue>Neck ring or surface ring/package surface deposit</controllingFieldValue>
+            <controllingFieldValue>No pulp (when expected pulp)</controllingFieldValue>
+            <controllingFieldValue>Oil, grease, gazoline, petrol</controllingFieldValue>
+            <controllingFieldValue>Separated</controllingFieldValue>
+            <controllingFieldValue>Syrupy</controllingFieldValue>
+            <controllingFieldValue>Too pulpy (when expected limited pulp or no pulp)</controllingFieldValue>
+            <controllingFieldValue>Beer, alcohol</controllingFieldValue>
+            <controllingFieldValue>Sharp</controllingFieldValue>
+            <controllingFieldValue>Fruity</controllingFieldValue>
+            <controllingFieldValue>Chipped / Broken (Cap)</controllingFieldValue>
+            <controllingFieldValue>Medicinal</controllingFieldValue>
+            <controllingFieldValue>Container deformation</controllingFieldValue>
+            <controllingFieldValue>Petrol, oil, gazoline</controllingFieldValue>
+            <controllingFieldValue>Poor material</controllingFieldValue>
+            <controllingFieldValue>Plastic like</controllingFieldValue>
+            <controllingFieldValue>Breakage</controllingFieldValue>
+            <controllingFieldValue>Rancid, oxidized</controllingFieldValue>
+            <controllingFieldValue>Scratches</controllingFieldValue>
+            <controllingFieldValue>Salty</controllingFieldValue>
+            <controllingFieldValue>Soap/perfume</controllingFieldValue>
+            <controllingFieldValue>Sulphur</controllingFieldValue>
+            <controllingFieldValue>Nausea</controllingFieldValue>
+            <controllingFieldValue>Syrupy/too sweet</controllingFieldValue>
+            <controllingFieldValue>Rotten Taste / Smell</controllingFieldValue>
+            <controllingFieldValue>Roughness</controllingFieldValue>
+            <controllingFieldValue>Yeast</controllingFieldValue>
+            <controllingFieldValue>Another branded product</controllingFieldValue>
+            <controllingFieldValue>Burst/exploding - cold</controllingFieldValue>
+            <controllingFieldValue>Leaning/distorted</controllingFieldValue>
+            <controllingFieldValue>Rusty / Metallic Smell</controllingFieldValue>
+            <controllingFieldValue>Straw defect</controllingFieldValue>
+            <controllingFieldValue>No BBD printing</controllingFieldValue>
+            <controllingFieldValue>No Carbonation</controllingFieldValue>
+            <controllingFieldValue>Other (Foreign Matter)</controllingFieldValue>
+            <controllingFieldValue>Other (Odor)</controllingFieldValue>
+            <controllingFieldValue>Sand / Stone</controllingFieldValue>
+            <controllingFieldValue>Other (Moldy)</controllingFieldValue>
+            <controllingFieldValue>Other (Discoloration)</controllingFieldValue>
+            <controllingFieldValue>Sediment</controllingFieldValue>
+            <controllingFieldValue>Other (Unknown BBD)</controllingFieldValue>
+            <controllingFieldValue>Other (Health Hazards)</controllingFieldValue>
+            <controllingFieldValue>Other (Product Compliants)</controllingFieldValue>
+            <controllingFieldValue>Other (Liquid Leaks)</controllingFieldValue>
+            <controllingFieldValue>Other (Cap/Tab Defects)</controllingFieldValue>
+            <controllingFieldValue>Hospitalization / Hospital Care / Medication</controllingFieldValue>
+            <controllingFieldValue>Other (Label Defects)</controllingFieldValue>
+            <controllingFieldValue>Other (Package Odor)</controllingFieldValue>
+            <controllingFieldValue>Shortage</controllingFieldValue>
+            <controllingFieldValue>Other (Package Compliants)</controllingFieldValue>
+            <controllingFieldValue>Snapped / Came off / Bent (Tab)</controllingFieldValue>
+            <controllingFieldValue>Sour Taste</controllingFieldValue>
+            <controllingFieldValue>Oil / Grease</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other (Dirty Container)</controllingFieldValue>
+            <controllingFieldValue>Injury</controllingFieldValue>
+            <controllingFieldValue>Swelling</controllingFieldValue>
+            <controllingFieldValue>Insect</controllingFieldValue>
+            <controllingFieldValue>Crack</controllingFieldValue>
+            <controllingFieldValue>Insecticide</controllingFieldValue>
+            <controllingFieldValue>Fails to open</controllingFieldValue>
+            <controllingFieldValue>Missing parts</controllingFieldValue>
+            <controllingFieldValue>Allergy</controllingFieldValue>
+            <controllingFieldValue>Other Quality</controllingFieldValue>
+            <controllingFieldValue>Dark</controllingFieldValue>
+            <controllingFieldValue>Over 1 Year</controllingFieldValue>
+            <controllingFieldValue>Leakage (Closure)</controllingFieldValue>
+            <controllingFieldValue>Leakage (Seaming)</controllingFieldValue>
+            <controllingFieldValue>Paper</controllingFieldValue>
+            <controllingFieldValue>Tight / Cannot Open / Difficult to open</controllingFieldValue>
+            <controllingFieldValue>Light</controllingFieldValue>
+            <controllingFieldValue>Diarrhea / Abdominal</controllingFieldValue>
+            <controllingFieldValue>Difficult to read of BBD printing</controllingFieldValue>
+            <controllingFieldValue>Difficult to understand (Design)</controllingFieldValue>
+            <controllingFieldValue>Pin-hole</controllingFieldValue>
+            <controllingFieldValue>Plastic / Vinyl</controllingFieldValue>
+            <controllingFieldValue>Loose Fitting</controllingFieldValue>
+            <controllingFieldValue>Low Carbonation</controllingFieldValue>
+            <controllingFieldValue>Dust / Mud</controllingFieldValue>
+            <controllingFieldValue>Low fill</controllingFieldValue>
+            <controllingFieldValue>Empty</controllingFieldValue>
+            <controllingFieldValue>Between 6 and 12 months</controllingFieldValue>
+            <controllingFieldValue>Bitter Taste</controllingFieldValue>
+            <controllingFieldValue>Blowing Up</controllingFieldValue>
+            <controllingFieldValue>Bubbling</controllingFieldValue>
+            <controllingFieldValue>Burst</controllingFieldValue>
+            <controllingFieldValue>Metal</controllingFieldValue>
+            <controllingFieldValue>Came off / No label</controllingFieldValue>
+            <controllingFieldValue>Cannot peel off / Difficult to peel off</controllingFieldValue>
+            <controllingFieldValue>Mold / Microorganism</controllingFieldValue>
+            <controllingFieldValue>Moldy Smell</controllingFieldValue>
+            <controllingFieldValue>Fermentation Smell</controllingFieldValue>
+            <controllingFieldValue>Fiber</controllingFieldValue>
+            <controllingFieldValue>Fish-like smell / taste</controllingFieldValue>
+            <controllingFieldValue>Floc</controllingFieldValue>
+            <controllingFieldValue>Carton / Case</controllingFieldValue>
+            <controllingFieldValue>Chemical Smell</controllingFieldValue>
+            <controllingFieldValue>Chipped Rim (Glass bottle)</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Gel</controllingFieldValue>
+            <controllingFieldValue>Chlorine</controllingFieldValue>
+            <controllingFieldValue>Cigarette</controllingFieldValue>
+            <controllingFieldValue>Glass</controllingFieldValue>
+            <controllingFieldValue>Hair</controllingFieldValue>
+            <controllingFieldValue>Compound</controllingFieldValue>
+            <valueName>Quality</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

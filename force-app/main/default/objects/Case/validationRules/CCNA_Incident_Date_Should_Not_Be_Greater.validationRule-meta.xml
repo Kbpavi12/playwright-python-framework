@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Incident_Date_Should_Not_Be_Greater</fullName>
+    <active>true</active>
+    <description>Incident Date should not be future date.</description>
+    <errorConditionFormula>AND(ISPICKVAL( Country_Code__c , &quot;US&quot;),
+Incidence_Date_Time__c &gt;   NOW() )</errorConditionFormula>
+    <errorDisplayField>Incidence_Date_Time__c</errorDisplayField>
+    <errorMessage>You are not allowed to select Future Date.</errorMessage>
+</ValidationRule>

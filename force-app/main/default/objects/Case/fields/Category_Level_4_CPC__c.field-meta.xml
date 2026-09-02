@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Level_4_CPC__c</fullName>
+    <label>Category Level 4 (CPC)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category_Level3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>About Login</fullName>
+                <default>false</default>
+                <label>About Login</label>
+            </value>
+            <value>
+                <fullName>About Mail Magazine</fullName>
+                <default>false</default>
+                <label>About Mail Magazine</label>
+            </value>
+            <value>
+                <fullName>About Password</fullName>
+                <default>false</default>
+                <label>About Password</label>
+            </value>
+            <value>
+                <fullName>About Products</fullName>
+                <default>false</default>
+                <label>About Products</label>
+            </value>
+            <value>
+                <fullName>Authentication</fullName>
+                <default>false</default>
+                <label>Authentication</label>
+            </value>
+            <value>
+                <fullName>Authentication (Int)</fullName>
+                <default>false</default>
+                <label>Authentication (Int)</label>
+            </value>
+            <value>
+                <fullName>Authentication (Non)</fullName>
+                <default>false</default>
+                <label>Authentication (Non)</label>
+            </value>
+            <value>
+                <fullName>Authentication (SP)</fullName>
+                <default>false</default>
+                <label>Authentication (SP)</label>
+            </value>
+            <value>
+                <fullName>Available VM</fullName>
+                <default>false</default>
+                <label>Available VM</label>
+            </value>
+            <value>
+                <fullName>Brandsite</fullName>
+                <default>false</default>
+                <label>Brandsite</label>
+            </value>
+            <value>
+                <fullName>Broken (Int)</fullName>
+                <default>false</default>
+                <label>Broken (Int)</label>
+            </value>
+            <value>
+                <fullName>Broken (Non)</fullName>
+                <default>false</default>
+                <label>Broken (Non)</label>
+            </value>
+            <value>
+                <fullName>Broken (SP)</fullName>
+                <default>false</default>
+                <label>Broken (SP)</label>
+            </value>
+            <value>
+                <fullName>CCBJI Mail News</fullName>
+                <default>false</default>
+                <label>CCBJI Mail News</label>
+            </value>
+            <value>
+                <fullName>Change details of Coca-Cola Members</fullName>
+                <default>false</default>
+                <label>Change details of Coca-Cola Members</label>
+            </value>
+            <value>
+                <fullName>Change Input Address</fullName>
+                <default>false</default>
+                <label>Change Input Address</label>
+            </value>
+            <value>
+                <fullName>Change Input Address (Int)</fullName>
+                <default>false</default>
+                <label>Change Input Address (Int)</label>
+            </value>
+            <value>
+                <fullName>Check Input Address</fullName>
+                <default>false</default>
+                <label>Check Input Address</label>
+            </value>
+            <value>
+                <fullName>Check Input Address (Int)</fullName>
+                <default>false</default>
+                <label>Check Input Address (Int)</label>
+            </value>
+            <value>
+                <fullName>Chunk</fullName>
+                <default>false</default>
+                <label>Chunk</label>
+            </value>
+            <value>
+                <fullName>Cmode</fullName>
+                <default>false</default>
+                <label>Cmode</label>
+            </value>
+            <value>
+                <fullName>COC</fullName>
+                <default>false</default>
+                <label>COC</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola News</fullName>
+                <default>false</default>
+                <label>Coca-Cola News</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola Park</fullName>
+                <default>false</default>
+                <label>Coca-Cola Park</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola System</fullName>
+                <default>false</default>
+                <label>Coca-Cola System</label>
+            </value>
+            <value>
+                <fullName>Consumed (Int)</fullName>
+                <default>false</default>
+                <label>Consumed (Int)</label>
+            </value>
+            <value>
+                <fullName>Consumed (Non)</fullName>
+                <default>false</default>
+                <label>Consumed (Non)</label>
+            </value>
+            <value>
+                <fullName>Consumed (SP)</fullName>
+                <default>false</default>
+                <label>Consumed (SP)</label>
+            </value>
+            <value>
+                <fullName>Cooperate</fullName>
+                <default>false</default>
+                <label>Cooperate</label>
+            </value>
+            <value>
+                <fullName>CPC</fullName>
+                <default>false</default>
+                <label>CPC</label>
+            </value>
+            <value>
+                <fullName>CSC</fullName>
+                <default>false</default>
+                <label>CSC</label>
+            </value>
+            <value>
+                <fullName>Delete Personal Information</fullName>
+                <default>false</default>
+                <label>Delete Personal Information</label>
+            </value>
+            <value>
+                <fullName>Dishonest (Int)</fullName>
+                <default>false</default>
+                <label>Dishonest (Int)</label>
+            </value>
+            <value>
+                <fullName>Dishonest (Non)</fullName>
+                <default>false</default>
+                <label>Dishonest (Non)</label>
+            </value>
+            <value>
+                <fullName>Dishonest (SP)</fullName>
+                <default>false</default>
+                <label>Dishonest (SP)</label>
+            </value>
+            <value>
+                <fullName>Domain List</fullName>
+                <default>false</default>
+                <label>Domain List</label>
+            </value>
+            <value>
+                <fullName>Failed Delivery Attempt（Int)</fullName>
+                <default>false</default>
+                <label>Failed Delivery Attempt（Int)</label>
+            </value>
+            <value>
+                <fullName>Forwarding</fullName>
+                <default>false</default>
+                <label>Forwarding</label>
+            </value>
+            <value>
+                <fullName>Forwarding (Int)</fullName>
+                <default>false</default>
+                <label>Forwarding (Int)</label>
+            </value>
+            <value>
+                <fullName>Georgia Mail Magazine</fullName>
+                <default>false</default>
+                <label>Georgia Mail Magazine</label>
+            </value>
+            <value>
+                <fullName>Goods</fullName>
+                <default>false</default>
+                <label>Goods</label>
+            </value>
+            <value>
+                <fullName>Handling</fullName>
+                <default>false</default>
+                <label>Handling</label>
+            </value>
+            <value>
+                <fullName>History</fullName>
+                <default>false</default>
+                <label>History</label>
+            </value>
+            <value>
+                <fullName>How to change own password</fullName>
+                <default>false</default>
+                <label>How to change own password</label>
+            </value>
+            <value>
+                <fullName>How to register</fullName>
+                <default>false</default>
+                <label>How to register</label>
+            </value>
+            <value>
+                <fullName>How-to-apply (SP)</fullName>
+                <default>false</default>
+                <label>How-to-apply (SP)</label>
+            </value>
+            <value>
+                <fullName>How-to-use Pointcard</fullName>
+                <default>false</default>
+                <label>How-to-use Pointcard</label>
+            </value>
+            <value>
+                <fullName>How-to-use (Int)</fullName>
+                <default>false</default>
+                <label>How-to-use (Int)</label>
+            </value>
+            <value>
+                <fullName>How-to-use (SP)</fullName>
+                <default>false</default>
+                <label>How-to-use (SP)</label>
+            </value>
+            <value>
+                <fullName>Inclined probability (Int)</fullName>
+                <default>false</default>
+                <label>Inclined probability (Int)</label>
+            </value>
+            <value>
+                <fullName>Inclined probability (SP)</fullName>
+                <default>false</default>
+                <label>Inclined probability (SP)</label>
+            </value>
+            <value>
+                <fullName>Inquiry After Apply (SP)</fullName>
+                <default>false</default>
+                <label>Inquiry After Apply (SP)</label>
+            </value>
+            <value>
+                <fullName>Interview</fullName>
+                <default>false</default>
+                <label>Interview</label>
+            </value>
+            <value>
+                <fullName>Invalid (Int)</fullName>
+                <default>false</default>
+                <label>Invalid (Int)</label>
+            </value>
+            <value>
+                <fullName>Invalid (Non)</fullName>
+                <default>false</default>
+                <label>Invalid (Non)</label>
+            </value>
+            <value>
+                <fullName>Invalid (SP)</fullName>
+                <default>false</default>
+                <label>Invalid (SP)</label>
+            </value>
+            <value>
+                <fullName>Invalid URL (PW)</fullName>
+                <default>false</default>
+                <label>Invalid URL (PW)</label>
+            </value>
+            <value>
+                <fullName>Invalid URL (Reg)</fullName>
+                <default>false</default>
+                <label>Invalid URL (Reg)</label>
+            </value>
+            <value>
+                <fullName>LINE</fullName>
+                <default>false</default>
+                <label>LINE</label>
+            </value>
+            <value>
+                <fullName>Low probability (Int)</fullName>
+                <default>false</default>
+                <label>Low probability (Int)</label>
+            </value>
+            <value>
+                <fullName>Low probability (SP)</fullName>
+                <default>false</default>
+                <label>Low probability (SP)</label>
+            </value>
+            <value>
+                <fullName>Migration / Transfer</fullName>
+                <default>false</default>
+                <label>Migration / Transfer</label>
+            </value>
+            <value>
+                <fullName>Misdelivery (Int)</fullName>
+                <default>false</default>
+                <label>Misdelivery (Int)</label>
+            </value>
+            <value>
+                <fullName>Misdelivery (Non)</fullName>
+                <default>false</default>
+                <label>Misdelivery (Non)</label>
+            </value>
+            <value>
+                <fullName>Misdelivery (SP)</fullName>
+                <default>false</default>
+                <label>Misdelivery (SP)</label>
+            </value>
+            <value>
+                <fullName>Misprint</fullName>
+                <default>false</default>
+                <label>Misprint</label>
+            </value>
+            <value>
+                <fullName>Money/Change</fullName>
+                <default>false</default>
+                <label>Money/Change</label>
+            </value>
+            <value>
+                <fullName>Nearpack / Lucky Item</fullName>
+                <default>false</default>
+                <label>Nearpack / Lucky Item</label>
+            </value>
+            <value>
+                <fullName>No Carry</fullName>
+                <default>false</default>
+                <label>No Carry</label>
+            </value>
+            <value>
+                <fullName>No Fill</fullName>
+                <default>false</default>
+                <label>No Fill</label>
+            </value>
+            <value>
+                <fullName>No reach (Int)</fullName>
+                <default>false</default>
+                <label>No reach (Int)</label>
+            </value>
+            <value>
+                <fullName>No reach (Non)</fullName>
+                <default>false</default>
+                <label>No reach (Non)</label>
+            </value>
+            <value>
+                <fullName>No reach (SP)</fullName>
+                <default>false</default>
+                <label>No reach (SP)</label>
+            </value>
+            <value>
+                <fullName>No stores</fullName>
+                <default>false</default>
+                <label>No stores</label>
+            </value>
+            <value>
+                <fullName>Old Service</fullName>
+                <default>false</default>
+                <label>Old Service</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>Original Promotion</fullName>
+                <default>false</default>
+                <label>Original Promotion</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other (CC)</fullName>
+                <default>false</default>
+                <label>Other (CC)</label>
+            </value>
+            <value>
+                <fullName>Other (Int)</fullName>
+                <default>false</default>
+                <label>Other (Int)</label>
+            </value>
+            <value>
+                <fullName>Other (Non)</fullName>
+                <default>false</default>
+                <label>Other (Non)</label>
+            </value>
+            <value>
+                <fullName>Other (SP)</fullName>
+                <default>false</default>
+                <label>Other (SP)</label>
+            </value>
+            <value>
+                <fullName>Other delete details</fullName>
+                <default>false</default>
+                <label>Other delete details</label>
+            </value>
+            <value>
+                <fullName>Other error (Int)</fullName>
+                <default>false</default>
+                <label>Other error (Int)</label>
+            </value>
+            <value>
+                <fullName>Other error (Non)</fullName>
+                <default>false</default>
+                <label>Other error (Non)</label>
+            </value>
+            <value>
+                <fullName>Other error (SP)</fullName>
+                <default>false</default>
+                <label>Other error (SP)</label>
+            </value>
+            <value>
+                <fullName>Other mail magazine</fullName>
+                <default>false</default>
+                <label>Other mail magazine</label>
+            </value>
+            <value>
+                <fullName>Other new registration</fullName>
+                <default>false</default>
+                <label>Other new registration</label>
+            </value>
+            <value>
+                <fullName>Other password reset</fullName>
+                <default>false</default>
+                <label>Other password reset</label>
+            </value>
+            <value>
+                <fullName>Other products</fullName>
+                <default>false</default>
+                <label>Other products</label>
+            </value>
+            <value>
+                <fullName>Other Reason</fullName>
+                <default>false</default>
+                <label>Other Reason</label>
+            </value>
+            <value>
+                <fullName>Other SNS</fullName>
+                <default>false</default>
+                <label>Other SNS</label>
+            </value>
+            <value>
+                <fullName>Other Topics for Check to-be-selected (Int)</fullName>
+                <default>false</default>
+                <label>Other Topics for Check to-be-selected (Int)</label>
+            </value>
+            <value>
+                <fullName>Other Topics for Check to-be-selected (SP)</fullName>
+                <default>false</default>
+                <label>Other Topics for Check to-be-selected (SP)</label>
+            </value>
+            <value>
+                <fullName>Other topics for Coca-Cola Members</fullName>
+                <default>false</default>
+                <label>Other topics for Coca-Cola Members</label>
+            </value>
+            <value>
+                <fullName>Other topics for How to change/refer</fullName>
+                <default>false</default>
+                <label>Other topics for How to change/refer</label>
+            </value>
+            <value>
+                <fullName>Other topics for How to register</fullName>
+                <default>false</default>
+                <label>Other topics for How to register</label>
+            </value>
+            <value>
+                <fullName>Other Topics for How-to-Apply (Int)</fullName>
+                <default>false</default>
+                <label>Other Topics for How-to-Apply (Int)</label>
+            </value>
+            <value>
+                <fullName>Other Topics for Interactive Promotion</fullName>
+                <default>false</default>
+                <label>Other Topics for Interactive Promotion</label>
+            </value>
+            <value>
+                <fullName>Other topics for Mail Magazine</fullName>
+                <default>false</default>
+                <label>Other topics for Mail Magazine</label>
+            </value>
+            <value>
+                <fullName>Other topics for Organization</fullName>
+                <default>false</default>
+                <label>Other topics for Organization</label>
+            </value>
+            <value>
+                <fullName>Other Topics for Pointcard</fullName>
+                <default>false</default>
+                <label>Other Topics for Pointcard</label>
+            </value>
+            <value>
+                <fullName>Other Topics for postcard</fullName>
+                <default>false</default>
+                <label>Other Topics for postcard</label>
+            </value>
+            <value>
+                <fullName>Other Topics for prize</fullName>
+                <default>false</default>
+                <label>Other Topics for prize</label>
+            </value>
+            <value>
+                <fullName>Other Topics for prize (Int)</fullName>
+                <default>false</default>
+                <label>Other Topics for prize (Int)</label>
+            </value>
+            <value>
+                <fullName>Other topics for Resign and Delete Personal Information</fullName>
+                <default>false</default>
+                <label>Other topics for Resign and Delete Personal Information</label>
+            </value>
+            <value>
+                <fullName>Other Topics for Sales Promotion</fullName>
+                <default>false</default>
+                <label>Other Topics for Sales Promotion</label>
+            </value>
+            <value>
+                <fullName>Other unidentified Promotion</fullName>
+                <default>false</default>
+                <label>Other unidentified Promotion</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Out of stock</fullName>
+                <default>false</default>
+                <label>Out of stock</label>
+            </value>
+            <value>
+                <fullName>Overview</fullName>
+                <default>false</default>
+                <label>Overview</label>
+            </value>
+            <value>
+                <fullName>Overview Of Coca-Cola Members</fullName>
+                <default>false</default>
+                <label>Overview Of Coca-Cola Members</label>
+            </value>
+            <value>
+                <fullName>Own Points/Coupons</fullName>
+                <default>false</default>
+                <label>Own Points/Coupons</label>
+            </value>
+            <value>
+                <fullName>Package Broken</fullName>
+                <default>false</default>
+                <label>Package Broken</label>
+            </value>
+            <value>
+                <fullName>Packplay</fullName>
+                <default>false</default>
+                <label>Packplay</label>
+            </value>
+            <value>
+                <fullName>Password Reset Error</fullName>
+                <default>false</default>
+                <label>Password Reset Error</label>
+            </value>
+            <value>
+                <fullName>Password Reset Mail Undelivered</fullName>
+                <default>false</default>
+                <label>Password Reset Mail Undelivered</label>
+            </value>
+            <value>
+                <fullName>Postcard</fullName>
+                <default>false</default>
+                <label>Postcard</label>
+            </value>
+            <value>
+                <fullName>Privacy Policy / Site Policy</fullName>
+                <default>false</default>
+                <label>Privacy Policy / Site Policy</label>
+            </value>
+            <value>
+                <fullName>Prize Office</fullName>
+                <default>false</default>
+                <label>Prize Office</label>
+            </value>
+            <value>
+                <fullName>Prize Office (Int)</fullName>
+                <default>false</default>
+                <label>Prize Office (Int)</label>
+            </value>
+            <value>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+                <label>Proposal</label>
+            </value>
+            <value>
+                <fullName>Refer to Coca-Cola Members</fullName>
+                <default>false</default>
+                <label>Refer to Coca-Cola Members</label>
+            </value>
+            <value>
+                <fullName>Registration Error</fullName>
+                <default>false</default>
+                <label>Registration Error</label>
+            </value>
+            <value>
+                <fullName>Reject</fullName>
+                <default>false</default>
+                <label>Reject</label>
+            </value>
+            <value>
+                <fullName>Related</fullName>
+                <default>false</default>
+                <label>Related</label>
+            </value>
+            <value>
+                <fullName>Resign</fullName>
+                <default>false</default>
+                <label>Resign</label>
+            </value>
+            <value>
+                <fullName>Resign Error</fullName>
+                <default>false</default>
+                <label>Resign Error</label>
+            </value>
+            <value>
+                <fullName>Separated Option / Accessory</fullName>
+                <default>false</default>
+                <label>Separated Option / Accessory</label>
+            </value>
+            <value>
+                <fullName>Separated Option / Accessory (Int)</fullName>
+                <default>false</default>
+                <label>Separated Option / Accessory (Int)</label>
+            </value>
+            <value>
+                <fullName>Service Complaint</fullName>
+                <default>false</default>
+                <label>Service Complaint</label>
+            </value>
+            <value>
+                <fullName>Shop/Area</fullName>
+                <default>false</default>
+                <label>Shop/Area</label>
+            </value>
+            <value>
+                <fullName>Social Media Guidelines</fullName>
+                <default>false</default>
+                <label>Social Media Guidelines</label>
+            </value>
+            <value>
+                <fullName>Spec (Int)</fullName>
+                <default>false</default>
+                <label>Spec (Int)</label>
+            </value>
+            <value>
+                <fullName>Spec (SP)</fullName>
+                <default>false</default>
+                <label>Spec (SP)</label>
+            </value>
+            <value>
+                <fullName>Stained (Int)</fullName>
+                <default>false</default>
+                <label>Stained (Int)</label>
+            </value>
+            <value>
+                <fullName>Stained (Non)</fullName>
+                <default>false</default>
+                <label>Stained (Non)</label>
+            </value>
+            <value>
+                <fullName>Stained (SP)</fullName>
+                <default>false</default>
+                <label>Stained (SP)</label>
+            </value>
+            <value>
+                <fullName>Stop Mail Magazine</fullName>
+                <default>false</default>
+                <label>Stop Mail Magazine</label>
+            </value>
+            <value>
+                <fullName>Substitutional postcard</fullName>
+                <default>false</default>
+                <label>Substitutional postcard</label>
+            </value>
+            <value>
+                <fullName>System Requirements</fullName>
+                <default>false</default>
+                <label>System Requirements</label>
+            </value>
+            <value>
+                <fullName>Targeting Area / Account</fullName>
+                <default>false</default>
+                <label>Targeting Area / Account</label>
+            </value>
+            <value>
+                <fullName>Targeting Products</fullName>
+                <default>false</default>
+                <label>Targeting Products</label>
+            </value>
+            <value>
+                <fullName>Taste/Quality</fullName>
+                <default>false</default>
+                <label>Taste/Quality</label>
+            </value>
+            <value>
+                <fullName>Terms of use</fullName>
+                <default>false</default>
+                <label>Terms of use</label>
+            </value>
+            <value>
+                <fullName>text garbling</fullName>
+                <default>false</default>
+                <label>text garbling</label>
+            </value>
+            <value>
+                <fullName>Thanks</fullName>
+                <default>false</default>
+                <label>Thanks</label>
+            </value>
+            <value>
+                <fullName>Twitter/Instagram</fullName>
+                <default>false</default>
+                <label>Twitter/Instagram</label>
+            </value>
+            <value>
+                <fullName>Unreceived</fullName>
+                <default>false</default>
+                <label>Unreceived</label>
+            </value>
+            <value>
+                <fullName>Unscanable</fullName>
+                <default>false</default>
+                <label>Unscanable</label>
+            </value>
+            <value>
+                <fullName>Webshop Customer Center</fullName>
+                <default>false</default>
+                <label>Webshop Customer Center</label>
+            </value>
+            <value>
+                <fullName>WEB</fullName>
+                <default>false</default>
+                <label>WEB</label>
+            </value>
+            <value>
+                <fullName>Wrong (Int)</fullName>
+                <default>false</default>
+                <label>Wrong (Int)</label>
+            </value>
+            <value>
+                <fullName>Wrong (Non)</fullName>
+                <default>false</default>
+                <label>Wrong (Non)</label>
+            </value>
+            <value>
+                <fullName>Wrong (SP)</fullName>
+                <default>false</default>
+                <label>Wrong (SP)</label>
+            </value>
+            <value>
+                <fullName>Wrong Calls</fullName>
+                <default>false</default>
+                <label>Wrong Calls</label>
+            </value>
+            <value>
+                <fullName>Retry Drawing (SP）</fullName>
+                <default>false</default>
+                <label>Retry Drawing (SP）</label>
+            </value>
+            <value>
+                <fullName>Using Tablet (SP）</fullName>
+                <default>false</default>
+                <label>Using Tablet (SP）</label>
+            </value>
+            <value>
+                <fullName>Illegal QR Use (SP）</fullName>
+                <default>false</default>
+                <label>Illegal QR Use (SP）</label>
+            </value>
+            <value>
+                <fullName>Not Find CP Product (SP）</fullName>
+                <default>false</default>
+                <label>Not Find CP Product (SP）</label>
+            </value>
+            <value>
+                <fullName>Apply Condition (SP）</fullName>
+                <default>false</default>
+                <label>Apply Condition (SP）</label>
+            </value>
+            <value>
+                <fullName>Skip Drawing (SP）</fullName>
+                <default>false</default>
+                <label>Skip Drawing (SP）</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Register (Inq)</controllingFieldValue>
+            <valueName>Domain List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Register (Inq)</controllingFieldValue>
+            <valueName>How to register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Register (Inq)</controllingFieldValue>
+            <valueName>Other topics for How to register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resign (Com)</controllingFieldValue>
+            <valueName>Other delete details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resign (Com)</controllingFieldValue>
+            <valueName>Resign Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resign (Inq)</controllingFieldValue>
+            <valueName>Delete Personal Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resign (Inq)</controllingFieldValue>
+            <valueName>Other topics for Resign and Delete Personal Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resign (Inq)</controllingFieldValue>
+            <valueName>Resign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping / Winning Confirmation (Int)</controllingFieldValue>
+            <valueName>Change Input Address (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping / Winning Confirmation (Int)</controllingFieldValue>
+            <valueName>Check Input Address (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping / Winning Confirmation (Int)</controllingFieldValue>
+            <controllingFieldValue>check to-be-selected (SP)</controllingFieldValue>
+            <valueName>Failed Delivery Attempt（Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping / Winning Confirmation (Int)</controllingFieldValue>
+            <valueName>Forwarding (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipping / Winning Confirmation (Int)</controllingFieldValue>
+            <valueName>Other Topics for Check to-be-selected (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion</controllingFieldValue>
+            <valueName>Nearpack / Lucky Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion</controllingFieldValue>
+            <valueName>Original Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unidentified Promotion</controllingFieldValue>
+            <valueName>Other unidentified Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Retry Drawing (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Using Tablet (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Illegal QR Use (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Not Find CP Product (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Apply Condition (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply(SP)</controllingFieldValue>
+            <valueName>Skip Drawing (SP）</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Change details of Coca-Cola Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>How to change own password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Other topics for How to change/refer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration</controllingFieldValue>
+            <valueName>Refer to Coca-Cola Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <controllingFieldValue>Other (Products/Org Inq)</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>About Login</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>About Password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>Other topics for Coca-Cola Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>Overview Of Coca-Cola Members</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>Privacy Policy / Site Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>Social Media Guidelines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>System Requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Coca-Cola Members</controllingFieldValue>
+            <valueName>Terms of use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (Int)</controllingFieldValue>
+            <valueName>How-to-use (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (Int)</controllingFieldValue>
+            <valueName>Other Topics for prize (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (Int)</controllingFieldValue>
+            <valueName>Prize Office (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (Int)</controllingFieldValue>
+            <valueName>Separated Option / Accessory (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (Int)</controllingFieldValue>
+            <valueName>Spec (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (SP)</controllingFieldValue>
+            <valueName>How-to-use (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (SP)</controllingFieldValue>
+            <valueName>Other Topics for prize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (SP)</controllingFieldValue>
+            <valueName>Prize Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (SP)</controllingFieldValue>
+            <valueName>Separated Option / Accessory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Prize (SP)</controllingFieldValue>
+            <valueName>Spec (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cards (SP)</controllingFieldValue>
+            <valueName>Other Topics for postcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cards (SP)</controllingFieldValue>
+            <valueName>Postcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cards (SP)</controllingFieldValue>
+            <valueName>Substitutional postcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (Int)</controllingFieldValue>
+            <valueName>Inclined probability (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (Int)</controllingFieldValue>
+            <valueName>Low probability (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (Int)</controllingFieldValue>
+            <controllingFieldValue>Prize (Int)</controllingFieldValue>
+            <valueName>Other (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (SP)</controllingFieldValue>
+            <valueName>Inclined probability (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (SP)</controllingFieldValue>
+            <valueName>Low probability (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chance of winning (SP)</controllingFieldValue>
+            <controllingFieldValue>Prize (SP)</controllingFieldValue>
+            <valueName>Other (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Password</controllingFieldValue>
+            <controllingFieldValue>Register (Com)</controllingFieldValue>
+            <valueName>Invalid URL (PW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Password</controllingFieldValue>
+            <valueName>Other password reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Password</controllingFieldValue>
+            <valueName>Password Reset Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Change Password</controllingFieldValue>
+            <valueName>Password Reset Mail Undelivered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>check to-be-selected (SP)</controllingFieldValue>
+            <valueName>Change Input Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>check to-be-selected (SP)</controllingFieldValue>
+            <valueName>Check Input Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>check to-be-selected (SP)</controllingFieldValue>
+            <valueName>Forwarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>check to-be-selected (SP)</controllingFieldValue>
+            <valueName>Other Topics for Check to-be-selected (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Authentication (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Consumed (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Dishonest (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Invalid (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Other error (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (Int)</controllingFieldValue>
+            <valueName>Wrong (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Authentication (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Consumed (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Dishonest (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Invalid (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Other error (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error (SP)</controllingFieldValue>
+            <valueName>Wrong (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Authentication (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Consumed (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Dishonest (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Invalid (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Other error (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply</controllingFieldValue>
+            <valueName>Wrong (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>LINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>Other SNS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>Other Topics for How-to-Apply (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>Packplay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>Twitter/Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How-to-apply (Int)</controllingFieldValue>
+            <valueName>WEB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Campaign (SP)</controllingFieldValue>
+            <valueName>Inquiry After Apply (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Campaign (SP)</controllingFieldValue>
+            <valueName>Overview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Campaign (SP)</controllingFieldValue>
+            <valueName>Targeting Area / Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>About Campaign (SP)</controllingFieldValue>
+            <valueName>Targeting Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail Magazine</controllingFieldValue>
+            <valueName>About Mail Magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail Magazine</controllingFieldValue>
+            <valueName>CCBJI Mail News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail Magazine</controllingFieldValue>
+            <valueName>Coca-Cola News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail Magazine</controllingFieldValue>
+            <valueName>Georgia Mail Magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail Magazine</controllingFieldValue>
+            <valueName>Other topics for Mail Magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail magazine distribution</controllingFieldValue>
+            <valueName>Other mail magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail magazine distribution</controllingFieldValue>
+            <valueName>Stop Mail Magazine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail magazine distribution</controllingFieldValue>
+            <valueName>text garbling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mail magazine distribution</controllingFieldValue>
+            <valueName>Unreceived</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misprint</controllingFieldValue>
+            <valueName>Misprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misprint</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Organization (Com)</controllingFieldValue>
+            <controllingFieldValue>Other (Coca-cola Member Com)</controllingFieldValue>
+            <controllingFieldValue>Other (Com)</controllingFieldValue>
+            <controllingFieldValue>Other (Int)</controllingFieldValue>
+            <controllingFieldValue>Other (Products/Org Com)</controllingFieldValue>
+            <controllingFieldValue>Other (SP)</controllingFieldValue>
+            <controllingFieldValue>QR Code</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not exchangeable</controllingFieldValue>
+            <valueName>No Carry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not exchangeable</controllingFieldValue>
+            <valueName>No stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not exchangeable</controllingFieldValue>
+            <valueName>Other Reason</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not exchangeable</controllingFieldValue>
+            <valueName>Out of stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not exchangeable</controllingFieldValue>
+            <valueName>Reject</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Service</controllingFieldValue>
+            <valueName>Brandsite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Service</controllingFieldValue>
+            <valueName>Cmode</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Service</controllingFieldValue>
+            <valueName>Coca-Cola Park</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Service</controllingFieldValue>
+            <valueName>Old Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Com)</controllingFieldValue>
+            <valueName>Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Com)</controllingFieldValue>
+            <valueName>Service Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>COC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>Coca-Cola System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>CPC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>CSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>Other topics for Organization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organization (Inq)</controllingFieldValue>
+            <valueName>Webshop Customer Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (CC)</controllingFieldValue>
+            <valueName>Other (CC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Chunk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Cooperate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Interview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>No Fill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Thanks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other (Inq)</controllingFieldValue>
+            <valueName>Wrong Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others (Int)</controllingFieldValue>
+            <valueName>Other Topics for Interactive Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others (SP)</controllingFieldValue>
+            <valueName>Other Topics for Sales Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>Available VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>How-to-use Pointcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>Migration / Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>Other Topics for Pointcard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Point Card</controllingFieldValue>
+            <valueName>Own Points/Coupons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize</controllingFieldValue>
+            <valueName>Broken (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize</controllingFieldValue>
+            <valueName>Misdelivery (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize</controllingFieldValue>
+            <valueName>No reach (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize</controllingFieldValue>
+            <valueName>Other (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize</controllingFieldValue>
+            <valueName>Stained (Non)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (Int)</controllingFieldValue>
+            <valueName>Broken (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (Int)</controllingFieldValue>
+            <valueName>Misdelivery (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (Int)</controllingFieldValue>
+            <valueName>No reach (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (Int)</controllingFieldValue>
+            <valueName>Stained (Int)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (SP)</controllingFieldValue>
+            <valueName>Broken (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (SP)</controllingFieldValue>
+            <valueName>Misdelivery (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (SP)</controllingFieldValue>
+            <valueName>No reach (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prize (SP)</controllingFieldValue>
+            <valueName>Stained (SP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Com)</controllingFieldValue>
+            <valueName>Money/Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Com)</controllingFieldValue>
+            <valueName>Other products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Com)</controllingFieldValue>
+            <valueName>Package Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Com)</controllingFieldValue>
+            <valueName>Taste/Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Inq)</controllingFieldValue>
+            <valueName>About Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Inq)</controllingFieldValue>
+            <valueName>Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Inq)</controllingFieldValue>
+            <valueName>Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Inq)</controllingFieldValue>
+            <valueName>Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products (Inq)</controllingFieldValue>
+            <valueName>Shop/Area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QR Code</controllingFieldValue>
+            <valueName>Unscanable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Register (Com)</controllingFieldValue>
+            <valueName>Authentication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Register (Com)</controllingFieldValue>
+            <valueName>Other new registration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Register (Com)</controllingFieldValue>
+            <valueName>Registration Error</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

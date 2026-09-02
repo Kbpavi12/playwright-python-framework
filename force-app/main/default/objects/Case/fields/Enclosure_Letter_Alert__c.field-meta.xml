@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enclosure_Letter_Alert__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ISPICKVAL(Check_Letter_Generated_or_Not__c,&apos;Letter Not Generated&apos;),IMAGE(&quot;/resource/Letter_Alert&quot;, &quot;Letter Not Generated&quot;,20, 20)+&quot;Letter Not Generated&quot;,
+IF(ISPICKVAL(Check_Letter_Generated_or_Not__c,&apos;Letter Generated&apos;),IMAGE(&quot;/resource/letter_alert_green&quot;, &quot;Letter Generated&quot;,20, 20)+&quot;Letter Generated&quot;,&apos;&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Enclosure Letter Alert</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

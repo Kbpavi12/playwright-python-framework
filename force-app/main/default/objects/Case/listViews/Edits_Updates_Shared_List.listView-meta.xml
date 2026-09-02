@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edits_Updates_Shared_List</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5) AND 6</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Producing_Bottler_Folder__c</columns>
+    <columns>Requestor_Name__c</columns>
+    <columns>Reason__c</columns>
+    <columns>Fiscal_Period__c</columns>
+    <columns>Date_Requested__c</columns>
+    <columns>Review_Date__c</columns>
+    <columns>Reviewed_By__c</columns>
+    <columns>Action_Taken__c</columns>
+    <columns>Action_Comment__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.NA_Default,Case.NA_E_Commerce,Case.NA_Non_Quality,Case.NA_Promotion,Case.NA_Quality,Case.NA_Useless</value>
+    </filters>
+    <filters>
+        <field>Review_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Date_Requested__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Fiscal_Period__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Requestor_Name__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Fiscal_Period__c</field>
+        <operation>equals</operation>
+        <value>39</value>
+    </filters>
+    <label>Edits &amp; Updates Shared List</label>
+    <sharedTo>
+        <group>CCNA_Bottling_Company_Group</group>
+        <group>CCNA_Edits_Updates_Specialist_Team</group>
+    </sharedTo>
+</ListView>

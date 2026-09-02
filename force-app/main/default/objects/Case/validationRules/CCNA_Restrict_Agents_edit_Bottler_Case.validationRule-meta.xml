@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Restrict_Agents_edit_Bottler_Case</fullName>
+    <active>true</active>
+    <description>To restrict agent to edit closed case assigned to bottling company queue</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c, &apos;US&apos;),
+BEGINS(OwnerId,&quot;00G&quot;),
+BEGINS(Owner:Queue.QueueName ,&apos;CCNA&apos;),
+CONTAINS(RIGHT(Owner:Queue.DeveloperName, 2), &apos;BC&apos;),
+OR(NOT(ISCHANGED(OwnerId)),CONTAINS(RIGHT(PRIORVALUE(Case_Owner_Name__c),2),&apos;BC&apos;)),
+$UserRole.Name=&apos;CCNA Frontline Agent&apos;,
+ISPICKVAL(Status, &apos;Closed&apos;)
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to edit the closed case which is assigned to Bottling Company Queue.</errorMessage>
+</ValidationRule>

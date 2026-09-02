@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IMCR_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_IMCR_Issue__c</field>
+        <operation>equals</operation>
+        <value>Confirmed</value>
+    </filters>
+    <filters>
+        <field>Risk_Level__c</field>
+        <operation>equals</operation>
+        <value>Extremely High</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_CSC_Case</value>
+    </filters>
+    <label>IMCR Cases</label>
+    <sharedTo>
+        <group>Japan_Bottler_IMCR_Public_Group</group>
+        <role>CCJC_CIC_IMCR_User</role>
+        <role>CCJC_CIC_Manager</role>
+        <role>CCJC_CSC_Manager</role>
+        <role>CCJC_CSC_Supervisor</role>
+        <role>Japan_CIC_BPO_Manager</role>
+        <role>Japan_CIC_Supervisor</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JP_Number_format_for_Japan_Fields</fullName>
+    <active>true</active>
+    <description>Enter the 7 text fields in numbers for Bottlers.</description>
+    <errorConditionFormula>OR(
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(VM_Instalation_Number__c)),
+NOT(ISBLANK(VM_Instalation_Number__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(number_of_visits__c)),
+NOT(ISBLANK(number_of_visits__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(Time_spent_for_settlement__c)),
+NOT(ISBLANK(Time_spent_for_settlement__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(Sample_Products__c)),
+NOT(ISBLANK(Sample_Products__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(Quantity_Collected__c)),
+NOT(ISBLANK(Quantity_Collected__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(Estimated_Price__c)),
+NOT(ISBLANK(Estimated_Price__c))
+),
+AND
+(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+CONTAINS($UserRole.Name ,&apos;Bottler HQ&apos;),
+NOT(ISNUMBER(Sales_Volume__c)),
+NOT(ISBLANK(Sales_Volume__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Please enter the field in number format</errorMessage>
+</ValidationRule>

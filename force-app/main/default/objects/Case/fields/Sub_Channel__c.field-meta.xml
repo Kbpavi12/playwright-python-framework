@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Channel__c</fullName>
+    <description>Used to define the sub‑channel through which the case was received or managed. BU: LATAM, NA</description>
+    <label>Sub-Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origin</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Coke</fullName>
+                <default>false</default>
+                <label>Coke</label>
+            </value>
+            <value>
+                <fullName>Coke HQ Atlanta</fullName>
+                <default>false</default>
+                <label>Coke HQ Atlanta</label>
+            </value>
+            <value>
+                <fullName>Consumer Care Account</fullName>
+                <default>false</default>
+                <label>Consumer Care Account</label>
+            </value>
+            <value>
+                <fullName>Contact Us Forms 1XP</fullName>
+                <default>false</default>
+                <label>Contact Us Forms 1XP</label>
+            </value>
+            <value>
+                <fullName>direct message</fullName>
+                <default>false</default>
+                <label>direct message</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Extrazone</fullName>
+                <default>false</default>
+                <label>Extrazone</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Flickr</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flickr</label>
+            </value>
+            <value>
+                <fullName>Google+</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Google+</label>
+            </value>
+            <value>
+                <fullName>Google Business Reviews</fullName>
+                <default>false</default>
+                <label>Google Business Reviews</label>
+            </value>
+            <value>
+                <fullName>ICUC</fullName>
+                <default>false</default>
+                <label>ICUC</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Journey</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Journey</label>
+            </value>
+            <value>
+                <fullName>LiveChat</fullName>
+                <default>false</default>
+                <label>LiveChat</label>
+            </value>
+            <value>
+                <fullName>Mail/Web</fullName>
+                <default>false</default>
+                <label>Mail/Web</label>
+            </value>
+            <value>
+                <fullName>other</fullName>
+                <default>false</default>
+                <label>other</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Plant/Offices</fullName>
+                <default>false</default>
+                <label>Plant/Offices</label>
+            </value>
+            <value>
+                <fullName>Press</fullName>
+                <default>false</default>
+                <label>Press</label>
+            </value>
+            <value>
+                <fullName>Press/Other</fullName>
+                <default>false</default>
+                <label>Press/Other</label>
+            </value>
+            <value>
+                <fullName>Private message</fullName>
+                <default>false</default>
+                <label>Private message</label>
+            </value>
+            <value>
+                <fullName>public post</fullName>
+                <default>false</default>
+                <label>public post</label>
+            </value>
+            <value>
+                <fullName>public tweet</fullName>
+                <default>false</default>
+                <label>public tweet</label>
+            </value>
+            <value>
+                <fullName>Q&amp;A Portal</fullName>
+                <default>false</default>
+                <label>Q&amp;A Portal</label>
+            </value>
+            <value>
+                <fullName>TCCC</fullName>
+                <default>false</default>
+                <label>TCCC</label>
+            </value>
+            <value>
+                <fullName>TikTok</fullName>
+                <default>false</default>
+                <label>TikTok</label>
+            </value>
+            <value>
+                <fullName>Trip Advisor</fullName>
+                <default>false</default>
+                <label>Trip Advisor</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Web Reclameaqui BR</fullName>
+                <default>false</default>
+                <label>Web Reclameaqui BR</label>
+            </value>
+            <value>
+                <fullName>Web SERNAC CL</fullName>
+                <default>false</default>
+                <label>Web SERNAC CL</label>
+            </value>
+            <value>
+                <fullName>Web Tu queja suma AR</fullName>
+                <default>false</default>
+                <label>Web Tu queja suma AR</label>
+            </value>
+            <value>
+                <fullName>WhatsApp/Kora</fullName>
+                <default>false</default>
+                <label>WhatsApp/Kora</label>
+            </value>
+            <value>
+                <fullName>X</fullName>
+                <default>false</default>
+                <label>X</label>
+            </value>
+            <value>
+                <fullName>Yelp</fullName>
+                <default>false</default>
+                <label>Yelp</label>
+            </value>
+            <value>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+                <label>YouTube</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Twitter</controllingFieldValue>
+            <valueName>direct message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Twitter</controllingFieldValue>
+            <valueName>public tweet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Channels</controllingFieldValue>
+            <valueName>Mail/Web</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Channels</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Channels</controllingFieldValue>
+            <valueName>Plant/Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Channels</controllingFieldValue>
+            <valueName>Coke HQ Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Channels</controllingFieldValue>
+            <valueName>Employee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Channels</controllingFieldValue>
+            <valueName>Press/Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chat</controllingFieldValue>
+            <valueName>LiveChat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chat</controllingFieldValue>
+            <controllingFieldValue>Phone</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <controllingFieldValue>Letter</controllingFieldValue>
+            <valueName>other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Google Business Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>TikTok</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Trip Advisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>WhatsApp/Kora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Yelp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>YouTube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Consumer Care Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Web Reclameaqui BR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Web SERNAC CL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Web Tu queja suma AR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Coke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Contact Us Forms 1XP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web</controllingFieldValue>
+            <valueName>Q&amp;A Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facebook</controllingFieldValue>
+            <valueName>Private message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Facebook</controllingFieldValue>
+            <valueName>public post</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

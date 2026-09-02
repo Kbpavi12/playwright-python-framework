@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vending_Machine__c</fullName>
+    <label>Vending Machine</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KO FSVM</fullName>
+                <default>false</default>
+                <label>KO FSVM</label>
+            </value>
+            <value>
+                <fullName>KO REGVM</fullName>
+                <default>false</default>
+                <label>KO REGVM</label>
+            </value>
+            <value>
+                <fullName>FV</fullName>
+                <default>false</default>
+                <label>FV</label>
+            </value>
+            <value>
+                <fullName>Other VM</fullName>
+                <default>false</default>
+                <label>Other VM</label>
+            </value>
+            <value>
+                <fullName>Filer Misunderstanding</fullName>
+                <default>false</default>
+                <label>Filer Misunderstanding</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

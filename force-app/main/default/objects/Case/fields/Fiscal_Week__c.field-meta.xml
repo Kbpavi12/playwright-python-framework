@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fiscal_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(
+    (DATEVALUE(CreatedDate)&gt;DATE(2025,12,26) &amp;&amp; DATEVALUE(CreatedDate)&lt;DATE(2026,01,03)),
+    53,
+    IF(YEAR(DATEVALUE(CreatedDate))&gt;=2026,
+        MOD(FLOOR( (DATEVALUE(CreatedDate) - DATEVALUE(&quot;2026-01-03&quot;)) /7),52)+1,
+	        IF(YEAR(DATEVALUE(CreatedDate))&lt;=2020,
+	        	    MIN(CEILING(((DATEVALUE(CreatedDate) - DATE(YEAR(DATEVALUE(CreatedDate)), 1, 1) + 1) +
+	        	    MOD(DATE(YEAR(DATEVALUE(CreatedDate)), 1, 1) - DATE(2012, 1, 7), 7)) / 7),52),
+		            MOD(FLOOR( (DATEVALUE(CreatedDate) - DATEVALUE(&quot;2021-01-02&quot;)) /7),52)+1
+										)
+							)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fiscal Week #</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

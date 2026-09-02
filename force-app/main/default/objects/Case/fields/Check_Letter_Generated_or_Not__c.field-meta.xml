@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Letter_Generated_or_Not__c</fullName>
+    <label>Check Letter Generated or Not</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Letter Not Generated</fullName>
+                <default>false</default>
+                <label>Letter Not Generated</label>
+            </value>
+            <value>
+                <fullName>Letter Generated</fullName>
+                <default>false</default>
+                <label>Letter Generated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

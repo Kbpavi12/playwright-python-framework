@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_Communicator_cant_update_priority</fullName>
+    <active>true</active>
+    <description>JP CSC/COC Communicator and Leader cannot mark Risk level as High or Extremely High.</description>
+    <errorConditionFormula>AND(
+OR(CONTAINS( $UserRole.Name,&apos;Communicator&apos;),CONTAINS( $UserRole.Name,&apos;Leader&apos;)),
+OR(
+ISPICKVAL( Risk_Level__c, &apos;High&apos;),
+ISPICKVAL(Risk_Level__c, &apos;Extremely High&apos;)
+),
+ISCHANGED(Risk_Level__c),
+ISPICKVAL(Country_Code__c,&apos;JP&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>Risk_Level__c</errorDisplayField>
+    <errorMessage>Communicator/Leader is not allowed to mark risk level of an IMCR case.</errorMessage>
+</ValidationRule>

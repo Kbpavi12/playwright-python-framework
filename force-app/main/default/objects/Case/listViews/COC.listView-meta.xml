@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COC</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_COC_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,Processing,On Hold</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Test COC Manager</value>
+    </filters>
+    <label>[COC]データ移行担当者変更</label>
+    <sharedTo>
+        <group>JP_All_Users</group>
+    </sharedTo>
+</ListView>

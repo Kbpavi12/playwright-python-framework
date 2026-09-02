@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Type__c</fullName>
+    <label>Sales Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VM</fullName>
+                <default>false</default>
+                <label>VM</label>
+            </value>
+            <value>
+                <fullName>CVS</fullName>
+                <default>false</default>
+                <label>CVS</label>
+            </value>
+            <value>
+                <fullName>OTC</fullName>
+                <default>false</default>
+                <label>OTC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Full</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not specified</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regular</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

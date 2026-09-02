@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Type_Of_Followup_is_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = &apos;NA_Quality&apos;,
+ISPICKVAL(Country_Code__c , &apos;US&apos;),
+NOT(ISPICKVAL(Status , &apos;Closed&apos;)),
+ISBLANK(TEXT(Type_of_Followup__c)),
+OR(Right(Owner:Queue.QueueName ,3) == &apos; BC&apos;,
+Owner:Queue.QueueName=&apos;CCNA CIC Bottler Queue&apos;
+)
+)</errorConditionFormula>
+    <errorMessage>Please fill Type of Followup before assigning case to Bottlers.</errorMessage>
+</ValidationRule>

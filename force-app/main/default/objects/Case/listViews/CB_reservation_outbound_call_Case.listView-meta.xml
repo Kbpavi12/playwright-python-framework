@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CB_reservation_outbound_call_Case</fullName>
+    <columns>Call_Received_Date__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Queue</filterScope>
+    <label>CB予約_発信</label>
+    <language>en_US</language>
+    <queue>CB_reservation_outbound_call</queue>
+    <sharedTo>
+        <group>Japan_CSC_Users</group>
+    </sharedTo>
+</ListView>

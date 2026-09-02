@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Type__c</fullName>
+    <description>Used to capture the risk type associated with the case. BU: LATAM, NA</description>
+    <label>Risk Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad Buzz</fullName>
+                <default>false</default>
+                <label>Bad Buzz</label>
+            </value>
+            <value>
+                <fullName>Blackmail</fullName>
+                <default>false</default>
+                <label>Blackmail</label>
+            </value>
+            <value>
+                <fullName>Coke Employee Safety</fullName>
+                <default>false</default>
+                <label>Coke Employee Safety</label>
+            </value>
+            <value>
+                <fullName>Consumer health</fullName>
+                <default>false</default>
+                <label>Consumer health</label>
+            </value>
+            <value>
+                <fullName>Consumer Safety</fullName>
+                <default>false</default>
+                <label>Consumer Safety</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>No delivery</fullName>
+                <default>false</default>
+                <label>No delivery</label>
+            </value>
+            <value>
+                <fullName>Organized Attack</fullName>
+                <default>false</default>
+                <label>Organized Attack</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Public Institution</fullName>
+                <default>false</default>
+                <label>Other Public Institution</label>
+            </value>
+            <value>
+                <fullName>Private Institution</fullName>
+                <default>false</default>
+                <label>Private Institution</label>
+            </value>
+            <value>
+                <fullName>Sanitary</fullName>
+                <default>false</default>
+                <label>Sanitary</label>
+            </value>
+            <value>
+                <fullName>Blackmail/Boicott</fullName>
+                <default>false</default>
+                <label>Blackmail/Boicott</label>
+            </value>
+            <value>
+                <fullName>Threatening tone</fullName>
+                <default>false</default>
+                <label>Threatening tone</label>
+            </value>
+            <value>
+                <fullName>Lawyer involvement</fullName>
+                <default>false</default>
+                <label>Lawyer involvement</label>
+            </value>
+            <value>
+                <fullName>Protection Agency involvement</fullName>
+                <default>false</default>
+                <label>Protection Agency involvement</label>
+            </value>
+            <value>
+                <fullName>Media involvement</fullName>
+                <default>false</default>
+                <label>Media involvement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Default_Record_type_Validation</fullName>
+    <active>true</active>
+    <description>Users should be able to change the case type from default to other ones but not vice versa.</description>
+    <errorConditionFormula>AND
+(RecordType.DeveloperName = &apos;NA_Default&apos;,
+IsChanged(RecordTypeId),
+ISPICKVAL(Country_Code__c ,&apos;US&apos;),
+NOT(OR(
+       $Profile.Name = &apos;Nexus Data Loader&apos;,
+					  $User.Id=&apos;0055A00000Bn4ME&apos;
+					 )
+			)
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to change to Default case type.</errorMessage>
+</ValidationRule>

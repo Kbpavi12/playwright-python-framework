@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Do Not Produce Sparkling</fullName>
+                <default>false</default>
+                <label>Do Not Produce Sparkling</label>
+            </value>
+            <value>
+                <fullName>Do Not Produce Hot Fill</fullName>
+                <default>false</default>
+                <label>Do Not Produce Hot Fill</label>
+            </value>
+            <value>
+                <fullName>Do Not Produce Chilled</fullName>
+                <default>false</default>
+                <label>Do Not Produce Chilled</label>
+            </value>
+            <value>
+                <fullName>Do Not Produce Frozen</fullName>
+                <default>false</default>
+                <label>Do Not Produce Frozen</label>
+            </value>
+            <value>
+                <fullName>Do Not Produce Dairy</fullName>
+                <default>false</default>
+                <label>Do Not Produce Dairy</label>
+            </value>
+            <value>
+                <fullName>Request to Reclassify Property</fullName>
+                <default>false</default>
+                <label>Request to Reclassify Property</label>
+            </value>
+            <value>
+                <fullName>Do not produce this package size</fullName>
+                <default>false</default>
+                <label>Do not produce this package size</label>
+            </value>
+            <value>
+                <fullName>Do not produce this package type</fullName>
+                <default>false</default>
+                <label>Do not produce this package type</label>
+            </value>
+            <value>
+                <fullName>Do not produce this product</fullName>
+                <default>false</default>
+                <label>Do not produce this product</label>
+            </value>
+            <value>
+                <fullName>Does not match Production Records</fullName>
+                <default>false</default>
+                <label>Does not match Production Records</label>
+            </value>
+            <value>
+                <fullName>Duplicate Report</fullName>
+                <default>false</default>
+                <label>Duplicate Report</label>
+            </value>
+            <value>
+                <fullName>Incorrect Package Size</fullName>
+                <default>false</default>
+                <label>Incorrect Package Size</label>
+            </value>
+            <value>
+                <fullName>Incorrect Package Type</fullName>
+                <default>false</default>
+                <label>Incorrect Package Type</label>
+            </value>
+            <value>
+                <fullName>Wrong Package Type &amp; Package Size</fullName>
+                <default>false</default>
+                <label>Wrong Package Type &amp; Package Size</label>
+            </value>
+            <value>
+                <fullName>Updated Country Code</fullName>
+                <default>false</default>
+                <label>Updated Country Code</label>
+            </value>
+            <value>
+                <fullName>Updated Category 3 &amp; 4</fullName>
+                <default>false</default>
+                <label>Updated Category 3 &amp; 4</label>
+            </value>
+            <value>
+                <fullName>Do Not Distribute (Purchasing Report Only)</fullName>
+                <default>false</default>
+                <label>Do Not Distribute (Purchasing Report Only)</label>
+            </value>
+            <value>
+                <fullName>No Edits Requested</fullName>
+                <default>false</default>
+                <label>No Edits Requested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

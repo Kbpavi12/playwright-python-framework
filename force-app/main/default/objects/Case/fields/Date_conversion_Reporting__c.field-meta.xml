@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_conversion_Reporting__c</fullName>
+    <description>Lightning Report - Datetime field value for March in leap year is displayed as February in &quot;Calendar Month in Year&quot; in report--(Formula field to convert Date/Time into Date for reporting analysis for Japan).</description>
+    <formula>DATEVALUE(CreatedDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Date conversion Reporting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

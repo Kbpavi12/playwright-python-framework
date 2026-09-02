@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Non_Brazil_Social_Media_Inquiry_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Latam Non-Brazil Social Media Inquiry</label>
+    <queue>Latam_Non_Brazil_Social_Media_Inquiry</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

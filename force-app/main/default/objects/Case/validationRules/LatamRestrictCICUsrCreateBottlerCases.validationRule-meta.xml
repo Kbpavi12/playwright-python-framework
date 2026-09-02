@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LatamRestrictCICUsrCreateBottlerCases</fullName>
+    <active>true</active>
+    <description>Validation rule to restrict CIC users to create cases for Bottler manged countries.</description>
+    <errorConditionFormula>AND(
+$Profile.Name !=&apos;ECIC LATAM CRC Bottler Agent Profile&apos;,
+$Profile.Name !=&apos;Nexus Data Loader&apos;,
+$Profile.Name !=&apos;System Administrator&apos;,
+TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+ISNEW(),
+OR(
+ISPICKVAL(Country_Code__c, &quot;BS&quot;),
+ISPICKVAL(Country_Code__c, &quot;BB&quot;),
+ISPICKVAL(Country_Code__c, &quot;BZ&quot;),
+ISPICKVAL(Country_Code__c, &quot;CW&quot;),
+ISPICKVAL(Country_Code__c, &quot;GD&quot;),
+ISPICKVAL(Country_Code__c, &quot;GY&quot;),
+ISPICKVAL(Country_Code__c, &quot;HT&quot;),
+ISPICKVAL(Country_Code__c, &quot;MQ&quot;),
+ISPICKVAL(Country_Code__c, &quot;LC&quot;),
+ISPICKVAL(Country_Code__c, &quot;SR&quot;),
+ISPICKVAL(Country_Code__c, &quot;AW&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>CIC User can not create cases for bottler countries.</errorMessage>
+</ValidationRule>

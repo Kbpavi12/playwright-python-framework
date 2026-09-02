@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chat_Case_Reason__c</fullName>
+    <label>Chat Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>CokeON_VM</fullName>
+                <default>false</default>
+                <label>CokeON_VM</label>
+            </value>
+            <value>
+                <fullName>Got no stamps</fullName>
+                <default>false</default>
+                <label>Got no stamps</label>
+            </value>
+            <value>
+                <fullName>How-to-use</fullName>
+                <default>false</default>
+                <label>How-to-use</label>
+            </value>
+            <value>
+                <fullName>Login</fullName>
+                <default>false</default>
+                <label>Login</label>
+            </value>
+            <value>
+                <fullName>Login/Profile</fullName>
+                <default>false</default>
+                <label>Login/Profile</label>
+            </value>
+            <value>
+                <fullName>Obstacle/Maintenance</fullName>
+                <default>false</default>
+                <label>Obstacle/Maintenance</label>
+            </value>
+            <value>
+                <fullName>Others(CR)</fullName>
+                <default>false</default>
+                <label>Others(CR)</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Unavailable Coke ON Pay/Pass</fullName>
+                <default>false</default>
+                <label>Unavailable Coke ON Pay/Pass</label>
+            </value>
+            <value>
+                <fullName>Unavailable Connect with bluetooth</fullName>
+                <default>false</default>
+                <label>Unavailable Connect with bluetooth</label>
+            </value>
+            <value>
+                <fullName>Unavailable Drink ticket</fullName>
+                <default>false</default>
+                <label>Unavailable Drink ticket</label>
+            </value>
+            <value>
+                <fullName>Unavailable Sampling ticket</fullName>
+                <default>false</default>
+                <label>Unavailable Sampling ticket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

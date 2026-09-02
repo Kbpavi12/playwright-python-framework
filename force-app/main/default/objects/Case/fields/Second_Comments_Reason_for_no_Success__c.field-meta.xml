@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Second_Comments_Reason_for_no_Success__c</fullName>
+    <description>Used to capture the reason provided for no successful resolution during the second contact attempt. BU: LATAM</description>
+    <label>Second Comments / Reason for no Success</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Away</fullName>
+                <default>false</default>
+                <label>Away</label>
+            </value>
+            <value>
+                <fullName>Pending data collection</fullName>
+                <default>false</default>
+                <label>Pending data collection</label>
+            </value>
+            <value>
+                <fullName>Mailbox or electronic secretary</fullName>
+                <default>false</default>
+                <label>Mailbox or electronic secretary</label>
+            </value>
+            <value>
+                <fullName>Off or out of area</fullName>
+                <default>false</default>
+                <label>Off or out of area</label>
+            </value>
+            <value>
+                <fullName>Will call back</fullName>
+                <default>false</default>
+                <label>Will call back</label>
+            </value>
+            <value>
+                <fullName>Moved or fax signal</fullName>
+                <default>false</default>
+                <label>Moved or fax signal</label>
+            </value>
+            <value>
+                <fullName>Wrong number</fullName>
+                <default>false</default>
+                <label>Wrong number</label>
+            </value>
+            <value>
+                <fullName>Number does not exist</fullName>
+                <default>false</default>
+                <label>Number does not exist</label>
+            </value>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>Message</fullName>
+                <default>false</default>
+                <label>Message</label>
+            </value>
+            <value>
+                <fullName>Requested new contact</fullName>
+                <default>false</default>
+                <label>Requested new contact</label>
+            </value>
+            <value>
+                <fullName>Phone unavailable or disabled</fullName>
+                <default>false</default>
+                <label>Phone unavailable or disabled</label>
+            </value>
+            <value>
+                <fullName>Busy phone</fullName>
+                <default>false</default>
+                <label>Busy phone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

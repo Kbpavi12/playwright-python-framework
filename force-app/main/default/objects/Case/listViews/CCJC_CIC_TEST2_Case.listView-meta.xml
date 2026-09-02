@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCJC_CIC_TEST2_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>[CICTEST]テスト用キュー2</label>
+    <queue>CCJC_CIC_TEST2</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

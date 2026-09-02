@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_May_Be_Queue_Only_With_Status_New</fullName>
+    <active>true</active>
+    <description>Queue can be owner of case only when status of case is new and record type of case is
+ inquiry/Compliment/Comment/Useless/Non-Quality type.</description>
+    <errorConditionFormula>AND(
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+    TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+    NOT(
+        OR(
+            ISBLANK(TEXT(Status)),
+            ISPICKVAL(Status, &quot;New&quot;)
+        )
+    ),
+    NOT(ISBLANK(Owner:Queue.QueueName)),
+    OR(
+        RecordType.DeveloperName = &quot;Latam_Inquiry&quot;,
+        RecordType.DeveloperName = &quot;Latam_Non_Quality&quot;,
+        RecordType.DeveloperName = &quot;Latam_Useless&quot;,
+        RecordType.DeveloperName = &quot;Latam_Compliment&quot;,
+        RecordType.DeveloperName = &quot;Latam_Comment&quot;
+    )
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>The queue can be Owner of Case only when status is New.</errorMessage>
+</ValidationRule>

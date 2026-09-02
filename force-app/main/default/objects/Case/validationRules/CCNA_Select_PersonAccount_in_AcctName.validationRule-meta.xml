@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Select_PersonAccount_in_AcctName</fullName>
+    <active>true</active>
+    <description>User can only select Person Account in Account Name on Case</description>
+    <errorConditionFormula>AND(NOT(Account.RecordType.DeveloperName=&apos;Person_Account_NA&apos;),
+NOT(Account.RecordType.DeveloperName=&apos;Consumer_Hidden_for_Bottler&apos;),
+NOT(ISBLANK(AccountId)),
+ISPICKVAL(Country_Code__c,&apos;US&apos;)
+)</errorConditionFormula>
+    <errorMessage>Please Select a Consumer.</errorMessage>
+</ValidationRule>

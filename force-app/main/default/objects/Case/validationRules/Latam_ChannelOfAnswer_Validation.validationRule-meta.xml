@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_ChannelOfAnswer_Validation</fullName>
+    <active>true</active>
+    <description>Ensure the channel of answer field is filled if the status is &apos;Closed&apos;.</description>
+    <errorConditionFormula>AND(
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+  TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+  OR(RecordType.DeveloperName = &quot;Latam_Quality&quot;,
+     RecordType.DeveloperName = &quot;Latam_E_Commerce&quot;),
+ ISPICKVAL(Status , &quot;Closed&quot;),
+ ISPICKVAL(Channel_of_Answer__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Channel_of_Answer__c</errorDisplayField>
+    <errorMessage>The cases must not be closed without providing the channel of answer data</errorMessage>
+</ValidationRule>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apple Pay</fullName>
+                <default>false</default>
+                <label>Apple Pay</label>
+            </value>
+            <value>
+                <fullName>Coke &amp; Go App</fullName>
+                <default>false</default>
+                <label>Coke &amp; Go App</label>
+            </value>
+            <value>
+                <fullName>Credit/Debit Card</fullName>
+                <default>false</default>
+                <label>Credit/Debit Card</label>
+            </value>
+            <value>
+                <fullName>Google Wallet</fullName>
+                <default>false</default>
+                <label>Google Wallet</label>
+            </value>
+            <value>
+                <fullName>Hard Money</fullName>
+                <default>false</default>
+                <label>Hard Money</label>
+            </value>
+            <value>
+                <fullName>Option Needed</fullName>
+                <default>false</default>
+                <label>Option Needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

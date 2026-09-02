@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_QSE_ExtenalBottler_Mandatory_Fields</fullName>
+    <active>true</active>
+    <description>These Edits &amp; Updates section fields are mandatory i.e. Date Requested, Requestor Name, Requesting Bottler, Reason, Production Validation and Product Distribution.</description>
+    <errorConditionFormula>AND(
+ OR($Profile.Name = &apos;CCNA Bottler External Team&apos;,
+			 $Profile.Name = &apos;CCNA QSE Partner&apos;,
+			 $Profile.Name = &apos;CCNA Bottler&apos;),	
+		NOT(INCLUDES(Reason__c,&apos;No Edits Requested&apos;)),
+		NOT(ISBLANK(Reason__c)),
+OR( 
+Requestor_Name__c=&apos;&apos;,
+Producing_Bottler_Folder__c=&apos;&apos;,
+ISPICKVAL(Production_Validation__c,&apos;&apos;),
+ISPICKVAL(Product_Distribution__c,&apos;&apos;),
+ISBLANK(Date_Requested__c)
+),
+CreatedDate &gt; DATETIMEVALUE(&quot;2024-12-16 00:00:00&quot;)
+)</errorConditionFormula>
+    <errorMessage>All these fields are mandatory i.e. Requestor Name, Requesting Bottler, Reason, Production Validation, Product Distribution and Date Requested.</errorMessage>
+</ValidationRule>

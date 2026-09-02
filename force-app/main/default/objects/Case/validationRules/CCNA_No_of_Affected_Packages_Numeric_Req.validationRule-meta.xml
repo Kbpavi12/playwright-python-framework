@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_No_of_Affected_Packages_Numeric_Req</fullName>
+    <active>false</active>
+    <description>Number of affected Packages field should be numeric and required for certain categorization criteria</description>
+    <errorConditionFormula>AND($Profile.Name != &apos;Nexus Data Loader&apos;,
+NOT( AND(ISCHANGED(OwnerId),LEFT(PRIORVALUE(OwnerId),3) =&apos;00G&apos;) ),
+OR(
+AND(
+ISPICKVAL( Country_Code__c , &apos;US&apos;),
+OR(NOT(ISNUMBER( Number_of_Affected_Packages__c )), Number_of_Affected_Packages__c = &apos;0&apos;),
+NOT(ISBLANK(Number_of_Affected_Packages__c ))
+),
+AND
+( ISPICKVAL( Country_Code__c , &apos;US&apos;),
+OR(
+AND(RecordType.DeveloperName=&apos;NA_Quality&apos;,
+$User.Id!=&apos;0055A00000Bn4ME&apos;,
+OR(ISPICKVAL(Reason ,&apos;Product&apos;),ISPICKVAL(Reason,&apos;Package&apos;))),
+AND(RecordType.DeveloperName = &apos;NA_Non_Quality&apos;,
+				$User.Id!=&apos;0055A00000Bn4ME&apos;,
+ISPICKVAL(Reason ,&apos;Complaint&apos;),
+ISPICKVAL(NA1_Category_Level_3__c ,&apos;Consumer Storage(Complaint)&apos;)),
+AND(RecordType.DeveloperName = &apos;NA_Non_Quality&apos;,
+				$User.Id!=&apos;0055A00000Bn4ME&apos;,
+ISPICKVAL(Reason ,&apos;Complaint&apos;),
+BEGINS( TEXT(NA1_Category_Level_4_Non_Quality__c) ,&apos;Reaction&apos;) )
+),
+OR(
+NOT(ISNUMBER( Number_of_Affected_Packages__c )),
+ISBLANK(Number_of_Affected_Packages__c )
+)
+
+)))</errorConditionFormula>
+    <errorMessage>You must enter a number in the number of packages affected field</errorMessage>
+</ValidationRule>

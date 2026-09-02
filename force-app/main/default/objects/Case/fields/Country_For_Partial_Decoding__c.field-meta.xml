@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_For_Partial_Decoding__c</fullName>
+    <label>Date Code Formats</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CA</fullName>
+                <default>false</default>
+                <label>CA</label>
+            </value>
+            <value>
+                <fullName>MX</fullName>
+                <default>false</default>
+                <label>MX</label>
+            </value>
+            <value>
+                <fullName>Topo Chico</fullName>
+                <default>false</default>
+                <label>Topo Chico</label>
+            </value>
+            <value>
+                <fullName>US</fullName>
+                <default>false</default>
+                <label>US</label>
+            </value>
+            <value>
+                <fullName>TK</fullName>
+                <default>false</default>
+                <label>TK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Deletion_Request__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field should be marked by CCNA PII team and the marked cases will be deleted later on via Batch class i.e. CCNA_PIIDataDeletionBatch</description>
+    <inlineHelpText>Please mark the case and its respective sibling cases for deletion.</inlineHelpText>
+    <label>Case Deletion Request</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

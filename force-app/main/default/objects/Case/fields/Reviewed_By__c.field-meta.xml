@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewed_By__c</fullName>
+    <label>Reviewed By</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>S. Barnes</fullName>
+                <default>false</default>
+                <label>S. Barnes</label>
+            </value>
+            <value>
+                <fullName>K. Beverly</fullName>
+                <default>false</default>
+                <label>K. Beverly</label>
+            </value>
+            <value>
+                <fullName>T. Emmanuel</fullName>
+                <default>false</default>
+                <label>T. Emmanuel</label>
+            </value>
+            <value>
+                <fullName>K. Cordell</fullName>
+                <default>false</default>
+                <label>K. Cordell</label>
+            </value>
+            <value>
+                <fullName>B. Stinnett</fullName>
+                <default>false</default>
+                <label>B. Stinnett</label>
+            </value>
+            <value>
+                <fullName>B. Brock</fullName>
+                <default>false</default>
+                <label>B. Brock</label>
+            </value>
+            <value>
+                <fullName>K. Day</fullName>
+                <default>false</default>
+                <label>K. Day</label>
+            </value>
+            <value>
+                <fullName>D. Burger</fullName>
+                <default>false</default>
+                <label>D. Burger</label>
+            </value>
+            <value>
+                <fullName>R. Joyce</fullName>
+                <default>false</default>
+                <label>R. Joyce</label>
+            </value>
+            <value>
+                <fullName>Richard J.</fullName>
+                <default>false</default>
+                <label>Richard J.</label>
+            </value>
+            <value>
+                <fullName>S. Schivers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>S. Schivers</label>
+            </value>
+            <value>
+                <fullName>S. Taffe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>S. Taffe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

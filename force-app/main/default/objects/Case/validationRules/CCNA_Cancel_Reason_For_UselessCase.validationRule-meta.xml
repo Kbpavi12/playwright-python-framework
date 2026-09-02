@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Cancel_Reason_For_UselessCase</fullName>
+    <active>true</active>
+    <description>If cancel reason is email reply than a useless case must have a Parent Case.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Country_Code__c,&apos;US&apos;),
+RecordType.DeveloperName = &apos;NA_Useless&apos;,
+ISPICKVAL(Cancel_Reason__c,&apos;Email Reply&apos;),
+ISBLANK(ParentId)
+)</errorConditionFormula>
+    <errorMessage>Parent Case is a must if Cancel Reason is Email Reply</errorMessage>
+</ValidationRule>

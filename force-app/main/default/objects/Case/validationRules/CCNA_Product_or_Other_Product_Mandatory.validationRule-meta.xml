@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Product_or_Other_Product_Mandatory</fullName>
+    <active>true</active>
+    <description>CIC Frontline Agent, Specialist, FOS, CIC Bottler, NA Bottler should be able to enter either &quot;Product&quot; or &quot;Other product&quot; in the system</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c,&apos;US&apos;),
+$User.Id!=&apos;0055A00000Bn4ME&apos;,
+$User.FirstName &lt;&gt;&apos;System&apos;,
+NOT( AND(ISCHANGED(OwnerId),LEFT(PRIORVALUE(OwnerId),3) =&apos;00G&apos;) ),
+$Profile.Name != &apos;Nexus Data Loader&apos;,
+RecordType.DeveloperName == &quot;NA_Quality&quot;,
+OR(
+AND(Product__c==null,DATEVALUE(CreatedDate) &gt;= DATE(2023,03,28)),
+AND(DATEVALUE(CreatedDate) &lt;= DATE(2023,03,27), Product__c==null, Other_Product_Information__c ==null)
+),
+!ISNEW(),
+!ISPICKVAL(Status ,&apos;Closed&apos;),
+OR(ISPICKVAL(Reason , &apos;Product&apos;), ISPICKVAL(Reason , &apos;Package&apos;),
+ISPICKVAL( NA1_Category_Level_3__c , &apos;Reaction&apos;)))</errorConditionFormula>
+    <errorDisplayField>Product__c</errorDisplayField>
+    <errorMessage>You must enter Product. Please select &quot;Dummy Product&quot; if product is unknown.</errorMessage>
+</ValidationRule>

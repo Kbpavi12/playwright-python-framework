@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Re_categorization_Record_Type__c</fullName>
+    <description>Used to capture the record type assigned to the case after re‑categorization. BU: LATAM</description>
+    <label>Re-categorization Record Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Latam Quality</fullName>
+                <default>false</default>
+                <label>Latam Quality</label>
+            </value>
+            <value>
+                <fullName>Latam Comment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam Comment</label>
+            </value>
+            <value>
+                <fullName>Latam Compliment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam Compliment</label>
+            </value>
+            <value>
+                <fullName>Latam E-Commerce</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Latam Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam Inquiry</label>
+            </value>
+            <value>
+                <fullName>Latam Non-Quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam Non-Quality</label>
+            </value>
+            <value>
+                <fullName>Latam Useless</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Latam Useless</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_Purchase_Equipment_Type_Mandatory_New</fullName>
+    <active>true</active>
+    <description>Purchase Equipment Type field is required when Category Level 3 is Equipment Service</description>
+    <errorConditionFormula>AND(OR(RecordType.DeveloperName = &apos;NA_Quality&apos;,RecordType.DeveloperName = &apos;NA_Non_Quality&apos;),
+$Profile.Name&lt;&gt;&apos;CCNA Bottler&apos;,
+NOT(ISPICKVAL(Status,&apos;New&apos;)),
+ISPICKVAL( Country_Code__c ,&apos;US&apos;),
+CONTAINS(TEXT( NA1_Category_Level_3__c ),&apos;Equipment Service&apos;),
+ISPICKVAL(Equipment_Type__c,&apos;&apos;)
+)</errorConditionFormula>
+    <errorMessage>Purchase Equipment Type field is required when Category Level 3 is Equipment Service</errorMessage>
+</ValidationRule>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cause_Detail__c</fullName>
+    <label>Cause Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Handling</fullName>
+                <default>false</default>
+                <label>Handling</label>
+            </value>
+            <value>
+                <fullName>Expired expiration date</fullName>
+                <default>false</default>
+                <label>Expired expiration date</label>
+            </value>
+            <value>
+                <fullName>Long-term warming</fullName>
+                <default>false</default>
+                <label>Long-term warming</label>
+            </value>
+            <value>
+                <fullName>Lack of rotation</fullName>
+                <default>false</default>
+                <label>Lack of rotation</label>
+            </value>
+            <value>
+                <fullName>Sales and storage method</fullName>
+                <default>false</default>
+                <label>Sales and storage method</label>
+            </value>
+            <value>
+                <fullName>Sales Promotion</fullName>
+                <default>false</default>
+                <label>Sales Promotion</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Vending machine column setting mistake</fullName>
+                <default>false</default>
+                <label>Vending machine column setting mistake</label>
+            </value>
+            <value>
+                <fullName>Out of stock</fullName>
+                <default>false</default>
+                <label>Out of stock</label>
+            </value>
+            <value>
+                <fullName>Vending machine environment</fullName>
+                <default>false</default>
+                <label>Vending machine environment</label>
+            </value>
+            <value>
+                <fullName>Vending machine failure etc.</fullName>
+                <default>false</default>
+                <label>Vending machine failure etc.</label>
+            </value>
+            <value>
+                <fullName>Cup vending machine in general</fullName>
+                <default>false</default>
+                <label>Cup vending machine in general</label>
+            </value>
+            <value>
+                <fullName>Dispenser in general</fullName>
+                <default>false</default>
+                <label>Dispenser in general</label>
+            </value>
+            <value>
+                <fullName>Sales Other</fullName>
+                <default>false</default>
+                <label>Sales Other</label>
+            </value>
+            <value>
+                <fullName>Storage / Drinking method (including foods etc.)</fullName>
+                <default>false</default>
+                <label>Storage / Drinking method (including foods etc.)</label>
+            </value>
+            <value>
+                <fullName>Points pointed out (by customer) unconfirmed/not checked</fullName>
+                <default>false</default>
+                <label>Points pointed out (by customer) unconfirmed/not checked</label>
+            </value>
+            <value>
+                <fullName>Consumer Other (catalase positive etc.)</fullName>
+                <default>false</default>
+                <label>Consumer Other (catalase positive etc.)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not specified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

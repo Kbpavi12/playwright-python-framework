@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Channel_field_must_be_filled</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+    TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+    ISPICKVAL(Sub_Channel__c, &quot;&quot;),
+    NOT(
+        OR(
+            ISPICKVAL(Origin, &quot;Phone&quot;),
+            ISPICKVAL(Origin, &quot;Email&quot;)
+        )
+    ),
+    OR(
+        RecordType.DeveloperName = &quot;Latam_Inquiry&quot;,
+        RecordType.DeveloperName = &quot;Latam_Non_Quality&quot;,
+        RecordType.DeveloperName = &quot;Latam_Quality&quot;,
+        RecordType.DeveloperName = &quot;Latam_Compliment&quot;,
+        RecordType.DeveloperName = &quot;Latam_Comment&quot;,
+        RecordType.DeveloperName = &quot;Latam_Useless&quot;,
+        RecordType.DeveloperName = &quot;Latam_E_Commerce&quot;
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Sub_Channel__c</errorDisplayField>
+    <errorMessage>Sub-Channel field is required to be filled.</errorMessage>
+</ValidationRule>

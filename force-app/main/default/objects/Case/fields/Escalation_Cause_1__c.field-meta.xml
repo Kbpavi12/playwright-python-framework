@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Cause_1__c</fullName>
+    <label>Cause of Escalation 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Set Up Machine Code</fullName>
+                <default>false</default>
+                <label>Set Up Machine Code</label>
+            </value>
+            <value>
+                <fullName>Set Up Bottler Code</fullName>
+                <default>false</default>
+                <label>Set Up Bottler Code</label>
+            </value>
+            <value>
+                <fullName>Set Up Product Code</fullName>
+                <default>false</default>
+                <label>Set Up Product Code</label>
+            </value>
+            <value>
+                <fullName>Bluetooth Function Light&apos;s Off</fullName>
+                <default>false</default>
+                <label>Bluetooth Function Light&apos;s Off</label>
+            </value>
+            <value>
+                <fullName>Field Survey</fullName>
+                <default>false</default>
+                <label>Field Survey</label>
+            </value>
+            <value>
+                <fullName>Fix Up VM Location</fullName>
+                <default>false</default>
+                <label>Fix Up VM Location</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Check Up Machine Code</fullName>
+                <default>false</default>
+                <label>Check Up Machine Code</label>
+            </value>
+            <value>
+                <fullName>Check Up Column Record</fullName>
+                <default>false</default>
+                <label>Check Up Column Record</label>
+            </value>
+            <value>
+                <fullName>Misloading, or stuck at column</fullName>
+                <default>false</default>
+                <label>Misloading, or stuck at column</label>
+            </value>
+            <value>
+                <fullName>Confirm</fullName>
+                <default>false</default>
+                <label>Confirm</label>
+            </value>
+            <value>
+                <fullName>Request for VM Installation</fullName>
+                <default>false</default>
+                <label>Request for VM Installation</label>
+            </value>
+            <value>
+                <fullName>Check Up Alternative Set-Up</fullName>
+                <default>false</default>
+                <label>Check Up Alternative Set-Up</label>
+            </value>
+            <value>
+                <fullName>AppID Investigation</fullName>
+                <default>false</default>
+                <label>AppID Investigation</label>
+            </value>
+            <value>
+                <fullName>AppID Delete</fullName>
+                <default>false</default>
+                <label>AppID Delete</label>
+            </value>
+            <value>
+                <fullName>Personal Information Delete</fullName>
+                <default>false</default>
+                <label>Personal Information Delete</label>
+            </value>
+            <value>
+                <fullName>Change Address</fullName>
+                <default>false</default>
+                <label>Change Address</label>
+            </value>
+            <value>
+                <fullName>Resign</fullName>
+                <default>false</default>
+                <label>Resign</label>
+            </value>
+            <value>
+                <fullName>Redelivery</fullName>
+                <default>false</default>
+                <label>Redelivery</label>
+            </value>
+            <value>
+                <fullName>Exchange pops</fullName>
+                <default>false</default>
+                <label>Exchange pops</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Stuck on VM Column</fullName>
+                <default>false</default>
+                <label>Stuck on VM Column</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

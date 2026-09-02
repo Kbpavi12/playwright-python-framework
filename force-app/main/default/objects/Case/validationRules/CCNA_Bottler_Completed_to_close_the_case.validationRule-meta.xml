@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Bottler_Completed_to_close_the_case</fullName>
+    <active>true</active>
+    <description>Case Status should be Bottler follow up completed to close the case.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c,&apos;US&apos;),
+CONTAINS( $Profile.Name ,&apos;CCNA Bottler&apos;),
+ISCHANGED(Status), 
+NOT(ISPICKVAL(PRIORVALUE(Status),&apos;Bottler Follow up Completed&apos;)),
+ISPICKVAL( Status ,&apos;Closed&apos;))</errorConditionFormula>
+    <errorMessage>Status must be Bottler Follow up Completed to close the case.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_of_Exception__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to capture requests for exceptions related to the case. BU: LATAM</description>
+    <label>Request of Exception</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

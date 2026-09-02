@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_Queue_for_Call_Center_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CPC Queue for Call Center</label>
+    <queue>CPC_Queue_for_Call_Center</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Description_is_Blank</fullName>
+    <active>true</active>
+    <description>Description cannt be empty for comment and compliment type of cases.</description>
+    <errorConditionFormula>AND (
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+  TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+  ISBLANK( Description ), 
+ OR (
+    RecordType.DeveloperName = &apos;Latam_Compliment&apos;,
+    RecordType.DeveloperName = &apos;Latam_Comment&apos;
+ ) 
+)</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Description field cannot be empty. Please provide case description.</errorMessage>
+</ValidationRule>

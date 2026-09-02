@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Bottler_To_Close_Only_Their_Cases</fullName>
+    <active>true</active>
+    <description>CONTAINS($UserRole.Name,&quot;REYES - BOTTLER Partner User&quot;)
+), this line was added cause users like Rebecca Walls has only one KO Id but has to access two different bottler cases, Other users won&apos;t be effected as they are part of specific case teams.</description>
+    <errorConditionFormula>AND(
+	ISPICKVAL(Country_Code__c,&apos;US&apos;),
+	ISCHANGED(Status),
+	ISPICKVAL(Status, &apos;Closed&apos;),
+	$Profile.Name = &apos;CCNA Bottler&apos;,
+	NOT(
+        OR(
+	 OwnerId = $User.Id,	 
+CONTAINS(Owner:Queue.Name,LEFT($UserRole.Name,Find(&quot;- BOTTLER&quot;, $UserRole.Name)-1)),
+         CONTAINS($UserRole.Name,&quot;REYES - BOTTLER Partner User&quot;)
+		)
+	    )
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to close case.</errorMessage>
+</ValidationRule>

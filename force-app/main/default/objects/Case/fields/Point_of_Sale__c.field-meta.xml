@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Point_of_Sale__c</fullName>
+    <description>Used to capture the point of sale associated with the case. BU: LATAM, NA</description>
+    <label>Point of Sale</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Convenience store</fullName>
+                <default>false</default>
+                <label>Convenience store</label>
+            </value>
+            <value>
+                <fullName>Supermarket</fullName>
+                <default>false</default>
+                <label>Supermarket</label>
+            </value>
+            <value>
+                <fullName>Discount store</fullName>
+                <default>false</default>
+                <label>Discount store</label>
+            </value>
+            <value>
+                <fullName>Hotel/Leisure facilities</fullName>
+                <default>false</default>
+                <label>Hotel/Leisure facilities</label>
+            </value>
+            <value>
+                <fullName>Public facility</fullName>
+                <default>false</default>
+                <label>Public facility</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Workplace</fullName>
+                <default>false</default>
+                <label>Workplace</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Online shop</fullName>
+                <default>false</default>
+                <label>Online shop</label>
+            </value>
+            <value>
+                <fullName>Santa Clara Store</fullName>
+                <default>false</default>
+                <label>Santa Clara Store</label>
+            </value>
+            <value>
+                <fullName>Drug store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Drug store</label>
+            </value>
+            <value>
+                <fullName>Grocery store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Grocery store</label>
+            </value>
+            <value>
+                <fullName>Key accounts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Key accounts</label>
+            </value>
+            <value>
+                <fullName>Liquor store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Liquor store</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not specified</label>
+            </value>
+            <value>
+                <fullName>Online shop (CCCMC)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online shop (CCCMC)</label>
+            </value>
+            <value>
+                <fullName>Online shop (Other)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online shop (Other)</label>
+            </value>
+            <value>
+                <fullName>Other small stores</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other small stores</label>
+            </value>
+            <value>
+                <fullName>Other/Roadside</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other/Roadside</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

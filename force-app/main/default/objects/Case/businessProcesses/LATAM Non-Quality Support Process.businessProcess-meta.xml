@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM Non-Quality Support Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Agency NQC in progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bottler NQC in Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Pending on CC</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending on Consumer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending on Internal Agency</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending on Internal Dept Bottler%E2%80%8B</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Sent to Agency Promo</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Sent to Bottler to NQC%E2%80%8B</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

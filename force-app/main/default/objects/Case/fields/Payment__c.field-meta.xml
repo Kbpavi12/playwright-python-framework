@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment__c</fullName>
+    <label>Payment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Charge</fullName>
+                <default>false</default>
+                <label>Charge</label>
+            </value>
+            <value>
+                <fullName>IC</fullName>
+                <default>false</default>
+                <label>IC</label>
+            </value>
+            <value>
+                <fullName>Point</fullName>
+                <default>false</default>
+                <label>Point</label>
+            </value>
+            <value>
+                <fullName>Pay</fullName>
+                <default>false</default>
+                <label>Pay</label>
+            </value>
+            <value>
+                <fullName>Money/IC</fullName>
+                <default>false</default>
+                <label>Money/IC</label>
+            </value>
+            <value>
+                <fullName>Drink Ticket</fullName>
+                <default>false</default>
+                <label>Drink Ticket</label>
+            </value>
+            <value>
+                <fullName>CokeON Pay</fullName>
+                <default>false</default>
+                <label>CokeON Pay</label>
+            </value>
+            <value>
+                <fullName>CokeON IC</fullName>
+                <default>false</default>
+                <label>CokeON IC</label>
+            </value>
+            <value>
+                <fullName>No relation with payment</fullName>
+                <default>false</default>
+                <label>No relation with payment</label>
+            </value>
+            <value>
+                <fullName>CokeON Pass</fullName>
+                <default>false</default>
+                <label>CokeON Pass</label>
+            </value>
+            <value>
+                <fullName>Coke ON Pass</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coke ON Pass</label>
+            </value>
+            <value>
+                <fullName>Credit Card</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credit Card</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

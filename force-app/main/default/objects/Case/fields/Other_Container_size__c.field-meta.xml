@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Container_size__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Other Container size (System Field)</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Other_Brand__c</field>
+            <operation>equals</operation>
+            <valueField>Container_size__c.Brand__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Other_Flavor__c</field>
+            <operation>equals</operation>
+            <valueField>Container_size__c.Flavour__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Container_size__c</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

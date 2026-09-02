@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Advertisement_Mandatory_Promotion</fullName>
+    <active>false</active>
+    <description>Advertisement/Campaign field is mandatory for Promotion Case Types in NA market.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &apos;NA_Promotion&apos;,
+ISBLANK( Advertisement__c),
+ISPICKVAL( Country_Code__c ,&apos;US&apos;),
+CreatedDate &gt; DATETIMEVALUE( &quot;2022-07-25 00:00:00&quot; ),
+NOT(ISPICKVAL( Status ,&apos;New&apos;)),
+OR(CONTAINS(Text(NA1_Category_Level_3__c),&quot;Coke UTC&quot;),
+CONTAINS(Text(NA1_Category_Level_3__c),&quot;General Promo&quot;))
+)</errorConditionFormula>
+    <errorMessage>Advertisement/Campaign field cannot be blank.</errorMessage>
+</ValidationRule>

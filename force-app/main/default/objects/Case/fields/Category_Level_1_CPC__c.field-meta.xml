@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Level_1_CPC__c</fullName>
+    <label>Category Level 1 (CPC)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category_Level_4_CPC__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Non Quality</fullName>
+                <default>false</default>
+                <label>Non Quality</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Other mail magazine</controllingFieldValue>
+            <controllingFieldValue>Other new registration</controllingFieldValue>
+            <controllingFieldValue>Out of stock</controllingFieldValue>
+            <controllingFieldValue>Package Broken</controllingFieldValue>
+            <controllingFieldValue>Other password reset</controllingFieldValue>
+            <controllingFieldValue>Password Reset Error</controllingFieldValue>
+            <controllingFieldValue>Other products</controllingFieldValue>
+            <controllingFieldValue>Password Reset Mail Undelivered</controllingFieldValue>
+            <controllingFieldValue>Other Reason</controllingFieldValue>
+            <controllingFieldValue>Broken (Int)</controllingFieldValue>
+            <controllingFieldValue>Broken (Non)</controllingFieldValue>
+            <controllingFieldValue>Broken (SP)</controllingFieldValue>
+            <controllingFieldValue>Registration Error</controllingFieldValue>
+            <controllingFieldValue>Authentication</controllingFieldValue>
+            <controllingFieldValue>Reject</controllingFieldValue>
+            <controllingFieldValue>Authentication (Int)</controllingFieldValue>
+            <controllingFieldValue>Authentication (Non)</controllingFieldValue>
+            <controllingFieldValue>Authentication (SP)</controllingFieldValue>
+            <controllingFieldValue>Resign Error</controllingFieldValue>
+            <controllingFieldValue>Consumed (Int)</controllingFieldValue>
+            <controllingFieldValue>Consumed (Non)</controllingFieldValue>
+            <controllingFieldValue>Consumed (SP)</controllingFieldValue>
+            <controllingFieldValue>Service Complaint</controllingFieldValue>
+            <controllingFieldValue>Stained (Int)</controllingFieldValue>
+            <controllingFieldValue>Stained (Non)</controllingFieldValue>
+            <controllingFieldValue>Stained (SP)</controllingFieldValue>
+            <controllingFieldValue>Dishonest (Int)</controllingFieldValue>
+            <controllingFieldValue>Dishonest (Non)</controllingFieldValue>
+            <controllingFieldValue>Dishonest (SP)</controllingFieldValue>
+            <controllingFieldValue>Stop Mail Magazine</controllingFieldValue>
+            <controllingFieldValue>Taste/Quality</controllingFieldValue>
+            <controllingFieldValue>text garbling</controllingFieldValue>
+            <controllingFieldValue>Unreceived</controllingFieldValue>
+            <controllingFieldValue>Unscanable</controllingFieldValue>
+            <controllingFieldValue>Wrong (Int)</controllingFieldValue>
+            <controllingFieldValue>Wrong (Non)</controllingFieldValue>
+            <controllingFieldValue>Wrong (SP)</controllingFieldValue>
+            <controllingFieldValue>Inclined probability (Int)</controllingFieldValue>
+            <controllingFieldValue>Inclined probability (SP)</controllingFieldValue>
+            <controllingFieldValue>Invalid (Int)</controllingFieldValue>
+            <controllingFieldValue>Invalid (Non)</controllingFieldValue>
+            <controllingFieldValue>Invalid (SP)</controllingFieldValue>
+            <controllingFieldValue>Invalid URL (PW)</controllingFieldValue>
+            <controllingFieldValue>Invalid URL (Reg)</controllingFieldValue>
+            <controllingFieldValue>Low probability (Int)</controllingFieldValue>
+            <controllingFieldValue>Low probability (SP)</controllingFieldValue>
+            <controllingFieldValue>Misdelivery (Int)</controllingFieldValue>
+            <controllingFieldValue>Misdelivery (Non)</controllingFieldValue>
+            <controllingFieldValue>Misdelivery (SP)</controllingFieldValue>
+            <controllingFieldValue>Misprint</controllingFieldValue>
+            <controllingFieldValue>Money/Change</controllingFieldValue>
+            <controllingFieldValue>No Carry</controllingFieldValue>
+            <controllingFieldValue>No reach (Int)</controllingFieldValue>
+            <controllingFieldValue>No reach (Non)</controllingFieldValue>
+            <controllingFieldValue>No reach (SP)</controllingFieldValue>
+            <controllingFieldValue>No stores</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <controllingFieldValue>Other (Int)</controllingFieldValue>
+            <controllingFieldValue>Other (Non)</controllingFieldValue>
+            <controllingFieldValue>Other (SP)</controllingFieldValue>
+            <controllingFieldValue>Other delete details</controllingFieldValue>
+            <controllingFieldValue>Other error (Int)</controllingFieldValue>
+            <controllingFieldValue>Other error (Non)</controllingFieldValue>
+            <controllingFieldValue>Other error (SP)</controllingFieldValue>
+            <valueName>Non Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Overview</controllingFieldValue>
+            <controllingFieldValue>Overview Of Coca-Cola Members</controllingFieldValue>
+            <controllingFieldValue>Own Points/Coupons</controllingFieldValue>
+            <controllingFieldValue>Packplay</controllingFieldValue>
+            <controllingFieldValue>Postcard</controllingFieldValue>
+            <controllingFieldValue>Other SNS</controllingFieldValue>
+            <controllingFieldValue>Other Topics for Check to-be-selected (Int)</controllingFieldValue>
+            <controllingFieldValue>Other Topics for Check to-be-selected (SP)</controllingFieldValue>
+            <controllingFieldValue>Other topics for Coca-Cola Members</controllingFieldValue>
+            <controllingFieldValue>Other topics for How to change/refer</controllingFieldValue>
+            <controllingFieldValue>Brandsite</controllingFieldValue>
+            <controllingFieldValue>Other topics for How to register</controllingFieldValue>
+            <controllingFieldValue>Other Topics for How-to-Apply (Int)</controllingFieldValue>
+            <controllingFieldValue>CCBJI Mail News</controllingFieldValue>
+            <controllingFieldValue>Change details of Coca-Cola Members</controllingFieldValue>
+            <controllingFieldValue>Change Input Address</controllingFieldValue>
+            <controllingFieldValue>Change Input Address (Int)</controllingFieldValue>
+            <controllingFieldValue>Check Input Address</controllingFieldValue>
+            <controllingFieldValue>Check Input Address (Int)</controllingFieldValue>
+            <controllingFieldValue>Privacy Policy / Site Policy</controllingFieldValue>
+            <controllingFieldValue>Prize Office</controllingFieldValue>
+            <controllingFieldValue>About Login</controllingFieldValue>
+            <controllingFieldValue>Prize Office (Int)</controllingFieldValue>
+            <controllingFieldValue>About Mail Magazine</controllingFieldValue>
+            <controllingFieldValue>Proposal</controllingFieldValue>
+            <controllingFieldValue>About Password</controllingFieldValue>
+            <controllingFieldValue>Refer to Coca-Cola Members</controllingFieldValue>
+            <controllingFieldValue>About Products</controllingFieldValue>
+            <controllingFieldValue>Related</controllingFieldValue>
+            <controllingFieldValue>Resign</controllingFieldValue>
+            <controllingFieldValue>Available VM</controllingFieldValue>
+            <controllingFieldValue>Chunk</controllingFieldValue>
+            <controllingFieldValue>Cmode</controllingFieldValue>
+            <controllingFieldValue>COC</controllingFieldValue>
+            <controllingFieldValue>Coca-Cola News</controllingFieldValue>
+            <controllingFieldValue>Coca-Cola Park</controllingFieldValue>
+            <controllingFieldValue>Coca-Cola System</controllingFieldValue>
+            <controllingFieldValue>Cooperate</controllingFieldValue>
+            <controllingFieldValue>Separated Option / Accessory</controllingFieldValue>
+            <controllingFieldValue>Separated Option / Accessory (Int)</controllingFieldValue>
+            <controllingFieldValue>Shop/Area</controllingFieldValue>
+            <controllingFieldValue>Social Media Guidelines</controllingFieldValue>
+            <controllingFieldValue>Spec (Int)</controllingFieldValue>
+            <controllingFieldValue>Spec (SP)</controllingFieldValue>
+            <controllingFieldValue>CPC</controllingFieldValue>
+            <controllingFieldValue>CSC</controllingFieldValue>
+            <controllingFieldValue>Delete Personal Information</controllingFieldValue>
+            <controllingFieldValue>Domain List</controllingFieldValue>
+            <controllingFieldValue>Failed Delivery Attempt（Int)</controllingFieldValue>
+            <controllingFieldValue>Forwarding</controllingFieldValue>
+            <controllingFieldValue>Forwarding (Int)</controllingFieldValue>
+            <controllingFieldValue>Substitutional postcard</controllingFieldValue>
+            <controllingFieldValue>System Requirements</controllingFieldValue>
+            <controllingFieldValue>Targeting Area / Account</controllingFieldValue>
+            <controllingFieldValue>Targeting Products</controllingFieldValue>
+            <controllingFieldValue>Terms of use</controllingFieldValue>
+            <controllingFieldValue>Thanks</controllingFieldValue>
+            <controllingFieldValue>Twitter/Instagram</controllingFieldValue>
+            <controllingFieldValue>Georgia Mail Magazine</controllingFieldValue>
+            <controllingFieldValue>Goods</controllingFieldValue>
+            <controllingFieldValue>Handling</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>How to change own password</controllingFieldValue>
+            <controllingFieldValue>How to register</controllingFieldValue>
+            <controllingFieldValue>How-to-apply (SP)</controllingFieldValue>
+            <controllingFieldValue>How-to-use Pointcard</controllingFieldValue>
+            <controllingFieldValue>How-to-use (Int)</controllingFieldValue>
+            <controllingFieldValue>How-to-use (SP)</controllingFieldValue>
+            <controllingFieldValue>Webshop Customer Center</controllingFieldValue>
+            <controllingFieldValue>WEB</controllingFieldValue>
+            <controllingFieldValue>Wrong Calls</controllingFieldValue>
+            <controllingFieldValue>Retry Drawing (SP）</controllingFieldValue>
+            <controllingFieldValue>Using Tablet (SP）</controllingFieldValue>
+            <controllingFieldValue>Inquiry After Apply (SP)</controllingFieldValue>
+            <controllingFieldValue>Interview</controllingFieldValue>
+            <controllingFieldValue>LINE</controllingFieldValue>
+            <controllingFieldValue>Illegal QR Use (SP）</controllingFieldValue>
+            <controllingFieldValue>Not Find CP Product (SP）</controllingFieldValue>
+            <controllingFieldValue>Apply Condition (SP）</controllingFieldValue>
+            <controllingFieldValue>Skip Drawing (SP）</controllingFieldValue>
+            <controllingFieldValue>Migration / Transfer</controllingFieldValue>
+            <controllingFieldValue>Nearpack / Lucky Item</controllingFieldValue>
+            <controllingFieldValue>No Fill</controllingFieldValue>
+            <controllingFieldValue>Old Service</controllingFieldValue>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <controllingFieldValue>Original Promotion</controllingFieldValue>
+            <controllingFieldValue>Other Topics for Interactive Promotion</controllingFieldValue>
+            <controllingFieldValue>Other topics for Mail Magazine</controllingFieldValue>
+            <controllingFieldValue>Other topics for Organization</controllingFieldValue>
+            <controllingFieldValue>Other Topics for Pointcard</controllingFieldValue>
+            <controllingFieldValue>Other Topics for postcard</controllingFieldValue>
+            <controllingFieldValue>Other Topics for prize</controllingFieldValue>
+            <controllingFieldValue>Other Topics for prize (Int)</controllingFieldValue>
+            <controllingFieldValue>Other (CC)</controllingFieldValue>
+            <controllingFieldValue>Other topics for Resign and Delete Personal Information</controllingFieldValue>
+            <controllingFieldValue>Other Topics for Sales Promotion</controllingFieldValue>
+            <controllingFieldValue>Other unidentified Promotion</controllingFieldValue>
+            <valueName>Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

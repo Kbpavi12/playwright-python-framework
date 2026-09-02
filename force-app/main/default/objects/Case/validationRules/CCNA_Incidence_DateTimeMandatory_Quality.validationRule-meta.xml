@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Incidence_DateTimeMandatory_Quality</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName  = &apos;NA_Quality&apos;,
+	$User.Id!=&apos;0055A00000Bn4ME&apos;,
+ ISBLANK( Incidence_Date_Time__c) ,
+ ISPICKVAL(  Country_Code__c ,&apos;US&apos;),
+ CreatedDate &gt; DATETIMEVALUE( &quot;2022-01-24 00:00:00&quot; ),
+	NOT(ISPICKVAL( Status ,&apos;New&apos;)),
+	$Profile.Name != &apos;Nexus Data Loader&apos;
+)</errorConditionFormula>
+    <errorMessage>Please fill Incident Date/Time</errorMessage>
+</ValidationRule>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cause__c</fullName>
+    <label>Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales Branch origin</fullName>
+                <default>false</default>
+                <label>Sales Branch origin</label>
+            </value>
+            <value>
+                <fullName>Operator (outsourcing company) origin</fullName>
+                <default>false</default>
+                <label>Operator (outsourcing company) origin</label>
+            </value>
+            <value>
+                <fullName>Manufacturing origin</fullName>
+                <default>false</default>
+                <label>Manufacturing origin</label>
+            </value>
+            <value>
+                <fullName>Logistics origin (large transportation)</fullName>
+                <default>false</default>
+                <label>Logistics origin (large transportation)</label>
+            </value>
+            <value>
+                <fullName>Dealer origin</fullName>
+                <default>false</default>
+                <label>Dealer origin</label>
+            </value>
+            <value>
+                <fullName>Distribution center origin</fullName>
+                <default>false</default>
+                <label>Distribution center origin</label>
+            </value>
+            <value>
+                <fullName>Consumer origin</fullName>
+                <default>false</default>
+                <label>Consumer origin</label>
+            </value>
+            <value>
+                <fullName>Product / Container design</fullName>
+                <default>false</default>
+                <label>Product / Container design</label>
+            </value>
+            <value>
+                <fullName>Mischief begging</fullName>
+                <default>false</default>
+                <label>Mischief begging</label>
+            </value>
+            <value>
+                <fullName>Appearance quality</fullName>
+                <default>false</default>
+                <label>Appearance quality</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not specified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Message_Code__c</fullName>
+    <label>System Message Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Could not find</fullName>
+                <default>false</default>
+                <label>Could not find</label>
+            </value>
+            <value>
+                <fullName>Date code not Monday</fullName>
+                <default>false</default>
+                <label>Date code not Monday</label>
+            </value>
+            <value>
+                <fullName>Illegible</fullName>
+                <default>false</default>
+                <label>Illegible</label>
+            </value>
+            <value>
+                <fullName>Incorrect Country Selected</fullName>
+                <default>false</default>
+                <label>Incorrect Country Selected</label>
+            </value>
+            <value>
+                <fullName>Invalid CT Code</fullName>
+                <default>false</default>
+                <label>Invalid CT Code</label>
+            </value>
+            <value>
+                <fullName>Invalid Day Code</fullName>
+                <default>false</default>
+                <label>Invalid Day Code</label>
+            </value>
+            <value>
+                <fullName>Invalid Optimum Taste Date</fullName>
+                <default>false</default>
+                <label>Invalid Optimum Taste Date</label>
+            </value>
+            <value>
+                <fullName>Invalid Plant Code</fullName>
+                <default>false</default>
+                <label>Invalid Plant Code</label>
+            </value>
+            <value>
+                <fullName>Invalid Production Code</fullName>
+                <default>false</default>
+                <label>Invalid Production Code</label>
+            </value>
+            <value>
+                <fullName>Invalid Production Date</fullName>
+                <default>false</default>
+                <label>Invalid Production Date</label>
+            </value>
+            <value>
+                <fullName>Invalid Production Line</fullName>
+                <default>false</default>
+                <label>Invalid Production Line</label>
+            </value>
+            <value>
+                <fullName>Invalid Production Shift</fullName>
+                <default>false</default>
+                <label>Invalid Production Shift</label>
+            </value>
+            <value>
+                <fullName>Invalid Production Time</fullName>
+                <default>false</default>
+                <label>Invalid Production Time</label>
+            </value>
+            <value>
+                <fullName>No date code</fullName>
+                <default>false</default>
+                <label>No date code</label>
+            </value>
+            <value>
+                <fullName>Not available</fullName>
+                <default>false</default>
+                <label>Not available</label>
+            </value>
+            <value>
+                <fullName>Partial</fullName>
+                <default>false</default>
+                <label>Partial</label>
+            </value>
+            <value>
+                <fullName>Product is Missing</fullName>
+                <default>false</default>
+                <label>Product is Missing</label>
+            </value>
+            <value>
+                <fullName>Refused</fullName>
+                <default>false</default>
+                <label>Refused</label>
+            </value>
+            <value>
+                <fullName>Unique production</fullName>
+                <default>false</default>
+                <label>Unique production</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Damage_Caused__c</fullName>
+    <description>Used for LATAM to capture damage information related to the case. 
+BU :- LATAM</description>
+    <label>Damage Caused</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physical</fullName>
+                <default>false</default>
+                <label>Physical</label>
+            </value>
+            <value>
+                <fullName>Illness</fullName>
+                <default>false</default>
+                <label>Illness</label>
+            </value>
+            <value>
+                <fullName>Material</fullName>
+                <default>false</default>
+                <label>Material</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_CCBJI_HQ_Yodogawa_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>[CCBJI]HQ★桶川</label>
+    <queue>Japan_CCBJI_HQ_Yodogawa</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

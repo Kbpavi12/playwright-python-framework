@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Purpose__c</fullName>
+    <label>Call Purpose</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BBB</fullName>
+                <default>false</default>
+                <label>BBB</label>
+            </value>
+            <value>
+                <fullName>Board Of Health</fullName>
+                <default>false</default>
+                <label>Board Of Health</label>
+            </value>
+            <value>
+                <fullName>Boycott</fullName>
+                <default>false</default>
+                <label>Boycott</label>
+            </value>
+            <value>
+                <fullName>FDA</fullName>
+                <default>false</default>
+                <label>FDA</label>
+            </value>
+            <value>
+                <fullName>Law Enforcement</fullName>
+                <default>false</default>
+                <label>Law Enforcement</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Protest</fullName>
+                <default>false</default>
+                <label>Protest</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

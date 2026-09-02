@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA1_Category_Level_4_Non_Quality__c</fullName>
+    <label>Category Level 4(Non Quality)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NA1_Category_Level_3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>NA_Category_Level_4_Non_Quality</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <valueName>Validation Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Cooler Door Open Notification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Credit and Billing Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Equipment-Email/Chat Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Location Details Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>New Account Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Personal Information Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>QR Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Rewards Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Technical Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Inquiry)</controllingFieldValue>
+            <valueName>Voucher Code Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Carton/Carrier(Complaint)</controllingFieldValue>
+            <valueName>Carton/Carrier-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Carton/Carrier(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Carton/Carrier(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package Carton/Carrier(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Package Recycling(Complaint)</controllingFieldValue>
+            <valueName>Sixer-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Carton/Carrier(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package Carton/Carrier(Inquiry)</controllingFieldValue>
+            <valueName>Carton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Executives/Employees</controllingFieldValue>
+            <valueName>Contact Information-Requested Bottler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COKE&amp;GO APP</controllingFieldValue>
+            <valueName>Cannot Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COKE&amp;GO APP</controllingFieldValue>
+            <valueName>Crashed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COKE&amp;GO APP</controllingFieldValue>
+            <valueName>Frozen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Plant</controllingFieldValue>
+            <valueName>Bottler Plant-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Deposits/Bottle Bills(Complaint)</controllingFieldValue>
+            <valueName>Deposit Policy Bottle Bill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Complaint)</controllingFieldValue>
+            <valueName>Quality Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Deposits/Bottle Bills(Inquiry)</controllingFieldValue>
+            <valueName>Deposit Policy-Company Position</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Deposits/Bottle Bills(Inquiry)</controllingFieldValue>
+            <valueName>Deposit Policy-Which Products/Pkgs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Deposits/Bottle Bills(Inquiry)</controllingFieldValue>
+            <valueName>Deposit Policy-Which States</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Deposits/Bottle Bills(Inquiry)</controllingFieldValue>
+            <valueName>Deposit Refund-Where to Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Inquiry)</controllingFieldValue>
+            <valueName>Employment Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Inquiry)</controllingFieldValue>
+            <valueName>Franchise Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Inquiry)</controllingFieldValue>
+            <valueName>Ingredient Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Inquiry)</controllingFieldValue>
+            <valueName>Store Contact Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Costa Retail (Inquiry)</controllingFieldValue>
+            <valueName>Store Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Can</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Pouch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Ring Pull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package General(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package General(Inquiry)</controllingFieldValue>
+            <valueName>Straw-Provided Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Bomb Threat</controllingFieldValue>
+            <valueName>Complete Bomb Checklist-Notified Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Business Proposal(Complaint)</controllingFieldValue>
+            <valueName>Services Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Business Proposal(Inquiry)</controllingFieldValue>
+            <valueName>Services-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Employment(Complaint)</controllingFieldValue>
+            <valueName>Career Web Site-Technical Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Employment(Complaint)</controllingFieldValue>
+            <valueName>Labor Policies Issues-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Employment(Inquiry)</controllingFieldValue>
+            <valueName>Career Web Site-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Employment(Inquiry)</controllingFieldValue>
+            <valueName>Current Job Openings-Referred to website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Employment(Inquiry)</controllingFieldValue>
+            <valueName>Verification-Provided 800 Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Environment(Complaint)</controllingFieldValue>
+            <valueName>Energy-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Environment(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Environment(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Environment(Inquiry)</controllingFieldValue>
+            <valueName>Global Climate Change-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Environment(Complaint)</controllingFieldValue>
+            <valueName>Marine Litter-Campaign/Efforts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Environment(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Water-Tap vs. Bottled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Environment(Compliment)</controllingFieldValue>
+            <valueName>Energy-Carbon Footprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Complaint)</controllingFieldValue>
+            <valueName>Discrimination/Harassment-Incident Reported</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Complaint)</controllingFieldValue>
+            <valueName>Ethics-Compliance-Referred to Ethics-Compliance Hotline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Executives/Employees(Inquiry)</controllingFieldValue>
+            <valueName>Senior Management-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Complaint)</controllingFieldValue>
+            <valueName>Service from Employee-Poor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Compliment)</controllingFieldValue>
+            <valueName>Service from Employee-Good</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Alleged Discrepancy-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Definition/Explain-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <valueName>Deposit Statement-Missing/In Bottle Bill State</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Design/Artwork</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <valueName>Design/Artwork Carton/Cans Different</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <valueName>Design/Artwork-Too Similar to Other Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <valueName>Holiday Graphics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Nutrition/Dual Labeling-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>OTD-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>UPC-Explain/Purpose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Warning Label-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Deposit Statement-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Holiday Graphics-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Labeling/Graphics-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Mfg Symbol-City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Definition/Explain-NON GMO Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Sip and Scan-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>QR Code - SmartLabel-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Labeling/Graphics(Inquiry)</controllingFieldValue>
+            <valueName>Warning Label-Sugar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Myths and Rumors</controllingFieldValue>
+            <valueName>Acidulants-DOT/Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Myths and Rumors</controllingFieldValue>
+            <valueName>Rat Urine on Can Lids-Is It True</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Myths and Rumors</controllingFieldValue>
+            <valueName>Stay Tabs-Stay Tabs for Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Price(Complaint)</controllingFieldValue>
+            <valueName>Downsizing-Less Product/Similar Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Price(Inquiry)</controllingFieldValue>
+            <valueName>Downsizing-Why Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Production</controllingFieldValue>
+            <valueName>Location-Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Production</controllingFieldValue>
+            <valueName>Package Process-Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Complaint)</controllingFieldValue>
+            <valueName>Material ID Code-Type of Plastic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Plastic Carrier- Brown Tint (rPet)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Cap/Closure-Recyclable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Packaging-Is Packaging Recyclable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Packaging-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Paperboard Carton/Carrier-Recyclable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Recycled Content in Pkg.-Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Recycling-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Recycling(Inquiry)</controllingFieldValue>
+            <valueName>Recycling Center-List of All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>Aluminum-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>BPA-Prop 65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Complaint)</controllingFieldValue>
+            <valueName>BPA-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>Phtalates-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>Re-Use-PET Possible to Re-Use?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Inquiry)</controllingFieldValue>
+            <valueName>Benefits and Policies-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Inquiry)</controllingFieldValue>
+            <valueName>Executive Invitation-Eagle Scout Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Executives/Employees(Inquiry)</controllingFieldValue>
+            <valueName>Lawsuit/Legal Matters-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Freestyle</controllingFieldValue>
+            <valueName>Dispenser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Idea(Complaint)</controllingFieldValue>
+            <valueName>Submission-Stole Concept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Idea(Suggestion)</controllingFieldValue>
+            <valueName>Submission-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Media Contact</controllingFieldValue>
+            <valueName>Referred to Media Relations-Corporate Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>Annual Meeting of Shareowners-Registration Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>Canada-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>Freestyle-Dispenser Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>International-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In The News-Cannabis Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In The News-Employee/Bottler Strike</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>In The News-House Bill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In the News – ICE/Immigration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <valueName>In The News-Job Reductions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <valueName>In The News-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In the News - Simply Lawsuit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>In The News-Social Media Post</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>In The News-Tariffs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In The News-TCCC/CDC Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>In the News - Woka-Cola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Livestock-Treatment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <valueName>Phone greeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <valueName>GDPR Privacy Policy Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>Safety-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Safety(Inquiry)</controllingFieldValue>
+            <valueName>Safety - Microplastics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Specifications(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Package Specifications(Inquiry)</controllingFieldValue>
+            <valueName>Measurements-Dimensions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Specifications(Inquiry)</controllingFieldValue>
+            <valueName>Composition-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Vending Machine(Complaint)</controllingFieldValue>
+            <valueName>Malfunctioned-Machine Not Ours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Canada-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Freestyle-Beverage Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Freestyle-Nutrition/Ingredients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>GDPR Privacy Policy-Data Mobility Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>History-Other Operations History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>International-Division/Country Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>International-Israel Palestine Conflict</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>International- Russia Ukraine Conflict</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>In the News - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>General Literature-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Partnerships &amp; Acquisitions-fairlife</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>Supplier-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-AOC Tour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Partnerships and Acquisitions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Survey Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Switchboard Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Operations(Inquiry)</controllingFieldValue>
+            <valueName>U.S.-Who Owns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Other Threat</controllingFieldValue>
+            <valueName>Complete Threat Checklist-Notified Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Philanthropy</controllingFieldValue>
+            <valueName>Grants for Non-Profits-The Coca-Cola Foundation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Philanthropy</controllingFieldValue>
+            <valueName>Humanitarian Aid-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Philanthropy</controllingFieldValue>
+            <valueName>Philanthropy-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Philanthropy</controllingFieldValue>
+            <valueName>Scholarships-All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Political(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Political(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Political(Inquiry)</controllingFieldValue>
+            <valueName>Support-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Shared Story</controllingFieldValue>
+            <valueName>Photo-Submission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Stock/Financials</controllingFieldValue>
+            <valueName>Annual Meeting of Shareowners-How to Register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Stock/Financials</controllingFieldValue>
+            <valueName>Annual Report-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Stock/Financials</controllingFieldValue>
+            <valueName>Finances-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Sustainability(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Sustainability(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Company Sustainability(Inquiry)</controllingFieldValue>
+            <valueName>Community Programs-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Sustainability(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Sustainability(Inquiry)</controllingFieldValue>
+            <valueName>Package Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Complaint)</controllingFieldValue>
+            <valueName>Discontinued</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>In Any Package-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Complaint)</controllingFieldValue>
+            <valueName>In Any Package-Direct Purchase/Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>In Specific Package-No Retail Locations Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>International Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>eCommerce-Cancel Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>eCommerce-Order Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>Retail Location Discontinued</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>Retail Location-Informed Discontinued</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Availability(Inquiry)</controllingFieldValue>
+            <valueName>Retail Location-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Brand Information-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Differences Between Products-US vs Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Different Version-Caffeine Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <valueName>Different Version Color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <valueName>Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Microscopic Plastic Fibers-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Compliment)</controllingFieldValue>
+            <valueName>Taste -Crisp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <valueName>Taste /Prefers-Old Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <valueName>Taste /Prefers-Other Flavor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Brand Information(Compliment)</controllingFieldValue>
+            <valueName>Taste -Reformulation/Delicious</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Complaint)</controllingFieldValue>
+            <valueName>Who Makes/Owns-Referred to Manufacturer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Compliment)</controllingFieldValue>
+            <valueName>Formula-New Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Brand List-All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Differences Between Products-Other Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Formula-What Is Flavor Profile?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Formula-Original</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Formula-What Is Original?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>General-Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>History-Brand Name Meaning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>History-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>History-Other Brand History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Marketing-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Marketing-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Mixing-Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>New Product in Media-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Opt Taste Life-How Long</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Opt Taste Life-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Recipes-Taste It Samples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Recommended Storage/Temp-After Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Recommended Storage/Temp-Before Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Stain Removal-From Carpet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Taste /Prefers-Why Varies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Who Makes/Owns-Confirmed It Is Our Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Brand Information(Inquiry)</controllingFieldValue>
+            <valueName>Who Makes/Owns-Referred to Other Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Foreign Matter</controllingFieldValue>
+            <valueName>Confirmed Outside Interference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Foreign Matter</controllingFieldValue>
+            <valueName>Food Like - Consumer Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Foreign Matter</controllingFieldValue>
+            <valueName>Glass - Caused by Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Foreign Matter</controllingFieldValue>
+            <valueName>Insect - Package Unattended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Foreign Matter</controllingFieldValue>
+            <valueName>Pill Capsule - Consumer Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Freestyle(Compliment)</controllingFieldValue>
+            <valueName>Compliment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Freestyle(Inquiry)</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Trademark(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Company Trademark(Inquiry)</controllingFieldValue>
+            <valueName>Infringement-Car Wrap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Trademark(Complaint)</controllingFieldValue>
+            <valueName>Substitution-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Trademark(Inquiry)</controllingFieldValue>
+            <valueName>History-Who Designed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Trademark(Inquiry)</controllingFieldValue>
+            <valueName>Permission-Usage Guidelines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company Trademark(Inquiry)</controllingFieldValue>
+            <valueName>Trademark-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Complaint)</controllingFieldValue>
+            <valueName>In Freezer-Frozen/Package Failed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Complaint)</controllingFieldValue>
+            <valueName>In Garage/Storage Shed-Bulged On Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Complaint)</controllingFieldValue>
+            <valueName>In Refrigerator-Bulged On Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Complaint)</controllingFieldValue>
+            <valueName>In Vehicle-Bulged On Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Complaint)</controllingFieldValue>
+            <valueName>Observational Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Storage(Inquiry)</controllingFieldValue>
+            <valueName>Stored Beyond Shelf Life-Purchased Fresh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Ace-K-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Alcohol-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Allergy/Allergen-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <valueName>Allulose-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Aspartame-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Biotechnology-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Caffeine-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Calories-Clear on Calories Commitment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Caramel Color-4-MEI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Carrageenan-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Chromium-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Coconut Milk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Colorants-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Erythritol-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Fruit and Juice-Apple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Gellan-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>General Info-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Ginseng- If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Gluten-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <valueName>Gums</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Halal-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>HFCS-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Mercury-HFCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>MSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Phosphoric Acid-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Plant Sterols-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <valueName>Quillaia Extract-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <valueName>Reaction-Burning Sensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sodium-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sucralose-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sugar/Sucrose-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <valueName>Sweetener</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Vitamins-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Compliment)</controllingFieldValue>
+            <valueName>General Info Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Acai-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Acerola Cherry-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Allspice-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Amino Acids- Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Animal Origin-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Animal Testing-Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Antioxidants-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Arsenic-Amount/If Any</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Artificial Flavors-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Baking Soda-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Barley Malt Extract-Barley Flakes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Benzene-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Biotin-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Brominated Vegetable Oil/Soy-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Brown Rice Syrup-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Calcium-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Carbohydrates-Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Carbonation-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Cellulose Gel- If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>China-How Safe/Fruit and Fruit Juice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Chocolate Liquor-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Chromium-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Cinnamon-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Citric Acid-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Citric Acid-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Cocaine-In Current Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Cocaine-In Original Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Cochineal Extract-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Corn-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Creatine-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Crystalline Fructose-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Di-Ribose-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Dutch Cocoa-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Echinacea-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Eggs-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Evaporate Cane Juice-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Evaporated Cane Juice-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Fair Trade Certified-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Fish/Shellfish-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Flaxseed-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Fruit Purees-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Ground Vanilla Beans-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Gum Acacia/Arabic-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Honey-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Inulin-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Invert Cane Sugar / Invert Sugar-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Iron-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Isolated Soy Protein-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Jerusalem Artichoke-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Kosher-Explain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Lactase-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>L-Carnitine-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Lead-Amount/If Any</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Lemon Bioflavonoids-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Live and Active Cultures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Maltodextrin-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Mass Email-Reply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Milk/Dairy/Lactose-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Minerals-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Modified Food Starch-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Modified Food Starch-Safety/Effects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>MSDS-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Natural Flavorings-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Nova Scotia Dulse-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Nuts-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Oat Fiber-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic-Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Cane Juice Syrup-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Malt-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Oat Milk-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Soybeans-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Soymilk-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Soy Nuts-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Soy Oil-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Organic Sunflower Oil-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Palm Oil-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>PH-Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Phosphorus-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Potassium-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Preservatives-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Protein-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Quillaia Extract-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Quinine-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Rooibos Red Tea Powder-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Rosemary Extract-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Saccharin-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sea Salt-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Source-Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Spirulina-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Stevia-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Strawberries-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sulfites/Sulfates/Sulfur-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sun Flower Oil-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Super Citrimax-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Sweetener-Density</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Tangelo-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Tangerine-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Tea Leaves-Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>TRUVIA-Amount Used/If Any</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Vanilla-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Vegetable Glycerin-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Wheat-If Used/Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Wheat Grass-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Ingredients(Inquiry)</controllingFieldValue>
+            <valueName>Wild Berry Extract-Description/Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Myths and Rumors</controllingFieldValue>
+            <valueName>General Myths and Rumors-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Pricing(Complaint)</controllingFieldValue>
+            <valueName>Competitors Price-Costs Less</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Pricing(Complaint)</controllingFieldValue>
+            <valueName>Current-Too High</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Pricing(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Product Pricing(Inquiry)</controllingFieldValue>
+            <valueName>Current</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Pricing(Inquiry)</controllingFieldValue>
+            <valueName>Competitors Price-Why Costs Less</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Production</controllingFieldValue>
+            <valueName>Product Process-Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Production</controllingFieldValue>
+            <valueName>Ultra-Processed Foods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Recall</controllingFieldValue>
+            <valueName>Details Provided Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>55 Gallon Drum-Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>55 Gallon Drum-Personal Use Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Become a Distributor-Sent to Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Bottler Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Gave Bottler Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Sent to Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Transferred CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Bottler Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Gave Bottler Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Requested Location Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Transferred CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Transferred to 1154 (Inbound)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Btlr Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Delivery Method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Gave Bottler Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Referred to Coke Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Sent to Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Transferred CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account-Transferred to 1154 (Inbound)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>POS Item-Bottler Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>POS Item-Gave Bottler Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>POS Item-Referred to Distributor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>POS Item-Sent to Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>POS Item-Transferred CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Product Orders-Btlr Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Product Orders-International - Not Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Product Orders-Referred to Current Coke Rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Product Orders-Sent to Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Product Orders-Transferred CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Service Bottler Service</controllingFieldValue>
+            <valueName>Bottler Employee-Provided Good Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>Barista Bot General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>Become a Distributor-Topo Chico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>New Account fairlife-Referred to Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>New Account Minute Maid-Referred to Merchandiser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>New Account Minute Maid-Referred to Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Brand</controllingFieldValue>
+            <valueName>New Account Coca-Cola - Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Business Practices</controllingFieldValue>
+            <valueName>Other Service-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Business Practices</controllingFieldValue>
+            <controllingFieldValue>Service Consumer Watchdog</controllingFieldValue>
+            <valueName>Water Issue-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Consumer Watchdog</controllingFieldValue>
+            <valueName>Water Issue-Plachimada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain/Freestyle</controllingFieldValue>
+            <valueName>New Account Fountain -Referred to Fountain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain/Freestyle</controllingFieldValue>
+            <valueName>New Account Fountain -Transferred to 1154 (Inbound)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain/Freestyle</controllingFieldValue>
+            <valueName>New Account Fountain -Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain/Freestyle</controllingFieldValue>
+            <valueName>New Account Freestyle-Referred to CCFS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain/Freestyle</controllingFieldValue>
+            <valueName>New Account Freestyle-Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Provided 800 Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Transferred to x1286</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Transferred to x1154</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing-Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>Equipment-Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Advertising(Compliment)</controllingFieldValue>
+            <valueName>Content/Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Advertising(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>Sampling Tour-Event Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Complaint)</controllingFieldValue>
+            <valueName>Schedule-The Big Game</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>Cast-Identity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>General Ad Info-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>General Ad Info-Not Our Ad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>Missing Photo/Item - Holiday Caravan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Advertising(Inquiry)</controllingFieldValue>
+            <valueName>Schedule-Holiday Caravan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Complaint)</controllingFieldValue>
+            <valueName>Brand Item-Item Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Brand Item-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Archives-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Brand Item-Item History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Collectors Club-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Commemorative Package-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Licensee-More Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Collectibles(Inquiry)</controllingFieldValue>
+            <valueName>Stickers-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Education</controllingFieldValue>
+            <valueName>Marketing to Children-Provided Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Internet(Complaint)</controllingFieldValue>
+            <valueName>Website-Contact Us Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Internet(Inquiry)</controllingFieldValue>
+            <valueName>General Info-Unsubscribe/Opt Out Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Media Placement(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Media Placement(Inquiry)</controllingFieldValue>
+            <valueName>Media Placment-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing OLY-Collectibles</controllingFieldValue>
+            <valueName>Pins-Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Athlete-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <valueName>Bullfighting-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <valueName>Coke eSports-General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Exhibitions and Events-Animal Treatment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <valueName>Gay Pride Event-Disagrees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <valueName>Iditarod-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Local-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <valueName>NASCAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <valueName>National-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>NBA-Affiliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <valueName>NFL-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <valueName>Olympic Games-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <valueName>Rodeo-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <valueName>Rose Bowl Parade-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <valueName>Sea World-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <valueName>World Cup-Disapproves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <valueName>Gay Pride Event-Agrees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <valueName>Iditarod-Approves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <valueName>Local</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <valueName>National-Approves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <valueName>Olympic Games-Approves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <valueName>Rose Bowl Parade-Approves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <valueName>World Cup-Approves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Global Climate Change-Polar Bears</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Brand Ambassador-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Coke eSports-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Coupon-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Gay Pride Event-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>Iditarod-Sponsorship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Local-Follow-Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Local-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Military-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>NASCAR-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>National-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>NFL-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>Olympic Games-General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Personal Donation-Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>Rodeo-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <valueName>Sea World-Treatment of Animals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sponsorship(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>World Cup-Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sports(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Compliment)</controllingFieldValue>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>World Cup-Trophy Tour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>NFL-Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>Olympic Games-Paralympics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Sports(Inquiry)</controllingFieldValue>
+            <valueName>Rodeo-Details</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

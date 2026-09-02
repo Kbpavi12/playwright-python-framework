@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COC_PAY2</fullName>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Category_Level_1__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Category_Level3__c</columns>
+    <columns>Category_Level4__c</columns>
+    <columns>Japan_Campaign__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed,Cancelled</value>
+    </filters>
+    <filters>
+        <field>Category_Level_1__c</field>
+        <operation>equals</operation>
+        <value>Complaint,Non Quality,Quality</value>
+    </filters>
+    <filters>
+        <field>CASES.REASON</field>
+        <operation>equals</operation>
+        <value>Service,サービス内容</value>
+    </filters>
+    <filters>
+        <field>Category_Level3__c</field>
+        <operation>equals</operation>
+        <value>CokeON Pay,CokeON Pay(Complaint),CokeON Pay(Inquiry)</value>
+    </filters>
+    <filters>
+        <field>Category_Level4__c</field>
+        <operation>equals</operation>
+        <value>UI(Pay)</value>
+    </filters>
+    <label>[COC] PAYマスメール（ボーナスが付かない）</label>
+    <sharedTo>
+        <group>JP_All_Users</group>
+    </sharedTo>
+</ListView>

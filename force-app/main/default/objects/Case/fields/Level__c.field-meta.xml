@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level__c</fullName>
+    <label>Resolution Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+                <label>Satisfied</label>
+            </value>
+            <value>
+                <fullName>Slightly satisfied</fullName>
+                <default>false</default>
+                <label>Slightly satisfied</label>
+            </value>
+            <value>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+                <label>Neutral</label>
+            </value>
+            <value>
+                <fullName>Slightly dissatisfied</fullName>
+                <default>false</default>
+                <label>Slightly dissatisfied</label>
+            </value>
+            <value>
+                <fullName>Dissatisfied</fullName>
+                <default>false</default>
+                <label>Dissatisfied</label>
+            </value>
+            <value>
+                <fullName>Failed to reach agreement</fullName>
+                <default>false</default>
+                <label>Failed to reach agreement</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reported_Destination__c</fullName>
+    <label>Reported Destination</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public Health Center</fullName>
+                <default>false</default>
+                <label>Public Health Center</label>
+            </value>
+            <value>
+                <fullName>Consumer Affairs Center</fullName>
+                <default>false</default>
+                <label>Consumer Affairs Center</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Police</fullName>
+                <default>false</default>
+                <label>Police</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Specified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

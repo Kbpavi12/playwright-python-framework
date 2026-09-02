@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Frontline_Agent_Case_Assignment</fullName>
+    <active>true</active>
+    <description>NA Frontline Agents is allowed to assign a case to CCNA FOS Queue, CCNA Quality Specialists Queue, CCNA CIC Bottler Queue, Bottling Company Queue, CCNA Non-Quality Specialists Queue and CCNA Promotion Specialists Queue.</description>
+    <errorConditionFormula>AND(
+$UserRole.DeveloperName = &apos;CCNA_Frontline_Agent&apos;,
+ISCHANGED( OwnerId ),
+ISPICKVAL( Country_Code__c , &apos;US&apos;),
+OR(
+AND(
+BEGINS(OwnerId,&apos;00G&apos;),
+CONTAINS(LEFT(Owner:Queue.DeveloperName, 4), &apos;CCNA&apos;),
+NOT(
+OR(
+CONTAINS(RIGHT(Owner:Queue.DeveloperName, 2), &apos;BC&apos;),
+Owner:Queue.DeveloperName = &apos;CCNA_CIC_Bottler_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_Specialists_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_FOS_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_Non_Quality_Specialists_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;Promo_CES_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_Spanish_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_French_Queue&apos;,
+Owner:Queue.DeveloperName = &apos;CCNA_Quality_Repeaters_Queue&apos;,
+Owner:Queue.DeveloperName	= &apos;CCNA_Refunds_Reschedules_Cancellations&apos;
+)
+)
+), 
+AND(
+BEGINS(OwnerId,&apos;005&apos;),
+ISPICKVAL( Owner:User.Country_Code__c , &apos;US&apos;),
+NOT(Owner:User.Id = $User.Id)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>You are only allowed to assign a case to CCNA FOS Queue, Quality Specialists Queue, CCNA CIC Bottler Queue, Bottling Company Queue, Non-Q Specialists Queue, Promotion Specialists Queue, Quality Repeaters Queue and CCNA Refunds/Reschedules/Cancellations.</errorMessage>
+</ValidationRule>

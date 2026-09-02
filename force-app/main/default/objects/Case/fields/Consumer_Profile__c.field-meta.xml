@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumer_Profile__c</fullName>
+    <description>Used for LATAM to determine consumer profile details. 
+BU :- LATAM</description>
+    <label>Consumer Profile</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Media/Journalists direct contact</fullName>
+                <default>false</default>
+                <label>Media/Journalists direct contact</label>
+            </value>
+            <value>
+                <fullName>Local Food Safety Authority</fullName>
+                <default>false</default>
+                <label>Local Food Safety Authority</label>
+            </value>
+            <value>
+                <fullName>Education Channel</fullName>
+                <default>false</default>
+                <label>Education Channel</label>
+            </value>
+            <value>
+                <fullName>Medical and legal professions</fullName>
+                <default>false</default>
+                <label>Medical and legal professions</label>
+            </value>
+            <value>
+                <fullName>National customers&apos; head office</fullName>
+                <default>false</default>
+                <label>National customers&apos; head office</label>
+            </value>
+            <value>
+                <fullName>High level social media influencer</fullName>
+                <default>false</default>
+                <label>High level social media influencer</label>
+            </value>
+            <value>
+                <fullName>Involves a child &lt;18 years old</fullName>
+                <default>false</default>
+                <label>Involves a child &lt;18 years old</label>
+            </value>
+            <value>
+                <fullName>Pregnant Women</fullName>
+                <default>false</default>
+                <label>Pregnant Women</label>
+            </value>
+            <value>
+                <fullName>Involves a child &lt;12 years old</fullName>
+                <default>false</default>
+                <label>Involves a child &lt;12 years old</label>
+            </value>
+            <value>
+                <fullName>Involves old person  &gt; 60 years old</fullName>
+                <default>false</default>
+                <label>Involves old person  &gt; 60 years old</label>
+            </value>
+            <value>
+                <fullName>Alergic</fullName>
+                <default>false</default>
+                <label>Alergic</label>
+            </value>
+            <value>
+                <fullName>Diabetics</fullName>
+                <default>false</default>
+                <label>Diabetics</label>
+            </value>
+            <value>
+                <fullName>Phisical disability</fullName>
+                <default>false</default>
+                <label>Phisical disability</label>
+            </value>
+            <value>
+                <fullName>Phenylketonuria</fullName>
+                <default>false</default>
+                <label>Phenylketonuria</label>
+            </value>
+            <value>
+                <fullName>Severe condition</fullName>
+                <default>false</default>
+                <label>Severe condition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

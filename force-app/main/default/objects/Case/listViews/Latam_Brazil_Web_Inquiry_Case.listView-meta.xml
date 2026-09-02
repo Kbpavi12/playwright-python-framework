@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Brazil_Web_Inquiry_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Latam Brazil Web Inquiry</label>
+    <queue>Latam_Brazil_Web_Inquiry</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

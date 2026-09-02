@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Situations__c</fullName>
+    <description>Used to capture details of other situations related to the case. BU: LATAM, NA</description>
+    <label>Other Situations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal alert</fullName>
+                <default>false</default>
+                <label>Internal alert</label>
+            </value>
+            <value>
+                <fullName>Black mail</fullName>
+                <default>false</default>
+                <label>Black mail</label>
+            </value>
+            <value>
+                <fullName>Rumours</fullName>
+                <default>false</default>
+                <label>Rumours</label>
+            </value>
+            <value>
+                <fullName>Non natural foreign matter in non opened bottle</fullName>
+                <default>false</default>
+                <label>Non natural foreign matter in non opened bottle</label>
+            </value>
+            <value>
+                <fullName>Threatening tone</fullName>
+                <default>false</default>
+                <label>Threatening tone</label>
+            </value>
+            <value>
+                <fullName>Material Damage</fullName>
+                <default>false</default>
+                <label>Material Damage</label>
+            </value>
+            <value>
+                <fullName>Lawyer involvement</fullName>
+                <default>false</default>
+                <label>Lawyer involvement</label>
+            </value>
+            <value>
+                <fullName>Protection Agency involvement</fullName>
+                <default>false</default>
+                <label>Protection Agency involvement</label>
+            </value>
+            <value>
+                <fullName>Media involvement</fullName>
+                <default>false</default>
+                <label>Media involvement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

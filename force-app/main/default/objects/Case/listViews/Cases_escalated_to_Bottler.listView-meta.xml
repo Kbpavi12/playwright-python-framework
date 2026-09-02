@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cases_escalated_to_Bottler</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Escalated to Bottler</value>
+    </filters>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>JP</value>
+    </filters>
+    <label>すべてのボトラー対応依頼済み</label>
+    <sharedTo>
+        <group>JP_All_Users</group>
+    </sharedTo>
+</ListView>

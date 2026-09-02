@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_cannot_be_edited_when_closed</fullName>
+    <active>true</active>
+    <description>Closed Case cannot be edited</description>
+    <errorConditionFormula>AND(
+$Profile.Name != &apos;Nexus Data Loader&apos;,
+PRIORVALUE(IsClosed),
+NOT(ISPICKVAL(Status, &quot;Reopened&quot;)),
+NOT(ISCHANGED( FactSheetValues__c )),
+NOT(ISCHANGED( Anonymization_Date__c)),
+NOT(ISCHANGED( AccountId)),
+NOT (ISCHANGED(Trend__c)),
+NOT (ISCHANGED( Select_Survey__c)),
+ISPICKVAL(Country_Code__c,&apos;JP&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>X1st_task__c</errorDisplayField>
+    <errorMessage>Please Reopen the case before editing !</errorMessage>
+</ValidationRule>

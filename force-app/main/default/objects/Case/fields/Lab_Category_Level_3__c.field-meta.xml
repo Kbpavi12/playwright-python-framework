@@ -1,0 +1,2503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Category_Level_3__c</fullName>
+    <description>Used for LATAM to determine the level 3 lab analysis category for the case.
+BU :- LATAM</description>
+    <label>Lab Category Level 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lab_Category_Level_2__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Air Ingress (mould)</fullName>
+                <default>false</default>
+                <label>Air Ingress (mould)</label>
+            </value>
+            <value>
+                <fullName>Air Knife Issue</fullName>
+                <default>false</default>
+                <label>Air Knife Issue</label>
+            </value>
+            <value>
+                <fullName>Archived</fullName>
+                <default>false</default>
+                <label>Archived</label>
+            </value>
+            <value>
+                <fullName>Aspartame Degradation</fullName>
+                <default>false</default>
+                <label>Aspartame Degradation</label>
+            </value>
+            <value>
+                <fullName>Asset Care</fullName>
+                <default>false</default>
+                <label>Asset Care</label>
+            </value>
+            <value>
+                <fullName>Bag Positioning</fullName>
+                <default>false</default>
+                <label>Bag Positioning</label>
+            </value>
+            <value>
+                <fullName>Betacarotene Degradation</fullName>
+                <default>false</default>
+                <label>Betacarotene Degradation</label>
+            </value>
+            <value>
+                <fullName>Bird Swing</fullName>
+                <default>false</default>
+                <label>Bird Swing</label>
+            </value>
+            <value>
+                <fullName>BOM error</fullName>
+                <default>false</default>
+                <label>BOM error</label>
+            </value>
+            <value>
+                <fullName>Calcium Separation</fullName>
+                <default>false</default>
+                <label>Calcium Separation</label>
+            </value>
+            <value>
+                <fullName>Can Palletised Stock</fullName>
+                <default>false</default>
+                <label>Can Palletised Stock</label>
+            </value>
+            <value>
+                <fullName>Carousel Damage</fullName>
+                <default>false</default>
+                <label>Carousel Damage</label>
+            </value>
+            <value>
+                <fullName>Carousel Damage - Production</fullName>
+                <default>false</default>
+                <label>Carousel Damage - Production</label>
+            </value>
+            <value>
+                <fullName>Carousel Damage - Supplier</fullName>
+                <default>false</default>
+                <label>Carousel Damage - Supplier</label>
+            </value>
+            <value>
+                <fullName>Cause Unknown</fullName>
+                <default>false</default>
+                <label>Cause Unknown</label>
+            </value>
+            <value>
+                <fullName>CCE Handling</fullName>
+                <default>false</default>
+                <label>CCE Handling</label>
+            </value>
+            <value>
+                <fullName>CCE Supply Chain Handling</fullName>
+                <default>false</default>
+                <label>CCE Supply Chain Handling</label>
+            </value>
+            <value>
+                <fullName>Closure Application</fullName>
+                <default>false</default>
+                <label>Closure Application</label>
+            </value>
+            <value>
+                <fullName>Closure Debris - Production</fullName>
+                <default>false</default>
+                <label>Closure Debris - Production</label>
+            </value>
+            <value>
+                <fullName>Closure Debris - Supplier</fullName>
+                <default>false</default>
+                <label>Closure Debris - Supplier</label>
+            </value>
+            <value>
+                <fullName>Closure Design</fullName>
+                <default>false</default>
+                <label>Closure Design</label>
+            </value>
+            <value>
+                <fullName>Consumer Handling</fullName>
+                <default>false</default>
+                <label>Consumer Handling</label>
+            </value>
+            <value>
+                <fullName>Consumer Perception</fullName>
+                <default>false</default>
+                <label>Consumer Perception</label>
+            </value>
+            <value>
+                <fullName>Contaminated Post Production</fullName>
+                <default>false</default>
+                <label>Contaminated Post Production</label>
+            </value>
+            <value>
+                <fullName>Creased / Folded Seal - Production</fullName>
+                <default>false</default>
+                <label>Creased / Folded Seal - Production</label>
+            </value>
+            <value>
+                <fullName>Creased / Folded Seal - Supplier</fullName>
+                <default>false</default>
+                <label>Creased / Folded Seal - Supplier</label>
+            </value>
+            <value>
+                <fullName>Crown Issue</fullName>
+                <default>false</default>
+                <label>Crown Issue</label>
+            </value>
+            <value>
+                <fullName>Customer Handling</fullName>
+                <default>false</default>
+                <label>Customer Handling</label>
+            </value>
+            <value>
+                <fullName>Customer Supply Chain Handling</fullName>
+                <default>false</default>
+                <label>Customer Supply Chain Handling</label>
+            </value>
+            <value>
+                <fullName>Decommissioned Stock</fullName>
+                <default>false</default>
+                <label>Decommissioned Stock</label>
+            </value>
+            <value>
+                <fullName>Degraded Ingredients</fullName>
+                <default>false</default>
+                <label>Degraded Ingredients</label>
+            </value>
+            <value>
+                <fullName>Design Issues</fullName>
+                <default>false</default>
+                <label>Design Issues</label>
+            </value>
+            <value>
+                <fullName>Detector Error</fullName>
+                <default>false</default>
+                <label>Detector Error</label>
+            </value>
+            <value>
+                <fullName>Dirt In Preform</fullName>
+                <default>false</default>
+                <label>Dirt In Preform</label>
+            </value>
+            <value>
+                <fullName>Double Closure</fullName>
+                <default>false</default>
+                <label>Double Closure</label>
+            </value>
+            <value>
+                <fullName>Double End Application</fullName>
+                <default>false</default>
+                <label>Double End Application</label>
+            </value>
+            <value>
+                <fullName>Drop Box Debris</fullName>
+                <default>false</default>
+                <label>Drop Box Debris</label>
+            </value>
+            <value>
+                <fullName>Drop Box Debris - Production</fullName>
+                <default>false</default>
+                <label>Drop Box Debris - Production</label>
+            </value>
+            <value>
+                <fullName>Drop Box Debris - Supplier</fullName>
+                <default>false</default>
+                <label>Drop Box Debris - Supplier</label>
+            </value>
+            <value>
+                <fullName>Encoding Mount Slipping</fullName>
+                <default>false</default>
+                <label>Encoding Mount Slipping</label>
+            </value>
+            <value>
+                <fullName>End Failure Conversion Press Jam</fullName>
+                <default>false</default>
+                <label>End Failure Conversion Press Jam</label>
+            </value>
+            <value>
+                <fullName>End Failure Conversion Press Vacuum</fullName>
+                <default>false</default>
+                <label>End Failure Conversion Press Vacuum</label>
+            </value>
+            <value>
+                <fullName>End Failure Lacquer Integrity</fullName>
+                <default>false</default>
+                <label>End Failure Lacquer Integrity</label>
+            </value>
+            <value>
+                <fullName>End Failure Misaligned Tooling</fullName>
+                <default>false</default>
+                <label>End Failure Misaligned Tooling</label>
+            </value>
+            <value>
+                <fullName>End Failure Press</fullName>
+                <default>false</default>
+                <label>End Failure Press</label>
+            </value>
+            <value>
+                <fullName>End Failure Rivet Diameter</fullName>
+                <default>false</default>
+                <label>End Failure Rivet Diameter</label>
+            </value>
+            <value>
+                <fullName>End Failure Score Depth</fullName>
+                <default>false</default>
+                <label>End Failure Score Depth</label>
+            </value>
+            <value>
+                <fullName>End Failure Scrap In Tooling</fullName>
+                <default>false</default>
+                <label>End Failure Scrap In Tooling</label>
+            </value>
+            <value>
+                <fullName>End Failure Small Rivet</fullName>
+                <default>false</default>
+                <label>End Failure Small Rivet</label>
+            </value>
+            <value>
+                <fullName>End Failure Tab Formation</fullName>
+                <default>false</default>
+                <label>End Failure Tab Formation</label>
+            </value>
+            <value>
+                <fullName>End Failure Tab Strength</fullName>
+                <default>false</default>
+                <label>End Failure Tab Strength</label>
+            </value>
+            <value>
+                <fullName>End Failure Wipe Down Tooling</fullName>
+                <default>false</default>
+                <label>End Failure Wipe Down Tooling</label>
+            </value>
+            <value>
+                <fullName>Extra Spaces - Uploading Issue</fullName>
+                <default>false</default>
+                <label>Extra Spaces - Uploading Issue</label>
+            </value>
+            <value>
+                <fullName>Extreme Temperature</fullName>
+                <default>false</default>
+                <label>Extreme Temperature</label>
+            </value>
+            <value>
+                <fullName>Extreme Temperature - Consumer (Known)</fullName>
+                <default>false</default>
+                <label>Extreme Temperature - Consumer (Known)</label>
+            </value>
+            <value>
+                <fullName>Extreme Temperature - Distribution (Unknown)</fullName>
+                <default>false</default>
+                <label>Extreme Temperature - Distribution (Unknown)</label>
+            </value>
+            <value>
+                <fullName>Failed CIP</fullName>
+                <default>false</default>
+                <label>Failed CIP</label>
+            </value>
+            <value>
+                <fullName>Fallen Container</fullName>
+                <default>false</default>
+                <label>Fallen Container</label>
+            </value>
+            <value>
+                <fullName>False Bottom</fullName>
+                <default>false</default>
+                <label>False Bottom</label>
+            </value>
+            <value>
+                <fullName>Fermented Post Production - Formulation</fullName>
+                <default>false</default>
+                <label>Fermented Post Production - Formulation</label>
+            </value>
+            <value>
+                <fullName>Fermented Post Production - Unknown</fullName>
+                <default>false</default>
+                <label>Fermented Post Production - Unknown</label>
+            </value>
+            <value>
+                <fullName>Filtec / Heuft / Krones / Others Issue</fullName>
+                <default>false</default>
+                <label>Filtec / Heuft / Krones / Others Issue</label>
+            </value>
+            <value>
+                <fullName>Filtec / Heuft Issue</fullName>
+                <default>false</default>
+                <label>Filtec / Heuft Issue</label>
+            </value>
+            <value>
+                <fullName>Floc</fullName>
+                <default>false</default>
+                <label>Floc</label>
+            </value>
+            <value>
+                <fullName>Formulation Changes</fullName>
+                <default>false</default>
+                <label>Formulation Changes</label>
+            </value>
+            <value>
+                <fullName>FS Vending issues</fullName>
+                <default>false</default>
+                <label>FS Vending issues</label>
+            </value>
+            <value>
+                <fullName>Glass Spike</fullName>
+                <default>false</default>
+                <label>Glass Spike</label>
+            </value>
+            <value>
+                <fullName>Glue</fullName>
+                <default>false</default>
+                <label>Glue</label>
+            </value>
+            <value>
+                <fullName>Glue Gun Alignment</fullName>
+                <default>false</default>
+                <label>Glue Gun Alignment</label>
+            </value>
+            <value>
+                <fullName>Gluing Issues</fullName>
+                <default>false</default>
+                <label>Gluing Issues</label>
+            </value>
+            <value>
+                <fullName>High Acetoin Level</fullName>
+                <default>false</default>
+                <label>High Acetoin Level</label>
+            </value>
+            <value>
+                <fullName>Illegible / Excess Glue -Water</fullName>
+                <default>false</default>
+                <label>Illegible / Excess Glue -Water</label>
+            </value>
+            <value>
+                <fullName>Illegible / Excess Laser</fullName>
+                <default>false</default>
+                <label>Illegible / Excess Laser</label>
+            </value>
+            <value>
+                <fullName>Illegible / Tampered</fullName>
+                <default>false</default>
+                <label>Illegible / Tampered</label>
+            </value>
+            <value>
+                <fullName>Imported Stock</fullName>
+                <default>false</default>
+                <label>Imported Stock</label>
+            </value>
+            <value>
+                <fullName>Incorrect Batch Codes - Operator</fullName>
+                <default>false</default>
+                <label>Incorrect Batch Codes - Operator</label>
+            </value>
+            <value>
+                <fullName>Incorrect Batch Codes - Planning</fullName>
+                <default>false</default>
+                <label>Incorrect Batch Codes - Planning</label>
+            </value>
+            <value>
+                <fullName>Incorrect Product</fullName>
+                <default>false</default>
+                <label>Incorrect Product</label>
+            </value>
+            <value>
+                <fullName>Incorrect Product - Customer (Known)</fullName>
+                <default>false</default>
+                <label>Incorrect Product - Customer (Known)</label>
+            </value>
+            <value>
+                <fullName>Incorrect Product - Production</fullName>
+                <default>false</default>
+                <label>Incorrect Product - Production</label>
+            </value>
+            <value>
+                <fullName>Ineffective Rinse</fullName>
+                <default>false</default>
+                <label>Ineffective Rinse</label>
+            </value>
+            <value>
+                <fullName>Ingredient Defect Causing Visual Fault</fullName>
+                <default>false</default>
+                <label>Ingredient Defect Causing Visual Fault</label>
+            </value>
+            <value>
+                <fullName>Insect In Screw Thread</fullName>
+                <default>false</default>
+                <label>Insect In Screw Thread</label>
+            </value>
+            <value>
+                <fullName>In Spec, Open</fullName>
+                <default>false</default>
+                <label>In Spec, Open</label>
+            </value>
+            <value>
+                <fullName>Invalid</fullName>
+                <default>false</default>
+                <label>Invalid</label>
+            </value>
+            <value>
+                <fullName>Knife Cut to Seam</fullName>
+                <default>false</default>
+                <label>Knife Cut to Seam</label>
+            </value>
+            <value>
+                <fullName>Knocked Down Flange - Production</fullName>
+                <default>false</default>
+                <label>Knocked Down Flange - Production</label>
+            </value>
+            <value>
+                <fullName>Knocked Down Flange - Supplier</fullName>
+                <default>false</default>
+                <label>Knocked Down Flange - Supplier</label>
+            </value>
+            <value>
+                <fullName>Lacquer Misapplied</fullName>
+                <default>false</default>
+                <label>Lacquer Misapplied</label>
+            </value>
+            <value>
+                <fullName>Laser Focus</fullName>
+                <default>false</default>
+                <label>Laser Focus</label>
+            </value>
+            <value>
+                <fullName>Lemon Juice Degradation</fullName>
+                <default>false</default>
+                <label>Lemon Juice Degradation</label>
+            </value>
+            <value>
+                <fullName>Lemon Juice Issues</fullName>
+                <default>false</default>
+                <label>Lemon Juice Issues</label>
+            </value>
+            <value>
+                <fullName>Line Clearance Issue</fullName>
+                <default>false</default>
+                <label>Line Clearance Issue</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Contamination</fullName>
+                <default>false</default>
+                <label>Manufacturing Contamination</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Issues</fullName>
+                <default>false</default>
+                <label>Manufacturing Issues</label>
+            </value>
+            <value>
+                <fullName>Micro Issues</fullName>
+                <default>false</default>
+                <label>Micro Issues</label>
+            </value>
+            <value>
+                <fullName>Misaligned Label</fullName>
+                <default>false</default>
+                <label>Misaligned Label</label>
+            </value>
+            <value>
+                <fullName>Misapplied</fullName>
+                <default>false</default>
+                <label>Misapplied</label>
+            </value>
+            <value>
+                <fullName>Missing Digits</fullName>
+                <default>false</default>
+                <label>Missing Digits</label>
+            </value>
+            <value>
+                <fullName>Misuse of Refillable Bottle</fullName>
+                <default>false</default>
+                <label>Misuse of Refillable Bottle</label>
+            </value>
+            <value>
+                <fullName>Mixing Issue</fullName>
+                <default>false</default>
+                <label>Mixing Issue</label>
+            </value>
+            <value>
+                <fullName>Mould, Excessive Fobbing</fullName>
+                <default>false</default>
+                <label>Mould, Excessive Fobbing</label>
+            </value>
+            <value>
+                <fullName>Mould, Line Hygiene</fullName>
+                <default>false</default>
+                <label>Mould, Line Hygiene</label>
+            </value>
+            <value>
+                <fullName>Natural Pulp</fullName>
+                <default>false</default>
+                <label>Natural Pulp</label>
+            </value>
+            <value>
+                <fullName>Neck Handling Damage - Distribution (Unknown)</fullName>
+                <default>false</default>
+                <label>Neck Handling Damage - Distribution (Unknown)</label>
+            </value>
+            <value>
+                <fullName>Neck Handling Damage - Production</fullName>
+                <default>false</default>
+                <label>Neck Handling Damage - Production</label>
+            </value>
+            <value>
+                <fullName>Neck Ring Finish</fullName>
+                <default>false</default>
+                <label>Neck Ring Finish</label>
+            </value>
+            <value>
+                <fullName>Nitrogen Dosing</fullName>
+                <default>false</default>
+                <label>Nitrogen Dosing</label>
+            </value>
+            <value>
+                <fullName>Non CCE Package</fullName>
+                <default>false</default>
+                <label>Non CCE Package</label>
+            </value>
+            <value>
+                <fullName>Non CCE Product</fullName>
+                <default>false</default>
+                <label>Non CCE Product</label>
+            </value>
+            <value>
+                <fullName>None Found</fullName>
+                <default>false</default>
+                <label>None Found</label>
+            </value>
+            <value>
+                <fullName>No Sample Received</fullName>
+                <default>false</default>
+                <label>No Sample Received</label>
+            </value>
+            <value>
+                <fullName>Not Filled - Production</fullName>
+                <default>false</default>
+                <label>Not Filled - Production</label>
+            </value>
+            <value>
+                <fullName>Not Filled - Supplier</fullName>
+                <default>false</default>
+                <label>Not Filled - Supplier</label>
+            </value>
+            <value>
+                <fullName>Not Valid</fullName>
+                <default>false</default>
+                <label>Not Valid</label>
+            </value>
+            <value>
+                <fullName>On Start Up / Running Issues</fullName>
+                <default>false</default>
+                <label>On Start Up / Running Issues</label>
+            </value>
+            <value>
+                <fullName>Open / Empty, No Site Issues</fullName>
+                <default>false</default>
+                <label>Open / Empty, No Site Issues</label>
+            </value>
+            <value>
+                <fullName>Open Sample, No Site Issues</fullName>
+                <default>false</default>
+                <label>Open Sample, No Site Issues</label>
+            </value>
+            <value>
+                <fullName>Out of Register</fullName>
+                <default>false</default>
+                <label>Out of Register</label>
+            </value>
+            <value>
+                <fullName>Over Cap</fullName>
+                <default>false</default>
+                <label>Over Cap</label>
+            </value>
+            <value>
+                <fullName>Over Pasteurisation</fullName>
+                <default>false</default>
+                <label>Over Pasteurisation</label>
+            </value>
+            <value>
+                <fullName>Over Pressed Finish</fullName>
+                <default>false</default>
+                <label>Over Pressed Finish</label>
+            </value>
+            <value>
+                <fullName>Pack Design</fullName>
+                <default>false</default>
+                <label>Pack Design</label>
+            </value>
+            <value>
+                <fullName>PCO Thread Start Design</fullName>
+                <default>false</default>
+                <label>PCO Thread Start Design</label>
+            </value>
+            <value>
+                <fullName>PET Permeation</fullName>
+                <default>false</default>
+                <label>PET Permeation</label>
+            </value>
+            <value>
+                <fullName>Poor Bridge Breakages</fullName>
+                <default>false</default>
+                <label>Poor Bridge Breakages</label>
+            </value>
+            <value>
+                <fullName>Poor Compression</fullName>
+                <default>false</default>
+                <label>Poor Compression</label>
+            </value>
+            <value>
+                <fullName>Poor Hygiene</fullName>
+                <default>false</default>
+                <label>Poor Hygiene</label>
+            </value>
+            <value>
+                <fullName>Poor Line Clearance</fullName>
+                <default>false</default>
+                <label>Poor Line Clearance</label>
+            </value>
+            <value>
+                <fullName>Poorly Formed Heat Seal</fullName>
+                <default>false</default>
+                <label>Poorly Formed Heat Seal</label>
+            </value>
+            <value>
+                <fullName>Poor Seal at Closure</fullName>
+                <default>false</default>
+                <label>Poor Seal at Closure</label>
+            </value>
+            <value>
+                <fullName>Poor Storage</fullName>
+                <default>false</default>
+                <label>Poor Storage</label>
+            </value>
+            <value>
+                <fullName>Pouch Fouled On Sealing Bar - Production</fullName>
+                <default>false</default>
+                <label>Pouch Fouled On Sealing Bar - Production</label>
+            </value>
+            <value>
+                <fullName>Pouch Fouled On Sealing Bar - Supplier</fullName>
+                <default>false</default>
+                <label>Pouch Fouled On Sealing Bar - Supplier</label>
+            </value>
+            <value>
+                <fullName>Pouch Slipped - Production</fullName>
+                <default>false</default>
+                <label>Pouch Slipped - Production</label>
+            </value>
+            <value>
+                <fullName>Pouch Slipped - Supplier</fullName>
+                <default>false</default>
+                <label>Pouch Slipped - Supplier</label>
+            </value>
+            <value>
+                <fullName>Power Setting Too High</fullName>
+                <default>false</default>
+                <label>Power Setting Too High</label>
+            </value>
+            <value>
+                <fullName>Power Setting Too Low</fullName>
+                <default>false</default>
+                <label>Power Setting Too Low</label>
+            </value>
+            <value>
+                <fullName>Production Issues</fullName>
+                <default>false</default>
+                <label>Production Issues</label>
+            </value>
+            <value>
+                <fullName>Product Residue</fullName>
+                <default>false</default>
+                <label>Product Residue</label>
+            </value>
+            <value>
+                <fullName>Product Robustness</fullName>
+                <default>false</default>
+                <label>Product Robustness</label>
+            </value>
+            <value>
+                <fullName>Proportioner Malfunction</fullName>
+                <default>false</default>
+                <label>Proportioner Malfunction</label>
+            </value>
+            <value>
+                <fullName>Push Plate Damage</fullName>
+                <default>false</default>
+                <label>Push Plate Damage</label>
+            </value>
+            <value>
+                <fullName>Quinine Degradation</fullName>
+                <default>false</default>
+                <label>Quinine Degradation</label>
+            </value>
+            <value>
+                <fullName>Repeat Code - Supplier / Coms Issues</fullName>
+                <default>false</default>
+                <label>Repeat Code - Supplier / Coms Issues</label>
+            </value>
+            <value>
+                <fullName>Rogue Bag - Production</fullName>
+                <default>false</default>
+                <label>Rogue Bag - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue Bag - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue Bag - Supplier</label>
+            </value>
+            <value>
+                <fullName>Rogue Bottle - Distribution (Unknown)</fullName>
+                <default>false</default>
+                <label>Rogue Bottle - Distribution (Unknown)</label>
+            </value>
+            <value>
+                <fullName>Rogue Bottle - Production</fullName>
+                <default>false</default>
+                <label>Rogue Bottle - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue Bottle - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue Bottle - Supplier</label>
+            </value>
+            <value>
+                <fullName>Rogue Closure - Production</fullName>
+                <default>false</default>
+                <label>Rogue Closure - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue Closure - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue Closure - Supplier</label>
+            </value>
+            <value>
+                <fullName>Rogue Container - Distribution (Unknown)</fullName>
+                <default>false</default>
+                <label>Rogue Container - Distribution (Unknown)</label>
+            </value>
+            <value>
+                <fullName>Rogue Container - Production</fullName>
+                <default>false</default>
+                <label>Rogue Container - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue Container - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue Container - Supplier</label>
+            </value>
+            <value>
+                <fullName>Rogue End - Production</fullName>
+                <default>false</default>
+                <label>Rogue End - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue End - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue End - Supplier</label>
+            </value>
+            <value>
+                <fullName>Rogue Pouch - Distribution</fullName>
+                <default>false</default>
+                <label>Rogue Pouch - Distribution</label>
+            </value>
+            <value>
+                <fullName>Rogue Pouch - Production</fullName>
+                <default>false</default>
+                <label>Rogue Pouch - Production</label>
+            </value>
+            <value>
+                <fullName>Rogue Pouch - Supplier</fullName>
+                <default>false</default>
+                <label>Rogue Pouch - Supplier</label>
+            </value>
+            <value>
+                <fullName>Sample Not  Requested</fullName>
+                <default>false</default>
+                <label>Sample Not  Requested</label>
+            </value>
+            <value>
+                <fullName>Sample not required</fullName>
+                <default>false</default>
+                <label>Sample not required</label>
+            </value>
+            <value>
+                <fullName>Scrap in Die</fullName>
+                <default>false</default>
+                <label>Scrap in Die</label>
+            </value>
+            <value>
+                <fullName>Seal Over Embossed - Production</fullName>
+                <default>false</default>
+                <label>Seal Over Embossed - Production</label>
+            </value>
+            <value>
+                <fullName>Seal Over Embossed - Supplier</fullName>
+                <default>false</default>
+                <label>Seal Over Embossed - Supplier</label>
+            </value>
+            <value>
+                <fullName>Seal Tails Off - Production</fullName>
+                <default>false</default>
+                <label>Seal Tails Off - Production</label>
+            </value>
+            <value>
+                <fullName>Seal Tails Off - Supplier</fullName>
+                <default>false</default>
+                <label>Seal Tails Off - Supplier</label>
+            </value>
+            <value>
+                <fullName>Seal Too High - Production</fullName>
+                <default>false</default>
+                <label>Seal Too High - Production</label>
+            </value>
+            <value>
+                <fullName>Seal Too High - Supplier</fullName>
+                <default>false</default>
+                <label>Seal Too High - Supplier</label>
+            </value>
+            <value>
+                <fullName>Seal Too Low - Production</fullName>
+                <default>false</default>
+                <label>Seal Too Low - Production</label>
+            </value>
+            <value>
+                <fullName>Seal Too Low - Supplier</fullName>
+                <default>false</default>
+                <label>Seal Too Low - Supplier</label>
+            </value>
+            <value>
+                <fullName>Seamer Grease</fullName>
+                <default>false</default>
+                <label>Seamer Grease</label>
+            </value>
+            <value>
+                <fullName>Seamer Smash Debris</fullName>
+                <default>false</default>
+                <label>Seamer Smash Debris</label>
+            </value>
+            <value>
+                <fullName>Seamer Swarf / Grease</fullName>
+                <default>false</default>
+                <label>Seamer Swarf / Grease</label>
+            </value>
+            <value>
+                <fullName>Seaming Application</fullName>
+                <default>false</default>
+                <label>Seaming Application</label>
+            </value>
+            <value>
+                <fullName>Slitting Issues</fullName>
+                <default>false</default>
+                <label>Slitting Issues</label>
+            </value>
+            <value>
+                <fullName>Split Flange - Production</fullName>
+                <default>false</default>
+                <label>Split Flange - Production</label>
+            </value>
+            <value>
+                <fullName>Split Flange - Supplier</fullName>
+                <default>false</default>
+                <label>Split Flange - Supplier</label>
+            </value>
+            <value>
+                <fullName>Start Up Issues</fullName>
+                <default>false</default>
+                <label>Start Up Issues</label>
+            </value>
+            <value>
+                <fullName>Stuck/Loose Glass</fullName>
+                <default>false</default>
+                <label>Stuck/Loose Glass</label>
+            </value>
+            <value>
+                <fullName>Supplier Contamination</fullName>
+                <default>false</default>
+                <label>Supplier Contamination</label>
+            </value>
+            <value>
+                <fullName>Supplier Issues</fullName>
+                <default>false</default>
+                <label>Supplier Issues</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Handling</fullName>
+                <default>false</default>
+                <label>Supply Chain Handling</label>
+            </value>
+            <value>
+                <fullName>Tampered Post Production</fullName>
+                <default>false</default>
+                <label>Tampered Post Production</label>
+            </value>
+            <value>
+                <fullName>Trade Damage</fullName>
+                <default>false</default>
+                <label>Trade Damage</label>
+            </value>
+            <value>
+                <fullName>Triple Point Leaking - Production</fullName>
+                <default>false</default>
+                <label>Triple Point Leaking - Production</label>
+            </value>
+            <value>
+                <fullName>Triple Point Leaking - Supplier</fullName>
+                <default>false</default>
+                <label>Triple Point Leaking - Supplier</label>
+            </value>
+            <value>
+                <fullName>Triple Point Poor Seal</fullName>
+                <default>false</default>
+                <label>Triple Point Poor Seal</label>
+            </value>
+            <value>
+                <fullName>Under Investigation</fullName>
+                <default>false</default>
+                <label>Under Investigation</label>
+            </value>
+            <value>
+                <fullName>Under Pasteurisation</fullName>
+                <default>false</default>
+                <label>Under Pasteurisation</label>
+            </value>
+            <value>
+                <fullName>Unique Code - Laser Strength</fullName>
+                <default>false</default>
+                <label>Unique Code - Laser Strength</label>
+            </value>
+            <value>
+                <fullName>Unknown Handling</fullName>
+                <default>false</default>
+                <label>Unknown Handling</label>
+            </value>
+            <value>
+                <fullName>Vending Issues</fullName>
+                <default>false</default>
+                <label>Vending Issues</label>
+            </value>
+            <value>
+                <fullName>Water Droplets</fullName>
+                <default>false</default>
+                <label>Water Droplets</label>
+            </value>
+            <value>
+                <fullName>Weak Seal - Production</fullName>
+                <default>false</default>
+                <label>Weak Seal - Production</label>
+            </value>
+            <value>
+                <fullName>Weak Seal - Supplier</fullName>
+                <default>false</default>
+                <label>Weak Seal - Supplier</label>
+            </value>
+            <value>
+                <fullName>Wrong Bag</fullName>
+                <default>false</default>
+                <label>Wrong Bag</label>
+            </value>
+            <value>
+                <fullName>Wrong Product Connector</fullName>
+                <default>false</default>
+                <label>Wrong Product Connector</label>
+            </value>
+            <value>
+                <fullName>Yeast Contamination</fullName>
+                <default>false</default>
+                <label>Yeast Contamination</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lacquer Application</controllingFieldValue>
+            <valueName>Lacquer Misapplied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <valueName>Carousel Damage - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <valueName>Carousel Damage - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Bulge</controllingFieldValue>
+            <controllingFieldValue>Burst Fermented Product</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Base Chime Puncture</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Domed</controllingFieldValue>
+            <controllingFieldValue>Base Puncture</controllingFieldValue>
+            <controllingFieldValue>Base Rim / Riding Edge</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Rim</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Glass)</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>End Peaked</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Impact Damage</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Scuffed Surface</controllingFieldValue>
+            <controllingFieldValue>Secondary Corrosion</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Cut</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <controllingFieldValue>Stress Corrosion</controllingFieldValue>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Vented</controllingFieldValue>
+            <valueName>CCE Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Missile</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Bulge</controllingFieldValue>
+            <controllingFieldValue>Burst Fermented Product</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Base Chime Puncture</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Domed</controllingFieldValue>
+            <controllingFieldValue>Base Puncture</controllingFieldValue>
+            <controllingFieldValue>Base Rim / Riding Edge</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Rim</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Glass)</controllingFieldValue>
+            <controllingFieldValue>Opened Post BBE</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>End Peaked</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Pour Panel Missing / Off</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Fail</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Hard To Remove</controllingFieldValue>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Impact Damage</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Scuffed Surface</controllingFieldValue>
+            <controllingFieldValue>Secondary Corrosion</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Cut</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Stress Corrosion</controllingFieldValue>
+            <controllingFieldValue>Tab Bands</controllingFieldValue>
+            <controllingFieldValue>Tab Breaks</controllingFieldValue>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Tab Missing / Poor Rivet</controllingFieldValue>
+            <controllingFieldValue>Tab Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Tamper Band Sharp</controllingFieldValue>
+            <controllingFieldValue>Vented</controllingFieldValue>
+            <controllingFieldValue>Vent Sharp Post Opening</controllingFieldValue>
+            <valueName>Consumer Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Bulge</controllingFieldValue>
+            <controllingFieldValue>Burst Fermented Product</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Base Chime Puncture</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Domed</controllingFieldValue>
+            <controllingFieldValue>Base Puncture</controllingFieldValue>
+            <controllingFieldValue>Base Rim / Riding Edge</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Rim</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Glass)</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>End Peaked</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Impact Damage</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Scuffed Surface</controllingFieldValue>
+            <controllingFieldValue>Secondary Corrosion</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Cut</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <controllingFieldValue>Stress Corrosion</controllingFieldValue>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Vented</controllingFieldValue>
+            <controllingFieldValue>Yeast Formed On Connector</controllingFieldValue>
+            <valueName>Customer Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Bulge</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Puncture</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Can End Rim Damage</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Open (Fill Control)</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Fill Control)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>Out of Spec Open</controllingFieldValue>
+            <controllingFieldValue>Out of Spec Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec Sealed (Carbonation)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>PET Wall Thickness</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Hard To Remove</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Leaking</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Missing</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Promotion Invalid</controllingFieldValue>
+            <controllingFieldValue>Promotion Misapplied</controllingFieldValue>
+            <controllingFieldValue>Promotion Missing</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue</controllingFieldValue>
+            <controllingFieldValue>Gluing issue (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Impact Damage</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Scuffed Surface</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Inclusion In Bottle Wall</controllingFieldValue>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Secondary Packaging</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Cut</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <controllingFieldValue>Stress Corrosion</controllingFieldValue>
+            <controllingFieldValue>Stress Crack</controllingFieldValue>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Tamper Band  Broken</controllingFieldValue>
+            <controllingFieldValue>Tamper Band Sharp</controllingFieldValue>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <controllingFieldValue>Insufficient Wash</controllingFieldValue>
+            <valueName>Production Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <valueName>Push Plate Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Liner missing / defective / loose</controllingFieldValue>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <controllingFieldValue>Misc Marks</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Broken Neck Crizzle Finish</controllingFieldValue>
+            <controllingFieldValue>Broken Neck Thin Glass</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Domed</controllingFieldValue>
+            <controllingFieldValue>Neck Rim Seam</controllingFieldValue>
+            <controllingFieldValue>Base Rim / Riding Edge</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Bird Swing</controllingFieldValue>
+            <controllingFieldValue>Blisters</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Rim</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Glass)</controllingFieldValue>
+            <controllingFieldValue>Offset Finish</controllingFieldValue>
+            <controllingFieldValue>Offset Mould Marks</controllingFieldValue>
+            <controllingFieldValue>Oil / Coloured Streaks</controllingFieldValue>
+            <controllingFieldValue>Checks</controllingFieldValue>
+            <controllingFieldValue>Chipped / Broken Finish</controllingFieldValue>
+            <controllingFieldValue>Chocked Neck</controllingFieldValue>
+            <controllingFieldValue>Cracks</controllingFieldValue>
+            <controllingFieldValue>Crizzle Finish</controllingFieldValue>
+            <controllingFieldValue>Optical Shadows</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Defective</controllingFieldValue>
+            <controllingFieldValue>Dip Strip Defect</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>Over Pressed Finish Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>Dirty Body / Finish Moulds</controllingFieldValue>
+            <controllingFieldValue>End Compound</controllingFieldValue>
+            <controllingFieldValue>Excess End Compound</controllingFieldValue>
+            <controllingFieldValue>Excessive Blooming</controllingFieldValue>
+            <controllingFieldValue>Excessive Weathering</controllingFieldValue>
+            <controllingFieldValue>PET Wall Thickness</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>False Bottom</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Hard To Remove</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Leaking</controllingFieldValue>
+            <controllingFieldValue>Foil Seal Missing</controllingFieldValue>
+            <controllingFieldValue>Foreign Object</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Promotion Invalid</controllingFieldValue>
+            <controllingFieldValue>Promotion Misapplied</controllingFieldValue>
+            <controllingFieldValue>Promotion Missing</controllingFieldValue>
+            <controllingFieldValue>Push Panel Strength</controllingFieldValue>
+            <controllingFieldValue>Glass Spike</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Heel Tap</controllingFieldValue>
+            <controllingFieldValue>Rusty</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Seeds</controllingFieldValue>
+            <controllingFieldValue>Shape Outage</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Inclusion In Bottle Wall</controllingFieldValue>
+            <controllingFieldValue>Inclusions Or Stones</controllingFieldValue>
+            <controllingFieldValue>Incompletely Formed Finish</controllingFieldValue>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Secondary Packaging</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <controllingFieldValue>Split Finish</controllingFieldValue>
+            <controllingFieldValue>Tamper Band Sharp</controllingFieldValue>
+            <controllingFieldValue>Thin Glass</controllingFieldValue>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <controllingFieldValue>Washboard</controllingFieldValue>
+            <valueName>Supplier Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leaking Other</controllingFieldValue>
+            <controllingFieldValue>Leaking Seam</controllingFieldValue>
+            <controllingFieldValue>Liner missing / defective / loose</controllingFieldValue>
+            <controllingFieldValue>Broken Neck</controllingFieldValue>
+            <controllingFieldValue>Bulge</controllingFieldValue>
+            <controllingFieldValue>Burst Fermented Product</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Base (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Base Chime Puncture</controllingFieldValue>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <controllingFieldValue>Base Domed</controllingFieldValue>
+            <controllingFieldValue>Base Puncture</controllingFieldValue>
+            <controllingFieldValue>Base Rim / Riding Edge</controllingFieldValue>
+            <controllingFieldValue>Base Split</controllingFieldValue>
+            <controllingFieldValue>Neck Thread Breaks</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Neck (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Rim</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Shoulder (Glass)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Glass)</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>End Peaked</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Fail</controllingFieldValue>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Soft)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Impact Damage</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Primary Soft)</controllingFieldValue>
+            <controllingFieldValue>Impact Damage (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Scuffed Surface</controllingFieldValue>
+            <controllingFieldValue>Secondary Corrosion</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Sidewall Creases</controllingFieldValue>
+            <controllingFieldValue>Sidewall Cut</controllingFieldValue>
+            <controllingFieldValue>Sidewall Pin Hole Leaker / Puncture</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <controllingFieldValue>Stress Corrosion</controllingFieldValue>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Tamper Band  Broken</controllingFieldValue>
+            <controllingFieldValue>Underscore Corrosion</controllingFieldValue>
+            <controllingFieldValue>Vented</controllingFieldValue>
+            <valueName>Unknown Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liner missing / defective / loose</controllingFieldValue>
+            <valueName>Air Ingress (mould)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Machine Parts</controllingFieldValue>
+            <controllingFieldValue>Metal / Swarf</controllingFieldValue>
+            <controllingFieldValue>Oil / Grease / Swarf</controllingFieldValue>
+            <controllingFieldValue>Capsule</controllingFieldValue>
+            <controllingFieldValue>Cloth / Fabric / Leather</controllingFieldValue>
+            <controllingFieldValue>Organic Material</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Dirt / Sand / Grit / Soil</controllingFieldValue>
+            <controllingFieldValue>Paper / Straw</controllingFieldValue>
+            <controllingFieldValue>Pin / Needle</controllingFieldValue>
+            <controllingFieldValue>Plant Material</controllingFieldValue>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <controllingFieldValue>Rubber / Swarf</controllingFieldValue>
+            <controllingFieldValue>Small Animal</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Open</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Sealed</controllingFieldValue>
+            <controllingFieldValue>Tobacco / Ashes</controllingFieldValue>
+            <controllingFieldValue>Wood</controllingFieldValue>
+            <valueName>Manufacturing Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Machine Parts</controllingFieldValue>
+            <controllingFieldValue>Metal / Swarf</controllingFieldValue>
+            <controllingFieldValue>Oil / Grease / Swarf</controllingFieldValue>
+            <controllingFieldValue>Capsule</controllingFieldValue>
+            <controllingFieldValue>Organic Material</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Dirt / Sand / Grit / Soil</controllingFieldValue>
+            <controllingFieldValue>Paper / Straw</controllingFieldValue>
+            <controllingFieldValue>Pin / Needle</controllingFieldValue>
+            <controllingFieldValue>Plant Material</controllingFieldValue>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <controllingFieldValue>Rubber / Swarf</controllingFieldValue>
+            <controllingFieldValue>Small Animal</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Open</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Sealed</controllingFieldValue>
+            <controllingFieldValue>Tobacco / Ashes</controllingFieldValue>
+            <controllingFieldValue>Wood</controllingFieldValue>
+            <valueName>Supplier Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal / Swarf</controllingFieldValue>
+            <controllingFieldValue>Oil / Grease / Swarf</controllingFieldValue>
+            <controllingFieldValue>Capsule</controllingFieldValue>
+            <controllingFieldValue>Cloth / Fabric / Leather</controllingFieldValue>
+            <controllingFieldValue>Organic Material</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Dirt / Sand / Grit / Soil</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>Paper / Straw</controllingFieldValue>
+            <controllingFieldValue>Pin / Needle</controllingFieldValue>
+            <controllingFieldValue>Plant Material</controllingFieldValue>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <controllingFieldValue>Food</controllingFieldValue>
+            <controllingFieldValue>Foreign Object</controllingFieldValue>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>GIP Non Glass Container</controllingFieldValue>
+            <controllingFieldValue>Rubber / Swarf</controllingFieldValue>
+            <controllingFieldValue>Small Animal</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Open</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Sealed</controllingFieldValue>
+            <controllingFieldValue>Tobacco / Ashes</controllingFieldValue>
+            <controllingFieldValue>Wood</controllingFieldValue>
+            <valueName>Contaminated Post Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal / Swarf</controllingFieldValue>
+            <valueName>Seamer Smash Debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Cap Sharp</controllingFieldValue>
+            <valueName>Closure Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <valueName>Closure Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <controllingFieldValue>Missile</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multipack (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <controllingFieldValue>Missing Pack From Multi Pack (Soft)</controllingFieldValue>
+            <controllingFieldValue>Defective</controllingFieldValue>
+            <controllingFieldValue>Fail</controllingFieldValue>
+            <controllingFieldValue>In Spec</controllingFieldValue>
+            <controllingFieldValue>In Spec (Closure Can/End)</controllingFieldValue>
+            <valueName>Design Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <valueName>Double End Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Burst Fermented Product</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Under Pasteurisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing Pack From Multipack</controllingFieldValue>
+            <controllingFieldValue>Missing Pack from Multipack (Glass)</controllingFieldValue>
+            <valueName>Manufacturing Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <valueName>Archived</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bag Alignment</controllingFieldValue>
+            <valueName>Bag Positioning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing Straws</controllingFieldValue>
+            <valueName>Detector Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mould</controllingFieldValue>
+            <valueName>Open Sample, No Site Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mould</controllingFieldValue>
+            <controllingFieldValue>Insufficient Wash</controllingFieldValue>
+            <valueName>Poor Hygiene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mould</controllingFieldValue>
+            <valueName>Product Robustness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Neck Thread Breaks</controllingFieldValue>
+            <valueName>PCO Thread Start Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None Found</controllingFieldValue>
+            <controllingFieldValue>Damaged Straw</controllingFieldValue>
+            <controllingFieldValue>PET Wall Thickness</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Glass)</controllingFieldValue>
+            <controllingFieldValue>Primary Pack Faults (Temporary)</controllingFieldValue>
+            <controllingFieldValue>Secondary Pack Faults</controllingFieldValue>
+            <controllingFieldValue>In Spec</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>In Spec, sealed (Carbonation)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Fill Control)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Within BBE Date</controllingFieldValue>
+            <controllingFieldValue>In Spec (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Closure Can/End)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Code,Graphic,label)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Glass)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Promotion)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Secondary)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Soft)</controllingFieldValue>
+            <controllingFieldValue>In Spec (Temporary)</controllingFieldValue>
+            <valueName>Consumer Perception</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Burst Impact Sidewall</controllingFieldValue>
+            <controllingFieldValue>Burst Impact Sidewall (Can/Pet)</controllingFieldValue>
+            <valueName>Unique Code - Laser Strength</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Burst Temperature</controllingFieldValue>
+            <valueName>Extreme Temperature - Consumer (Known)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Burst Temperature</controllingFieldValue>
+            <valueName>Extreme Temperature - Distribution (Unknown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Sample Received</controllingFieldValue>
+            <valueName>No Sample Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Sample Received</controllingFieldValue>
+            <valueName>Sample not required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Conclusive</controllingFieldValue>
+            <valueName>Cause Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Filled</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Open (Fill Control)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Fill Control)</controllingFieldValue>
+            <valueName>Filtec / Heuft / Krones / Others Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Filled</controllingFieldValue>
+            <valueName>Not Filled - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Filled</controllingFieldValue>
+            <valueName>Not Filled - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Valid</controllingFieldValue>
+            <valueName>Not Valid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oil / Grease / Swarf</controllingFieldValue>
+            <valueName>Seamer Swarf / Grease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open / Empty</controllingFieldValue>
+            <controllingFieldValue>Open / Empty (Carbonation)</controllingFieldValue>
+            <controllingFieldValue>Open / Empty (Fill Control)</controllingFieldValue>
+            <controllingFieldValue>Open / Empty (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Open / Empty (Product Apperance)</controllingFieldValue>
+            <valueName>Open / Empty, No Site Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open / Empty</controllingFieldValue>
+            <controllingFieldValue>Open / Empty (Product Apperance)</controllingFieldValue>
+            <valueName>Product Residue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capsule</controllingFieldValue>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <valueName>Drop Box Debris - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contamination Post Production</controllingFieldValue>
+            <valueName>Invalid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Counterfeit Packaging</controllingFieldValue>
+            <controllingFieldValue>Counterfeit Product</controllingFieldValue>
+            <valueName>Non CCE Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Open / Empty (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Misuse of Refillable Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Drop Box Debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Aspartame Degradation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Betacarotene Degradation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Degraded Ingredients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Failed CIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Fermented Post Production - Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <valueName>Filtec / Heuft Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <valueName>Formulation Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Closure/Can end)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Glass)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Soft)</controllingFieldValue>
+            <controllingFieldValue>Sidewall Split / Burst</controllingFieldValue>
+            <valueName>FS Vending issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Incorrect Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Ingredient Defect Causing Visual Fault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Lemon Juice Degradation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Lemon Juice Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Line Clearance Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Micro Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Over Pasteurisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <controllingFieldValue>Out of Spec Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec Sealed (Carbonation)</controllingFieldValue>
+            <controllingFieldValue>Pack Fail</controllingFieldValue>
+            <controllingFieldValue>Push Panel Strength</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Secondary)</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge (Soft)</controllingFieldValue>
+            <controllingFieldValue>Triple Point Leaker</controllingFieldValue>
+            <valueName>Pack Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>PET Permeation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <valueName>Proportioner Malfunction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Quinine Degradation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <valueName>Knocked Down Flange - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <controllingFieldValue>End Seam Sharp Edge</controllingFieldValue>
+            <valueName>Knocked Down Flange - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <valueName>Split Flange - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Flange</controllingFieldValue>
+            <valueName>Split Flange - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <valueName>Neck Handling Damage - Distribution (Unknown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged Rim / Impact</controllingFieldValue>
+            <valueName>Neck Handling Damage - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <valueName>Glue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <valueName>Mould, Excessive Fobbing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <valueName>Mould, Line Hygiene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty / Contaminated</controllingFieldValue>
+            <controllingFieldValue>Dirty / Contaminated (Can/Pet)</controllingFieldValue>
+            <valueName>Seamer Grease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out of Spec, Sealed (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Mixing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Calcium Separation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Fermented Post Production - Formulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Floc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Incorrect Product - Customer (Known)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Incorrect Product - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Poor Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out Of Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>Out of Spec / Open</controllingFieldValue>
+            <valueName>Yeast Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Spec Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec Sealed (Carbonation)</controllingFieldValue>
+            <valueName>Poor Line Clearance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Out of Spec Sealed</controllingFieldValue>
+            <controllingFieldValue>Out Of Spec Sealed (Carbonation)</controllingFieldValue>
+            <valueName>Start Up Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Compound</controllingFieldValue>
+            <controllingFieldValue>Excess End Compound</controllingFieldValue>
+            <valueName>Seaming Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Peaked</controllingFieldValue>
+            <valueName>Extreme Temperature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pin Hole Leaker</controllingFieldValue>
+            <valueName>Carousel Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <valueName>Closure Debris - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <valueName>Closure Debris - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <valueName>Double Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic / Swarf / PET</controllingFieldValue>
+            <valueName>Drop Box Debris - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Post BBE</controllingFieldValue>
+            <controllingFieldValue>Purchased Post BBE</controllingFieldValue>
+            <valueName>Supply Chain Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fail</controllingFieldValue>
+            <valueName>Misapplied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <valueName>Asset Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>Bird Swing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>False Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>Glass Spike</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <valueName>Ineffective Rinse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>Neck Ring Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>Over Pressed Finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GIP Glass Container</controllingFieldValue>
+            <valueName>Stuck/Loose Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glass In Closure</controllingFieldValue>
+            <valueName>None Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <valueName>Fallen Container</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production Codes</controllingFieldValue>
+            <valueName>Water Droplets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased Post BBE</controllingFieldValue>
+            <valueName>CCE Supply Chain Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased Post BBE</controllingFieldValue>
+            <valueName>Customer Supply Chain Handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased Post BBE</controllingFieldValue>
+            <valueName>Vending Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gluing Issue</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue (Secondary)</controllingFieldValue>
+            <valueName>Glue Gun Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gluing Issue</controllingFieldValue>
+            <controllingFieldValue>Gluing Issue (Secondary)</controllingFieldValue>
+            <valueName>Poor Compression</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <valueName>Gluing Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics / Label</controllingFieldValue>
+            <valueName>Misaligned Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <controllingFieldValue>Tab Bands</controllingFieldValue>
+            <controllingFieldValue>Tab Breaks</controllingFieldValue>
+            <controllingFieldValue>Underscore Corrosion</controllingFieldValue>
+            <valueName>End Failure Score Depth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <valueName>End Failure Tab Strength</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <valueName>Over Cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hard To Open</controllingFieldValue>
+            <valueName>Poor Bridge Breakages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rivet Leaker</controllingFieldValue>
+            <valueName>End Failure Misaligned Tooling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rivet Leaker</controllingFieldValue>
+            <valueName>End Failure Scrap In Tooling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rusty</controllingFieldValue>
+            <valueName>Air Knife Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rusty</controllingFieldValue>
+            <valueName>Crown Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Imported Stock</controllingFieldValue>
+            <valueName>Imported Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion In Bottle Wall</controllingFieldValue>
+            <valueName>Dirt In Preform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Rogue Closure - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Rogue Closure - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Rogue End - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Rogue End - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Wrong Bag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Packaging</controllingFieldValue>
+            <valueName>Wrong Product Connector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <controllingFieldValue>Incorrect Secondary Packaging</controllingFieldValue>
+            <valueName>BOM error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <valueName>Rogue Bag - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <valueName>Rogue Bag - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <valueName>Rogue Bottle - Distribution (Unknown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <valueName>Rogue Bottle - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Glass)</controllingFieldValue>
+            <valueName>Rogue Bottle - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <valueName>Rogue Container - Distribution (Unknown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <valueName>Rogue Pouch - Distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <valueName>Rogue Pouch - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging</controllingFieldValue>
+            <controllingFieldValue>Incorrect Primary Packaging (Soft)</controllingFieldValue>
+            <valueName>Rogue Pouch - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <valueName>Rogue Container - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Primary Packaging (Can/Pet)</controllingFieldValue>
+            <valueName>Rogue Container - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Sided</controllingFieldValue>
+            <valueName>Nitrogen Dosing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insect / Invertebrate Open</controllingFieldValue>
+            <controllingFieldValue>Insect / Invertebrate Sealed</controllingFieldValue>
+            <valueName>Can Palletised Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Insect / Invertebrate Open</controllingFieldValue>
+            <valueName>Insect In Screw Thread</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Spec, Open</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open (Off Taste &amp; Odour)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open (Product Apperance)</controllingFieldValue>
+            <valueName>In Spec, Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Spec, Open</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open (Product Apperance)</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed</controllingFieldValue>
+            <controllingFieldValue>In Spec, Sealed (Product Apperance)</controllingFieldValue>
+            <valueName>Natural Pulp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Bands</controllingFieldValue>
+            <controllingFieldValue>Tab Breaks</controllingFieldValue>
+            <valueName>End Failure Tab Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Breaks</controllingFieldValue>
+            <valueName>End Failure Rivet Diameter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Tab Missing / Poor Rivet</controllingFieldValue>
+            <valueName>End Failure Conversion Press Jam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Misaligned</controllingFieldValue>
+            <controllingFieldValue>Tab Missing / Poor Rivet</controllingFieldValue>
+            <valueName>End Failure Conversion Press Vacuum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Missing / Poor Rivet</controllingFieldValue>
+            <valueName>End Failure Small Rivet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Sharp Edge</controllingFieldValue>
+            <valueName>End Failure Press</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tab Sharp Edge</controllingFieldValue>
+            <valueName>End Failure Wipe Down Tooling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamper Band Did Not Detach</controllingFieldValue>
+            <valueName>Slitting Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Creased / Folded Seal - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Creased / Folded Seal - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Poorly Formed Heat Seal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Poor Seal at Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Pouch Fouled On Sealing Bar - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Pouch Fouled On Sealing Bar - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Pouch Slipped - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Pouch Slipped - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Over Embossed - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Over Embossed - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Tails Off - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Tails Off - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Too High - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Too High - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Too Low - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Seal Too Low - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Weak Seal - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Seal Leaker</controllingFieldValue>
+            <valueName>Weak Seal - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Damage</controllingFieldValue>
+            <valueName>Trade Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Triple Point Leaker</controllingFieldValue>
+            <valueName>Triple Point Leaking - Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Triple Point Leaker</controllingFieldValue>
+            <valueName>Triple Point Leaking - Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Triple Point Leaker</controllingFieldValue>
+            <valueName>Triple Point Poor Seal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unauthorised Stock</controllingFieldValue>
+            <valueName>Decommissioned Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underscore Corrosion</controllingFieldValue>
+            <valueName>End Failure Lacquer Integrity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Invalid</controllingFieldValue>
+            <valueName>Illegible / Tampered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Invalid</controllingFieldValue>
+            <valueName>Incorrect Batch Codes - Operator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Invalid</controllingFieldValue>
+            <valueName>Incorrect Batch Codes - Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Extra Spaces - Uploading Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Illegible / Excess Glue -Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Illegible / Excess Laser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Laser Focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Missing Digits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Out of Register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Power Setting Too High</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Power Setting Too Low</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Misapplied</controllingFieldValue>
+            <valueName>Repeat Code - Supplier / Coms Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Missing</controllingFieldValue>
+            <valueName>Encoding Mount Slipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unique Code Missing</controllingFieldValue>
+            <valueName>On Start Up / Running Issues</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

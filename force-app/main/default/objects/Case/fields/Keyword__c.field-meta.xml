@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Keyword__c</fullName>
+    <label>Keyword</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BK coffee white floating</fullName>
+                <default>false</default>
+                <label>BK coffee white floating</label>
+            </value>
+            <value>
+                <fullName>FOP</fullName>
+                <default>false</default>
+                <label>FOP</label>
+            </value>
+            <value>
+                <fullName>Location of expiry date display</fullName>
+                <default>false</default>
+                <label>Location of expiry date display</label>
+            </value>
+            <value>
+                <fullName>How to read the expiration date display</fullName>
+                <default>false</default>
+                <label>How to read the expiration date display</label>
+            </value>
+            <value>
+                <fullName>Role Label</fullName>
+                <default>false</default>
+                <label>Role Label</label>
+            </value>
+            <value>
+                <fullName>Coke ON</fullName>
+                <default>false</default>
+                <label>Coke ON</label>
+            </value>
+            <value>
+                <fullName>Olympics</fullName>
+                <default>false</default>
+                <label>Olympics</label>
+            </value>
+            <value>
+                <fullName>Coca-Cola Care</fullName>
+                <default>false</default>
+                <label>Coca-Cola Care</label>
+            </value>
+            <value>
+                <fullName>Double Stamp</fullName>
+                <default>false</default>
+                <label>Double Stamp</label>
+            </value>
+            <value>
+                <fullName>Must-Buy</fullName>
+                <default>false</default>
+                <label>Must-Buy</label>
+            </value>
+            <value>
+                <fullName>Stamp Present</fullName>
+                <default>false</default>
+                <label>Stamp Present</label>
+            </value>
+            <value>
+                <fullName>Olympic Point Support</fullName>
+                <default>false</default>
+                <label>Olympic Point Support</label>
+            </value>
+            <value>
+                <fullName>Hot Voice</fullName>
+                <default>false</default>
+                <label>Hot Voice</label>
+            </value>
+            <value>
+                <fullName>Version Up</fullName>
+                <default>false</default>
+                <label>Version Up</label>
+            </value>
+            <value>
+                <fullName>Keyword 1</fullName>
+                <default>false</default>
+                <label>Keyword 1</label>
+            </value>
+            <value>
+                <fullName>CokeONPAY</fullName>
+                <default>false</default>
+                <label>CokeONPAY</label>
+            </value>
+            <value>
+                <fullName>CokeONIC</fullName>
+                <default>false</default>
+                <label>CokeONIC</label>
+            </value>
+            <value>
+                <fullName>Google Analytic</fullName>
+                <default>false</default>
+                <label>Google Analytic</label>
+            </value>
+            <value>
+                <fullName>Unexpected Reboot</fullName>
+                <default>false</default>
+                <label>Unexpected Reboot</label>
+            </value>
+            <value>
+                <fullName>Multi account</fullName>
+                <default>false</default>
+                <label>Multi account</label>
+            </value>
+            <value>
+                <fullName>Bluetooth : zero code</fullName>
+                <default>false</default>
+                <label>Bluetooth : zero code</label>
+            </value>
+            <value>
+                <fullName>SV Escalartion</fullName>
+                <default>false</default>
+                <label>SV Escalartion</label>
+            </value>
+            <value>
+                <fullName>Exceptional correspondence</fullName>
+                <default>false</default>
+                <label>Exceptional correspondence</label>
+            </value>
+            <value>
+                <fullName>Substitution</fullName>
+                <default>false</default>
+                <label>Substitution</label>
+            </value>
+            <value>
+                <fullName>Customer Voice</fullName>
+                <default>false</default>
+                <label>Customer Voice</label>
+            </value>
+            <value>
+                <fullName>Long time call</fullName>
+                <default>false</default>
+                <label>Long time call</label>
+            </value>
+            <value>
+                <fullName>Multi Language</fullName>
+                <default>false</default>
+                <label>Multi Language</label>
+            </value>
+            <value>
+                <fullName>Line&apos;s busy</fullName>
+                <default>false</default>
+                <label>Line&apos;s busy</label>
+            </value>
+            <value>
+                <fullName>Late response of mail</fullName>
+                <default>false</default>
+                <label>Late response of mail</label>
+            </value>
+            <value>
+                <fullName>Complain for corresponding</fullName>
+                <default>false</default>
+                <label>Complain for corresponding</label>
+            </value>
+            <value>
+                <fullName>Price revision</fullName>
+                <default>false</default>
+                <label>Price revision</label>
+            </value>
+            <value>
+                <fullName>Container is soft</fullName>
+                <default>false</default>
+                <label>Container is soft</label>
+            </value>
+            <value>
+                <fullName>The cap is tight</fullName>
+                <default>false</default>
+                <label>The cap is tight</label>
+            </value>
+            <value>
+                <fullName>Hard to see expiration date printed</fullName>
+                <default>false</default>
+                <label>Hard to see expiration date printed</label>
+            </value>
+            <value>
+                <fullName>FIFA</fullName>
+                <default>false</default>
+                <label>FIFA</label>
+            </value>
+            <value>
+                <fullName>Color Bottle</fullName>
+                <default>false</default>
+                <label>Color Bottle</label>
+            </value>
+            <value>
+                <fullName>Kochakaden Hot RMT Recall</fullName>
+                <default>false</default>
+                <label>Kochakaden Hot RMT Recall</label>
+            </value>
+            <value>
+                <fullName>Sweetner Challenge</fullName>
+                <default>false</default>
+                <label>Sweetner Challenge</label>
+            </value>
+            <value>
+                <fullName>Caffeine Coverage</fullName>
+                <default>false</default>
+                <label>Caffeine Coverage</label>
+            </value>
+            <value>
+                <fullName>CD fruit ginger ale orange recovery</fullName>
+                <default>false</default>
+                <label>CD fruit ginger ale orange recovery</label>
+            </value>
+            <value>
+                <fullName>Multilingual Support</fullName>
+                <default>false</default>
+                <label>Multilingual Support</label>
+            </value>
+            <value>
+                <fullName>Sustainability Report</fullName>
+                <default>false</default>
+                <label>Sustainability Report</label>
+            </value>
+            <value>
+                <fullName>Chinese raw materials</fullName>
+                <default>false</default>
+                <label>Chinese raw materials</label>
+            </value>
+            <value>
+                <fullName>Personal Information Related</fullName>
+                <default>false</default>
+                <label>Personal Information Related</label>
+            </value>
+            <value>
+                <fullName>VM + 2 ℃</fullName>
+                <default>false</default>
+                <label>VM + 2 ℃</label>
+            </value>
+            <value>
+                <fullName>ILOHAS Salt Lemon Recall</fullName>
+                <default>false</default>
+                <label>ILOHAS Salt Lemon Recall</label>
+            </value>
+            <value>
+                <fullName>Peko raku bottle</fullName>
+                <default>false</default>
+                <label>Peko raku bottle</label>
+            </value>
+            <value>
+                <fullName>Ribbon Bottle</fullName>
+                <default>false</default>
+                <label>Ribbon Bottle</label>
+            </value>
+            <value>
+                <fullName>Aluminum can blown out</fullName>
+                <default>false</default>
+                <label>Aluminum can blown out</label>
+            </value>
+            <value>
+                <fullName>Aluminum can expansion</fullName>
+                <default>false</default>
+                <label>Aluminum can expansion</label>
+            </value>
+            <value>
+                <fullName>Aluminum can is too hot</fullName>
+                <default>false</default>
+                <label>Aluminum can is too hot</label>
+            </value>
+            <value>
+                <fullName>Mail Distribution - Bottler Response</fullName>
+                <default>false</default>
+                <label>Mail Distribution - Bottler Response</label>
+            </value>
+            <value>
+                <fullName>Consumption Tax</fullName>
+                <default>false</default>
+                <label>Consumption Tax</label>
+            </value>
+            <value>
+                <fullName>Caramel pigment (carcinogenicity)</fullName>
+                <default>false</default>
+                <label>Caramel pigment (carcinogenicity)</label>
+            </value>
+            <value>
+                <fullName>WHO</fullName>
+                <default>false</default>
+                <label>WHO</label>
+            </value>
+            <value>
+                <fullName>PET Bottle Syndrome</fullName>
+                <default>false</default>
+                <label>PET Bottle Syndrome</label>
+            </value>
+            <value>
+                <fullName>East Japan great earthquake disaster</fullName>
+                <default>false</default>
+                <label>East Japan great earthquake disaster</label>
+            </value>
+            <value>
+                <fullName>GA Confirmation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GA Confirmation</label>
+            </value>
+            <value>
+                <fullName>Keyword 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Keyword 2</label>
+            </value>
+            <value>
+                <fullName>Multi Language Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Multi Language Support</label>
+            </value>
+            <value>
+                <fullName>SV Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SV Support</label>
+            </value>
+            <value>
+                <fullName>Unspecified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unspecified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

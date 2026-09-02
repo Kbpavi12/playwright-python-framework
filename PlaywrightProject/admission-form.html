@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #edf3ff, #dfe8ff);
+        margin: 0;
+        padding: 32px;
+      }
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+        padding: 32px;
+      }
+      h1 {
+        margin-top: 0;
+        color: #123a8a;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+      }
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      label {
+        font-weight: 600;
+        color: #1d1d1d;
+      }
+      input, select, textarea, button {
+        border-radius: 10px;
+        border: 1px solid #cdd6ee;
+        font-size: 15px;
+        padding: 12px 14px;
+      }
+      input:focus, select:focus, textarea:focus {
+        outline: 2px solid #93b6ff;
+        border-color: #5a8dff;
+      }
+      button {
+        background: #123a8a;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.2s ease;
+      }
+      button:hover {
+        background: #0d2a68;
+      }
+      .actions {
+        margin-top: 24px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .status {
+        display: none;
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+      .status.success {
+        display: block;
+        background: #e9f9ee;
+        color: #126b3d;
+        border: 1px solid #9ad8ad;
+      }
+      .required {
+        color: #d23232;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Admission Form</h1>
+      <form id="admissionForm">
+        <div class="grid">
+          <div class="field">
+            <label for="fullName">Full Name <span class="required">*</span></label>
+            <input id="fullName" name="fullName" type="text" required placeholder="Enter your full name" />
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input id="email" name="email" type="email" required placeholder="name@capgemini.com" />
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number <span class="required">*</span></label>
+            <input id="phone" name="phone" type="tel" required placeholder="9876543210" />
+          </div>
+
+          <div class="field">
+            <label for="dob">Date of Birth <span class="required">*</span></label>
+            <input id="dob" name="dob" type="date" required />
+          </div>
+
+          <div class="field">
+            <label for="program">Program / Course <span class="required">*</span></label>
+            <select id="program" name="program" required>
+              <option value="">Select a program</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="MBA">MBA</option>
+              <option value="M.Tech">M.Tech</option>
+              <option value="Diploma">Diploma</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="India" />
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit">Submit Application</button>
+        </div>
+      </form>
+
+      <div id="successMessage" class="status" aria-live="polite"></div>
+      <div id="mailComposeContainer" class="status success" style="display: none;">
+        <p>Draft email opened. Please click <strong>Send</strong> in your mail client to deliver it.</p>
+      </div>
+    </div>
+
+    <script>
+      const form = document.getElementById('admissionForm');
+      const statusBox = document.getElementById('successMessage');
+      const mailComposeContainer = document.getElementById('mailComposeContainer');
+
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const payload = {
+          fullName: formData.get('fullName')?.toString().trim() || '',
+          email: formData.get('email')?.toString().trim() || '',
+          phone: formData.get('phone')?.toString().trim() || '',
+          dob: formData.get('dob')?.toString().trim() || '',
+          program: formData.get('program')?.toString().trim() || '',
+          country: formData.get('country')?.toString().trim() || 'Not provided',
+        };
+
+        statusBox.textContent = 'Submitting your application...';
+        statusBox.classList.add('success');
+        statusBox.style.display = 'block';
+
+        try {
+          const response = await fetch('/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+
+          const result = await response.json();
+
+          if (!response.ok) {
+            statusBox.textContent = result.message || 'Submission failed.';
+            statusBox.style.background = '#fbe9e7';
+            statusBox.style.color = '#8a1f1f';
+            return;
+          }
+
+          statusBox.textContent = `Thank you, ${payload.fullName}! Your admission request has been submitted successfully.`;
+          statusBox.style.background = '#e9f9ee';
+          statusBox.style.color = '#126b3d';
+          mailComposeContainer.style.display = 'block';
+          mailComposeContainer.textContent = 'Email sent successfully to the configured recipient.';
+        } catch (error) {
+          statusBox.textContent = 'Submission failed. Please check the server configuration.';
+          statusBox.style.background = '#fbe9e7';
+          statusBox.style.color = '#8a1f1f';
+          console.error(error);
+        }
+      });
+    </script>
+  </body>
+</html>

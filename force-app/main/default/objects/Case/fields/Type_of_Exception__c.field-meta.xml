@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Exception__c</fullName>
+    <description>Used to specify the type of exception applied to the case. BU: LATAM</description>
+    <label>Type of Exception</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reformulation</fullName>
+                <default>false</default>
+                <label>Reformulation</label>
+            </value>
+            <value>
+                <fullName>Nuevo Producto</fullName>
+                <default>false</default>
+                <label>Nuevo Producto</label>
+            </value>
+            <value>
+                <fullName>Cambio Empaque</fullName>
+                <default>false</default>
+                <label>Cambio Empaque</label>
+            </value>
+            <value>
+                <fullName>Cambio VIS - Imagen&quot;</fullName>
+                <default>false</default>
+                <label>Cambio VIS - Imagen&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

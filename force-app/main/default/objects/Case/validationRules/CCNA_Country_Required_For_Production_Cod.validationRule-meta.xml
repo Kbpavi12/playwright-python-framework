@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Country_Required_For_Production_Cod</fullName>
+    <active>true</active>
+    <description>Field &quot;Date Code Formats&quot; is required when Production Code is filled.</description>
+    <errorConditionFormula>AND(NOT( ISBLANK( Production_code__c ) ),  ISPICKVAL(Country_For_Partial_Decoding__c ,&apos;&apos;),
+ISPICKVAL(Country_Code__c,&apos;US&apos;),
+NOT( AND(ISCHANGED(OwnerId),LEFT(PRIORVALUE(OwnerId),3) =&apos;00G&apos;) ),
+$User.FirstName &lt;&gt;&apos;System&apos;)</errorConditionFormula>
+    <errorMessage>Please Select Date Code Formats</errorMessage>
+</ValidationRule>

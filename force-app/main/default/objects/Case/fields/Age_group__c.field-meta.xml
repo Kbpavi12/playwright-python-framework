@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_group__c</fullName>
+    <label>Age group (System Field)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Under 10s</fullName>
+                <default>false</default>
+                <label>Under 10s</label>
+            </value>
+            <value>
+                <fullName>10s</fullName>
+                <default>false</default>
+                <label>10s</label>
+            </value>
+            <value>
+                <fullName>20s</fullName>
+                <default>false</default>
+                <label>20s</label>
+            </value>
+            <value>
+                <fullName>30s</fullName>
+                <default>false</default>
+                <label>30s</label>
+            </value>
+            <value>
+                <fullName>40s</fullName>
+                <default>false</default>
+                <label>40s</label>
+            </value>
+            <value>
+                <fullName>50s</fullName>
+                <default>false</default>
+                <label>50s</label>
+            </value>
+            <value>
+                <fullName>60s</fullName>
+                <default>false</default>
+                <label>60s</label>
+            </value>
+            <value>
+                <fullName>Over 70s</fullName>
+                <default>false</default>
+                <label>Over 70s</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Please select from the list</fullName>
+                <default>false</default>
+                <label>Please select from the list</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

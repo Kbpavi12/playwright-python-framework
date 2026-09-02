@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Beverage_Storage__c</fullName>
+    <label>Beverage Storage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chilled (ice)</fullName>
+                <default>false</default>
+                <label>Chilled (ice)</label>
+            </value>
+            <value>
+                <fullName>Chilled (Refrigeror)</fullName>
+                <default>false</default>
+                <label>Chilled (Refrigerator)</label>
+            </value>
+            <value>
+                <fullName>Garage</fullName>
+                <default>false</default>
+                <label>Garage</label>
+            </value>
+            <value>
+                <fullName>Outside</fullName>
+                <default>false</default>
+                <label>Outside</label>
+            </value>
+            <value>
+                <fullName>Room Temp</fullName>
+                <default>false</default>
+                <label>Room Temp</label>
+            </value>
+            <value>
+                <fullName>Shed</fullName>
+                <default>false</default>
+                <label>Shed</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <label>Vehicle</label>
+            </value>
+            <value>
+                <fullName>NotAvailable</fullName>
+                <default>false</default>
+                <label>NotAvailable</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

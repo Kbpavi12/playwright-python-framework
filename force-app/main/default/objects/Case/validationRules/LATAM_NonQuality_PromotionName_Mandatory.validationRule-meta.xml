@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM_NonQuality_PromotionName_Mandatory</fullName>
+    <active>true</active>
+    <description>Promotion Name is mandatory if Case Reason Field value is Promotion (NQC)</description>
+    <errorConditionFormula>AND(
+    $Profile.Name &lt;&gt; &apos;System Administrator&apos;,   
+    TEXT($User.UserType) &lt;&gt; &apos;AutomatedProcess&apos;,
+    $Profile.Name &lt;&gt; &apos;Nexus Data Loader&apos;,
+    RecordType.DeveloperName = &apos;Latam_Non_Quality&apos;,
+    ISPICKVAL(Reason, &apos;Promotion (NQC)&apos;),
+    ISBLANK(Promotions_Name__c)
+)</errorConditionFormula>
+    <errorDisplayField>Promotions_Name__c</errorDisplayField>
+    <errorMessage>Promotion Name is required when Case Reason is Promotion(NQC)</errorMessage>
+</ValidationRule>

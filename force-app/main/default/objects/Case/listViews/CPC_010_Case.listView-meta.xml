@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPC_010_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>[CPC]010</label>
+    <queue>CPC_010</queue>
+    <sharedTo>
+        <role>CCJC_CIC_Manager</role>
+        <role>CCJC_Technical_User</role>
+        <role>CCJC_Vending_User</role>
+        <role>Japan_CIC_BPO_Manager</role>
+        <role>Japan_CIC_Communicator</role>
+        <role>Japan_CIC_Leader</role>
+        <role>Japan_CIC_Supervisor</role>
+    </sharedTo>
+</ListView>

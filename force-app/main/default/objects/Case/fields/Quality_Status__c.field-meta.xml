@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Status__c</fullName>
+    <description>Used to capture the quality status of the case based on defined quality criteria. BU: LATAM, NA</description>
+    <label>Quality Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New complaint</fullName>
+                <default>false</default>
+                <label>New complaint</label>
+            </value>
+            <value>
+                <fullName>Pending on Quality</fullName>
+                <default>false</default>
+                <label>Pending on Quality</label>
+            </value>
+            <value>
+                <fullName>Pending on sample</fullName>
+                <default>false</default>
+                <label>Pending on sample</label>
+            </value>
+            <value>
+                <fullName>Waiting for answer from the bottler</fullName>
+                <default>false</default>
+                <label>Waiting for answer from the bottler</label>
+            </value>
+            <value>
+                <fullName>Waiting for answer from the supplier</fullName>
+                <default>false</default>
+                <label>Waiting for answer from the supplier</label>
+            </value>
+            <value>
+                <fullName>Pending on external analysis</fullName>
+                <default>false</default>
+                <label>Pending on external analysis</label>
+            </value>
+            <value>
+                <fullName>Pending on external</fullName>
+                <default>false</default>
+                <label>Pending on external</label>
+            </value>
+            <value>
+                <fullName>Pending on supplier info</fullName>
+                <default>false</default>
+                <label>Pending on supplier info</label>
+            </value>
+            <value>
+                <fullName>Pending on internal analysis</fullName>
+                <default>false</default>
+                <label>Pending on internal analysis</label>
+            </value>
+            <value>
+                <fullName>Pending further info from consumer</fullName>
+                <default>false</default>
+                <label>Pending further info from consumer</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

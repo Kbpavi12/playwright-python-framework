@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COC34</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Category_Level_1__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Category_Level3__c</columns>
+    <columns>Category_Level4__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>小埜 優花</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_COC_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>[COC]小埜</label>
+    <sharedTo>
+        <role>CCJC_COC_Communicator</role>
+        <role>CCJC_COC_Leader</role>
+        <role>CCJC_COC_Manager</role>
+        <role>CCJC_COC_Supervisor</role>
+        <role>Japan_CIC_BPO_Manager</role>
+        <role>Japan_CIC_Communicator</role>
+        <role>Japan_CIC_Leader</role>
+        <role>Japan_CIC_Supervisor</role>
+    </sharedTo>
+</ListView>

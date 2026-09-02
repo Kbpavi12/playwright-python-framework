@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Case_Restriction_For_New_Countries</fullName>
+    <active>true</active>
+    <description>ECIC LATAM CRC Bottler Agent Profile user can only create cases for the new 11 countries &amp; the country code should match with the user</description>
+    <errorConditionFormula>AND(
+    OR(
+        $Profile.Name = &quot;ECIC LATAM CRC Bottler Agent Profile&quot;,
+        $Profile.Name = &quot;Nexus Data Loader&quot;
+    ),
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+    TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+    OR(
+        ISPICKVAL(Country_Code__c, &quot;BS&quot;),
+        ISPICKVAL(Country_Code__c, &quot;BB&quot;),
+        ISPICKVAL(Country_Code__c, &quot;BZ&quot;),
+        ISPICKVAL(Country_Code__c, &quot;CW&quot;),
+        ISPICKVAL(Country_Code__c, &quot;GD&quot;),
+        ISPICKVAL(Country_Code__c, &quot;GY&quot;),
+        ISPICKVAL(Country_Code__c, &quot;HT&quot;),
+        ISPICKVAL(Country_Code__c, &quot;MQ&quot;),
+        ISPICKVAL(Country_Code__c, &quot;LC&quot;),
+        ISPICKVAL(Country_Code__c, &quot;SR&quot;),
+        ISPICKVAL(Country_Code__c, &quot;AW&quot;)
+    ),
+    TEXT(Country_Code__c) &lt;&gt; TEXT($User.Country_Code__c)
+)</errorConditionFormula>
+    <errorDisplayField>Country_Code__c</errorDisplayField>
+    <errorMessage>ECIC LATAM CRC Bottler Agent Profile user can only create cases for their own country</errorMessage>
+</ValidationRule>

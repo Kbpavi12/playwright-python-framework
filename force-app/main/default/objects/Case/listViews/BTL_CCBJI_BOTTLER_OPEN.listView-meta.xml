@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BTL_CCBJI_BOTTLER_OPEN</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Call_prefecture__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Category_Level_1__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Category_Level3__c</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Bottler__c</field>
+        <operation>equals</operation>
+        <value>CCBJI</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Open (Bottler)</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_CSC_Case</value>
+    </filters>
+    <label>[BTL] CCBJI ボトラー対応中の全ケース</label>
+    <sharedTo>
+        <group>JP_All_Users</group>
+    </sharedTo>
+</ListView>

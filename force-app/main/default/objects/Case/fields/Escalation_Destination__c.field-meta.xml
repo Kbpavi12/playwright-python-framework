@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Destination__c</fullName>
+    <label>Escalation Point</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IMJ</fullName>
+                <default>false</default>
+                <label>IMJ</label>
+            </value>
+            <value>
+                <fullName>Hokkaido CCBC</fullName>
+                <default>false</default>
+                <label>Hokkaido CCBC</label>
+            </value>
+            <value>
+                <fullName>Michinoku CCBC</fullName>
+                <default>false</default>
+                <label>Michinoku CCBC</label>
+            </value>
+            <value>
+                <fullName>CCBJI(Okegawa)</fullName>
+                <default>false</default>
+                <label>CCBJI(Okegawa)</label>
+            </value>
+            <value>
+                <fullName>CCBJI(Nagoya)</fullName>
+                <default>false</default>
+                <label>CCBJI(Nagoya)</label>
+            </value>
+            <value>
+                <fullName>CCBJI(CCEJ HQ)</fullName>
+                <default>false</default>
+                <label>CCBJI(CCEJ HQ)</label>
+            </value>
+            <value>
+                <fullName>CCBJI(Osaka CC)</fullName>
+                <default>false</default>
+                <label>CCBJI(Osaka CC)</label>
+            </value>
+            <value>
+                <fullName>CCBJI(Fukuoka CC)</fullName>
+                <default>false</default>
+                <label>CCBJI(Fukuoka CC)</label>
+            </value>
+            <value>
+                <fullName>CCBJI(CCW HQ)</fullName>
+                <default>false</default>
+                <label>CCBJI(CCW HQ)</label>
+            </value>
+            <value>
+                <fullName>Hokuriku CCBC</fullName>
+                <default>false</default>
+                <label>Hokuriku CCBC</label>
+            </value>
+            <value>
+                <fullName>Okinawa CCBC</fullName>
+                <default>false</default>
+                <label>Okinawa CCBC</label>
+            </value>
+            <value>
+                <fullName>Conlux</fullName>
+                <default>false</default>
+                <label>Conlux</label>
+            </value>
+            <value>
+                <fullName>SUMIT</fullName>
+                <default>false</default>
+                <label>SUMIT</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>COC</fullName>
+                <default>false</default>
+                <label>COC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COC25</fullName>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Category_Level_1__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Category_Level3__c</columns>
+    <columns>Category_Level4__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Japan_COC_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>notEqual</operation>
+        <value>FD,Web,Email,LINE,Phone,Bottler,SMC,Others,Other</value>
+    </filters>
+    <label>[COC]受信方法ブランクリスト</label>
+    <sharedTo>
+        <group>JP_All_Users</group>
+    </sharedTo>
+</ListView>

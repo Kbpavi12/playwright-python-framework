@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <label>Purchase Equipment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BaristaBot</fullName>
+                <default>false</default>
+                <label>BaristaBot</label>
+            </value>
+            <value>
+                <fullName>Camera Cooler</fullName>
+                <default>false</default>
+                <label>Camera Cooler</label>
+            </value>
+            <value>
+                <fullName>Cooler</fullName>
+                <default>false</default>
+                <label>Cooler</label>
+            </value>
+            <value>
+                <fullName>Dasani Purefill</fullName>
+                <default>false</default>
+                <label>Dasani Purefill</label>
+            </value>
+            <value>
+                <fullName>Fountain</fullName>
+                <default>false</default>
+                <label>Fountain</label>
+            </value>
+            <value>
+                <fullName>Freestyle</fullName>
+                <default>false</default>
+                <label>Freestyle</label>
+            </value>
+            <value>
+                <fullName>Option Needed</fullName>
+                <default>false</default>
+                <label>Option Needed</label>
+            </value>
+            <value>
+                <fullName>Smart Café</fullName>
+                <default>false</default>
+                <label>Smart Café</label>
+            </value>
+            <value>
+                <fullName>Vending machine</fullName>
+                <default>false</default>
+                <label>Vending machine</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

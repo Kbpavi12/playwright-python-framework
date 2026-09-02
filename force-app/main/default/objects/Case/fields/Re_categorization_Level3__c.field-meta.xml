@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Re_categorization_Level3__c</fullName>
+    <description>Used to capture the re‑categorized level 3 classification for the case. BU: LATAM</description>
+    <label>Re-categorization Level 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Re_categorization_Case_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CARBONATION</fullName>
+                <default>false</default>
+                <label>CARBONATION</label>
+            </value>
+            <value>
+                <fullName>FOREIGN MATTER</fullName>
+                <default>false</default>
+                <label>FOREIGN MATTER</label>
+            </value>
+            <value>
+                <fullName>ILLNESS</fullName>
+                <default>false</default>
+                <label>ILLNESS</label>
+            </value>
+            <value>
+                <fullName>OFF COLOUR/ APPEARNACE</fullName>
+                <default>false</default>
+                <label>OFF COLOUR/ APPEARNACE</label>
+            </value>
+            <value>
+                <fullName>OFF TEST /ODOUR</fullName>
+                <default>false</default>
+                <label>OFF TEST /ODOUR</label>
+            </value>
+            <value>
+                <fullName>OLD PRODUCT</fullName>
+                <default>false</default>
+                <label>OLD PRODUCT</label>
+            </value>
+            <value>
+                <fullName>CLOSURE, POUR PANEL</fullName>
+                <default>false</default>
+                <label>CLOSURE, POUR PANEL</label>
+            </value>
+            <value>
+                <fullName>CONTAINER BULGE</fullName>
+                <default>false</default>
+                <label>CONTAINER BULGE</label>
+            </value>
+            <value>
+                <fullName>CONTAINER DAMAGE</fullName>
+                <default>false</default>
+                <label>CONTAINER DAMAGE</label>
+            </value>
+            <value>
+                <fullName>CONTAINER LEAKER</fullName>
+                <default>false</default>
+                <label>CONTAINER LEAKER</label>
+            </value>
+            <value>
+                <fullName>DIRTY CONTAINER</fullName>
+                <default>false</default>
+                <label>DIRTY CONTAINER</label>
+            </value>
+            <value>
+                <fullName>FILL CONTROL</fullName>
+                <default>false</default>
+                <label>FILL CONTROL</label>
+            </value>
+            <value>
+                <fullName>FOREIGN IMPORT</fullName>
+                <default>false</default>
+                <label>FOREIGN IMPORT</label>
+            </value>
+            <value>
+                <fullName>INCOMPLETE PACKAGING</fullName>
+                <default>false</default>
+                <label>INCOMPLETE PACKAGING</label>
+            </value>
+            <value>
+                <fullName>LABEL</fullName>
+                <default>false</default>
+                <label>LABEL</label>
+            </value>
+            <value>
+                <fullName>OTHER PACK FAULTS</fullName>
+                <default>false</default>
+                <label>OTHER PACK FAULTS</label>
+            </value>
+            <value>
+                <fullName>PERSONAL DAMAGE</fullName>
+                <default>false</default>
+                <label>PERSONAL DAMAGE</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>CARBONATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>FOREIGN MATTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>ILLNESS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF COLOUR/ APPEARNACE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF TEST /ODOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OLD PRODUCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CLOSURE, POUR PANEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER BULGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER DAMAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER LEAKER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>DIRTY CONTAINER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FILL CONTROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FOREIGN IMPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>INCOMPLETE PACKAGING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>LABEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>OTHER PACK FAULTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>PERSONAL DAMAGE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

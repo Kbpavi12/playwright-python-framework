@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appearance_of_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for LATAM to determine whether the product appearance has been checked.
+BU :- LATAM</description>
+    <label>Appearance of Product</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

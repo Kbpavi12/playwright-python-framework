@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Open_Samples__c</fullName>
+    <description>Used to capture the total number of open samples associated with the case. BU: LATAM, NA</description>
+    <externalId>false</externalId>
+    <label>No. of Open Samples</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

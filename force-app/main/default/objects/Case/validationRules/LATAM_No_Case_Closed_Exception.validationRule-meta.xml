@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM_No_Case_Closed_Exception</fullName>
+    <active>true</active>
+    <description>Bottler Agent cannot close the case, if the case is mark for exception</description>
+    <errorConditionFormula>AND( 
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+  TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+  Request_of_Exception__c = TRUE, 
+  ISCHANGED(Status), ISPICKVAL(Status, &quot;Closed&quot;),    RecordType.DeveloperName = &quot;Latam_Quality&quot;,
+ NOT( OR( $Profile.Name = &quot;ECIC LATAM Central Team Profile&quot;, $Profile.Name = &quot;ECIC LATAM Infoline&quot; ) ) )</errorConditionFormula>
+    <errorMessage>Bottler Agent cannot close the case, if the case is mark for exception</errorMessage>
+</ValidationRule>

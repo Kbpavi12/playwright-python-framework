@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Microbiological_Analysis__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to indicate whether microbiological analysis is required or performed for the case. BU: LATAM, NA</description>
+    <label>Microbiological Analysis</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

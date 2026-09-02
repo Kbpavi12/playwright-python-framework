@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Bottler_Should_not_change_owner</fullName>
+    <active>true</active>
+    <description>Bottler Company users should not be able to change the case ownership.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Country_Code__c,&apos;US&apos;),
+    CONTAINS( $Profile.Name ,&apos;CCNA Bottler&apos;), 
+				ISCHANGED( OwnerId ),
+    NOT(OR(OwnerId=&apos;00G6e000005dufN&apos;,
+							OwnerId=&apos;00G5A00000476Hc&apos;))
+)</errorConditionFormula>
+    <errorMessage>You are not allowed change the ownership of the Case.</errorMessage>
+</ValidationRule>

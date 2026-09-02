@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ad_related__c</fullName>
+    <label>Ad-related</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airing date</fullName>
+                <default>false</default>
+                <label>Airing date</label>
+            </value>
+            <value>
+                <fullName>Costumes and accessories</fullName>
+                <default>false</default>
+                <label>Costumes and accessories</label>
+            </value>
+            <value>
+                <fullName>Point of indication place, number of times, sound</fullName>
+                <default>false</default>
+                <label>Point of indication place, number of times, sound</label>
+            </value>
+            <value>
+                <fullName>Song</fullName>
+                <default>false</default>
+                <label>Song</label>
+            </value>
+            <value>
+                <fullName>Performer name</fullName>
+                <default>false</default>
+                <label>Performer name</label>
+            </value>
+            <value>
+                <fullName>Contents</fullName>
+                <default>false</default>
+                <label>Contents</label>
+            </value>
+            <value>
+                <fullName>Broadcast date and time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Broadcast date and time</label>
+            </value>
+            <value>
+                <fullName>Costume / accessory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Costume / accessory</label>
+            </value>
+            <value>
+                <fullName>Display location · frequency · pointed out sound</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Display location · frequency · pointed out sound</label>
+            </value>
+            <value>
+                <fullName>Name of the performer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Name of the performer</label>
+            </value>
+            <value>
+                <fullName>content</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>content</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

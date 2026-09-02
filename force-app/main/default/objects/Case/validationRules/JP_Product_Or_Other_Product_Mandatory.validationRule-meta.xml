@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JP_Product_Or_Other_Product_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+OR(CONTAINS( $UserRole.Name ,&apos;Bottler HQ&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC CSC User&apos;),
+CONTAINS($Profile.Name ,&apos;CCJC CIC Multi User&apos;),
+CONTAINS($UserRole.Name ,&apos;CIC Manager&apos;)),
+OR(AND(Product__c==null,
+OR(ISBLANK(Other_Comment__c)), ( ISPICKVAL(Other_Flavor__c, &apos;&apos;) ),
+( ISPICKVAL(Other_Brand__c, &apos;&apos;) ))),
+ISPICKVAL(Status ,&apos;Closed&apos;),
+ISPICKVAL( Category_Level_1__c ,&apos;Quality&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>X1st_task__c</errorDisplayField>
+    <errorMessage>Cannot close a Quality complaint If Product or Other product is not filled</errorMessage>
+</ValidationRule>

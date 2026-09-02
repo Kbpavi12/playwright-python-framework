@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sensory_Evaluation_Details__c</fullName>
+    <description>Used to record detailed information related to the sensory evaluation performed for the case. BU: LATAM, NA</description>
+    <label>Sensory Evaluation Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

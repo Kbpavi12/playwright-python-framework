@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM_Reason_Promotion_Inquiry</fullName>
+    <active>true</active>
+    <description>If Inquiry record type have the case reason as &apos;Promotion&apos;, then promotion field is mandatory.</description>
+    <errorConditionFormula>AND(
+  $Profile.Name &lt;&gt; &apos;Nexus Data Loader&apos;,
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,   
+  TEXT($User.UserType) &lt;&gt; &quot;AutomatedProcess&quot;,
+  RecordType.DeveloperName  = &quot;Latam_Inquiry&quot;,
+  ISPICKVAL(Reason, &quot;Promotion (I)&quot;),
+  ISBLANK(Promotions_Name__c)
+)</errorConditionFormula>
+    <errorDisplayField>Promotions_Name__c</errorDisplayField>
+    <errorMessage>Promotion must be selected when Reason is &quot;Promotion (I)&quot;</errorMessage>
+</ValidationRule>

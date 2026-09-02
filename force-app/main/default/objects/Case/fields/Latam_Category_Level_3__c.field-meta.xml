@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latam_Category_Level_3__c</fullName>
+    <description>Used to determine the level 3 case category classification for recategorsation. BU: LATAM</description>
+    <label>Latam Category Level 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conservation and Consumption Condition</fullName>
+                <default>false</default>
+                <label>Conservation and Consumption Condition</label>
+            </value>
+            <value>
+                <fullName>Availability (I)</fullName>
+                <default>false</default>
+                <label>Availability (I)</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Best Before Date (I)</fullName>
+                <default>false</default>
+                <label>Best Before Date (I)</label>
+            </value>
+            <value>
+                <fullName>General Composition</fullName>
+                <default>false</default>
+                <label>General Composition</label>
+            </value>
+            <value>
+                <fullName>Ingredients</fullName>
+                <default>false</default>
+                <label>Ingredients</label>
+            </value>
+            <value>
+                <fullName>Addiction (I)</fullName>
+                <default>false</default>
+                <label>Addiction (I)</label>
+            </value>
+            <value>
+                <fullName>Allergies</fullName>
+                <default>false</default>
+                <label>Allergies</label>
+            </value>
+            <value>
+                <fullName>Guideline Daily Amount</fullName>
+                <default>false</default>
+                <label>Guideline Daily Amount</label>
+            </value>
+            <value>
+                <fullName>Dental Health (I)</fullName>
+                <default>false</default>
+                <label>Dental Health (I)</label>
+            </value>
+            <value>
+                <fullName>Diet / Weight / Obesity</fullName>
+                <default>false</default>
+                <label>Diet / Weight / Obesity</label>
+            </value>
+            <value>
+                <fullName>Pregnancy</fullName>
+                <default>false</default>
+                <label>Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Consumption Age</fullName>
+                <default>false</default>
+                <label>Consumption Age</label>
+            </value>
+            <value>
+                <fullName>Hyperactivity (I)</fullName>
+                <default>false</default>
+                <label>Hyperactivity (I)</label>
+            </value>
+            <value>
+                <fullName>Kosher-Hallal (I)</fullName>
+                <default>false</default>
+                <label>Kosher-Hallal (I)</label>
+            </value>
+            <value>
+                <fullName>Pathologies</fullName>
+                <default>false</default>
+                <label>Pathologies</label>
+            </value>
+            <value>
+                <fullName>Vegetarian</fullName>
+                <default>false</default>
+                <label>Vegetarian</label>
+            </value>
+            <value>
+                <fullName>Vegan (I)</fullName>
+                <default>false</default>
+                <label>Vegan (I)</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Health (I)</fullName>
+                <default>false</default>
+                <label>Miscellaneous Health (I)</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Cultural</fullName>
+                <default>false</default>
+                <label>Cultural</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Schools</fullName>
+                <default>false</default>
+                <label>Schools</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Request Gadgets or Products</fullName>
+                <default>false</default>
+                <label>Request Gadgets or Products</label>
+            </value>
+            <value>
+                <fullName>Influencers</fullName>
+                <default>false</default>
+                <label>Influencers</label>
+            </value>
+            <value>
+                <fullName>Other Sponsoring</fullName>
+                <default>false</default>
+                <label>Other Sponsoring</label>
+            </value>
+            <value>
+                <fullName>Mechanism - Explanation</fullName>
+                <default>false</default>
+                <label>Mechanism - Explanation</label>
+            </value>
+            <value>
+                <fullName>Prize Collection</fullName>
+                <default>false</default>
+                <label>Prize Collection</label>
+            </value>
+            <value>
+                <fullName>Data rights management (I)</fullName>
+                <default>false</default>
+                <label>Data rights management (I)</label>
+            </value>
+            <value>
+                <fullName>Coke App / Web (I)</fullName>
+                <default>false</default>
+                <label>Coke App / Web (I)</label>
+            </value>
+            <value>
+                <fullName>Employees</fullName>
+                <default>false</default>
+                <label>Employees</label>
+            </value>
+            <value>
+                <fullName>Press</fullName>
+                <default>false</default>
+                <label>Press</label>
+            </value>
+            <value>
+                <fullName>Job request</fullName>
+                <default>false</default>
+                <label>Job request</label>
+            </value>
+            <value>
+                <fullName>Company</fullName>
+                <default>false</default>
+                <label>Company</label>
+            </value>
+            <value>
+                <fullName>Sustainability</fullName>
+                <default>false</default>
+                <label>Sustainability</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Rumors - Polemics</fullName>
+                <default>false</default>
+                <label>Rumors - Polemics</label>
+            </value>
+            <value>
+                <fullName>Brand information</fullName>
+                <default>false</default>
+                <label>Brand information</label>
+            </value>
+            <value>
+                <fullName>Bottlers Plants</fullName>
+                <default>false</default>
+                <label>Bottlers Plants</label>
+            </value>
+            <value>
+                <fullName>Fake / Scam</fullName>
+                <default>false</default>
+                <label>Fake / Scam</label>
+            </value>
+            <value>
+                <fullName>Beverage Distribution / Commercial request</fullName>
+                <default>false</default>
+                <label>Beverage Distribution / Commercial request</label>
+            </value>
+            <value>
+                <fullName>Equipment Material and Advertising items</fullName>
+                <default>false</default>
+                <label>Equipment Material and Advertising items</label>
+            </value>
+            <value>
+                <fullName>Plant Visit</fullName>
+                <default>false</default>
+                <label>Plant Visit</label>
+            </value>
+            <value>
+                <fullName>Other Commercial and Distribution (I)</fullName>
+                <default>false</default>
+                <label>Other Commercial and Distribution (I)</label>
+            </value>
+            <value>
+                <fullName>Participation</fullName>
+                <default>false</default>
+                <label>Participation</label>
+            </value>
+            <value>
+                <fullName>Unknown Promotion</fullName>
+                <default>false</default>
+                <label>Unknown Promotion</label>
+            </value>
+            <value>
+                <fullName>Store Participation</fullName>
+                <default>false</default>
+                <label>Store Participation</label>
+            </value>
+            <value>
+                <fullName>Technical Difficulties</fullName>
+                <default>false</default>
+                <label>Technical Difficulties</label>
+            </value>
+            <value>
+                <fullName>Prize (NQC)</fullName>
+                <default>false</default>
+                <label>Prize (NQC)</label>
+            </value>
+            <value>
+                <fullName>Data rights management (NQC)</fullName>
+                <default>false</default>
+                <label>Data rights management (NQC)</label>
+            </value>
+            <value>
+                <fullName>Coke App / Web (NQC)</fullName>
+                <default>false</default>
+                <label>Coke App / Web (NQC)</label>
+            </value>
+            <value>
+                <fullName>Availability (NQC)</fullName>
+                <default>false</default>
+                <label>Availability (NQC)</label>
+            </value>
+            <value>
+                <fullName>Labeling - Packaging</fullName>
+                <default>false</default>
+                <label>Labeling - Packaging</label>
+            </value>
+            <value>
+                <fullName>Product Bought Abroad</fullName>
+                <default>false</default>
+                <label>Product Bought Abroad</label>
+            </value>
+            <value>
+                <fullName>Addiction (NQC)</fullName>
+                <default>false</default>
+                <label>Addiction (NQC)</label>
+            </value>
+            <value>
+                <fullName>Additives (NQC)</fullName>
+                <default>false</default>
+                <label>Additives (NQC)</label>
+            </value>
+            <value>
+                <fullName>Flavourings (NQC)</fullName>
+                <default>false</default>
+                <label>Flavourings (NQC)</label>
+            </value>
+            <value>
+                <fullName>Colourings (NQC)</fullName>
+                <default>false</default>
+                <label>Colourings (NQC)</label>
+            </value>
+            <value>
+                <fullName>Sweeteners</fullName>
+                <default>false</default>
+                <label>Sweeteners</label>
+            </value>
+            <value>
+                <fullName>Hyperactivity (NQC)</fullName>
+                <default>false</default>
+                <label>Hyperactivity (NQC)</label>
+            </value>
+            <value>
+                <fullName>Kosher-Hallal (NQC)</fullName>
+                <default>false</default>
+                <label>Kosher-Hallal (NQC)</label>
+            </value>
+            <value>
+                <fullName>Obesity</fullName>
+                <default>false</default>
+                <label>Obesity</label>
+            </value>
+            <value>
+                <fullName>Dental Health (NQC)</fullName>
+                <default>false</default>
+                <label>Dental Health (NQC)</label>
+            </value>
+            <value>
+                <fullName>DESIGN / FORMULATION CHANGE</fullName>
+                <default>false</default>
+                <label>DESIGN / FORMULATION CHANGE</label>
+            </value>
+            <value>
+                <fullName>Sugar / Diabetes</fullName>
+                <default>false</default>
+                <label>Sugar / Diabetes</label>
+            </value>
+            <value>
+                <fullName>Vegetarian (NQC)</fullName>
+                <default>false</default>
+                <label>Vegetarian (NQC)</label>
+            </value>
+            <value>
+                <fullName>Vegan (NQC)</fullName>
+                <default>false</default>
+                <label>Vegan (NQC)</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Health (NQC)</fullName>
+                <default>false</default>
+                <label>Miscellaneous Health (NQC)</label>
+            </value>
+            <value>
+                <fullName>Threat - Blackmail</fullName>
+                <default>false</default>
+                <label>Threat - Blackmail</label>
+            </value>
+            <value>
+                <fullName>Boycott</fullName>
+                <default>false</default>
+                <label>Boycott</label>
+            </value>
+            <value>
+                <fullName>Rumors-Polemic</fullName>
+                <default>false</default>
+                <label>Rumors-Polemic</label>
+            </value>
+            <value>
+                <fullName>Corporate Projects</fullName>
+                <default>false</default>
+                <label>Corporate Projects</label>
+            </value>
+            <value>
+                <fullName>Brands</fullName>
+                <default>false</default>
+                <label>Brands</label>
+            </value>
+            <value>
+                <fullName>Other Corporate Complaints</fullName>
+                <default>false</default>
+                <label>Other Corporate Complaints</label>
+            </value>
+            <value>
+                <fullName>Vending Machine</fullName>
+                <default>false</default>
+                <label>Vending Machine</label>
+            </value>
+            <value>
+                <fullName>CLOSURE, POUR PANEL</fullName>
+                <default>false</default>
+                <label>CLOSURE, POUR PANEL</label>
+            </value>
+            <value>
+                <fullName>CONTAINER BULGE</fullName>
+                <default>false</default>
+                <label>CONTAINER BULGE</label>
+            </value>
+            <value>
+                <fullName>CONTAINER DAMAGE</fullName>
+                <default>false</default>
+                <label>CONTAINER DAMAGE</label>
+            </value>
+            <value>
+                <fullName>CONTAINER LEAKER</fullName>
+                <default>false</default>
+                <label>CONTAINER LEAKER</label>
+            </value>
+            <value>
+                <fullName>DIRTY CONTAINER</fullName>
+                <default>false</default>
+                <label>DIRTY CONTAINER</label>
+            </value>
+            <value>
+                <fullName>FILL CONTROL</fullName>
+                <default>false</default>
+                <label>FILL CONTROL</label>
+            </value>
+            <value>
+                <fullName>FOREIGN IMPORT</fullName>
+                <default>false</default>
+                <label>FOREIGN IMPORT</label>
+            </value>
+            <value>
+                <fullName>INCOMPLETE PACKAGING</fullName>
+                <default>false</default>
+                <label>INCOMPLETE PACKAGING</label>
+            </value>
+            <value>
+                <fullName>LABEL</fullName>
+                <default>false</default>
+                <label>LABEL</label>
+            </value>
+            <value>
+                <fullName>OTHER PACK FAULTS</fullName>
+                <default>false</default>
+                <label>OTHER PACK FAULTS</label>
+            </value>
+            <value>
+                <fullName>PERSONAL DAMAGE</fullName>
+                <default>false</default>
+                <label>PERSONAL DAMAGE</label>
+            </value>
+            <value>
+                <fullName>CARBONATION</fullName>
+                <default>false</default>
+                <label>CARBONATION</label>
+            </value>
+            <value>
+                <fullName>FOREIGN MATTER</fullName>
+                <default>false</default>
+                <label>FOREIGN MATTER</label>
+            </value>
+            <value>
+                <fullName>ILLNESS</fullName>
+                <default>false</default>
+                <label>ILLNESS</label>
+            </value>
+            <value>
+                <fullName>OFF COLOUR / APPEARANCE</fullName>
+                <default>false</default>
+                <label>OFF COLOUR / APPEARANCE</label>
+            </value>
+            <value>
+                <fullName>OFF TASTE / ODOUR</fullName>
+                <default>false</default>
+                <label>OFF TASTE / ODOUR</label>
+            </value>
+            <value>
+                <fullName>OLD PRODUCT</fullName>
+                <default>false</default>
+                <label>OLD PRODUCT</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Order Cancellation</fullName>
+                <default>false</default>
+                <label>Order Cancellation</label>
+            </value>
+            <value>
+                <fullName>Billing / Invoicing / Payment</fullName>
+                <default>false</default>
+                <label>Billing / Invoicing / Payment</label>
+            </value>
+            <value>
+                <fullName>Acceptable Daily Intake</fullName>
+                <default>false</default>
+                <label>Acceptable Daily Intake</label>
+            </value>
+            <value>
+                <fullName>Addiction (nonQ)</fullName>
+                <default>false</default>
+                <label>Addiction (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Additives</fullName>
+                <default>false</default>
+                <label>Additives</label>
+            </value>
+            <value>
+                <fullName>Advertising / Marketing</fullName>
+                <default>false</default>
+                <label>Advertising / Marketing</label>
+            </value>
+            <value>
+                <fullName>Advertising - Marketing Campaign</fullName>
+                <default>false</default>
+                <label>Advertising - Marketing Campaign</label>
+            </value>
+            <value>
+                <fullName>Advertising-Marketing campaign</fullName>
+                <default>false</default>
+                <label>Advertising-Marketing campaign</label>
+            </value>
+            <value>
+                <fullName>Advertising - Marketing Campaign (I)</fullName>
+                <default>false</default>
+                <label>Advertising - Marketing Campaign (I)</label>
+            </value>
+            <value>
+                <fullName>Advertising - Marketing Campaign (nonQ)</fullName>
+                <default>false</default>
+                <label>Advertising - Marketing Campaign (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Always-on</fullName>
+                <default>false</default>
+                <label>Always-on</label>
+            </value>
+            <value>
+                <fullName>Annual Report (I)</fullName>
+                <default>false</default>
+                <label>Annual Report (I)</label>
+            </value>
+            <value>
+                <fullName>Annual Report (nonQ)</fullName>
+                <default>false</default>
+                <label>Annual Report (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Aspartame</fullName>
+                <default>false</default>
+                <label>Aspartame</label>
+            </value>
+            <value>
+                <fullName>Availability</fullName>
+                <default>false</default>
+                <label>Availability</label>
+            </value>
+            <value>
+                <fullName>Availability Commercial representative</fullName>
+                <default>false</default>
+                <label>Availability Commercial representative</label>
+            </value>
+            <value>
+                <fullName>Best Before Date</fullName>
+                <default>false</default>
+                <label>Best Before Date</label>
+            </value>
+            <value>
+                <fullName>Beverage Distribution</fullName>
+                <default>false</default>
+                <label>Beverage Distribution</label>
+            </value>
+            <value>
+                <fullName>Bill</fullName>
+                <default>false</default>
+                <label>Bill</label>
+            </value>
+            <value>
+                <fullName>Blogger, YouTuber, Instragramer,…</fullName>
+                <default>false</default>
+                <label>Blogger, YouTuber, Instragramer,…</label>
+            </value>
+            <value>
+                <fullName>Body Injuries</fullName>
+                <default>false</default>
+                <label>Body Injuries</label>
+            </value>
+            <value>
+                <fullName>Bottle Burst</fullName>
+                <default>false</default>
+                <label>Bottle Burst</label>
+            </value>
+            <value>
+                <fullName>Bottle with deform shape</fullName>
+                <default>false</default>
+                <label>Bottle with deform shape</label>
+            </value>
+            <value>
+                <fullName>Boycott (I)</fullName>
+                <default>false</default>
+                <label>Boycott (I)</label>
+            </value>
+            <value>
+                <fullName>Boycott (nonQ)</fullName>
+                <default>false</default>
+                <label>Boycott (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Brand Advertising Materials</fullName>
+                <default>false</default>
+                <label>Brand Advertising Materials</label>
+            </value>
+            <value>
+                <fullName>Brand lovers</fullName>
+                <default>false</default>
+                <label>Brand lovers</label>
+            </value>
+            <value>
+                <fullName>Brand use</fullName>
+                <default>false</default>
+                <label>Brand use</label>
+            </value>
+            <value>
+                <fullName>Brand Use / Trademark Rights</fullName>
+                <default>false</default>
+                <label>Brand Use / Trademark Rights</label>
+            </value>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>Bursaries</fullName>
+                <default>false</default>
+                <label>Bursaries</label>
+            </value>
+            <value>
+                <fullName>Business Proposal</fullName>
+                <default>false</default>
+                <label>Business Proposal</label>
+            </value>
+            <value>
+                <fullName>Calories</fullName>
+                <default>false</default>
+                <label>Calories</label>
+            </value>
+            <value>
+                <fullName>Capsule, drug, pills, tablet</fullName>
+                <default>false</default>
+                <label>Capsule, drug, pills, tablet</label>
+            </value>
+            <value>
+                <fullName>Caramel</fullName>
+                <default>false</default>
+                <label>Caramel</label>
+            </value>
+            <value>
+                <fullName>Caries</fullName>
+                <default>false</default>
+                <label>Caries</label>
+            </value>
+            <value>
+                <fullName>Caries / Cavities / Dental Health</fullName>
+                <default>false</default>
+                <label>Caries / Cavities / Dental Health</label>
+            </value>
+            <value>
+                <fullName>Casher-Hallal</fullName>
+                <default>false</default>
+                <label>Casher-Hallal</label>
+            </value>
+            <value>
+                <fullName>Charity event</fullName>
+                <default>false</default>
+                <label>Charity event</label>
+            </value>
+            <value>
+                <fullName>Chipped necks</fullName>
+                <default>false</default>
+                <label>Chipped necks</label>
+            </value>
+            <value>
+                <fullName>Cloth, textile like</fullName>
+                <default>false</default>
+                <label>Cloth, textile like</label>
+            </value>
+            <value>
+                <fullName>Cnil-Opt Out</fullName>
+                <default>false</default>
+                <label>Cnil-Opt Out</label>
+            </value>
+            <value>
+                <fullName>CoC</fullName>
+                <default>false</default>
+                <label>CoC</label>
+            </value>
+            <value>
+                <fullName>Code illegible</fullName>
+                <default>false</default>
+                <label>Code illegible</label>
+            </value>
+            <value>
+                <fullName>Cold Drink Equipment Placement</fullName>
+                <default>false</default>
+                <label>Cold Drink Equipment Placement</label>
+            </value>
+            <value>
+                <fullName>Cold equipment</fullName>
+                <default>false</default>
+                <label>Cold equipment</label>
+            </value>
+            <value>
+                <fullName>Collectors</fullName>
+                <default>false</default>
+                <label>Collectors</label>
+            </value>
+            <value>
+                <fullName>Colourings/Additives</fullName>
+                <default>false</default>
+                <label>Colourings/Additives</label>
+            </value>
+            <value>
+                <fullName>Colourings/Additives/eNumbers</fullName>
+                <default>false</default>
+                <label>Colourings/Additives/eNumbers</label>
+            </value>
+            <value>
+                <fullName>Commercial, Representative Contact</fullName>
+                <default>false</default>
+                <label>Commercial, Representative Contact</label>
+            </value>
+            <value>
+                <fullName>Commercial &amp; Distribution</fullName>
+                <default>false</default>
+                <label>Commercial &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Commercial Proposals</fullName>
+                <default>false</default>
+                <label>Commercial Proposals</label>
+            </value>
+            <value>
+                <fullName>Commercial Proposals Corp I</fullName>
+                <default>false</default>
+                <label>Commercial Proposals Corp I</label>
+            </value>
+            <value>
+                <fullName>Commercial Proposals Spon</fullName>
+                <default>false</default>
+                <label>Commercial Proposals Spon</label>
+            </value>
+            <value>
+                <fullName>Community (I)</fullName>
+                <default>false</default>
+                <label>Community (I)</label>
+            </value>
+            <value>
+                <fullName>Community (nonQ)</fullName>
+                <default>false</default>
+                <label>Community (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Complaint / Criticism Prize</fullName>
+                <default>false</default>
+                <label>Complaint / Criticism Prize</label>
+            </value>
+            <value>
+                <fullName>Conservation and/or Consumption Condition</fullName>
+                <default>false</default>
+                <label>Conservation and/or Consumption Condition</label>
+            </value>
+            <value>
+                <fullName>Conservation or Consumption Condition</fullName>
+                <default>false</default>
+                <label>Conservation or Consumption Condition</label>
+            </value>
+            <value>
+                <fullName>Contact information</fullName>
+                <default>false</default>
+                <label>Contact information</label>
+            </value>
+            <value>
+                <fullName>Cooperation</fullName>
+                <default>false</default>
+                <label>Cooperation</label>
+            </value>
+            <value>
+                <fullName>Cooperation (Sponsoring)</fullName>
+                <default>false</default>
+                <label>Cooperation (Sponsoring)</label>
+            </value>
+            <value>
+                <fullName>Corporate Citizenship</fullName>
+                <default>false</default>
+                <label>Corporate Citizenship</label>
+            </value>
+            <value>
+                <fullName>Corporate Rumors &amp; Polemics</fullName>
+                <default>false</default>
+                <label>Corporate Rumors &amp; Polemics</label>
+            </value>
+            <value>
+                <fullName>COUNTERFEIT</fullName>
+                <default>false</default>
+                <label>COUNTERFEIT</label>
+            </value>
+            <value>
+                <fullName>Criticism Delisting</fullName>
+                <default>false</default>
+                <label>Criticism Delisting</label>
+            </value>
+            <value>
+                <fullName>Criticism Retail Bonus</fullName>
+                <default>false</default>
+                <label>Criticism Retail Bonus</label>
+            </value>
+            <value>
+                <fullName>Customer Quality Complaints</fullName>
+                <default>false</default>
+                <label>Customer Quality Complaints</label>
+            </value>
+            <value>
+                <fullName>Date code / MRP not printed / illegible</fullName>
+                <default>false</default>
+                <label>Date code / MRP not printed / illegible</label>
+            </value>
+            <value>
+                <fullName>DATE CODING</fullName>
+                <default>false</default>
+                <label>DATE CODING</label>
+            </value>
+            <value>
+                <fullName>Defective product</fullName>
+                <default>false</default>
+                <label>Defective product</label>
+            </value>
+            <value>
+                <fullName>Dental Health</fullName>
+                <default>false</default>
+                <label>Dental Health</label>
+            </value>
+            <value>
+                <fullName>Design &amp; Logo (I)</fullName>
+                <default>false</default>
+                <label>Design &amp; Logo (I)</label>
+            </value>
+            <value>
+                <fullName>Design &amp; Logo (nonQ)</fullName>
+                <default>false</default>
+                <label>Design &amp; Logo (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Dietary Advice</fullName>
+                <default>false</default>
+                <label>Dietary Advice</label>
+            </value>
+            <value>
+                <fullName>Difficulties of Participation</fullName>
+                <default>false</default>
+                <label>Difficulties of Participation</label>
+            </value>
+            <value>
+                <fullName>Dirty Contauner</fullName>
+                <default>false</default>
+                <label>Dirty Contauner</label>
+            </value>
+            <value>
+                <fullName>Disappointed by Prize</fullName>
+                <default>false</default>
+                <label>Disappointed by Prize</label>
+            </value>
+            <value>
+                <fullName>Display, Cold Materials Dysfunction</fullName>
+                <default>false</default>
+                <label>Display, Cold Materials Dysfunction</label>
+            </value>
+            <value>
+                <fullName>Display case tap</fullName>
+                <default>false</default>
+                <label>Display case tap</label>
+            </value>
+            <value>
+                <fullName>Display - Fountain</fullName>
+                <default>false</default>
+                <label>Display - Fountain</label>
+            </value>
+            <value>
+                <fullName>Educational request from school</fullName>
+                <default>false</default>
+                <label>Educational request from school</label>
+            </value>
+            <value>
+                <fullName>Email, Web, Letter</fullName>
+                <default>false</default>
+                <label>Email, Web, Letter</label>
+            </value>
+            <value>
+                <fullName>Environment (nonQ)</fullName>
+                <default>false</default>
+                <label>Environment (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Environment - Recycling</fullName>
+                <default>false</default>
+                <label>Environment - Recycling</label>
+            </value>
+            <value>
+                <fullName>Ethical issues</fullName>
+                <default>false</default>
+                <label>Ethical issues</label>
+            </value>
+            <value>
+                <fullName>EU products imported</fullName>
+                <default>false</default>
+                <label>EU products imported</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Expensive Products Pricing</fullName>
+                <default>false</default>
+                <label>Expensive Products Pricing</label>
+            </value>
+            <value>
+                <fullName>Experiential Sampling</fullName>
+                <default>false</default>
+                <label>Experiential Sampling</label>
+            </value>
+            <value>
+                <fullName>Faulty Closure</fullName>
+                <default>false</default>
+                <label>Faulty Closure</label>
+            </value>
+            <value>
+                <fullName>Flat Taste</fullName>
+                <default>false</default>
+                <label>Flat Taste</label>
+            </value>
+            <value>
+                <fullName>Flavourings</fullName>
+                <default>false</default>
+                <label>Flavourings</label>
+            </value>
+            <value>
+                <fullName>Fleet Bottler</fullName>
+                <default>false</default>
+                <label>Fleet Bottler</label>
+            </value>
+            <value>
+                <fullName>Food like</fullName>
+                <default>false</default>
+                <label>Food like</label>
+            </value>
+            <value>
+                <fullName>Foreign Issues</fullName>
+                <default>false</default>
+                <label>Foreign Issues</label>
+            </value>
+            <value>
+                <fullName>Formula - Ingredients</fullName>
+                <default>false</default>
+                <label>Formula - Ingredients</label>
+            </value>
+            <value>
+                <fullName>GDA</fullName>
+                <default>false</default>
+                <label>GDA</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>General (I)</fullName>
+                <default>false</default>
+                <label>General (I)</label>
+            </value>
+            <value>
+                <fullName>General (Promotion)</fullName>
+                <default>false</default>
+                <label>General (Promotion)</label>
+            </value>
+            <value>
+                <fullName>General Info</fullName>
+                <default>false</default>
+                <label>General Info</label>
+            </value>
+            <value>
+                <fullName>Gift/Prize of an Out of Date Promotion</fullName>
+                <default>false</default>
+                <label>Gift/Prize of an Out of Date Promotion</label>
+            </value>
+            <value>
+                <fullName>Glass like sample open</fullName>
+                <default>false</default>
+                <label>Glass like sample open</label>
+            </value>
+            <value>
+                <fullName>Glass like sample unopened</fullName>
+                <default>false</default>
+                <label>Glass like sample unopened</label>
+            </value>
+            <value>
+                <fullName>Good CIC service</fullName>
+                <default>false</default>
+                <label>Good CIC service</label>
+            </value>
+            <value>
+                <fullName>Good customer service</fullName>
+                <default>false</default>
+                <label>Good customer service</label>
+            </value>
+            <value>
+                <fullName>Health Rumors &amp; Polemics</fullName>
+                <default>false</default>
+                <label>Health Rumors &amp; Polemics</label>
+            </value>
+            <value>
+                <fullName>History CC, Logo, Design, Contour Bottle</fullName>
+                <default>false</default>
+                <label>History CC, Logo, Design, Contour Bottle</label>
+            </value>
+            <value>
+                <fullName>Hydration</fullName>
+                <default>false</default>
+                <label>Hydration</label>
+            </value>
+            <value>
+                <fullName>Hyperactivity</fullName>
+                <default>false</default>
+                <label>Hyperactivity</label>
+            </value>
+            <value>
+                <fullName>Illness, allergic reaction</fullName>
+                <default>false</default>
+                <label>Illness, allergic reaction</label>
+            </value>
+            <value>
+                <fullName>IMC Campaign</fullName>
+                <default>false</default>
+                <label>IMC Campaign</label>
+            </value>
+            <value>
+                <fullName>Imported Product</fullName>
+                <default>false</default>
+                <label>Imported Product</label>
+            </value>
+            <value>
+                <fullName>Import - Export</fullName>
+                <default>false</default>
+                <label>Import - Export</label>
+            </value>
+            <value>
+                <fullName>Impure Vending Machine</fullName>
+                <default>false</default>
+                <label>Impure Vending Machine</label>
+            </value>
+            <value>
+                <fullName>Increase information</fullName>
+                <default>false</default>
+                <label>Increase information</label>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>Injury (nonQ)</fullName>
+                <default>false</default>
+                <label>Injury (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Inquiry Promotion Code</fullName>
+                <default>false</default>
+                <label>Inquiry Promotion Code</label>
+            </value>
+            <value>
+                <fullName>Insect like</fullName>
+                <default>false</default>
+                <label>Insect like</label>
+            </value>
+            <value>
+                <fullName>Internships</fullName>
+                <default>false</default>
+                <label>Internships</label>
+            </value>
+            <value>
+                <fullName>Interview</fullName>
+                <default>false</default>
+                <label>Interview</label>
+            </value>
+            <value>
+                <fullName>Investors</fullName>
+                <default>false</default>
+                <label>Investors</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Item / Prize not Received</fullName>
+                <default>false</default>
+                <label>Item / Prize not Received</label>
+            </value>
+            <value>
+                <fullName>Item not received</fullName>
+                <default>false</default>
+                <label>Item not received</label>
+            </value>
+            <value>
+                <fullName>Item Quality</fullName>
+                <default>false</default>
+                <label>Item Quality</label>
+            </value>
+            <value>
+                <fullName>Jobs/HR</fullName>
+                <default>false</default>
+                <label>Jobs/HR</label>
+            </value>
+            <value>
+                <fullName>jobs@bottler</fullName>
+                <default>false</default>
+                <label>jobs@bottler</label>
+            </value>
+            <value>
+                <fullName>Jobs@coke</fullName>
+                <default>false</default>
+                <label>Jobs@coke</label>
+            </value>
+            <value>
+                <fullName>jobs@division</fullName>
+                <default>false</default>
+                <label>jobs@division</label>
+            </value>
+            <value>
+                <fullName>Kosher-Hallal (nonQ)</fullName>
+                <default>false</default>
+                <label>Kosher-Hallal (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Label Related</fullName>
+                <default>false</default>
+                <label>Label Related</label>
+            </value>
+            <value>
+                <fullName>Late Orders</fullName>
+                <default>false</default>
+                <label>Late Orders</label>
+            </value>
+            <value>
+                <fullName>Leak Bottle</fullName>
+                <default>false</default>
+                <label>Leak Bottle</label>
+            </value>
+            <value>
+                <fullName>Legal Action (I)</fullName>
+                <default>false</default>
+                <label>Legal Action (I)</label>
+            </value>
+            <value>
+                <fullName>Legal Action (nonQ)</fullName>
+                <default>false</default>
+                <label>Legal Action (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Letter / Package Opened, Dirty</fullName>
+                <default>false</default>
+                <label>Letter / Package Opened, Dirty</label>
+            </value>
+            <value>
+                <fullName>Local event</fullName>
+                <default>false</default>
+                <label>Local event</label>
+            </value>
+            <value>
+                <fullName>Manufacturing (I)</fullName>
+                <default>false</default>
+                <label>Manufacturing (I)</label>
+            </value>
+            <value>
+                <fullName>Manufacturing (nonQ)</fullName>
+                <default>false</default>
+                <label>Manufacturing (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Merchandise</fullName>
+                <default>false</default>
+                <label>Merchandise</label>
+            </value>
+            <value>
+                <fullName>Merchandise availability</fullName>
+                <default>false</default>
+                <label>Merchandise availability</label>
+            </value>
+            <value>
+                <fullName>Metal like</fullName>
+                <default>false</default>
+                <label>Metal like</label>
+            </value>
+            <value>
+                <fullName>Misbranding</fullName>
+                <default>false</default>
+                <label>Misbranding</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous corporate</fullName>
+                <default>false</default>
+                <label>Miscellaneous corporate</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Health</fullName>
+                <default>false</default>
+                <label>Miscellaneous Health</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Sponsoring</fullName>
+                <default>false</default>
+                <label>Miscellaneous Sponsoring</label>
+            </value>
+            <value>
+                <fullName>MMPO Pulp related</fullName>
+                <default>false</default>
+                <label>MMPO Pulp related</label>
+            </value>
+            <value>
+                <fullName>Mould or gelatine like</fullName>
+                <default>false</default>
+                <label>Mould or gelatine like</label>
+            </value>
+            <value>
+                <fullName>Music Events</fullName>
+                <default>false</default>
+                <label>Music Events</label>
+            </value>
+            <value>
+                <fullName>National event</fullName>
+                <default>false</default>
+                <label>National event</label>
+            </value>
+            <value>
+                <fullName>Not Categorised</fullName>
+                <default>false</default>
+                <label>Not Categorised</label>
+            </value>
+            <value>
+                <fullName>Obesity/sugar</fullName>
+                <default>false</default>
+                <label>Obesity/sugar</label>
+            </value>
+            <value>
+                <fullName>Off Colour</fullName>
+                <default>false</default>
+                <label>Off Colour</label>
+            </value>
+            <value>
+                <fullName>Off-taste/Odor</fullName>
+                <default>false</default>
+                <label>Off-taste/Odor</label>
+            </value>
+            <value>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+                <label>Opportunity</label>
+            </value>
+            <value>
+                <fullName>Organization</fullName>
+                <default>false</default>
+                <label>Organization</label>
+            </value>
+            <value>
+                <fullName>Orthograph - Packaging</fullName>
+                <default>false</default>
+                <label>Orthograph - Packaging</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other (Corporate nonQ)</fullName>
+                <default>false</default>
+                <label>Other (Corporate nonQ)</label>
+            </value>
+            <value>
+                <fullName>Other (Digital Channels I)</fullName>
+                <default>false</default>
+                <label>Other (Digital Channels I)</label>
+            </value>
+            <value>
+                <fullName>Other (Digital Channels nonQ)</fullName>
+                <default>false</default>
+                <label>Other (Digital Channels nonQ)</label>
+            </value>
+            <value>
+                <fullName>Other (Package Quality Q)</fullName>
+                <default>false</default>
+                <label>Other (Package Quality Q)</label>
+            </value>
+            <value>
+                <fullName>Other (Suggestion I)</fullName>
+                <default>false</default>
+                <label>Other (Suggestion I)</label>
+            </value>
+            <value>
+                <fullName>Other material</fullName>
+                <default>false</default>
+                <label>Other material</label>
+            </value>
+            <value>
+                <fullName>Package Quality</fullName>
+                <default>false</default>
+                <label>Package Quality</label>
+            </value>
+            <value>
+                <fullName>Packaging (I)</fullName>
+                <default>false</default>
+                <label>Packaging (I)</label>
+            </value>
+            <value>
+                <fullName>Packaging (S)</fullName>
+                <default>false</default>
+                <label>Packaging (S)</label>
+            </value>
+            <value>
+                <fullName>Paper like</fullName>
+                <default>false</default>
+                <label>Paper like</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Password/User forgotten</fullName>
+                <default>false</default>
+                <label>Password/User forgotten</label>
+            </value>
+            <value>
+                <fullName>Password /User Forgotten</fullName>
+                <default>false</default>
+                <label>Password /User Forgotten</label>
+            </value>
+            <value>
+                <fullName>Past BBD</fullName>
+                <default>false</default>
+                <label>Past BBD</label>
+            </value>
+            <value>
+                <fullName>Patronage</fullName>
+                <default>false</default>
+                <label>Patronage</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Plastic like</fullName>
+                <default>false</default>
+                <label>Plastic like</label>
+            </value>
+            <value>
+                <fullName>Plastic Pouch</fullName>
+                <default>false</default>
+                <label>Plastic Pouch</label>
+            </value>
+            <value>
+                <fullName>Poor Service Quality</fullName>
+                <default>false</default>
+                <label>Poor Service Quality</label>
+            </value>
+            <value>
+                <fullName>POS Material</fullName>
+                <default>false</default>
+                <label>POS Material</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Advice</fullName>
+                <default>false</default>
+                <label>Pregnancy Advice</label>
+            </value>
+            <value>
+                <fullName>Presence</fullName>
+                <default>false</default>
+                <label>Presence</label>
+            </value>
+            <value>
+                <fullName>Preservatives</fullName>
+                <default>false</default>
+                <label>Preservatives</label>
+            </value>
+            <value>
+                <fullName>Press Release</fullName>
+                <default>false</default>
+                <label>Press Release</label>
+            </value>
+            <value>
+                <fullName>Previous Advertising - Marketing Campaign (I)</fullName>
+                <default>false</default>
+                <label>Previous Advertising - Marketing Campaign (I)</label>
+            </value>
+            <value>
+                <fullName>Prize (C)</fullName>
+                <default>false</default>
+                <label>Prize (C)</label>
+            </value>
+            <value>
+                <fullName>Prize (nonQ)</fullName>
+                <default>false</default>
+                <label>Prize (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Prize affirmation Issues</fullName>
+                <default>false</default>
+                <label>Prize affirmation Issues</label>
+            </value>
+            <value>
+                <fullName>Product (I)</fullName>
+                <default>false</default>
+                <label>Product (I)</label>
+            </value>
+            <value>
+                <fullName>Product (nonQ)</fullName>
+                <default>false</default>
+                <label>Product (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Product Formula</fullName>
+                <default>false</default>
+                <label>Product Formula</label>
+            </value>
+            <value>
+                <fullName>Product info</fullName>
+                <default>false</default>
+                <label>Product info</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Product not Marketed Locally</fullName>
+                <default>false</default>
+                <label>Product not Marketed Locally</label>
+            </value>
+            <value>
+                <fullName>Product Placement</fullName>
+                <default>false</default>
+                <label>Product Placement</label>
+            </value>
+            <value>
+                <fullName>Product Quality</fullName>
+                <default>false</default>
+                <label>Product Quality</label>
+            </value>
+            <value>
+                <fullName>Product Removed from Packaging</fullName>
+                <default>false</default>
+                <label>Product Removed from Packaging</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Promotion (C)</fullName>
+                <default>false</default>
+                <label>Promotion (C)</label>
+            </value>
+            <value>
+                <fullName>Promotion (I)</fullName>
+                <default>false</default>
+                <label>Promotion (I)</label>
+            </value>
+            <value>
+                <fullName>Promotion (nonQ)</fullName>
+                <default>false</default>
+                <label>Promotion (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+                <label>Promotions</label>
+            </value>
+            <value>
+                <fullName>Quantity</fullName>
+                <default>false</default>
+                <label>Quantity</label>
+            </value>
+            <value>
+                <fullName>Replacement</fullName>
+                <default>false</default>
+                <label>Replacement</label>
+            </value>
+            <value>
+                <fullName>Replenishment</fullName>
+                <default>false</default>
+                <label>Replenishment</label>
+            </value>
+            <value>
+                <fullName>Request Coupons, Vouchers</fullName>
+                <default>false</default>
+                <label>Request Coupons, Vouchers</label>
+            </value>
+            <value>
+                <fullName>Request Gadgets</fullName>
+                <default>false</default>
+                <label>Request Gadgets</label>
+            </value>
+            <value>
+                <fullName>Request Products</fullName>
+                <default>false</default>
+                <label>Request Products</label>
+            </value>
+            <value>
+                <fullName>Request Quality Complaint</fullName>
+                <default>false</default>
+                <label>Request Quality Complaint</label>
+            </value>
+            <value>
+                <fullName>Request to purchase</fullName>
+                <default>false</default>
+                <label>Request to purchase</label>
+            </value>
+            <value>
+                <fullName>Responsible Marketing/ Labelling</fullName>
+                <default>false</default>
+                <label>Responsible Marketing/ Labelling</label>
+            </value>
+            <value>
+                <fullName>Responsible Marketing/ Labelling (nonQ)</fullName>
+                <default>false</default>
+                <label>Responsible Marketing/ Labelling (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Retailer (I)</fullName>
+                <default>false</default>
+                <label>Retailer (I)</label>
+            </value>
+            <value>
+                <fullName>Retailer (nonQ)</fullName>
+                <default>false</default>
+                <label>Retailer (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Rubber like</fullName>
+                <default>false</default>
+                <label>Rubber like</label>
+            </value>
+            <value>
+                <fullName>Rules</fullName>
+                <default>false</default>
+                <label>Rules</label>
+            </value>
+            <value>
+                <fullName>Rumors-Polemics (I)</fullName>
+                <default>false</default>
+                <label>Rumors-Polemics (I)</label>
+            </value>
+            <value>
+                <fullName>Rumors-Polemics (nonQ)</fullName>
+                <default>false</default>
+                <label>Rumors-Polemics (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Rusty Necks</fullName>
+                <default>false</default>
+                <label>Rusty Necks</label>
+            </value>
+            <value>
+                <fullName>Sales Point Complaint</fullName>
+                <default>false</default>
+                <label>Sales Point Complaint</label>
+            </value>
+            <value>
+                <fullName>Sales Representative Availability</fullName>
+                <default>false</default>
+                <label>Sales Representative Availability</label>
+            </value>
+            <value>
+                <fullName>Samples</fullName>
+                <default>false</default>
+                <label>Samples</label>
+            </value>
+            <value>
+                <fullName>Sampling</fullName>
+                <default>false</default>
+                <label>Sampling</label>
+            </value>
+            <value>
+                <fullName>School Fairs</fullName>
+                <default>false</default>
+                <label>School Fairs</label>
+            </value>
+            <value>
+                <fullName>Screen, Dysfuction of cold materials</fullName>
+                <default>false</default>
+                <label>Screen, Dysfuction of cold materials</label>
+            </value>
+            <value>
+                <fullName>Sediment</fullName>
+                <default>false</default>
+                <label>Sediment</label>
+            </value>
+            <value>
+                <fullName>Shipping Inquiry Prize</fullName>
+                <default>false</default>
+                <label>Shipping Inquiry Prize</label>
+            </value>
+            <value>
+                <fullName>SMS / Promotion Code Generation</fullName>
+                <default>false</default>
+                <label>SMS / Promotion Code Generation</label>
+            </value>
+            <value>
+                <fullName>Social (I)</fullName>
+                <default>false</default>
+                <label>Social (I)</label>
+            </value>
+            <value>
+                <fullName>Social (nonQ)</fullName>
+                <default>false</default>
+                <label>Social (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Social Responsibility</fullName>
+                <default>false</default>
+                <label>Social Responsibility</label>
+            </value>
+            <value>
+                <fullName>Spamming</fullName>
+                <default>false</default>
+                <label>Spamming</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Sports Events</fullName>
+                <default>false</default>
+                <label>Sports Events</label>
+            </value>
+            <value>
+                <fullName>Spurious/Tampered</fullName>
+                <default>false</default>
+                <label>Spurious/Tampered</label>
+            </value>
+            <value>
+                <fullName>Stain</fullName>
+                <default>false</default>
+                <label>Stain</label>
+            </value>
+            <value>
+                <fullName>Stevia</fullName>
+                <default>false</default>
+                <label>Stevia</label>
+            </value>
+            <value>
+                <fullName>Student event</fullName>
+                <default>false</default>
+                <label>Student event</label>
+            </value>
+            <value>
+                <fullName>Substandard Plastic quality</fullName>
+                <default>false</default>
+                <label>Substandard Plastic quality</label>
+            </value>
+            <value>
+                <fullName>Sugar/ Obesity</fullName>
+                <default>false</default>
+                <label>Sugar/ Obesity</label>
+            </value>
+            <value>
+                <fullName>Suggestion Marketing</fullName>
+                <default>false</default>
+                <label>Suggestion Marketing</label>
+            </value>
+            <value>
+                <fullName>Suppliers</fullName>
+                <default>false</default>
+                <label>Suppliers</label>
+            </value>
+            <value>
+                <fullName>Suspended, floating material (floc)</fullName>
+                <default>false</default>
+                <label>Suspended, floating material (floc)</label>
+            </value>
+            <value>
+                <fullName>Sweeteners (I)</fullName>
+                <default>false</default>
+                <label>Sweeteners (I)</label>
+            </value>
+            <value>
+                <fullName>Sweeteners (nonQ)</fullName>
+                <default>false</default>
+                <label>Sweeteners (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Taste/brand love</fullName>
+                <default>false</default>
+                <label>Taste/brand love</label>
+            </value>
+            <value>
+                <fullName>Tax &amp; Regulations</fullName>
+                <default>false</default>
+                <label>Tax &amp; Regulations</label>
+            </value>
+            <value>
+                <fullName>Tax &amp; Regulations (I)</fullName>
+                <default>false</default>
+                <label>Tax &amp; Regulations (I)</label>
+            </value>
+            <value>
+                <fullName>Tax &amp; Requlations (nonQ)</fullName>
+                <default>false</default>
+                <label>Tax &amp; Requlations (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Technical Difficulties Website</fullName>
+                <default>false</default>
+                <label>Technical Difficulties Website</label>
+            </value>
+            <value>
+                <fullName>Technical impact on the web</fullName>
+                <default>false</default>
+                <label>Technical impact on the web</label>
+            </value>
+            <value>
+                <fullName>Thanks - compliment</fullName>
+                <default>false</default>
+                <label>Thanks - compliment</label>
+            </value>
+            <value>
+                <fullName>Therapeutic Virtues</fullName>
+                <default>false</default>
+                <label>Therapeutic Virtues</label>
+            </value>
+            <value>
+                <fullName>Threat</fullName>
+                <default>false</default>
+                <label>Threat</label>
+            </value>
+            <value>
+                <fullName>Tobacco, cigarette</fullName>
+                <default>false</default>
+                <label>Tobacco, cigarette</label>
+            </value>
+            <value>
+                <fullName>Trade fair, Events</fullName>
+                <default>false</default>
+                <label>Trade fair, Events</label>
+            </value>
+            <value>
+                <fullName>Trade Mark</fullName>
+                <default>false</default>
+                <label>Trade Mark</label>
+            </value>
+            <value>
+                <fullName>Trade Mark Infringement (I)</fullName>
+                <default>false</default>
+                <label>Trade Mark Infringement (I)</label>
+            </value>
+            <value>
+                <fullName>Trade Mark Infringement (nonQ)</fullName>
+                <default>false</default>
+                <label>Trade Mark Infringement (nonQ)</label>
+            </value>
+            <value>
+                <fullName>TRANSHIPMENT</fullName>
+                <default>false</default>
+                <label>TRANSHIPMENT</label>
+            </value>
+            <value>
+                <fullName>Truck Driver Complaint</fullName>
+                <default>false</default>
+                <label>Truck Driver Complaint</label>
+            </value>
+            <value>
+                <fullName>Underfill/Empty</fullName>
+                <default>false</default>
+                <label>Underfill/Empty</label>
+            </value>
+            <value>
+                <fullName>Unregister</fullName>
+                <default>false</default>
+                <label>Unregister</label>
+            </value>
+            <value>
+                <fullName>Unregister (I)</fullName>
+                <default>false</default>
+                <label>Unregister (I)</label>
+            </value>
+            <value>
+                <fullName>Unregister (nonQ)</fullName>
+                <default>false</default>
+                <label>Unregister (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Vegetarian / Vegan</fullName>
+                <default>false</default>
+                <label>Vegetarian / Vegan</label>
+            </value>
+            <value>
+                <fullName>Vehicle complaint</fullName>
+                <default>false</default>
+                <label>Vehicle complaint</label>
+            </value>
+            <value>
+                <fullName>VIS, OOO</fullName>
+                <default>false</default>
+                <label>VIS, OOO</label>
+            </value>
+            <value>
+                <fullName>Weight - Obesity</fullName>
+                <default>false</default>
+                <label>Weight - Obesity</label>
+            </value>
+            <value>
+                <fullName>Weight- Obesity</fullName>
+                <default>false</default>
+                <label>Weight- Obesity</label>
+            </value>
+            <value>
+                <fullName>Wood like</fullName>
+                <default>false</default>
+                <label>Wood like</label>
+            </value>
+            <value>
+                <fullName>Health Promotions Levy</fullName>
+                <default>false</default>
+                <label>Health Promotions Levy</label>
+            </value>
+            <value>
+                <fullName>Other Product</fullName>
+                <default>false</default>
+                <label>Other Product</label>
+            </value>
+            <value>
+                <fullName>Microbiology</fullName>
+                <default>false</default>
+                <label>Microbiology</label>
+            </value>
+            <value>
+                <fullName>Food Safety</fullName>
+                <default>false</default>
+                <label>Food Safety</label>
+            </value>
+            <value>
+                <fullName>Crown</fullName>
+                <default>false</default>
+                <label>Crown</label>
+            </value>
+            <value>
+                <fullName>Exploading Package</fullName>
+                <default>false</default>
+                <label>Exploading Package</label>
+            </value>
+            <value>
+                <fullName>Missing or not legible Date Code</fullName>
+                <default>false</default>
+                <label>Missing or not legible Date Code</label>
+            </value>
+            <value>
+                <fullName>Alleged Fake Product</fullName>
+                <default>false</default>
+                <label>Alleged Fake Product</label>
+            </value>
+            <value>
+                <fullName>Fake product query (other/other)</fullName>
+                <default>false</default>
+                <label>Fake product query (other/other)</label>
+            </value>
+            <value>
+                <fullName>Other Subjects</fullName>
+                <default>false</default>
+                <label>Other Subjects</label>
+            </value>
+            <value>
+                <fullName>Kinley -Excess Gas</fullName>
+                <default>false</default>
+                <label>Kinley -Excess Gas</label>
+            </value>
+            <value>
+                <fullName>Pincode Error</fullName>
+                <default>false</default>
+                <label>Pincode Error</label>
+            </value>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Account</label>
+            </value>
+            <value>
+                <fullName>Wallet</fullName>
+                <default>false</default>
+                <label>Wallet</label>
+            </value>
+            <value>
+                <fullName>Functional Errors</fullName>
+                <default>false</default>
+                <label>Functional Errors</label>
+            </value>
+            <value>
+                <fullName>Sales Point</fullName>
+                <default>false</default>
+                <label>Sales Point</label>
+            </value>
+            <value>
+                <fullName>Past Promotions</fullName>
+                <default>false</default>
+                <label>Past Promotions</label>
+            </value>
+            <value>
+                <fullName>Gifts</fullName>
+                <default>false</default>
+                <label>Gifts</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Doğadan (Product Use)</fullName>
+                <default>false</default>
+                <label>Doğadan (Product Use)</label>
+            </value>
+            <value>
+                <fullName>Doğadan (Manufacturing Defect)</fullName>
+                <default>false</default>
+                <label>Doğadan (Manufacturing Defect)</label>
+            </value>
+            <value>
+                <fullName>Job</fullName>
+                <default>false</default>
+                <label>Job</label>
+            </value>
+            <value>
+                <fullName>Reformulation</fullName>
+                <default>false</default>
+                <label>Reformulation</label>
+            </value>
+            <value>
+                <fullName>E-Commerce promotion (Complaint)</fullName>
+                <default>false</default>
+                <label>E-Commerce promotion (Complaint)</label>
+            </value>
+            <value>
+                <fullName>Celiac (I)</fullName>
+                <default>false</default>
+                <label>Celiac (I)</label>
+            </value>
+            <value>
+                <fullName>Participant Stores</fullName>
+                <default>false</default>
+                <label>Participant Stores</label>
+            </value>
+            <value>
+                <fullName>Chatbot / LiveChat (I)</fullName>
+                <default>false</default>
+                <label>Chatbot / LiveChat (I)</label>
+            </value>
+            <value>
+                <fullName>Partner Apps (I)</fullName>
+                <default>false</default>
+                <label>Partner Apps (I)</label>
+            </value>
+            <value>
+                <fullName>Licensed Products (I)</fullName>
+                <default>false</default>
+                <label>Licensed Products (I)</label>
+            </value>
+            <value>
+                <fullName>Billing (I)</fullName>
+                <default>false</default>
+                <label>Billing (I)</label>
+            </value>
+            <value>
+                <fullName>Bottlers Plants or Production (I)</fullName>
+                <default>false</default>
+                <label>Bottlers Plants or Production (I)</label>
+            </value>
+            <value>
+                <fullName>Point of Sale Information Request (I)</fullName>
+                <default>false</default>
+                <label>Point of Sale Information Request (I)</label>
+            </value>
+            <value>
+                <fullName>Fountain (I)</fullName>
+                <default>false</default>
+                <label>Fountain (I)</label>
+            </value>
+            <value>
+                <fullName>Smart Cooler / Gelateria inteligente (I)</fullName>
+                <default>false</default>
+                <label>Smart Cooler / Gelateria inteligente (I)</label>
+            </value>
+            <value>
+                <fullName>Chatbot / LiveChat (NQC)</fullName>
+                <default>false</default>
+                <label>Chatbot / LiveChat (NQC)</label>
+            </value>
+            <value>
+                <fullName>Partner Apps</fullName>
+                <default>false</default>
+                <label>Partner Apps</label>
+            </value>
+            <value>
+                <fullName>Celiac (NQC)</fullName>
+                <default>false</default>
+                <label>Celiac (NQC)</label>
+            </value>
+            <value>
+                <fullName>Caffeine (NQC)</fullName>
+                <default>false</default>
+                <label>Caffeine (NQC)</label>
+            </value>
+            <value>
+                <fullName>Consumer Care Complaints</fullName>
+                <default>false</default>
+                <label>Consumer Care Complaints</label>
+            </value>
+            <value>
+                <fullName>Licensed Products</fullName>
+                <default>false</default>
+                <label>Licensed Products</label>
+            </value>
+            <value>
+                <fullName>Collective Coca-Cola Online (nonQ)</fullName>
+                <default>false</default>
+                <label>Collective Coca-Cola Online (nonQ)</label>
+            </value>
+            <value>
+                <fullName>Other Product NQC</fullName>
+                <default>false</default>
+                <label>Other Product NQC</label>
+            </value>
+            <value>
+                <fullName>OTHER PRODUCT QUALITY</fullName>
+                <default>false</default>
+                <label>OTHER PRODUCT QUALITY</label>
+            </value>
+            <value>
+                <fullName>Point of Sale Complaint (NQC)</fullName>
+                <default>false</default>
+                <label>Point of Sale Complaint (NQC)</label>
+            </value>
+            <value>
+                <fullName>Bottler Sales, Commercial and Distribution Service Complaint (NQC)</fullName>
+                <default>false</default>
+                <label>Bottler Sales, Commercial and Distribution Service Complaint (NQC)</label>
+            </value>
+            <value>
+                <fullName>Fountain (NQC)</fullName>
+                <default>false</default>
+                <label>Fountain (NQC)</label>
+            </value>
+            <value>
+                <fullName>Equipment, Cold Material and Advertising items</fullName>
+                <default>false</default>
+                <label>Equipment, Cold Material and Advertising items</label>
+            </value>
+            <value>
+                <fullName>Taste (non quality)</fullName>
+                <default>false</default>
+                <label>Taste (non quality)</label>
+            </value>
+            <value>
+                <fullName>General Commercial Complaints</fullName>
+                <default>false</default>
+                <label>General Commercial Complaints</label>
+            </value>
+            <value>
+                <fullName>Import - Export (I)</fullName>
+                <default>false</default>
+                <label>Import - Export (I)</label>
+            </value>
+            <value>
+                <fullName>Promotion eCommerce</fullName>
+                <default>false</default>
+                <label>Promotion eCommerce</label>
+            </value>
+            <value>
+                <fullName>Service Information</fullName>
+                <default>false</default>
+                <label>Service Information</label>
+            </value>
+            <value>
+                <fullName>eCommerce System</fullName>
+                <default>false</default>
+                <label>eCommerce System</label>
+            </value>
+            <value>
+                <fullName>eStore Service Request</fullName>
+                <default>false</default>
+                <label>eStore Service Request</label>
+            </value>
+            <value>
+                <fullName>eStore Service Complaints</fullName>
+                <default>false</default>
+                <label>eStore Service Complaints</label>
+            </value>
+            <value>
+                <fullName>Account/Platform Complaints</fullName>
+                <default>false</default>
+                <label>Account/Platform Complaints</label>
+            </value>
+            <value>
+                <fullName>Promotion/Prizes eCommerce</fullName>
+                <default>false</default>
+                <label>Promotion/Prizes eCommerce</label>
+            </value>
+            <value>
+                <fullName>Order Complaints</fullName>
+                <default>false</default>
+                <label>Order Complaints</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>About Coke ON application</controllingFieldValue>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>Availability (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (NQC)</controllingFieldValue>
+            <valueName>Data rights management (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (NQC)</controllingFieldValue>
+            <valueName>Coke App / Web (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (NQC)</controllingFieldValue>
+            <valueName>Chatbot / LiveChat (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (NQC)</controllingFieldValue>
+            <valueName>Partner Apps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Availability (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Labeling - Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Product Bought Abroad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Reformulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Other Product NQC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (NQC)</controllingFieldValue>
+            <valueName>Taste (non quality)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Addiction (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Additives (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Flavourings (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Colourings (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Sweeteners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Hyperactivity (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Kosher-Hallal (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Obesity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Dental Health (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Sugar / Diabetes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Vegetarian (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Vegan (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Miscellaneous Health (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Celiac (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (NQC)</controllingFieldValue>
+            <valueName>Caffeine (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Threat - Blackmail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Boycott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Rumors-Polemic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Corporate Projects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Brands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Other Corporate Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Consumer Care Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Licensed Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (NQC)</controllingFieldValue>
+            <valueName>Collective Coca-Cola Online (nonQ)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Equipment Material and Advertising items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>Vending Machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>Point of Sale Complaint (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>Bottler Sales, Commercial and Distribution Service Complaint (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>Fountain (NQC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>Equipment, Cold Material and Advertising items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (NQC)</controllingFieldValue>
+            <valueName>General Commercial Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry (eCommerce)</controllingFieldValue>
+            <valueName>Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry (eCommerce)</controllingFieldValue>
+            <valueName>Promotion eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry (eCommerce)</controllingFieldValue>
+            <valueName>Service Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry (eCommerce)</controllingFieldValue>
+            <valueName>eCommerce System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>Order Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>Billing / Invoicing / Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>eStore Service Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>eStore Service Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>Account/Platform Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>Promotion/Prizes eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint (eCommerce)</controllingFieldValue>
+            <valueName>Order Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CLOSURE, POUR PANEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER BULGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER DAMAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>CONTAINER LEAKER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>DIRTY CONTAINER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FILL CONTROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>FOREIGN IMPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>INCOMPLETE PACKAGING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>LABEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>OTHER PACK FAULTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>PERSONAL DAMAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package Quality</controllingFieldValue>
+            <valueName>DATE CODING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>DESIGN / FORMULATION CHANGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>CARBONATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>FOREIGN MATTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>ILLNESS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF COLOUR / APPEARANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OFF TASTE / ODOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OLD PRODUCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>COUNTERFEIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>TRANSHIPMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>OTHER PRODUCT QUALITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>Conservation and Consumption Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>Best Before Date (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>General Composition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product (I)</controllingFieldValue>
+            <valueName>Ingredients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Addiction (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Allergies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Guideline Daily Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Dental Health (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Diet / Weight / Obesity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Pregnancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Consumption Age</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Hyperactivity (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Kosher-Hallal (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Pathologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Vegetarian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Vegan (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Miscellaneous Health (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Sweeteners (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Nutrition (I)</controllingFieldValue>
+            <valueName>Celiac (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Cultural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Schools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Partnerships</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Request Gadgets or Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Influencers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sponsoring</controllingFieldValue>
+            <valueName>Other Sponsoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (I)</controllingFieldValue>
+            <valueName>Mechanism - Explanation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (I)</controllingFieldValue>
+            <valueName>Prize Collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (I)</controllingFieldValue>
+            <valueName>Participant Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (I)</controllingFieldValue>
+            <valueName>Data rights management (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (I)</controllingFieldValue>
+            <valueName>Coke App / Web (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (I)</controllingFieldValue>
+            <valueName>Chatbot / LiveChat (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Channels (I)</controllingFieldValue>
+            <valueName>Partner Apps (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Employees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Press</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Job request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Rumors - Polemics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Brand information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Bottlers Plants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Fake / Scam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate (I)</controllingFieldValue>
+            <valueName>Licensed Products (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Beverage Distribution / Commercial request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Plant Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Other Commercial and Distribution (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Billing (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Bottlers Plants or Production (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Point of Sale Information Request (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Fountain (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Smart Cooler / Gelateria inteligente (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial &amp; Distribution (I)</controllingFieldValue>
+            <valueName>Import - Export (I)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (NQC)</controllingFieldValue>
+            <valueName>Participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (NQC)</controllingFieldValue>
+            <valueName>Unknown Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (NQC)</controllingFieldValue>
+            <valueName>Store Participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (NQC)</controllingFieldValue>
+            <valueName>Technical Difficulties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion (NQC)</controllingFieldValue>
+            <valueName>Prize (NQC)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

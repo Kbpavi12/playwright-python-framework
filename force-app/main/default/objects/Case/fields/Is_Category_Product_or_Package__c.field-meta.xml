@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Category_Product_or_Package__c</fullName>
+    <description>Used in CCNA Case Page to show or hide the Product Information section.</description>
+    <formula>OR(CONTAINS (TEXT(NA1_Category_Level_3__c), &apos;Product&apos;), CONTAINS (TEXT(NA1_Category_Level_3__c), &apos;Package&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Category Product or Package</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

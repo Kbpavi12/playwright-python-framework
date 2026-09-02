@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Main_Unscanned_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Supplied_FirstName__c</columns>
+    <columns>Supplied_LastName__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>CCNA Main Unscanned</label>
+    <queue>CCNA_Main_Unscanned</queue>
+    <sharedTo>
+        <group>CCNA_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

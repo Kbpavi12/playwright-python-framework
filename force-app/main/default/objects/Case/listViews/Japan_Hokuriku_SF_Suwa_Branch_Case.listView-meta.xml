@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Japan_Hokuriku_SF_Suwa_Branch_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>[北陸]SF 諏訪支店</label>
+    <queue>Japan_Hokuriku_SF_Suwa_Branch</queue>
+    <sharedTo>
+        <group>JP_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

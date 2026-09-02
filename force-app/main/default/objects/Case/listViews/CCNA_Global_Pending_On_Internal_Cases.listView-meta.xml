@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Global_Pending_On_Internal_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>Last_Modified_By_Name__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Pending on Internal</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.NA_E_Commerce,Case.NA_Non_Quality,Case.NA_Promotion,Case.NA_Quality</value>
+    </filters>
+    <filters>
+        <field>Country_Code__c</field>
+        <operation>equals</operation>
+        <value>US</value>
+    </filters>
+    <label>CCNA Global Pending On Internal Cases</label>
+    <sharedTo>
+        <group>CCNA_All_CIC_Users</group>
+    </sharedTo>
+</ListView>

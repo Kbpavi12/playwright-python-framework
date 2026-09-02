@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remove_Case_Lightning</fullName>
+    <availability>online</availability>
+    <description>Remove Case from Trend button in Lightning</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Remove Case Lightning</masterLabel>
+    <openType>sidebar</openType>
+    <page>LatamRemoveCasesFromTrend</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

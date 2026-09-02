@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operating_Unit__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    CONTAINS(TEXT(Country_Code__c), &quot;JP&quot;), &quot;Japan &amp; Korea&quot;,
+IF(
+    CONTAINS(TEXT(Country_Code__c), &quot;US&quot;), &quot;North America&quot;,
+IF(
+    OR(
+        TEXT(Country_Code__c) = &quot;AR&quot;,
+        TEXT(Country_Code__c) = &quot;BO&quot;,
+        TEXT(Country_Code__c) = &quot;BR&quot;,
+        TEXT(Country_Code__c) = &quot;CL&quot;,
+        TEXT(Country_Code__c) = &quot;CO&quot;,
+        TEXT(Country_Code__c) = &quot;CR&quot;,
+        TEXT(Country_Code__c) = &quot;DO&quot;,
+        TEXT(Country_Code__c) = &quot;EC&quot;,
+        TEXT(Country_Code__c) = &quot;GT&quot;,
+        TEXT(Country_Code__c) = &quot;HN&quot;,
+        TEXT(Country_Code__c) = &quot;JM&quot;,
+        TEXT(Country_Code__c) = &quot;MX&quot;,
+        TEXT(Country_Code__c) = &quot;NI&quot;,
+        TEXT(Country_Code__c) = &quot;PE&quot;,
+        TEXT(Country_Code__c) = &quot;PY&quot;,
+        TEXT(Country_Code__c) = &quot;SV&quot;,
+        TEXT(Country_Code__c) = &quot;TT&quot;,
+        TEXT(Country_Code__c) = &quot;UY&quot;,
+        TEXT(Country_Code__c) = &quot;PA&quot;,
+        TEXT(Country_Code__c) = &quot;BS&quot;,
+        TEXT(Country_Code__c) = &quot;BB&quot;,
+        TEXT(Country_Code__c) = &quot;BZ&quot;,
+        TEXT(Country_Code__c) = &quot;CW&quot;,
+        TEXT(Country_Code__c) = &quot;GD&quot;,
+        TEXT(Country_Code__c) = &quot;GY&quot;,
+        TEXT(Country_Code__c) = &quot;HT&quot;,
+        TEXT(Country_Code__c) = &quot;MQ&quot;,
+        TEXT(Country_Code__c) = &quot;LC&quot;,
+        TEXT(Country_Code__c) = &quot;SR&quot;,
+        TEXT(Country_Code__c) = &quot;AW&quot;
+    ),
+    &quot;Latin America&quot;,
+    &quot;&quot;
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Operating Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Condition__c</fullName>
+    <label>Health Condition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Allergic</fullName>
+                <default>false</default>
+                <label>Allergic</label>
+            </value>
+            <value>
+                <fullName>Diabetic</fullName>
+                <default>false</default>
+                <label>Diabetic</label>
+            </value>
+            <value>
+                <fullName>Hypoglycemic</fullName>
+                <default>false</default>
+                <label>Hypoglycemic</label>
+            </value>
+            <value>
+                <fullName>Pregnant</fullName>
+                <default>false</default>
+                <label>Pregnant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

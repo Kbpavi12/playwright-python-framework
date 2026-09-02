@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_contact_1__c</fullName>
+    <description>Used to specify the type of contact used during the first contact attempt. BU: LATAM</description>
+    <label>Type of contact 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>with SLA&apos;s</fullName>
+                <default>false</default>
+                <label>with SLA&apos;s</label>
+            </value>
+            <value>
+                <fullName>Outside SLA&apos;s</fullName>
+                <default>false</default>
+                <label>Outside SLA&apos;s</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

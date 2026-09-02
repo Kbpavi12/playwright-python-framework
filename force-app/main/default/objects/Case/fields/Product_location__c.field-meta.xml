@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_location__c</fullName>
+    <label>Product location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shelf</fullName>
+                <default>false</default>
+                <label>Shelf</label>
+            </value>
+            <value>
+                <fullName>Cooler</fullName>
+                <default>false</default>
+                <label>Cooler</label>
+            </value>
+            <value>
+                <fullName>Vending Machine</fullName>
+                <default>false</default>
+                <label>Vending Machine</label>
+            </value>
+            <value>
+                <fullName>FS vendor</fullName>
+                <default>false</default>
+                <label>FS vendor</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>HORECA</fullName>
+                <default>false</default>
+                <label>HORECA</label>
+            </value>
+            <value>
+                <fullName>Not informed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not informed</label>
+            </value>
+            <value>
+                <fullName>Over the counter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Over the counter</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

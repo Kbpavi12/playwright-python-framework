@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA1_Category_Level_4_Quality__c</fullName>
+    <label>Category Level 4(Quality)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NA1_Category_Level_3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>NA_Category_Level_4_Quality</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Cloudy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Darker Than Usual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <valueName>Brighter than usual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Lighter Than Usual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <controllingFieldValue>Off Color (Package)</controllingFieldValue>
+            <valueName>Other Color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Color (Product)</controllingFieldValue>
+            <valueName>Pink or Pinkish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrapper</controllingFieldValue>
+            <valueName>Bubbled/Wrinkled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrapper</controllingFieldValue>
+            <controllingFieldValue>Can Lid</controllingFieldValue>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <controllingFieldValue>Foil</controllingFieldValue>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Hard to Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrapper</controllingFieldValue>
+            <controllingFieldValue>Can Lid</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <controllingFieldValue>Foil</controllingFieldValue>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrapper</controllingFieldValue>
+            <valueName>Seal Broken or Torn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Bar Broken or Crumbled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Bar Gooey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Bar Too Hard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Curdled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Foam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Gelation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Ingredients Separated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>No Pulp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Powder Contains Clumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Thick and Syrupy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Too Little Pulp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Too Much Pulp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Protein Ring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Less Creamy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Frozen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Consistency</controllingFieldValue>
+            <valueName>Thin/Watery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Ammonia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Bleach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Chemical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Chlorine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Gasoline or Petroleum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Liquor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Metallic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Mold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Oily</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Other Odor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Perfume</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Rancid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <valueName>Rancid or Spoiled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Rubbing Alcohol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Odor</controllingFieldValue>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Sour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Acidic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Bitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Buttery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Carbonated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Citrus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Cologne/Perfume</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Could Not Describe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Diet Tastes Sugar Sweetened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Fermented</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Fruity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Gasoline/Petroleum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Ginger Ale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Kerosene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Lemon Lime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Liquor/Beer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Moldy/Musty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <valueName>Not as Sweet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Plastic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Regular Cola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Rotten or Spoiled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <valueName>Rusty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Salty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Seltzer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Smokey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Soapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Spicy Cherry (Pibb Xtra or Dr Pepper taste)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Stale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Sugar Sweetened Tastes Diet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Sulphur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Too Sweet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Too Syrupy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Unsweetened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Vanilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <valueName>Watery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Weak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Clove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Cinnamon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Off Taste</controllingFieldValue>
+            <valueName>Sweetened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>No Fizz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>No Off Taste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Unopened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product</controllingFieldValue>
+            <valueName>Other Diet/Zero Version</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Old Product in Store</controllingFieldValue>
+            <valueName>DNP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <valueName>Base Uneven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <valueName>Embedded Object</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Odor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <valueName>POD Defective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Defect</controllingFieldValue>
+            <valueName>Plastic Whitening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can Lid</controllingFieldValue>
+            <valueName>Frozen Seal Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can Lid</controllingFieldValue>
+            <valueName>Tear Tab Broke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>High</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carbonation</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Can</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Tear Strip Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Can</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Tear Strip Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Bar Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Bottle(s) Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Can(s) Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Contained Other Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Failed from Handle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Failed from Opening Feature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Failed from Other Seam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Foreign Object</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Juice Box Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <controllingFieldValue>Cardboard Carrier</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Stash Can</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>Variety Pack Flavors Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chipped Bottle</controllingFieldValue>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Top Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Over Filled</controllingFieldValue>
+            <valueName>Spilled When Opened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Accident Alleged Injury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Appearance Vandalized</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Credit/Debit Card Damaged or Lost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Malfunctioned Machine Not Ours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Malfunctioned Needs Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <valueName>Product Mismatch - Screen Vs. Purchased</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipment Service(Complaint)</controllingFieldValue>
+            <valueName>Can&apos;t Unlock Cooler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Accident</controllingFieldValue>
+            <valueName>With Btlr Vehicle Alleged Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bottler Accident</controllingFieldValue>
+            <valueName>With POS Display Alleged Injury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bulged</controllingFieldValue>
+            <controllingFieldValue>Dented</controllingFieldValue>
+            <valueName>On Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bulged</controllingFieldValue>
+            <controllingFieldValue>Dented</controllingFieldValue>
+            <valueName>On Side</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bulged</controllingFieldValue>
+            <controllingFieldValue>Dented</controllingFieldValue>
+            <valueName>On Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bulged</controllingFieldValue>
+            <valueName>On Top and Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canister</controllingFieldValue>
+            <valueName>Scoop Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Carrier</controllingFieldValue>
+            <controllingFieldValue>Plastic Carrier</controllingFieldValue>
+            <valueName>Broke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Carrier</controllingFieldValue>
+            <controllingFieldValue>Plastic Carrier</controllingFieldValue>
+            <valueName>Hard to Remove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Carrier</controllingFieldValue>
+            <controllingFieldValue>Plastic Carrier</controllingFieldValue>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Loose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cardboard Carrier</controllingFieldValue>
+            <valueName>Ripped/Torn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Carrier</controllingFieldValue>
+            <valueName>Had Sharp Edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Cap Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Crooked/Cocked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Domed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Hard to Reopen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Hard To Reseal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Ring Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Ring Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Safety Seal - Broken or Torn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Safety Seal - Folded Over</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Safety Seal - Hard to open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Safety Seal - Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Safety Seal - Not Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Seal Broken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Seal Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Seal Twisted Off with Cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Tear Strip Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Tear Strip Mislabeled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Closure</controllingFieldValue>
+            <valueName>Tear Strip Flakes Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <valueName>Broken Flip Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <valueName>Valve Dispensed Angled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <valueName>Valve Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastic Flip Top</controllingFieldValue>
+            <valueName>Valve Not Opened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pressure</controllingFieldValue>
+            <valueName>Bubbles in Still</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pressure</controllingFieldValue>
+            <valueName>Soft-Sided/Concave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pressure</controllingFieldValue>
+            <valueName>Spews Out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coupons</controllingFieldValue>
+            <valueName>Repeater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <valueName>Cocked or Crooked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crimp Crown</controllingFieldValue>
+            <controllingFieldValue>Cup</controllingFieldValue>
+            <controllingFieldValue>Foil</controllingFieldValue>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <valueName>Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cup</controllingFieldValue>
+            <valueName>Dirty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cup</controllingFieldValue>
+            <valueName>Torn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Debris - Chips/Flakes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Glue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Greasy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Moldy or Fuzzy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Other Debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Powder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirty</controllingFieldValue>
+            <valueName>Sticky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Bottom Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>Cannot Determine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Closure or Pour Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Crushed Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Crushed Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <controllingFieldValue>Underfilled  (FL ICE)</controllingFieldValue>
+            <valueName>Empty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>From Valve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Hole or Puncture Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Hole or Puncture Side Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Hole or Puncture Side Middle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Hole or Puncture Side Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Hole or Puncture Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Low Fill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <controllingFieldValue>Underfilled  (FL ICE)</controllingFieldValue>
+            <valueName>Package Partially Filled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <valueName>Resealable Tab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <controllingFieldValue>Underfilled  (FL ICE)</controllingFieldValue>
+            <valueName>Shrinkage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empty/Leaker/Low FIll</controllingFieldValue>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Stay Tab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <valueName>From Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Bottom Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Pour Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Side</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Stay Tab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Top</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed</controllingFieldValue>
+            <controllingFieldValue>Failed on Impact</controllingFieldValue>
+            <valueName>From Top Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foil</controllingFieldValue>
+            <valueName>Not Sealed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Blister Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Capsule or Pill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Carbonates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Cloth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Coin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Condom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Dirt or Rust</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Extra Cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Gasoline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Gelatin-like</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Grease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Hair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Insect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Metal/Aluminum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Mold-Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Mold-Not Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Oil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Paper/Cardboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Pin or Needle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Plant Material-Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Plt Mat-Not Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Protein-like</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Residue or Film</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Rodent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Rubber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Sediment Exp Beta Carotene</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Sediment-Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Sediment Exp Lutein</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Sediment Exp Nut Shell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Sediment-Not Explainable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Small Animal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>String</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Syringe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Tobacco or Ashes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Vitamin E Separation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Foreign Matter</controllingFieldValue>
+            <controllingFieldValue>Foreign Matter NS</controllingFieldValue>
+            <valueName>Wood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Burning Sensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Choked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Diarrhea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Headache</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Nausea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Other Reaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reaction</controllingFieldValue>
+            <valueName>Rash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Received Complaint</controllingFieldValue>
+            <valueName>Needs Btlr Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <valueName>Does Not Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <valueName>Does Not Rotate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <valueName>Sticker Did Not Peel Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <valueName>Sticker Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resealable Tab</controllingFieldValue>
+            <valueName>Valve Does Not Slide</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Hard to Open/Remove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Liner Damaged or Loose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Liner Fell In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Partially Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ring Pull</controllingFieldValue>
+            <valueName>Ring Did Not Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Bottler Employee Drove Recklessly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Bottler Employee Rude or Dishonest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing Bottler Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>Equipment Bottler Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Bottler(Complaint)</controllingFieldValue>
+            <valueName>New Account Btlr Follow Up Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics/Date Code</controllingFieldValue>
+            <valueName>Date Code Different</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics/Date Code</controllingFieldValue>
+            <valueName>Date Code Missing/Smeared</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics/Date Code</controllingFieldValue>
+            <valueName>Graphics Chipped/Faded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics/Date Code</controllingFieldValue>
+            <valueName>Graphics Missing/Partial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Graphics/Date Code</controllingFieldValue>
+            <valueName>Graphics Rubbed Off/Stained</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Double Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Chipped/Faded/Rubbed Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Wrong Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loses Carbonation</controllingFieldValue>
+            <valueName>After Opened</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing Provided 800 Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Credit and Billing Transferred to x1286</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>Equipment Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>New Account Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Fountain(Complaint)</controllingFieldValue>
+            <valueName>Syrup Order Transferred to x7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>CREDIT AND BILLING PROVIDED TOLL FREE NUMBER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>CREDIT AND BILLING TRANSFERRED TO X 1286</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>Equipment Needs Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>NEW ACCOUNT TRANSFER X7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Freestyle(Complaint)</controllingFieldValue>
+            <valueName>SYRUP ORDER TRANSFER X7000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Apple Pay Validation Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Apple Pay Validation Hold Referred CBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Brand Label(s) Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Brand Labels Dispensed Wrong Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Credit/Debit Card Validation Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Credit/Debit Card Validation Hold Referred CBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Google Wallet Validation Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Google Wallet Validation Hold Referred CBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Malfunctioned Lost Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Out of Stock Lost Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Out of Stock Needs Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Vending Machine</controllingFieldValue>
+            <valueName>Soft Card Dislikes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Can Rim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Foil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Metal Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Neck Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>PB Threads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Plastic Bottle Bottom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Plastic Bottle Mouth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Pouch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Pour Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sharp Edge</controllingFieldValue>
+            <valueName>Straw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>Bends/Flimsy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>Broke/Did Not Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>Broke/Fell in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>No Perforated Pour Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>Pour Panel Broke/Fell In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stay Tab</controllingFieldValue>
+            <valueName>Sharp Edge on Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Straws</controllingFieldValue>
+            <valueName>Broken/Leaks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Straws</controllingFieldValue>
+            <valueName>Clogged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Straws</controllingFieldValue>
+            <valueName>Missing from Pkg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Straws</controllingFieldValue>
+            <valueName>Not Sour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Straws</controllingFieldValue>
+            <valueName>Will Not Puncture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <valueName>Malfunctioned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vacuum Lug Cap</controllingFieldValue>
+            <valueName>Rusty/Product Contains Rust</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Crooked Cocked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Closure</controllingFieldValue>
+            <valueName>Safety Seal Broken</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

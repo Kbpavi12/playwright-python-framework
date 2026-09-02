@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCNA_Frontline_Agent_CaseOwnership</fullName>
+    <active>false</active>
+    <description>An Agent must take the ownership of the case for it to it able to update them. If it is assigned to a bottler then the agent is not required to update the ownership.</description>
+    <errorConditionFormula>AND(
+$UserRole.DeveloperName = &apos;CCNA_Frontline_Agent&apos;,
+ISPICKVAL( Country_Code__c , &apos;US&apos;),
+NOT(Owner:User.Id = $User.Id),
+NOT(
+OR(
+CONTAINS(RIGHT(Owner:Queue.DeveloperName, 2), &apos;BC&apos;),
+ISCHANGED(OwnerId)
+)
+),
+NOT(ISNEW())
+)</errorConditionFormula>
+    <errorMessage>Agents must take the ownership of the case to work on them or else transfer it to other eligible Bottler/Specialist Queues.</errorMessage>
+</ValidationRule>

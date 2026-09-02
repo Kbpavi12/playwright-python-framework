@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Counterpart__c</fullName>
+    <label>Counterpart</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AppID Investigation</fullName>
+                <default>false</default>
+                <label>AppID Investigation</label>
+            </value>
+            <value>
+                <fullName>AppId Delete</fullName>
+                <default>false</default>
+                <label>AppId Delete</label>
+            </value>
+            <value>
+                <fullName>Own</fullName>
+                <default>false</default>
+                <label>Own</label>
+            </value>
+            <value>
+                <fullName>IMJ</fullName>
+                <default>false</default>
+                <label>IMJ</label>
+            </value>
+            <value>
+                <fullName>Personal Information Delete</fullName>
+                <default>false</default>
+                <label>Personal Information Delete</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

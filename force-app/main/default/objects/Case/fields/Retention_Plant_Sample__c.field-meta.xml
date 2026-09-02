@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retention_Plant_Sample__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to indicate whether a retention plant sample is required or available for the case. BU: LATAM, NA</description>
+    <label>Retention Plant Sample</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

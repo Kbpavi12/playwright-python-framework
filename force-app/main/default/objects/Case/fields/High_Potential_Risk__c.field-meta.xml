@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Potential_Risk__c</fullName>
+    <description>Used for LATAM to determine whether the case involves high potential risk. 
+BU :- LATAM</description>
+    <label>High Potential Risk</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High Risk</fullName>
+                <default>false</default>
+                <label>High Risk</label>
+            </value>
+            <value>
+                <fullName>Low Risk</fullName>
+                <default>false</default>
+                <label>Low Risk</label>
+            </value>
+            <value>
+                <fullName>Medium Risk</fullName>
+                <default>false</default>
+                <label>Medium Risk</label>
+            </value>
+            <value>
+                <fullName>No Risk</fullName>
+                <default>false</default>
+                <label>No Risk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

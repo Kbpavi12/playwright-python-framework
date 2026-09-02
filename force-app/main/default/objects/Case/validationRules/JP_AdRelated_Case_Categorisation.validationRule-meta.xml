@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JP_AdRelated_Case_Categorisation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Country_Code__c,&apos;JP&apos;),
+RecordType.DeveloperName == &quot;Japan_CSC_Case&quot;,
+ISPICKVAL(Reason,&apos;Ad&apos;),
+NOT(ISPICKVAL( Origin , &apos;Chat&apos;)),
+ISBLANK(Ad_related__c)
+)</errorConditionFormula>
+    <errorDisplayField>Ad_related__c</errorDisplayField>
+    <errorMessage>Please enter the Ad related value for the category selected.</errorMessage>
+</ValidationRule>

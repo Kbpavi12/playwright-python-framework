@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA1_Category_Level_4_eCommerce__c</fullName>
+    <label>Category Level 4(eCommerce)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NA1_Category_Level_3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>NA_Category_Level_4_eCommerce</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Consolidated D2C(Inquiry)</controllingFieldValue>
+            <valueName>Delivery Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Chargeback Response Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Chargeback Submitted by Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <valueName>Delivered to Wrong Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Delivery Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Delivery Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>No Confirmation Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Not Available in Area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>No Tracking Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Order Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Order Incorrect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Order Missing Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Order Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Exhibits (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Experience (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Facility (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Retail Store (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Promo Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Security &amp; Privacy Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Shipping Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Complaint)</controllingFieldValue>
+            <valueName>Website Down/Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Cancel Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Cancel Subscription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Change Address Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Change Order Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Change Subscription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Delivery Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>How to Track Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Payment Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Product Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Question (Other)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Return Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Shipping Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>fairlife/CorePower(Inquiry)</controllingFieldValue>
+            <valueName>Website General Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Address Entry Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Graphics Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Broken Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Corporate Order Help</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Coupon Code Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Gift Boxes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Help Ordering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Item Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Item Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <valueName>Late Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Compliment)</controllingFieldValue>
+            <valueName>SAC Likes Share a Coke eComm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Misprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Missing Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Missing Confirmation Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Missing Apparel Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Name Rejected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <valueName>Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Only in US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Overcharged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Non Quality Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Too Expensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Tracking Information Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Website Down</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Website Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Site Confusing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <valueName>Wrong Item Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Wrong Shipping Method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Compliment)</controllingFieldValue>
+            <valueName>Liked the Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Compliment)</controllingFieldValue>
+            <valueName>Likes Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Bulk Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Change Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Confirming Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Submit Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Employee Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC How to Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC International Shipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Item Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Item Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Order Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <valueName>Security and Privacy Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coke Store(Inquiry)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Trademark Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC BlackFriday CyberMonday Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Corporate Ordering/Weddings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Costco Code Partial Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Costco Refund Unhappy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Delivered to Wrong Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle Graphics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle Wrong Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Holiday OOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Late Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC March Madness Bottles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC MCR Code Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC MCR Essence Code Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Name Not on List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Not Being Charged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Not Up to Expectations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Offensive Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Only on Coca-Cola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Pre-11/9 Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Production Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Share a Vend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Shipping Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Single Shipper Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Six Pack Shipped Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Team Not Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC TENOFF Not Working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Unhappy with Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Viral Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Wrong Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Wrong Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>SAC Wrong Size</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Bottle Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Cancel Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Costco Confirm Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Costco Order Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Costco Refund Code Not Used</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Costco Refund Code Used</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Delivery Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Expedited Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC General Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Holiday Bottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC NCAA Team Logo Colors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Order Limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Order Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Payment Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Return Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Security and Privacy Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Share a Song Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Shipping Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Sizes Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC TENOFF Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Which Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>SAC Shipping Charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Employment</controllingFieldValue>
+            <valueName>Job Openings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Complaint)</controllingFieldValue>
+            <valueName>Issue with Photo Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Exhibits (Compliment)</controllingFieldValue>
+            <valueName>Disliked Exhibit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Showtime Pictures How to Claim Photo/Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Compliment)</controllingFieldValue>
+            <valueName>Beverage Lab, Vault, Bottle Cap Cafe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Collectible Determine Value</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Milestones of Refreshment Description</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Polar Bear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Exhibits (Inquiry)</controllingFieldValue>
+            <valueName>Taste It Description</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <valueName>Visit Dissatisfied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <valueName>Phone Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <valueName>Too Crowded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <valueName>Visit Wait Times</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Complaint)</controllingFieldValue>
+            <valueName>WOCC Employee Ambassador - Not Helpful/Rude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Compliment)</controllingFieldValue>
+            <valueName>WOCC Employee Ambassador - Knowledgeable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Compliment)</controllingFieldValue>
+            <valueName>Enjoyed Visit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Experience (Compliment)</controllingFieldValue>
+            <valueName>Phone Agent Knowledgeable/Helpful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Facility (Compliment)</controllingFieldValue>
+            <valueName>Bottle Cap Café</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Facility Rental Birthday Parties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Complaint)</controllingFieldValue>
+            <valueName>Security/Firearms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Events Upcoming Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Firearms Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Lost and Found How to Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Pemberton Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Security How to Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Facility (Inquiry)</controllingFieldValue>
+            <valueName>Vendor How to Be Considered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Literature</controllingFieldValue>
+            <valueName>Brochure Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Assistive Listening Devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Attractions near WOCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Braille Guide Maps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Camera and Video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Dining Area Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Foreign Language Guide Maps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Operations</controllingFieldValue>
+            <valueName>General Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Hotels near WOCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Typical Length of Tour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Luggage Drop Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information MARTA Station near WOCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Parking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Animals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Severe Weather</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Logistics (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Wheelchair/Stroller Accessible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Operations</controllingFieldValue>
+            <valueName>Emp Issue Referred to Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Operations</controllingFieldValue>
+            <valueName>Media Relations Referred to Corp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>City Pass Attractions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>City Pass Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <valueName>Credit Card Incorrect Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Discounts AAA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Group Sales Status of Reservation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <valueName>Ticketing Web Site Print At Home Ticket Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Complaint)</controllingFieldValue>
+            <valueName>Ticketing Web Site Technical Difficulty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Annual Pass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>More Info Are Reservations Required?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Birthday Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticket Order Cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticket Order Changed Date/Time of Existing Reservation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Complementary Vouchers Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticket Order Confirmed Reservation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticket Order Group Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Guided Tour Late Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Guided Tour Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Third Party Ticket Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>More Info Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>More Info Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticketing Web Site Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Reservation (Inquiry)</controllingFieldValue>
+            <valueName>Ticket Price Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Complaint)</controllingFieldValue>
+            <valueName>Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Complaint)</controllingFieldValue>
+            <valueName>Merchandise Charge Dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Complaint)</controllingFieldValue>
+            <valueName>Merchandise Damaged/Mishandled/Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Complaint)</controllingFieldValue>
+            <valueName>Merchandise Poor Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>More Info Coca-Cola Store at Disney Springs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>Requested Information Hours of Operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>Las Vegas Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>Merchandise Availability Online or In Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>More Info Phone Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>More Info Returns/Exchanges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Retail Store (Inquiry)</controllingFieldValue>
+            <valueName>More Info Shop Without Touring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WOCC Threat of Bomb or Other Violence</controllingFieldValue>
+            <valueName>Complete Checklist Notify Manager</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Category_Level_4__c</fullName>
+    <description>Used to determine the level 4 lab analysis category for the case. BU: LATAM</description>
+    <label>Lab Category Level 4</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lab_Category_Level_3__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BOM error</fullName>
+                <default>false</default>
+                <label>BOM error</label>
+            </value>
+            <value>
+                <fullName>CCE Distribution (Known)</fullName>
+                <default>false</default>
+                <label>CCE Distribution (Known)</label>
+            </value>
+            <value>
+                <fullName>Consumer (Known)</fullName>
+                <default>false</default>
+                <label>Consumer (Known)</label>
+            </value>
+            <value>
+                <fullName>Customer (Known)</fullName>
+                <default>false</default>
+                <label>Customer (Known)</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Distribution (Unknown)</fullName>
+                <default>false</default>
+                <label>Distribution (Unknown)</label>
+            </value>
+            <value>
+                <fullName>Formulation</fullName>
+                <default>false</default>
+                <label>Formulation</label>
+            </value>
+            <value>
+                <fullName>Invalid</fullName>
+                <default>false</default>
+                <label>Invalid</label>
+            </value>
+            <value>
+                <fullName>No Sample Received</fullName>
+                <default>false</default>
+                <label>No Sample Received</label>
+            </value>
+            <value>
+                <fullName>Not Valid</fullName>
+                <default>false</default>
+                <label>Not Valid</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Trade Damage</fullName>
+                <default>false</default>
+                <label>Trade Damage</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>None Found</controllingFieldValue>
+            <controllingFieldValue>Open / Empty, No Site Issues</controllingFieldValue>
+            <controllingFieldValue>Open Sample, No Site Issues</controllingFieldValue>
+            <controllingFieldValue>Cause Unknown</controllingFieldValue>
+            <controllingFieldValue>Archived</controllingFieldValue>
+            <controllingFieldValue>Contaminated Post Production</controllingFieldValue>
+            <controllingFieldValue>Fermented Post Production - Unknown</controllingFieldValue>
+            <controllingFieldValue>Illegible / Tampered</controllingFieldValue>
+            <controllingFieldValue>Imported Stock</controllingFieldValue>
+            <controllingFieldValue>In Spec, Open</controllingFieldValue>
+            <controllingFieldValue>Misuse of Refillable Bottle</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No Sample Received</controllingFieldValue>
+            <controllingFieldValue>Sample not required</controllingFieldValue>
+            <valueName>No Sample Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Filled - Production</controllingFieldValue>
+            <controllingFieldValue>On Start Up / Running Issues</controllingFieldValue>
+            <controllingFieldValue>Out of Register</controllingFieldValue>
+            <controllingFieldValue>Carousel Damage</controllingFieldValue>
+            <controllingFieldValue>Carousel Damage - Production</controllingFieldValue>
+            <controllingFieldValue>Closure Application</controllingFieldValue>
+            <controllingFieldValue>Closure Debris - Production</controllingFieldValue>
+            <controllingFieldValue>Over Pasteurisation</controllingFieldValue>
+            <controllingFieldValue>Air Knife Issue</controllingFieldValue>
+            <controllingFieldValue>Asset Care</controllingFieldValue>
+            <controllingFieldValue>Bag Positioning</controllingFieldValue>
+            <controllingFieldValue>Poor Compression</controllingFieldValue>
+            <controllingFieldValue>Poor Hygiene</controllingFieldValue>
+            <controllingFieldValue>Poor Line Clearance</controllingFieldValue>
+            <controllingFieldValue>Creased / Folded Seal - Production</controllingFieldValue>
+            <controllingFieldValue>Poorly Formed Heat Seal</controllingFieldValue>
+            <controllingFieldValue>Pouch Fouled On Sealing Bar - Production</controllingFieldValue>
+            <controllingFieldValue>Pouch Slipped - Production</controllingFieldValue>
+            <controllingFieldValue>Power Setting Too High</controllingFieldValue>
+            <controllingFieldValue>Power Setting Too Low</controllingFieldValue>
+            <controllingFieldValue>Production Issues</controllingFieldValue>
+            <controllingFieldValue>Detector Error</controllingFieldValue>
+            <controllingFieldValue>Double Closure</controllingFieldValue>
+            <controllingFieldValue>Double End Application</controllingFieldValue>
+            <controllingFieldValue>Drop Box Debris - Production</controllingFieldValue>
+            <controllingFieldValue>Proportioner Malfunction</controllingFieldValue>
+            <controllingFieldValue>Push Plate Damage</controllingFieldValue>
+            <controllingFieldValue>Rogue Bag - Production</controllingFieldValue>
+            <controllingFieldValue>Rogue Bottle - Production</controllingFieldValue>
+            <controllingFieldValue>Encoding Mount Slipping</controllingFieldValue>
+            <controllingFieldValue>Rogue Closure - Production</controllingFieldValue>
+            <controllingFieldValue>Rogue Container - Production</controllingFieldValue>
+            <controllingFieldValue>Rogue End - Production</controllingFieldValue>
+            <controllingFieldValue>Rogue Pouch - Production</controllingFieldValue>
+            <controllingFieldValue>Failed CIP</controllingFieldValue>
+            <controllingFieldValue>Fallen Container</controllingFieldValue>
+            <controllingFieldValue>Seal Over Embossed - Production</controllingFieldValue>
+            <controllingFieldValue>Seal Tails Off - Production</controllingFieldValue>
+            <controllingFieldValue>Seal Too High - Production</controllingFieldValue>
+            <controllingFieldValue>Filtec / Heuft / Krones / Others Issue</controllingFieldValue>
+            <controllingFieldValue>Filtec / Heuft Issue</controllingFieldValue>
+            <controllingFieldValue>Glue</controllingFieldValue>
+            <controllingFieldValue>Glue Gun Alignment</controllingFieldValue>
+            <controllingFieldValue>Seal Too Low - Production</controllingFieldValue>
+            <controllingFieldValue>Seamer Grease</controllingFieldValue>
+            <controllingFieldValue>Seamer Smash Debris</controllingFieldValue>
+            <controllingFieldValue>Seamer Swarf / Grease</controllingFieldValue>
+            <controllingFieldValue>Seaming Application</controllingFieldValue>
+            <controllingFieldValue>Split Flange - Production</controllingFieldValue>
+            <controllingFieldValue>Start Up Issues</controllingFieldValue>
+            <controllingFieldValue>Gluing Issues</controllingFieldValue>
+            <controllingFieldValue>Illegible / Excess Glue -Water</controllingFieldValue>
+            <controllingFieldValue>Illegible / Excess Laser</controllingFieldValue>
+            <controllingFieldValue>Incorrect Batch Codes - Operator</controllingFieldValue>
+            <controllingFieldValue>Incorrect Batch Codes - Planning</controllingFieldValue>
+            <controllingFieldValue>Incorrect Product</controllingFieldValue>
+            <controllingFieldValue>Triple Point Leaking - Production</controllingFieldValue>
+            <controllingFieldValue>Incorrect Product - Production</controllingFieldValue>
+            <controllingFieldValue>Ineffective Rinse</controllingFieldValue>
+            <controllingFieldValue>Knocked Down Flange - Production</controllingFieldValue>
+            <controllingFieldValue>Under Pasteurisation</controllingFieldValue>
+            <controllingFieldValue>Unique Code - Laser Strength</controllingFieldValue>
+            <controllingFieldValue>Water Droplets</controllingFieldValue>
+            <controllingFieldValue>Weak Seal - Production</controllingFieldValue>
+            <controllingFieldValue>Wrong Bag</controllingFieldValue>
+            <controllingFieldValue>Yeast Contamination</controllingFieldValue>
+            <controllingFieldValue>Laser Focus</controllingFieldValue>
+            <controllingFieldValue>Line Clearance Issue</controllingFieldValue>
+            <controllingFieldValue>Manufacturing Contamination</controllingFieldValue>
+            <controllingFieldValue>Manufacturing Issues</controllingFieldValue>
+            <controllingFieldValue>Micro Issues</controllingFieldValue>
+            <controllingFieldValue>Misaligned Label</controllingFieldValue>
+            <controllingFieldValue>Misapplied</controllingFieldValue>
+            <controllingFieldValue>Missing Digits</controllingFieldValue>
+            <controllingFieldValue>Mixing Issue</controllingFieldValue>
+            <controllingFieldValue>Mould, Excessive Fobbing</controllingFieldValue>
+            <controllingFieldValue>Mould, Line Hygiene</controllingFieldValue>
+            <controllingFieldValue>Neck Handling Damage - Production</controllingFieldValue>
+            <controllingFieldValue>Nitrogen Dosing</controllingFieldValue>
+            <valueName>Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Filled - Supplier</controllingFieldValue>
+            <controllingFieldValue>Can Palletised Stock</controllingFieldValue>
+            <controllingFieldValue>Carousel Damage - Supplier</controllingFieldValue>
+            <controllingFieldValue>Over Pressed Finish</controllingFieldValue>
+            <controllingFieldValue>Poor Bridge Breakages</controllingFieldValue>
+            <controllingFieldValue>Bird Swing</controllingFieldValue>
+            <controllingFieldValue>Closure Debris - Supplier</controllingFieldValue>
+            <controllingFieldValue>Creased / Folded Seal - Supplier</controllingFieldValue>
+            <controllingFieldValue>Poor Seal at Closure</controllingFieldValue>
+            <controllingFieldValue>Pouch Fouled On Sealing Bar - Supplier</controllingFieldValue>
+            <controllingFieldValue>Pouch Slipped - Supplier</controllingFieldValue>
+            <controllingFieldValue>Dirt In Preform</controllingFieldValue>
+            <controllingFieldValue>Drop Box Debris</controllingFieldValue>
+            <controllingFieldValue>Drop Box Debris - Supplier</controllingFieldValue>
+            <controllingFieldValue>Repeat Code - Supplier / Coms Issues</controllingFieldValue>
+            <controllingFieldValue>Rogue Bag - Supplier</controllingFieldValue>
+            <controllingFieldValue>End Failure Conversion Press Jam</controllingFieldValue>
+            <controllingFieldValue>End Failure Conversion Press Vacuum</controllingFieldValue>
+            <controllingFieldValue>End Failure Lacquer Integrity</controllingFieldValue>
+            <controllingFieldValue>End Failure Misaligned Tooling</controllingFieldValue>
+            <controllingFieldValue>End Failure Press</controllingFieldValue>
+            <controllingFieldValue>End Failure Rivet Diameter</controllingFieldValue>
+            <controllingFieldValue>End Failure Score Depth</controllingFieldValue>
+            <controllingFieldValue>End Failure Scrap In Tooling</controllingFieldValue>
+            <controllingFieldValue>End Failure Small Rivet</controllingFieldValue>
+            <controllingFieldValue>Rogue Bottle - Supplier</controllingFieldValue>
+            <controllingFieldValue>Rogue Closure - Supplier</controllingFieldValue>
+            <controllingFieldValue>Rogue Container - Supplier</controllingFieldValue>
+            <controllingFieldValue>Rogue End - Supplier</controllingFieldValue>
+            <controllingFieldValue>End Failure Tab Formation</controllingFieldValue>
+            <controllingFieldValue>End Failure Tab Strength</controllingFieldValue>
+            <controllingFieldValue>End Failure Wipe Down Tooling</controllingFieldValue>
+            <controllingFieldValue>Extra Spaces - Uploading Issue</controllingFieldValue>
+            <controllingFieldValue>False Bottom</controllingFieldValue>
+            <controllingFieldValue>Rogue Pouch - Supplier</controllingFieldValue>
+            <controllingFieldValue>Seal Over Embossed - Supplier</controllingFieldValue>
+            <controllingFieldValue>Seal Tails Off - Supplier</controllingFieldValue>
+            <controllingFieldValue>Seal Too High - Supplier</controllingFieldValue>
+            <controllingFieldValue>Floc</controllingFieldValue>
+            <controllingFieldValue>Glass Spike</controllingFieldValue>
+            <controllingFieldValue>Seal Too Low - Supplier</controllingFieldValue>
+            <controllingFieldValue>Slitting Issues</controllingFieldValue>
+            <controllingFieldValue>Split Flange - Supplier</controllingFieldValue>
+            <controllingFieldValue>Stuck/Loose Glass</controllingFieldValue>
+            <controllingFieldValue>Supplier Contamination</controllingFieldValue>
+            <controllingFieldValue>Supplier Issues</controllingFieldValue>
+            <controllingFieldValue>Triple Point Leaking - Supplier</controllingFieldValue>
+            <controllingFieldValue>Triple Point Poor Seal</controllingFieldValue>
+            <controllingFieldValue>Ingredient Defect Causing Visual Fault</controllingFieldValue>
+            <controllingFieldValue>Knocked Down Flange - Supplier</controllingFieldValue>
+            <controllingFieldValue>Lacquer Misapplied</controllingFieldValue>
+            <controllingFieldValue>Weak Seal - Supplier</controllingFieldValue>
+            <controllingFieldValue>Wrong Product Connector</controllingFieldValue>
+            <controllingFieldValue>Lemon Juice Issues</controllingFieldValue>
+            <controllingFieldValue>Neck Ring Finish</controllingFieldValue>
+            <valueName>Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Valid</controllingFieldValue>
+            <controllingFieldValue>Consumer Perception</controllingFieldValue>
+            <controllingFieldValue>Product Residue</controllingFieldValue>
+            <controllingFieldValue>Non CCE Package</controllingFieldValue>
+            <valueName>Not Valid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calcium Separation</controllingFieldValue>
+            <controllingFieldValue>Product Robustness</controllingFieldValue>
+            <controllingFieldValue>Fermented Post Production - Formulation</controllingFieldValue>
+            <controllingFieldValue>Formulation Changes</controllingFieldValue>
+            <controllingFieldValue>Natural Pulp</controllingFieldValue>
+            <valueName>Formulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCE Handling</controllingFieldValue>
+            <controllingFieldValue>CCE Supply Chain Handling</controllingFieldValue>
+            <controllingFieldValue>FS Vending issues</controllingFieldValue>
+            <controllingFieldValue>Vending Issues</controllingFieldValue>
+            <valueName>CCE Distribution (Known)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Over Cap</controllingFieldValue>
+            <controllingFieldValue>Air Ingress (mould)</controllingFieldValue>
+            <controllingFieldValue>Pack Design</controllingFieldValue>
+            <controllingFieldValue>PCO Thread Start Design</controllingFieldValue>
+            <controllingFieldValue>Closure Design</controllingFieldValue>
+            <controllingFieldValue>Crown Issue</controllingFieldValue>
+            <controllingFieldValue>Design Issues</controllingFieldValue>
+            <valueName>Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aspartame Degradation</controllingFieldValue>
+            <controllingFieldValue>PET Permeation</controllingFieldValue>
+            <controllingFieldValue>Betacarotene Degradation</controllingFieldValue>
+            <controllingFieldValue>Poor Storage</controllingFieldValue>
+            <controllingFieldValue>Decommissioned Stock</controllingFieldValue>
+            <controllingFieldValue>Degraded Ingredients</controllingFieldValue>
+            <controllingFieldValue>Quinine Degradation</controllingFieldValue>
+            <controllingFieldValue>Rogue Bottle - Distribution (Unknown)</controllingFieldValue>
+            <controllingFieldValue>Rogue Container - Distribution (Unknown)</controllingFieldValue>
+            <controllingFieldValue>Rogue Pouch - Distribution</controllingFieldValue>
+            <controllingFieldValue>Extreme Temperature - Distribution (Unknown)</controllingFieldValue>
+            <controllingFieldValue>Supply Chain Handling</controllingFieldValue>
+            <controllingFieldValue>Insect In Screw Thread</controllingFieldValue>
+            <controllingFieldValue>Unknown Handling</controllingFieldValue>
+            <controllingFieldValue>Lemon Juice Degradation</controllingFieldValue>
+            <controllingFieldValue>Neck Handling Damage - Distribution (Unknown)</controllingFieldValue>
+            <valueName>Distribution (Unknown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BOM error</controllingFieldValue>
+            <valueName>BOM error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Handling</controllingFieldValue>
+            <controllingFieldValue>Extreme Temperature</controllingFieldValue>
+            <controllingFieldValue>Extreme Temperature - Consumer (Known)</controllingFieldValue>
+            <valueName>Consumer (Known)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Handling</controllingFieldValue>
+            <controllingFieldValue>Customer Supply Chain Handling</controllingFieldValue>
+            <controllingFieldValue>Incorrect Product - Customer (Known)</controllingFieldValue>
+            <valueName>Customer (Known)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trade Damage</controllingFieldValue>
+            <valueName>Trade Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invalid</controllingFieldValue>
+            <valueName>Invalid</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

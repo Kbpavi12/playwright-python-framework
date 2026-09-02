@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA1_Category_Level_4_Promotion__c</fullName>
+    <label>Category Level 4(Promotion)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NA1_Category_Level_3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>NA_Category_Level_4_Promotion</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>CSPD Needed</controllingFieldValue>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>More Info Needed</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Account DELETION REQUEST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Account Update Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Mobile Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>PIN Codes Blank/Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Prizes/Rewards Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Prizes/Rewards Dislikes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Prizes/Rewards Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Prizes/Rewards Redemption Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Prizes/Rewards Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Rules Dislikes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Vending General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Website Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Coupons Restrictions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Complaint)</controllingFieldValue>
+            <valueName>Coupons Retailer Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Compliment)</controllingFieldValue>
+            <valueName>Rules Likes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Coca-Cola Give Payment history</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Event Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Free Product Claim Claiming Instructions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>List of Promos Current</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Mobile General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Partnership Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Pin Codes General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Prizes Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Prizes Winner List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Retailer Assistance Coupon reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Retailer Assistance Reimbursement for Free Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Rules OVERVIEW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Promo(Inquiry)</controllingFieldValue>
+            <valueName>Website Log In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loyalty Program(Complaint)</controllingFieldValue>
+            <valueName>Login Issues Forgot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loyalty Program(Complaint)</controllingFieldValue>
+            <valueName>Rewards Carrier/Phone</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

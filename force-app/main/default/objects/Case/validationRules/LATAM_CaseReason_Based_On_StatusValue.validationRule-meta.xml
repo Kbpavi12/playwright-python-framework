@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LATAM_CaseReason_Based_On_StatusValue</fullName>
+    <active>true</active>
+    <description>Case Reason must be &apos;Promotion (NQC)&apos; if Status field value is &apos;Sent to External Team&apos;.</description>
+    <errorConditionFormula>AND(
+ $Profile.Name &lt;&gt; &apos;System Administrator&apos;,   
+ TEXT($User.UserType) &lt;&gt; &apos;AutomatedProcess&apos;,
+ RecordType.DeveloperName = &apos;Latam_Non_Quality&apos;,
+ ISPICKVAL(Status ,&apos;Sent to Agency Promo&apos;),
+ NOT(ISPICKVAL(Reason, &apos;Promotion (NQC)&apos;))
+)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>Case Reason must be &quot;Promotion (NQC)&quot; when Status is &quot;Sent to Agency Promo&quot;</errorMessage>
+</ValidationRule>

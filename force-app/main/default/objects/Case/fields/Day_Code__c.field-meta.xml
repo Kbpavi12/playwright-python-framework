@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Day_Code__c</fullName>
+    <label>Day Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A –Monday</fullName>
+                <default>false</default>
+                <label>A –Monday</label>
+            </value>
+            <value>
+                <fullName>B –Tuesday</fullName>
+                <default>false</default>
+                <label>B –Tuesday</label>
+            </value>
+            <value>
+                <fullName>C –Wednesday</fullName>
+                <default>false</default>
+                <label>C –Wednesday</label>
+            </value>
+            <value>
+                <fullName>D –Thursday</fullName>
+                <default>false</default>
+                <label>D –Thursday</label>
+            </value>
+            <value>
+                <fullName>E –Friday</fullName>
+                <default>false</default>
+                <label>E –Friday</label>
+            </value>
+            <value>
+                <fullName>F –Saturday</fullName>
+                <default>false</default>
+                <label>F –Saturday</label>
+            </value>
+            <value>
+                <fullName>G –Sunday</fullName>
+                <default>false</default>
+                <label>G –Sunday</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
