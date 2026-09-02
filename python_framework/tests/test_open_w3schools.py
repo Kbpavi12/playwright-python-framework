@@ -26,7 +26,7 @@ def test_open_w3schools():
         page.screenshot(path=str(s1), full_page=True)
         steps.append(("Open W3Schools homepage", s1.name))
 
-        # Step 2: Click Python tab
+        #Here Step 2: Click Python tab
         clicked = False
         try:
             page.click("a[href^='/python']", timeout=5000)

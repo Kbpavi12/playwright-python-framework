@@ -1,0 +1,39 @@
+pipeline {
+  agent any
+  options { ansiColor('xterm'); timestamps() }
+  environment { PYTHONPATH = "${WORKSPACE}/python_framework" }
+  triggers {
+    // Runs every day at 15:45 on the Jenkins server timezone. Disable after the run if you want a one-off.
+    cron('45 15 * * *')
+  }
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+    stage('Setup & Run') {
+      steps {
+        script {
+          if (isUnix()) {
+            sh '''#!/usr/bin/env bash
+cd python_framework
+python -m venv .venv
+. .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python -m playwright install --with-deps chromium
+pytest tests -q --junitxml=reports/junit.xml || true
+'''
+          } else {
+            bat '''@echo off
+cd python_framework
+python -m venv .venv
+.venv\Scripts\python -m pip install --upgrade pip
+.venv\Scripts\python -m pip install -r requirements.txt
+.venv\Scripts\python -m playwright install chromium
+.venv\Scripts\python -m pytest tests -q --junitxml=reports\junit.xml || exit /b 0
+'''
+          }
+        }
+      }
+    }
+  }
+  post { always { junit 'python_framework/reports/junit.xml'; archiveArtifacts artifacts: 'python_framework/screenshots/**, python_framework/*.docx, python_framework/*.html', fingerprint: true } }
+}
