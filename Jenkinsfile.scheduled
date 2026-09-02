@@ -4,7 +4,7 @@ pipeline {
   environment { PYTHONPATH = "${WORKSPACE}/python_framework" }
   triggers {
     // Runs every day at 15:45 on the Jenkins server timezone. Disable after the run if you want a one-off.
-    cron('45 15 * * *')
+    cron('08 16 * * *')
   }
   stages {
     stage('Checkout') { steps { checkout scm } }
