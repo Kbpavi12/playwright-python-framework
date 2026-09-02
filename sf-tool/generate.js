@@ -27,7 +27,7 @@ const conn = new jsforce.Connection({
     );
 
     if (!recordType) {
-      throw new Error("Useless Record Type not found");
+      //throw new Error("Useless Record Type not found");
     }
 
     console.log(" RecordTypeId:", recordType.recordTypeId);
