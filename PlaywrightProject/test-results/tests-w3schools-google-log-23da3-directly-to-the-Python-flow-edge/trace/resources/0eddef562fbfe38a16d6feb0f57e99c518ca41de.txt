@@ -1,1 +1,0 @@
-{"enabledStorageTypes":["html5"],"name":"id5Id","params":{"partner":543},"storage":{"type":"html5","name":"id5id","expires":90,"refreshInSeconds":28800},"bounce":true}
